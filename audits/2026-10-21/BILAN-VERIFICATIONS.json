@@ -1,0 +1,2427 @@
+{
+  "date": "2026-10-21",
+  "version": "NEXUS 5.26.0",
+  "environment": "Copie locale isolée, non déployée",
+  "scope_notes": [
+    "Scénarios automatisés avec données synthétiques ; pas une étude avec utilisateurs humains.",
+    "Soumissions métier via FormData du formulaire réel, session et CSRF ; pas une saisie manuelle de tous les contrôles.",
+    "Production : trois lectures anonymes uniquement.",
+    "Les recommandations du rapport ne sont pas des corrections déployées.",
+    "L’upload de 88 Mo concerne un court extrait complété, pas un long film 4K."
+  ],
+  "discovery": {
+    "observations": 47,
+    "http_200": 47,
+    "without_captured_js_exception": 47,
+    "observed_global_overflows": 0,
+    "observations_detail": [
+      {
+        "label": "jeux_video",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Jeux Vidéo, Consoles & PC : Grands Tests (/20), Guides, Soluces & Forums par Console"
+        ],
+        "documentOverflow": false,
+        "domElements": 6518,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "jeux_video",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Jeux Vidéo, Consoles & PC : Grands Tests (/20), Guides, Soluces & Forums par Console"
+        ],
+        "documentOverflow": false,
+        "domElements": 6518,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "emploi",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Emploi, Salaires Vérifiés & Carrières : Offres Immersives (WTTJ), Switch CDI ↔ TJM & Tests 5 min"
+        ],
+        "documentOverflow": false,
+        "domElements": 6919,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "emploi",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Emploi, Salaires Vérifiés & Carrières : Offres Immersives (WTTJ), Switch CDI ↔ TJM & Tests 5 min"
+        ],
+        "documentOverflow": false,
+        "domElements": 6919,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "pays_expat",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Pays, Expatriation & Immobilier : Comparateur de Villes (NomadList) & Maisons Akiyas à 42 000 €"
+        ],
+        "documentOverflow": false,
+        "domElements": 6506,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "pays_expat",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Pays, Expatriation & Immobilier : Comparateur de Villes (NomadList) & Maisons Akiyas à 42 000 €"
+        ],
+        "documentOverflow": false,
+        "domElements": 6506,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "artisanat",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Boutique & Artisanat du Japon : Couteaux de Seki, Kimonos Haori, Théières Fonte & Vaisselle Mino"
+        ],
+        "documentOverflow": false,
+        "domElements": 6517,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "artisanat",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Boutique & Artisanat du Japon : Couteaux de Seki, Kimonos Haori, Théières Fonte & Vaisselle Mino"
+        ],
+        "documentOverflow": false,
+        "domElements": 6517,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "business",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Business, Statuts Juridiques (SASU / Holding), Comptabilité & Opportunités B2B"
+        ],
+        "documentOverflow": false,
+        "domElements": 6464,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "business",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Business, Statuts Juridiques (SASU / Holding), Comptabilité & Opportunités B2B"
+        ],
+        "documentOverflow": false,
+        "domElements": 6464,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "investissement",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Investissement & Patrimoine : Bourse (PEA / ETF), Immobilier Locatif (LMNP), SCPI & Intérêts Composés"
+        ],
+        "documentOverflow": false,
+        "domElements": 6860,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "investissement",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Investissement & Patrimoine : Bourse (PEA / ETF), Immobilier Locatif (LMNP), SCPI & Intérêts Composés"
+        ],
+        "documentOverflow": false,
+        "domElements": 6860,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "traditions",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Herboristerie Officinale (Validée Pharmacien), Minéraux Naturels, Encens de Kyoto & Traditions"
+        ],
+        "documentOverflow": false,
+        "domElements": 6494,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "traditions",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Herboristerie Officinale (Validée Pharmacien), Minéraux Naturels, Encens de Kyoto & Traditions"
+        ],
+        "documentOverflow": false,
+        "domElements": 6494,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "paranormal",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Enquêtes OSINT, Observations Aériennes (UAP) & Mystères : Vérification Optique (0% IA) & Radars"
+        ],
+        "documentOverflow": false,
+        "domElements": 6448,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "paranormal",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Enquêtes OSINT, Observations Aériennes (UAP) & Mystères : Vérification Optique (0% IA) & Radars"
+        ],
+        "documentOverflow": false,
+        "domElements": 6448,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "manga",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Manga, Anime & Pop Culture : Curseur Anti-Spoiler par Chapitre, Théories Horodatées & Cartes TCG"
+        ],
+        "documentOverflow": false,
+        "domElements": 6450,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "manga",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Manga, Anime & Pop Culture : Curseur Anti-Spoiler par Chapitre, Théories Horodatées & Cartes TCG"
+        ],
+        "documentOverflow": false,
+        "domElements": 6450,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "gastronomie",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Gastronomie, Coutellerie Japonaise, Art du Thé & Critiques Restaurants Certifiées par Addition"
+        ],
+        "documentOverflow": false,
+        "domElements": 6466,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "gastronomie",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Gastronomie, Coutellerie Japonaise, Art du Thé & Critiques Restaurants Certifiées par Addition"
+        ],
+        "documentOverflow": false,
+        "domElements": 6466,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "sports",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Sports, Arts Martiaux Japonais (Judo, Karaté, Kendo, JJB) & Running : Tests Matériel & Biomécanique"
+        ],
+        "documentOverflow": false,
+        "domElements": 6484,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "sports",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Sports, Arts Martiaux Japonais (Judo, Karaté, Kendo, JJB) & Running : Tests Matériel & Biomécanique"
+        ],
+        "documentOverflow": false,
+        "domElements": 6484,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "tech",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "IA, Tech, Code & Sciences"
+        ],
+        "documentOverflow": false,
+        "domElements": 6479,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "tech",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "IA, Tech, Code & Sciences"
+        ],
+        "documentOverflow": false,
+        "domElements": 6479,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "multiblog",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Des idées à découvrir.Des personnes à rencontrer."
+        ],
+        "documentOverflow": false,
+        "domElements": 7497,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "multiblog",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Des idées à découvrir.Des personnes à rencontrer."
+        ],
+        "documentOverflow": false,
+        "domElements": 7497,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "offres",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Offres d’Emploi par Métier"
+        ],
+        "documentOverflow": false,
+        "domElements": 6928,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "offres",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Offres d’Emploi par Métier"
+        ],
+        "documentOverflow": false,
+        "domElements": 6928,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "company",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Quantum Innovations"
+        ],
+        "documentOverflow": false,
+        "domElements": 9776,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "company",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Quantum Innovations"
+        ],
+        "documentOverflow": false,
+        "domElements": 9780,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "academy",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Académie Innovation"
+        ],
+        "documentOverflow": false,
+        "domElements": 4706,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "academy",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Académie Innovation"
+        ],
+        "documentOverflow": false,
+        "domElements": 4706,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "course",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Préparer un entretien RH et documenter une décision"
+        ],
+        "documentOverflow": false,
+        "domElements": 9519,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "course",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Préparer un entretien RH et documenter une décision"
+        ],
+        "documentOverflow": false,
+        "domElements": 9519,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "lesson",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Entretien RH · Grille de décision"
+        ],
+        "documentOverflow": false,
+        "domElements": 9394,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "lesson",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Entretien RH · Grille de décision"
+        ],
+        "documentOverflow": false,
+        "domElements": 9449,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "product",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Hoodie « Deploy on Friday »"
+        ],
+        "documentOverflow": false,
+        "domElements": 9375,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "product",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Hoodie « Deploy on Friday »"
+        ],
+        "documentOverflow": false,
+        "domElements": 9414,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "video",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Notre CI/CD : Ce que vous devez savoir"
+        ],
+        "documentOverflow": false,
+        "domElements": 9441,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "video",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Notre CI/CD : Ce que vous devez savoir"
+        ],
+        "documentOverflow": false,
+        "domElements": 9445,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "booking",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Open Office Hours : rendez-vous"
+        ],
+        "documentOverflow": false,
+        "domElements": 9480,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "booking",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Open Office Hours : rendez-vous"
+        ],
+        "documentOverflow": false,
+        "domElements": 9484,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "company_blog",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Comment nous avons implémenté la semaine de 4 jours (vrai retour d’expérience)"
+        ],
+        "documentOverflow": false,
+        "domElements": 9672,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "company_blog",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Comment nous avons implémenté la semaine de 4 jours (vrai retour d’expérience)"
+        ],
+        "documentOverflow": false,
+        "domElements": 9681,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "signup",
+        "width": 1440,
+        "status": 200,
+        "h1": [
+          "Heureux de vous retrouver"
+        ],
+        "documentOverflow": false,
+        "domElements": 2999,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "signup",
+        "width": 390,
+        "status": 200,
+        "h1": [
+          "Heureux de vous retrouver"
+        ],
+        "documentOverflow": false,
+        "domElements": 2999,
+        "schemaErrors": [],
+        "errors": []
+      },
+      {
+        "label": "gaming-large",
+        "width": 3440,
+        "status": 200,
+        "h1": [
+          "Jeux Vidéo, Consoles & PC : Grands Tests (/20), Guides, Soluces & Forums par Console"
+        ],
+        "documentOverflow": false,
+        "domElements": 6866,
+        "schemaErrors": [],
+        "errors": []
+      }
+    ]
+  },
+  "community": {
+    "actual_posts": 12,
+    "actual_comments": 24,
+    "published_posts": 12,
+    "published_comments": 24,
+    "nested_comments": 12,
+    "immediate_cards_after_confirmation": 0,
+    "search_found_posts": 12,
+    "universes": [
+      {
+        "universe": "jeux_video",
+        "initial_category_label": "Jeux Vidéo",
+        "record_id": 6056,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1843,
+        "mobile_first_topic_y": 2943
+      },
+      {
+        "universe": "emploi",
+        "initial_category_label": "Emploi & WTTJ",
+        "record_id": 6057,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 13107,
+        "mobile_first_topic_y": 16040
+      },
+      {
+        "universe": "pays_expat",
+        "initial_category_label": "Pays & Akiyas",
+        "record_id": 6058,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1732,
+        "mobile_first_topic_y": 2735
+      },
+      {
+        "universe": "artisanat",
+        "initial_category_label": "Boutique Japon",
+        "record_id": 6059,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1891,
+        "mobile_first_topic_y": 3273
+      },
+      {
+        "universe": "business",
+        "initial_category_label": "Business & Holding",
+        "record_id": 6060,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1644,
+        "mobile_first_topic_y": 2492
+      },
+      {
+        "universe": "investissement",
+        "initial_category_label": "INVESTISSEMENT & PATRIMOINE",
+        "record_id": 6061,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1627,
+        "mobile_first_topic_y": 2426
+      },
+      {
+        "universe": "traditions",
+        "initial_category_label": "Éso, Herbier & Astro",
+        "record_id": 6062,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1659,
+        "mobile_first_topic_y": 2400
+      },
+      {
+        "universe": "paranormal",
+        "initial_category_label": "Paranormal OSINT",
+        "record_id": 6063,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": null,
+        "mobile_first_topic_y": 2381
+      },
+      {
+        "universe": "manga",
+        "initial_category_label": "Manga & TCG",
+        "record_id": 6064,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1659,
+        "mobile_first_topic_y": 2401
+      },
+      {
+        "universe": "gastronomie",
+        "initial_category_label": "Gastro & Couteaux",
+        "record_id": 6065,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1643,
+        "mobile_first_topic_y": 2383
+      },
+      {
+        "universe": "sports",
+        "initial_category_label": "Sports & Arts Martiaux",
+        "record_id": 6066,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1627,
+        "mobile_first_topic_y": 2368
+      },
+      {
+        "universe": "tech",
+        "initial_category_label": "IA, Tech & Sciences",
+        "record_id": 6067,
+        "immediate_card": false,
+        "search_found": true,
+        "desktop_first_topic_y": 1746,
+        "mobile_first_topic_y": 2590
+      }
+    ]
+  },
+  "distinct_forms_opened": [
+    {
+      "format": "video",
+      "label": "Vidéo",
+      "status": 200,
+      "kind": "video",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre vidéo"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6042",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tVidéo · téléverser depuis mon appareil        \n\t\t\t\n    \n   "
+        },
+        {
+          "field": "6049",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tChapitres, durée & transcription        \n\t\t\t\n    \n        \n"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6038",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre d’emploi liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "review",
+      "label": "Avis & notes",
+      "status": 200,
+      "kind": "review",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre avis & notes"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6048",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvis, notes & verdicts        \n\t\t\t\n    \n        \n\t\tPrésente"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "gaming",
+      "label": "Équipe & joueurs",
+      "status": 200,
+      "kind": "gaming",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre équipe & joueurs"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6050",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tÉquipe, joueurs & rendez-vous        \n\t\t\t\n    \n        \n\t\tC"
+        },
+        {
+          "field": "6024",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSalon audio        \n\t\t\t\n    \n        \n\t\tPrésentez votre sal"
+        },
+        {
+          "field": "6026",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tGuilde & réseau        \n\t\t\t\n    \n        \n\t\tComplétez les i"
+        },
+        {
+          "field": "6051",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvertissement de révélations        \n\t\t\t\n    \n        \n\t\tCo"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "playtest",
+      "label": "Raid & playtest",
+      "status": 200,
+      "kind": "playtest",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre raid & playtest"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6060",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tRaid & playtest        \n\t\t\t\n    \n        \n\t\tComplétez les i"
+        },
+        {
+          "field": "6050",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tÉquipe, joueurs & rendez-vous        \n\t\t\t\n    \n        \n\t\tC"
+        },
+        {
+          "field": "6024",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSalon audio        \n\t\t\t\n    \n        \n\t\tPrésentez votre sal"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "discussion",
+      "label": "Discussion",
+      "status": 200,
+      "kind": "discussion",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre discussion"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6011",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tThématique        \n\t\t\t\n    \n        \n\t\t\n\n    \n\n    \n\n\n"
+        },
+        {
+          "field": "6012",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCompétences        \n\t\t\t\n    \n        \n\t\t+ CompétencesJSON{\""
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6038",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre d’emploi liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6051",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvertissement de révélations        \n\t\t\t\n    \n        \n\t\tCo"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "article",
+      "label": "Article",
+      "status": 200,
+      "kind": "article",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre article"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6038",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre d’emploi liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6051",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvertissement de révélations        \n\t\t\t\n    \n        \n\t\tCo"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "business",
+      "label": "Données & pitch",
+      "status": 200,
+      "kind": "business",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre données & pitch"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6020",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDonnées contextuelles datées        \n\t\t\t\n    \n        \n\t\tAj"
+        },
+        {
+          "field": "6052",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tÉvolution de vos chiffres        \n\t\t\t\n    \n        \n\t\tCompl"
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "finance",
+      "label": "Finance & sources",
+      "status": 200,
+      "kind": "finance",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre finance & sources"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6053",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tRémunération fixe        \n\t\t\t\n    \n        \n\t\t\n\t\t\n\t    \n\n\n"
+        },
+        {
+          "field": "6054",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tPart variable        \n\t\t\t\n    \n        \n\t\t\n\t\t\n\t    \n\n\n"
+        },
+        {
+          "field": "6055",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tActions & participation        \n\t\t\t\n    \n        \n\t\t\n\t\t\n\t  "
+        },
+        {
+          "field": "6056",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDevise        \n\t\t\t\n    \n        \n\t\t\n\n\t- Select Element -\n\tC"
+        },
+        {
+          "field": "6057",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tPériode de rémunération        \n\t\t\t\n    \n        \n\t\t\n\n\t- Se"
+        },
+        {
+          "field": "6025",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDonnées du réseau        \n\t\t\t\n    \n        \n\t\tAjoutez vos c"
+        },
+        {
+          "field": "6058",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDocument justificatif privé        \n\t\t\t\n    \n        \n\t\t\n\n "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6038",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre d’emploi liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "code",
+      "label": "Code",
+      "status": 200,
+      "kind": "code",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre code"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6023",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSandbox de code        \n\t\t\t\n    \n        \n\t\tPartagez votre "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "audio",
+      "label": "Audio",
+      "status": 200,
+      "kind": "audio",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre audio"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6022",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAtelier audio        \n\t\t\t\n    \n        \n\t\tJoignez un audio "
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "images",
+      "label": "Images",
+      "status": 200,
+      "kind": "images",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre images"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "files",
+      "label": "Fichiers",
+      "status": 200,
+      "kind": "files",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre fichiers"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6044",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDocuments & ressources à télécharger        \n\t\t\t\n    \n     "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "reportage",
+      "label": "Reportage",
+      "status": 200,
+      "kind": "reportage",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre reportage"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6042",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tVidéo · téléverser depuis mon appareil        \n\t\t\t\n    \n   "
+        },
+        {
+          "field": "6049",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tChapitres, durée & transcription        \n\t\t\t\n    \n        \n"
+        },
+        {
+          "field": "6022",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAtelier audio        \n\t\t\t\n    \n        \n\t\tJoignez un audio "
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "video-review",
+      "label": "Vidéo & avis produit",
+      "status": 200,
+      "kind": "video-review",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre vidéo & avis produit"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6042",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tVidéo · téléverser depuis mon appareil        \n\t\t\t\n    \n   "
+        },
+        {
+          "field": "6049",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tChapitres, durée & transcription        \n\t\t\t\n    \n        \n"
+        },
+        {
+          "field": "6048",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvis, notes & verdicts        \n\t\t\t\n    \n        \n\t\tPrésente"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6038",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre d’emploi liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "buying-pool",
+      "label": "Coalition d’achat",
+      "status": 200,
+      "kind": "buying-pool",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre coalition d’achat"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6059",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCoalition d’achat & offres privées        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "country-guide",
+      "label": "Dossier pays & tourisme",
+      "status": 200,
+      "kind": "country-guide",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre dossier pays & tourisme"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6048",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvis, notes & verdicts        \n\t\t\t\n    \n        \n\t\tPrésente"
+        },
+        {
+          "field": "6059",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCoalition d’achat & offres privées        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6062",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tPartenaire du dossier        \n\t\t\t\n    \n        \n\t\tComplétez"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "hero",
+      "label": "Fiche de héros / personnage",
+      "status": 200,
+      "kind": "hero",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre fiche de héros / personnage"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6033",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEspaces liés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6051",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tAvertissement de révélations        \n\t\t\t\n    \n        \n\t\tCo"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "akiya",
+      "label": "Fiche pays / maison Akiya",
+      "status": 200,
+      "kind": "akiya",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre fiche pays / maison akiya"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6006",
+          "text": "Introduction\nLink to user name by typing name starting with @., We understand markdown, So"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6044",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tDocuments & ressources à télécharger        \n\t\t\t\n    \n     "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "city",
+      "label": "Espaces & relations",
+      "status": 200,
+      "kind": "city",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre espaces & relations"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6026",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tGuilde & réseau        \n\t\t\t\n    \n        \n\t\tComplétez les i"
+        },
+        {
+          "field": "6050",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tÉquipe, joueurs & rendez-vous        \n\t\t\t\n    \n        \n\t\tC"
+        },
+        {
+          "field": "6024",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSalon audio        \n\t\t\t\n    \n        \n\t\tPrésentez votre sal"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6033",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEspaces liés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6040",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tCours associés        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "fact-check",
+      "label": "Enquête & fact-checking",
+      "status": 200,
+      "kind": "fact-check",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre enquête & fact-checking"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6061",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEnquête & prime documentée        \n\t\t\t\n    \n        \n\t\tComp"
+        },
+        {
+          "field": "6042",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tVidéo · téléverser depuis mon appareil        \n\t\t\t\n    \n   "
+        },
+        {
+          "field": "6049",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tChapitres, durée & transcription        \n\t\t\t\n    \n        \n"
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "expert",
+      "label": "Rendez-vous expert",
+      "status": 200,
+      "kind": "expert",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre rendez-vous expert"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6063",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tRendez-vous expert        \n\t\t\t\n    \n        \n\t\tComplétez le"
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "partner",
+      "label": "Offre partenaire",
+      "status": 200,
+      "kind": "partner",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre offre partenaire"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6062",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tPartenaire du dossier        \n\t\t\t\n    \n        \n\t\tComplétez"
+        },
+        {
+          "field": "6064",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tOffre inter-univers        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6043",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tImages · galerie de la publication        \n\t\t\t\n    \n       "
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    },
+    {
+      "format": "sponsorship",
+      "label": "Sponsoriser une équipe",
+      "status": 200,
+      "kind": "sponsorship",
+      "steps": [
+        {
+          "key": "Présenter",
+          "label": "Votre idée, votre public"
+        },
+        {
+          "key": "Compléter",
+          "label": "Les détails de votre sponsoriser une équipe"
+        },
+        {
+          "key": "Enrichir",
+          "label": "Images, sources et connexions"
+        },
+        {
+          "key": "Publier",
+          "label": "Prêt à partager"
+        }
+      ],
+      "fields": [
+        {
+          "field": "6005",
+          "text": "Contenu\nToggle Editor\n\nSome HTML tags are allowed.\nFollowing HTML tags are allowed: <p>, <"
+        },
+        {
+          "field": "6065",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSponsoring d’équipe        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6050",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tÉquipe, joueurs & rendez-vous        \n\t\t\t\n    \n        \n\t\tC"
+        },
+        {
+          "field": "6013",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tSources et révision        \n\t\t\t\n    \n        \n\t\tComplétez l"
+        },
+        {
+          "field": "6032",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tArticle ou sujet parent        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        },
+        {
+          "field": "6036",
+          "text": "\n\t        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tEntreprise liée        \n\t\t\t\n    \n        \n\t\t    \n\n\n"
+        }
+      ],
+      "hasNativeForm": true
+    }
+  ],
+  "business_publications": {
+    "records": [
+      {
+        "kind": "courses",
+        "id": 6074,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Cours — Clarifier les conditions d’un emploi"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "lessons",
+        "id": 6075,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Leçon — Poser une question professionnelle précise"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "blog",
+        "id": 6076,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Article — Une semaine de travail documentée"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "product",
+        "id": 6077,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Produit — Carnet de préparation aux entretiens"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "video",
+        "id": 6069,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Vidéo — Observer et formuler un retour utile"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "booking",
+        "id": 6078,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Rendez-vous — Questions sur le parcours pédagogique"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "skills",
+        "id": 6070,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Compétence — Vérifier une information avec sa source"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "hubs",
+        "id": 6071,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Communauté — Entraide et préparation professionnelle"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "simulations",
+        "id": 6072,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Exercice — Préparer une demande de précision"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "proofs",
+        "id": 6073,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Projet — Comparaison documentée de deux conditions de travail"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "companies",
+        "id": 6079,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Entreprise — Atelier des compétences"
+        ],
+        "documentOverflow": false
+      },
+      {
+        "kind": "jobs",
+        "id": 6080,
+        "status": 200,
+        "titleVisible": true,
+        "h1": [
+          "AUDITUX2110P2 Offre — Chargé de projet pédagogique"
+        ],
+        "documentOverflow": false
+      }
+    ],
+    "list_discovery": [
+      {
+        "kind": "companies",
+        "route": "/index.php?option=com_joomcck&view=records&section_id=244",
+        "status": 200,
+        "newTitlePresent": true
+      },
+      {
+        "kind": "courses",
+        "route": "/index.php?option=com_joomcck&view=records&section_id=242",
+        "status": 200,
+        "newTitlePresent": true
+      },
+      {
+        "kind": "jobs",
+        "route": "/index.php/hub/emploi-carrieres/offres",
+        "status": 200,
+        "newTitlePresent": true
+      },
+      {
+        "kind": "blog",
+        "route": "/index.php/hub?nx_mode=blog",
+        "status": 200,
+        "newTitlePresent": true
+      },
+      {
+        "kind": "product",
+        "route": "/index.php?option=com_joomcck&view=records&section_id=247",
+        "status": 200,
+        "newTitlePresent": true
+      }
+    ],
+    "captured_js_exceptions": [],
+    "links_inspected": {
+      "course_to_new_lesson": true,
+      "lesson_to_new_course": true,
+      "course_to_new_company": true
+    }
+  },
+  "native_video": {
+    "checks": [
+      {
+        "label": "An ordinary authorized member can use the additional native AVS field",
+        "passed": true
+      },
+      {
+        "label": "The 84 MiB-plus file uploads through more than 80 resumable native chunks",
+        "passed": true
+      },
+      {
+        "label": "Native article save publishes the new video record",
+        "passed": true
+      },
+      {
+        "label": "CCK record, field and file have an explicit native AVS video mapping",
+        "passed": true
+      },
+      {
+        "label": "Chapter metadata persists in the native record",
+        "passed": true
+      },
+      {
+        "label": "The native player decodes and plays the uploaded file",
+        "passed": true
+      },
+      {
+        "label": "The chapter command reaches the actual player",
+        "passed": true
+      },
+      {
+        "label": "The uploaded file supports bounded HTTP Range reads",
+        "passed": true
+      },
+      {
+        "label": "The player stays within the 390px mobile viewport",
+        "passed": true
+      },
+      {
+        "label": "A real native comment stores the video field and timestamp context",
+        "passed": true
+      },
+      {
+        "label": "Withdrawing the owning record revokes anonymous access to the media",
+        "passed": true
+      },
+      {
+        "label": "A different member submits a native video rating with CSRF over POST",
+        "passed": true
+      },
+      {
+        "label": "The native AVS rating data reflects the 4/5 vote",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "record": 6081,
+    "upload": {
+      "bytes": 88094853,
+      "chunks": 84,
+      "probes": 84,
+      "file_id": 131,
+      "short_synthetic_clip_with_padding": true
+    },
+    "pointer_overlap_observed": true
+  },
+  "native_reviews": {
+    "checks": [
+      {
+        "label": "The review-format article saves through the native controller",
+        "passed": true
+      },
+      {
+        "label": "Native member review with score 5",
+        "passed": true
+      },
+      {
+        "label": "Native member review with score 3",
+        "passed": true
+      },
+      {
+        "label": "Two published member reviews average to 4/5 while the editorial score stays 4.5/5",
+        "passed": true
+      },
+      {
+        "label": "Public structured rating matches the two actually published member reviews",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "nativeSave": {
+      "status": 200,
+      "messages": "Item submitted."
+    },
+    "record": 6082,
+    "persisted": {
+      "count": 2,
+      "average": 4,
+      "editorialScore": 4.5,
+      "criteria": [
+        {
+          "label": "Clarté",
+          "average": 4,
+          "count": 2
+        },
+        {
+          "label": "Utilité",
+          "average": 4,
+          "count": 2
+        }
+      ]
+    },
+    "aggregates": [
+      {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 2,
+        "reviewCount": 2,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    ]
+  },
+  "production_read_only": {
+    "at": "2026-10-21T17:24:18.175794+00:00",
+    "public_read_only": true,
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "final_url": "https://geniuspace.io/hub/jeux-video?nx_mode=forum",
+        "title": "Jeux Vidéo | Communauté Geniuspace",
+        "html_bytes": 442282,
+        "shell_present": true,
+        "has_employment_filter": false,
+        "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      },
+      {
+        "path": "/hub/jeux-video",
+        "status": 200,
+        "final_url": "https://geniuspace.io/hub/jeux-video",
+        "title": "Jeux Vidéo | Communauté Geniuspace",
+        "html_bytes": 442200,
+        "shell_present": true,
+        "has_employment_filter": false,
+        "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      },
+      {
+        "path": "/hub/emploi-carrieres/offres",
+        "status": 200,
+        "final_url": "https://geniuspace.io/hub/emploi-carrieres/offres",
+        "title": "Offres d’Emploi par Métier | Communauté Geniuspace",
+        "html_bytes": 393162,
+        "shell_present": true,
+        "has_employment_filter": true,
+        "cache_control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      }
+    ]
+  },
+  "cleanup_phase_1": {
+    "local_only": true,
+    "created_users_removed": 14,
+    "created_records_removed": 13,
+    "created_comments_removed": 24,
+    "baseline_counts": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "after_counts": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "original_counts_restored": true,
+    "related_rows_removed": {
+      "nx_gp_social_knowledge_chunks": 24,
+      "nx_gp_social_native_url_identity": 12,
+      "nx_gp_social_record_versions": 12,
+      "nx_js_res_hits": 25,
+      "nx_js_res_notifications": 24,
+      "nx_js_res_record_category": 12,
+      "nx_js_res_record_values": 36,
+      "nx_js_res_subscribe": 12
+    }
+  },
+  "cleanup_phase_2": {
+    "local_only": true,
+    "removed_records": 14,
+    "removed_comments": 3,
+    "removed_temporary_users": 1,
+    "removed_temporary_fields": 1,
+    "removed_native_videos": 1,
+    "removed_physical_files": 6,
+    "video_component_original_params_restored": true,
+    "baseline": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "after": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "counts_restored": true,
+    "remaining_audit_records": 0,
+    "engines": [
+      {
+        "TABLE_NAME": "nx_gp_social_forum_reviews",
+        "ENGINE": "InnoDB"
+      },
+      {
+        "TABLE_NAME": "nx_js_res_comments",
+        "ENGINE": "InnoDB"
+      },
+      {
+        "TABLE_NAME": "nx_js_res_record",
+        "ENGINE": "InnoDB"
+      },
+      {
+        "TABLE_NAME": "nx_gp_social_video_links",
+        "ENGINE": "InnoDB"
+      }
+    ],
+    "related_rows_removed": {
+      "nx_allvideoshare_ratings": 1,
+      "nx_gp_social_forum_review_details": 2,
+      "nx_gp_social_forum_reviews": 2,
+      "nx_gp_social_knowledge_chunks": 6,
+      "nx_gp_social_native_url_identity": 2,
+      "nx_gp_social_record_versions": 27,
+      "nx_gp_social_video_links": 1,
+      "nx_js_res_files": 1,
+      "nx_js_res_hits": 16,
+      "nx_js_res_record_category": 4,
+      "nx_js_res_record_values": 88
+    }
+  },
+  "not_tested": [
+    "Paiements, factures, remboursements et webhooks en conditions marchandes.",
+    "Charge simultanée, longs films 4K, CDN, transcodage adaptatif et performances réelles de production.",
+    "Entraînement de modèle et efficacité de chaque cycle de l’agent autonome.",
+    "Intégralité des combinaisons de champs, ACL, extensions, formats média et campagnes.",
+    "Audit de sécurité exhaustif ou garantie d’absence de faille.",
+    "Candidature finale et inscription publique de bout en bout."
+  ]
+}

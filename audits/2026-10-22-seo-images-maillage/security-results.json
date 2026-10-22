@@ -1,0 +1,116 @@
+{
+    "passed": 77,
+    "checks": [
+        "Guest-readable native article exported · catalogue",
+        "Guest-readable native article exported · sitemap",
+        "Guest-readable native article exported · no shared stale cache",
+        "Record excluded immediately: published · catalogue",
+        "Record excluded immediately: published · sitemap",
+        "Record excluded immediately: published · no shared stale cache",
+        "Record excluded immediately: hidden · catalogue",
+        "Record excluded immediately: hidden · sitemap",
+        "Record excluded immediately: hidden · no shared stale cache",
+        "Record excluded immediately: archive · catalogue",
+        "Record excluded immediately: archive · sitemap",
+        "Record excluded immediately: archive · no shared stale cache",
+        "Record excluded immediately: access · catalogue",
+        "Record excluded immediately: access · sitemap",
+        "Record excluded immediately: access · no shared stale cache",
+        "Record excluded immediately: meta_index · catalogue",
+        "Record excluded immediately: meta_index · sitemap",
+        "Record excluded immediately: meta_index · no shared stale cache",
+        "Record excluded immediately: pubtime · catalogue",
+        "Record excluded immediately: pubtime · sitemap",
+        "Record excluded immediately: pubtime · no shared stale cache",
+        "Record excluded immediately: extime · catalogue",
+        "Record excluded immediately: extime · sitemap",
+        "Record excluded immediately: extime · no shared stale cache",
+        "Type\/section policy respected: submission.robots · catalogue",
+        "Type\/section policy respected: submission.robots · sitemap",
+        "Type\/section policy respected: submission.robots · no shared stale cache",
+        "Type\/section policy respected: properties.nexus_demo · catalogue",
+        "Type\/section policy respected: properties.nexus_demo · sitemap",
+        "Type\/section policy respected: properties.nexus_demo · no shared stale cache",
+        "Type\/section policy respected: more.robots · catalogue",
+        "Type\/section policy respected: more.robots · sitemap",
+        "Type\/section policy respected: more.robots · no shared stale cache",
+        "Type\/section policy respected: more.nexus_demo · catalogue",
+        "Type\/section policy respected: more.nexus_demo · sitemap",
+        "Type\/section policy respected: more.nexus_demo · no shared stale cache",
+        "Type\/section policy respected: general.status · catalogue",
+        "Type\/section policy respected: general.status · sitemap",
+        "Type\/section policy respected: general.status · no shared stale cache",
+        "Category restriction respected: access · catalogue",
+        "Category restriction respected: access · sitemap",
+        "Category restriction respected: access · no shared stale cache",
+        "Category restriction respected: published · catalogue",
+        "Category restriction respected: published · sitemap",
+        "Category restriction respected: published · no shared stale cache",
+        "Guest field ACL · record still visible",
+        "Guest field ACL · cover absent from catalogue",
+        "Guest field ACL · cover absent from sitemap",
+        "Field policy: core.field_view_access · record still visible",
+        "Field policy: core.field_view_access · cover absent from catalogue",
+        "Field policy: core.field_view_access · cover absent from sitemap",
+        "Field policy: core.show_full · record still visible",
+        "Field policy: core.show_full · cover absent from catalogue",
+        "Field policy: core.show_full · cover absent from sitemap",
+        "Field policy: semantic.exclude · record still visible",
+        "Field policy: semantic.exclude · cover absent from catalogue",
+        "Field policy: semantic.exclude · cover absent from sitemap",
+        "Field policy: emerald.field_view_subscription · record still visible",
+        "Field policy: emerald.field_view_subscription · cover absent from catalogue",
+        "Field policy: emerald.field_view_subscription · cover absent from sitemap",
+        "Native parent exposes actual child relation",
+        "Native relation target revoked: published",
+        "Native relation target revoked: access",
+        "Native relation target revoked: meta_index",
+        "Private relation field not exported",
+        "Native relation setting: seo_links",
+        "Native relation setting: seo_rel",
+        "Native owner-written alt preserved in public catalogue",
+        "Public image query string preserved",
+        "Unsafe image protocols never exported",
+        "Image query string safely XML escaped",
+        "An image in a private HTML field is excluded",
+        "Native relation restored after tests",
+        "Public visibility restored after tests · catalogue",
+        "Public visibility restored after tests · sitemap",
+        "Public visibility restored after tests · no shared stale cache",
+        "All native records, fields, types, sections, categories, values, comments and users restored byte for byte"
+    ],
+    "preservation": {
+        "js_res_record": {
+            "count": 481,
+            "sha256": "772cc50b345b024cc7ab32255a75963b868d02387754b8655d717c4416d6b0b3"
+        },
+        "js_res_fields": {
+            "count": 1822,
+            "sha256": "ef8d07c1d203e0fd6eeb667d6ad342f351515257daa3b5da9d4666f0c1e53f34"
+        },
+        "js_res_types": {
+            "count": 119,
+            "sha256": "bcaf4935c86e64f067e041c9f51c3c74495fb8819d93a6dd77a6502d3b952295"
+        },
+        "js_res_sections": {
+            "count": 119,
+            "sha256": "79dc8160dcd3a1c7645927cfc9c833a32e2fdc7c502eba169111aea0b169528d"
+        },
+        "js_res_categories": {
+            "count": 401,
+            "sha256": "783a6122f9a488d836ed4118c1d74ef1b52ac99fe72bef5b0a53e59f828adb6c"
+        },
+        "js_res_record_values": {
+            "count": 5119,
+            "sha256": "57662d3a27ede9a0eb65d1b1d412fd30116333345d520a964ebe71f6a7f87d5f"
+        },
+        "js_res_comments": {
+            "count": 335,
+            "sha256": "782ea4dccb79bc99b62e55916fba972653b608e580d939ddaad0945885ed9df9"
+        },
+        "users": {
+            "count": 4,
+            "sha256": "d440b7d09cdd6928f643ee9c36b18784a8085f461f888777ffe04e256204d47f"
+        }
+    }
+}

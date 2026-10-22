@@ -1,0 +1,13 @@
+{
+  "passed": 8,
+  "files": [
+    "components/com_joomcck/site/library/php/geniuspace/Ergonomics.php",
+    "components/com_joomcck/site/library/php/geniuspace/NativeSemantic.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusDiscovery.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusSitemap.php",
+    "components/com_joomcck/site/library/php/geniuspace/PublicDiscovery.php",
+    "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+    "components/com_joomcck/site/library/php/geniuspace/RelationCards.php"
+  ]
+}

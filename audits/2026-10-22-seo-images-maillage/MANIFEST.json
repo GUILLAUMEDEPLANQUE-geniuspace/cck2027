@@ -1,0 +1,79 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.5",
+  "component_version": "6.4.2.197",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.5.zip",
+  "bytes": 60113729,
+  "sha256": "5ee9cbe9d3cdb5cb7e9efc8ec44d866fe86abd3b9f456d28b36a346507a250b1",
+  "source_files": 7778,
+  "baseline": "5.27.4 / 1884145d24c7e53cfbccc92486cf957918fb8a2147dab0b81c01e27a1724a97e",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/site/library/php/geniuspace/Ergonomics.php",
+    "components/com_joomcck/site/library/php/geniuspace/NativeSemantic.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusDiscovery.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusSitemap.php",
+    "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+    "components/com_joomcck/site/library/php/geniuspace/RelationCards.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/site/library/php/geniuspace/PublicDiscovery.php"
+  ],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "b11dce062185ba81103f5b3de0884144dfc52c16aee66884995ccc74252636c4",
+      "after": "205626f9297ef7e4e70ce0657574bc28e0e33245cf317a33a9c07b8f957a9171"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/Ergonomics.php",
+      "before": "f77e804b21b2584af0aeedae648592a533b9e4755aecbc390d85d3669238d7a6",
+      "after": "e78b80a8730b0b0fd1e9b7d9d9e730bbda0f6d8fb0316925562e67c2ea66d4c8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NativeSemantic.php",
+      "before": "437fc81b12228263d065f25418be382f6a1b0198de4f3138b944ce833fd1388e",
+      "after": "d5e9a3682ae15de20654df8ac58efa7f261761251ced3b19f4c12c4f41f6b5a6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusDiscovery.php",
+      "before": "704e162b5fde789240206ff64e13574d1348ab63d01ed57d511354b1b03dd930",
+      "after": "2b892c2eb3d921a7561c36925225b97a29970974859e1838e6fd4d403c699384"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+      "before": "acfd87ac9129d64b12e69d6d0d95c48d3567582312f92500c566e0628b68f39c",
+      "after": "9e3fc294e41c494d93700d89cd8322019eb77c141a18ad6213855b98b81043e0"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusSitemap.php",
+      "before": "923b3e807883edb54325013c1920ddc9f8939774cd5b0f82e261880b2ebfff18",
+      "after": "dc4185cda0687414e169a5c0d7a7d69c78b965b7abe7cd6dbc45d7b1cd54044a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/PublicDiscovery.php",
+      "before": null,
+      "after": "b9979260e93bb5d33a3f19d4bba52b7fe3ccb89ce7b752edfc53753eb43da2f9"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+      "before": "5581bd3ab4bbe9f534feec02bc87318bb554f2018bae86536681888303318330",
+      "after": "383d7ada317741e7c6ba810c3fed97fe3bf8be1cbfdbf9e081cb7a6699e3247f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/RelationCards.php",
+      "before": "ffb8a853e0b0b51dfe4b97155b3ef0362f56e1201902999ff56b82e385e85715",
+      "after": "9b182005a14dfdb1f5bd1571cf05e5dc1d27e4b8eaea61fa063626bb8ae0d2e1"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "6fbd6c84f08be19fbee82b86ba3a9ea8ec08c47e8a5c0a868fa02de071fc00bd",
+      "after": "a84855a1f51488eca99bace01281aa08b424b72b550911f6b82ce1e9c896c0f0"
+    }
+  ]
+}

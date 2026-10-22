@@ -1,0 +1,28 @@
+{
+    "passed": 23,
+    "checks": [
+        "Canonical origin\/subfolder resolution: \/cms\/hub\/emploi",
+        "Canonical origin\/subfolder resolution: hub\/emploi",
+        "Canonical origin\/subfolder resolution: \/thread\/article",
+        "Canonical origin\/subfolder resolution: https:\/\/example.test\/thread\/article",
+        "Canonical origin\/subfolder resolution: \/cms\/hub",
+        "Canonical origin\/subfolder resolution: javascript:alert(1)",
+        "Preserve explicit robots\/preview directive: noindex, nofollow",
+        "Preserve explicit robots\/preview directive: noimageindex",
+        "Preserve explicit robots\/preview directive: nosnippet",
+        "Preserve explicit robots\/preview directive: none",
+        "Preserve explicit robots\/preview directive: index, follow, max-image-preview:none",
+        "Preserve explicit robots\/preview directive: index, follow, max-image-preview:standard",
+        "Preserve explicit robots\/preview directive: max-image-preview:large",
+        "Large preview allowed for owned 1200px editorial photograph",
+        "Site identity derives from configured site name",
+        "Unknown\/custom image does not change preview policy",
+        "One sitemap head declaration after repeated mode changes",
+        "One API declaration after repeated mode changes",
+        "Invalid sitemap shard rejected: -2",
+        "Invalid sitemap shard rejected: 4294968",
+        "Immediate published card retains responsive image variants",
+        "Full editorial collection retained",
+        "Twenty authored articles retained in each of twelve universes"
+    ]
+}

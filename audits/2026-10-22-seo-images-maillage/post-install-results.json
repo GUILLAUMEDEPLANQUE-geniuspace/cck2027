@@ -1,0 +1,20 @@
+{
+  "passed": 3,
+  "checks": [
+    {
+      "task": "sitemap&shard=7",
+      "status": 200,
+      "bytes": 9628
+    },
+    {
+      "task": "discovery&section_id=296&after=3651&limit=1",
+      "status": 200,
+      "bytes": 1560
+    },
+    {
+      "task": "openapi",
+      "status": 200,
+      "bytes": 2437
+    }
+  ]
+}

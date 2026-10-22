@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "label": "Existing native long article returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "The actual native long-article outline is portaled",
+      "passed": true
+    },
+    {
+      "label": "Native desktop outline is wholly visible",
+      "passed": true
+    },
+    {
+      "label": "Native mobile outline remains wholly visible",
+      "passed": true
+    },
+    {
+      "label": "No native article browser exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "outlineCount": 2
+}

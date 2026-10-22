@@ -1,0 +1,21 @@
+[
+  {
+    "file": "NEXUS_5.27.2.zip",
+    "status": 200,
+    "bytes": 57123469,
+    "sha256": "3aeef5511af07cfbc9523934b8e03ce06f2d1ac96f9ba47aa86db5b01fd38627",
+    "verified_entire_download": true
+  },
+  {
+    "file": "GENIUSPACE_GUIDES_ILLUSTRES_2026-10-22.zip",
+    "status": 200,
+    "bytes": 7727993,
+    "sha256": "717ee579fa24ebb8e5318c56bc7be78ee887d0c76a65c5343357a616ec5b7a78",
+    "verified_entire_download": true
+  },
+  {
+    "file": "audits/2026-10-22-vue-articles/RAPPORT.md",
+    "status": 200,
+    "verified_contents": true
+  }
+]

@@ -1,19 +1,19 @@
-# Geniuspace — NEXUS 5.27.2
+# Geniuspace — NEXUS 5.27.3 · 240 articles
 
-[**Télécharger le ZIP complet 5.27.2**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.2.zip)
+[**ZIP installable complet 5.27.3**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.3.zip)
 
-Le chargement du forum intégré aux articles est réparé : le cache recevait des objets de catégories incomplets. Le sommaire des longs dossiers est repliable sur les écrans moyens et mobiles, et conserve sa colonne sur grand écran.
+[**Les 240 articles, illustrations, métadonnées et carnets**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_240_ARTICLES_2026-10-22.zip)
 
-[**Télécharger les 12 guides illustrés et leur index hors ligne**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_GUIDES_ILLUSTRES_2026-10-22.zip)
+**20 articles dans chacun des 12 univers.** Les douze guides principaux sont complétés par 228 dossiers d’application rédigés : mécanisme, cas pratique, vérifications et limites. Signature : **GUILLAUME DEPLANQUE — GENIUSPACE**. Chaque article possède sa page de relecture, ses métadonnées et son carnet CSV. Les douze couvertures d’univers sont partagées entre leurs dossiers, avec quatre tailles WebP et un JPEG social chacune.
 
-12 articles approfondis, 12 couvertures originales, 48 WebP adaptés aux écrans, 12 JPEG pour le partage et 12 carnets pratiques. L’import dans les champs natifs reste modifiable ; il crée les relations parent/enfant entre les dossiers. Les anciens contenus, vidéos, commentaires, champs et extensions restent présents.
+Après installation, en super-administrateur : **JoomCCK → Outils → Forum Geniuspace → Collection complète : 20 articles par univers → Publier ou compléter la collection**. Les lots de vingt peuvent être arrêtés puis repris. Les anciens guides et leurs modifications sont réutilisés. Les articles, champs, index et relations parent/enfant restent natifs. Une installation ne déclenche pas automatiquement une publication.
 
-Après installation et connexion administrateur : **JoomCCK → Outils → Forum Geniuspace → Publier les 12 nouveaux dossiers illustrés**. L’installation seule ne déclenche aucune publication.
+L’import des 240 articles, leurs pages, schémas, alias SEF, sitemap et catalogue pour agents IA ont été testés dans la copie isolée. Le paquet complet a passé le test d’installation et de conservation des données. Les corrections précédentes du forum intégré et du sommaire restent présentes.
 
-[Rapport détaillé, tests et captures](audits/2026-10-22-vue-articles/RAPPORT.md) · [Voir les douze couvertures](audits/2026-10-22-vue-articles/generated-contact.png) · [Empreintes SHA-256](SHA256SUMS)
+**Publication sur geniuspace.io non confirmée : l’accès configuré au compte du site avait été refusé.** Les fichiers sont prêts à installer et importer ; ils ne constituent pas un reçu de publication en production.
 
-**Statut : testé sur la copie isolée, pas déployé sur geniuspace.io.** La connexion native avait refusé le compte configuré. Le catalogue de 240 articles reste en cours : 12 sont rédigés et 228 restent à écrire. Les 180 ouvertures de topics précédentes ne sont pas des échanges de faux membres.
+[Rapport et preuves](audits/2026-10-22-240-articles/RAPPORT.md) · [Décompte par univers](audits/2026-10-22-240-articles/COLLECTION-240-MANIFEST.json) · [Métadonnées](audits/2026-10-22-240-articles/metadonnees-240.csv) · [SHA-256](SHA256SUMS)
 
-## Versions précédentes
+## Versions précédentes conservées
 
-[5.27.1](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.1.zip) · [Rapport du sommaire](audits/2026-10-22-sommaire/RAPPORT.md) · [5.27.0](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip) · [Audit des formats et innovations](audits/2026-10-22/RAPPORT.md) · [5.26.0](README-5.26.0.md)
+[5.27.2 et ses douze guides](README-5.27.2.md) · [Rapport 5.27.2](audits/2026-10-22-vue-articles/RAPPORT.md) · [5.27.1](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.1.zip) · [5.27.0](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip) · [5.26.0](README-5.26.0.md)

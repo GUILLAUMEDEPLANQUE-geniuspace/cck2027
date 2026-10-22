@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "label": "Admin offers all twelve universes plus full collection",
+      "passed": true
+    },
+    {
+      "label": "GET cannot publish a collection",
+      "passed": true
+    },
+    {
+      "label": "POST without CSRF token is rejected",
+      "passed": true
+    },
+    {
+      "label": "Cross-origin collection write is rejected",
+      "passed": true
+    },
+    {
+      "label": "Anonymous endpoint call is rejected",
+      "passed": true
+    },
+    {
+      "label": "Stop completes one universe and leaves later universes untouched",
+      "passed": true
+    },
+    {
+      "label": "Progress shows twenty verified native articles",
+      "passed": true
+    },
+    {
+      "label": "Rerun receipt reports preserved articles without duplicates",
+      "passed": true
+    },
+    {
+      "label": "A selected universe can be resumed independently",
+      "passed": true
+    },
+    {
+      "label": "Controls recover after the request",
+      "passed": true
+    },
+    {
+      "label": "No admin JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

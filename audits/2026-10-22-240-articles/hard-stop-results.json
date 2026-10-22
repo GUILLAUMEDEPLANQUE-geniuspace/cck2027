@@ -1,0 +1,13 @@
+{
+    "passed": 8,
+    "checks": [
+        "Hard stop after insert recovers a missing body",
+        "Recovery preserves an already edited field",
+        "Recovery creates missing native relations",
+        "Recovery rebuilds native searchable fields",
+        "Late failure during recovery is surfaced",
+        "Failed recovery restores existing field data and pending state",
+        "Failed recovery restores exact native search rows",
+        "An alias owned by another publication is never overwritten"
+    ]
+}

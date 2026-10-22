@@ -1,0 +1,66 @@
+{
+    "public_search": true,
+    "passed": 12,
+    "checks": [
+        {
+            "article": "jeux_video-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "emploi-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "pays_expat-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "artisanat-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "business-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "investissement-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "traditions-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "paranormal-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "manga-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "gastronomie-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "sports-article-02",
+            "position": 1,
+            "sef": true
+        },
+        {
+            "article": "tech-article-02",
+            "position": 1,
+            "sef": true
+        }
+    ]
+}

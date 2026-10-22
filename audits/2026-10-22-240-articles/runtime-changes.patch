@@ -1,0 +1,193 @@
+--- 5.27.2/components/com_joomcck/site/library/php/geniuspace/EditorialPack.php
++++ 5.27.3/components/com_joomcck/site/library/php/geniuspace/EditorialPack.php
+@@ -83,16 +83,112 @@
+             throw$e;
+         }finally{$db->setQuery('SELECT RELEASE_LOCK('.$db->quote($lock).')')->loadResult();}
+     }
++    /** Twenty native publications per request: explicit, resumable and independent of site updates. */
++    public static function collection2026(string $universe): array
++    {
++        $user=ProductAccess::user();
++        if(!$user->id||$user->block||!$user->authorise('core.admin'))throw new \DomainException('Accès administrateur requis.',403);
++        $all=json_decode((string)file_get_contents(__DIR__.'/editorial/collection-240.json'),true,64,JSON_THROW_ON_ERROR);
++        $articles=array_values(array_filter($all,static fn($a)=>$a['universe']===$universe));
++        if(count($articles)!==20)throw new \DomainException('Univers de la collection introuvable.',404);
++        $map=ForumProvisioner::manifest();if(!$map)throw new \DomainException('Créez d’abord votre forum.',409);
++        $db=ProductAccess::store()->db;$lock='nexus-editorial-'.(int)$map['section'];
++        if((int)$db->setQuery('SELECT GET_LOCK('.$db->quote($lock).',0)')->loadResult()!==1)throw new \DomainException('Import éditorial en cours. Réessayez ce lot.',409);
++        $created=[];$restores=[];
++        try{
++            $context=UniverseBlueprint::context((int)$map['section']);$cat=0;
++            foreach($context['roots']as$root)if(UniverseBlueprint::rootKey($root,$context['flat'])===$universe){$cat=(int)$root->id;break;}
++            if(!$cat)throw new \DomainException('Catégorie de cet univers absente.',409);
++            foreach(['body','content_type','author','cover','cover_alt','related']as$key)if(empty($map['fields'][$key]['id']))throw new \DomainException('Champ natif manquant : '.$key,409);
++            $result=['universe'=>$universe,'label'=>$articles[0]['universe_label'],'articles'=>[],'created'=>0,'preserved'=>0,'total'=>20];$pending=[];$values=[];
++            // Check every alias, file and destination before the first native write.
++            foreach($articles as$a){
++                foreach($a['illustration']['variants']as$v)if(!is_file(JPATH_ROOT.'/media/com_joomcck/nexus/editorial-2026/'.basename($v['path'])))throw new \RuntimeException('Couverture de dossier manquante.');
++                if(!is_file(JPATH_ROOT.'/media/com_joomcck/nexus/editorial-2026/'.basename($a['workbook'])))throw new \RuntimeException('Carnet de travail manquant.');
++                $existing=$db->setQuery('SELECT id,section_id,type_id,params,fields FROM #__js_res_record WHERE alias='.$db->quote('geniuspace-guide-2026-'.$a['slug']))->loadAssoc();
++                if($existing){
++                    $p=json_decode($existing['params'],true)?:[];$edition=$p['nexus_editorial_pack']??'';
++                    if((int)$existing['section_id']!==(int)$map['section']||(int)$existing['type_id']!==(int)$map['type']||!in_array($edition,['2026-10-22','2026-10-22-full'],true))throw new \DomainException('Adresse déjà utilisée par un autre contenu. Aucun remplacement : '.$a['slug'],409);
++                    $id=(int)$existing['id'];$result['articles'][$a['key']]=$id;$result['preserved']++;
++                    if($edition==='2026-10-22-full'&&!empty($p['nexus_editorial_pending'])){
++                        $pending[$a['key']]=$id;
++                        $pendingRaw=ProductAccess::raw($id);$restores[$id]=['fields'=>$existing['fields'],'fieldsdata'=>$pendingRaw['fieldsdata'],'mtime'=>$pendingRaw['mtime'],'published'=>(int)$pendingRaw['published'],'categories'=>$db->setQuery('SELECT catid,published FROM #__js_res_record_category WHERE record_id='.$id)->loadAssocList(),'params'=>$existing['params'],'values'=>$db->setQuery('SELECT * FROM #__js_res_record_values WHERE record_id='.$id)->loadAssocList()];
++                    }
++                }
++            }
++            foreach($articles as$a){
++                if(isset($result['articles'][$a['key']]))continue;
++                $v=self::collectionValues($a);$id=self::record($map,'geniuspace-guide-2026-'.$a['slug'],$a['title'],$cat,$a['meta_description'],$v,'article',$user,$created,'2026-10-22-full');
++                $p=json_decode(ProductAccess::raw($id)['params'],true)?:[];$p['nexus_editorial_pending']=true;
++                $db->setQuery('UPDATE #__js_res_record SET params='.$db->quote(Seo::json($p)).' WHERE id='.$id)->execute();
++                $result['articles'][$a['key']]=$id;$result['created']++;$pending[$a['key']]=$id;$values[$a['key']]=$v;
++            }
++            // Old twelve-article imports and later owner edits are never rewritten.
++            foreach($articles as$a){
++                if(!isset($pending[$a['key']]))continue;
++                $id=$pending[$a['key']];$targets=[];$links='<h2>Les dossiers reliés dans cet univers</h2><ul>';
++                foreach($a['related_content_keys']as$key){
++                    if(empty($result['articles'][$key]))throw new \RuntimeException('Cible native de relation absente.');
++                    $target=ProductAccess::raw($result['articles'][$key]);$url=\NexusPlatform::recordUrl((object)$target);
++                    if(!$url)throw new \RuntimeException('Adresse native de dossier introuvable.');
++                    $targets[]=(int)$target['id'];$links.='<li><a href="'.Text::escape($url).'">'.Text::escape($target['title']).'</a></li>';
++                }
++                $links.='</ul>';
++                if(isset($values[$a['key']])){$v=$values[$a['key']];$v['body'].=$links;$v['related']=$targets;self::values($map,$id,$v);}
++                else self::mergeCollectionRelations($map,$id,$targets,self::collectionValues($a),$links);
++            }
++            // No blank article is public if PHP stops during its initial field write.
++            foreach($pending as$id){$db->setQuery('UPDATE #__js_res_record SET published=1 WHERE id='.(int)$id)->execute();$db->setQuery('UPDATE #__js_res_record_category SET published=1 WHERE record_id='.(int)$id)->execute();}
++            foreach($pending as$id){LinkIndex::record(new Store($db),$id);if(class_exists(NexusKnowledge::class))NexusKnowledge::indexRecord($id);}
++            // Completion is last; a killed request can safely finish native relations on retry.
++            foreach($pending as$id){$p=json_decode(ProductAccess::raw($id)['params'],true)?:[];unset($p['nexus_editorial_pending']);$db->setQuery('UPDATE #__js_res_record SET params='.$db->quote(Seo::json($p)).' WHERE id='.$id)->execute();}
++            return$result;
++        }catch(\Throwable$e){
++            foreach($restores as$id=>$r){$db->setQuery('UPDATE #__js_res_record SET fields='.$db->quote($r['fields']).',fieldsdata='.$db->quote($r['fieldsdata']).',mtime='.$db->quote($r['mtime']).',published='.(int)$r['published'].',params='.$db->quote($r['params']).' WHERE id='.(int)$id)->execute();foreach($r['categories']as$c)$db->setQuery('UPDATE #__js_res_record_category SET published='.(int)$c['published'].' WHERE record_id='.(int)$id.' AND catid='.(int)$c['catid'])->execute();$db->setQuery('DELETE FROM #__js_res_record_values WHERE record_id='.(int)$id)->execute();foreach($r['values']as$row){$obj=(object)$row;$db->insertObject('#__js_res_record_values',$obj);}}
++            self::removeCollectionRecords($created);
++            throw$e;
++        }finally{$db->setQuery('SELECT RELEASE_LOCK('.$db->quote($lock).')')->loadResult();}
++    }
++    private static function collectionValues(array$a): array
++    {
++        $base=\Joomla\CMS\Uri\Uri::root().'media/com_joomcck/nexus/editorial-2026/';$im=$a['illustration'];$srcset=[];
++        foreach($im['variants']as$v)if($v['type']==='image/webp')$srcset[]=$base.basename($v['path']).' '.$v['width'].'w';
++        $body=$a['body_html'].'<h2>Votre carnet de travail</h2><p><a href="'.Text::escape($base.basename($a['workbook'])).'" download>'.Text::escape($a['tool_label']).'</a>. Fiche à remplir sur votre appareil, sans transmission de vos réponses.</p>';
++        if($a['sources']){$body.='<h2>Sources et périmètre documentaire</h2><ul>';foreach($a['sources']as$s)$body.='<li><a href="'.Text::escape($s['url']).'" rel="noopener">'.Text::escape($s['label']).'</a> — '.Text::escape($s['reviewed_sections']).'</li>';$body.='</ul>';}
++        else $body.='<p><small>Méthode originale de la rédaction. Les cas pédagogiques ne constituent ni une étude de terrain ni une expérience personnelle attribuée à l’auteur. Les règles et conditions propres à votre situation restent à vérifier auprès des sources compétentes.</small></p>';
++        $body.='<p><small>'.Text::escape($im['caption']).'</small></p>';
++        return['content_type'=>['article'],'author'=>'GUILLAUME DEPLANQUE — GENIUSPACE','author_bio'=>'Rédaction Geniuspace. Dossiers pratiques, cas pédagogiques et limites explicités dans chaque article.','body'=>$body,'excerpt'=>$a['meta_description'],'summary'=>$a['meta_description'],'cover'=>'<img src="'.Text::escape($base.basename($im['path'])).'" srcset="'.Text::escape(implode(', ',$srcset)).'" sizes="(max-width: 700px) 100vw, 900px" alt="'.Text::escape($im['alt']).'" width="1200" height="675" decoding="async">','cover_alt'=>$im['alt'],'topic'=>$a['universe_label']];
++    }
++    private static function mergeCollectionRelations(array$map,int$id,array$targets,array$defaults,string$links): void
++    {
++        $db=ProductAccess::store()->db;$raw=ProductAccess::raw($id);$fields=json_decode($raw['fields'],true)?:[];$fid=(int)$map['fields']['related']['id'];
++        $defaults['body'].=$links;$indexIds=[$fid];
++        // A hard stop may occur after the record insert but before its native field indexes.
++        // Fill only absent keys, keep all edited and additional fields, then rebuild seed indexes.
++        foreach($defaults as$key=>$value)if(!empty($map['fields'][$key]['id'])){$keyId=(int)$map['fields'][$key]['id'];if(!array_key_exists($keyId,$fields))$fields[$keyId]=$value;$indexIds[]=$keyId;}
++        $fields[$fid]=array_values(array_unique(array_merge(array_map('intval',(array)($fields[$fid]??[])),$targets)));
++        $body=(string)($fields[(int)$map['fields']['body']['id']]??'');
++        $db->setQuery('UPDATE #__js_res_record SET fields='.$db->quote(Seo::json($fields)).',fieldsdata='.$db->quote(Text::plain($body)).',mtime='.$db->quote(gmdate('Y-m-d H:i:s')).' WHERE id='.$id)->execute();
++        $db->setQuery('DELETE FROM #__js_res_record_values WHERE record_id='.$id.' AND field_id IN ('.implode(',',array_unique($indexIds)).')')->execute();
++        $record=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$record->load($id);
++        foreach(\MModelBase::getInstance('Fields','JoomcckModel')->getFormFields((int)$map['type'])as$f)if(in_array((int)$f->id,$indexIds,true)&&array_key_exists($f->id,$fields)&&$f->field_type!=='parent'){$f->value=$fields[$f->id];foreach((array)$f->onStoreValues(['id'=>$id,'fields'=>$fields],$record)as$index=>$value){$row=\Joomla\CMS\Table\Table::getInstance('Record_values','JoomcckTable');$row->store_value($value,$index,$record,$f);}}
++    }
++    private static function removeCollectionRecords(array$ids): void
++    {
++        $db=ProductAccess::store()->db;
++        foreach(array_reverse($ids)as$id){$id=(int)$id;$db->setQuery('DELETE FROM #__js_res_record_values WHERE record_id='.$id)->execute();$db->setQuery('DELETE FROM #__js_res_record_category WHERE record_id='.$id)->execute();$table=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$table->delete($id);foreach(['knowledge_chunks','native_url_identity','native_url_history','jmap_identity']as$table)if(SchemaHealth::has($table))$db->setQuery('DELETE FROM #__gp_social_'.$table.' WHERE record_id='.$id)->execute();if(SchemaHealth::has('links'))$db->setQuery('DELETE FROM #__gp_social_links WHERE source_id='.$id.' OR target_id='.$id)->execute();}
++    }
+     private static function record(array$map,string$alias,string$title,int$cat,string$description,array$values,string$format,object$user,array&$created,string$edition='5.12.0'): int
+     {
+-        $record=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$record->bind(['title'=>$title,'alias'=>$alias,'type_id'=>(int)$map['type'],'section_id'=>(int)$map['section'],'user_id'=>(int)$user->id,'published'=>1,'hidden'=>0,'archive'=>0,'access'=>1,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s'),'fields'=>'{}','categories'=>Seo::json([$cat=>(string)$cat]),'params'=>Seo::json(['nexus_publication_form'=>$format,'nexus_editorial_pack'=>$edition]),'meta_index'=>'index, follow','meta_descr'=>mb_substr($description,0,250),'langs'=>'*','ip'=>'127.0.0.1','comments'=>0,'hits'=>0,'access_key'=>bin2hex(random_bytes(16))]);
++        $params=['nexus_publication_form'=>$format,'nexus_editorial_pack'=>$edition];$visible=1;if($edition==='2026-10-22-full'){$params['nexus_editorial_pending']=true;$visible=0;}
++        $record=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$record->bind(['title'=>$title,'alias'=>$alias,'type_id'=>(int)$map['type'],'section_id'=>(int)$map['section'],'user_id'=>(int)$user->id,'published'=>$visible,'hidden'=>0,'archive'=>0,'access'=>1,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s'),'fields'=>'{}','categories'=>Seo::json([$cat=>(string)$cat]),'params'=>Seo::json($params),'meta_index'=>'index, follow','meta_descr'=>mb_substr($description,0,250),'langs'=>'*','ip'=>'127.0.0.1','comments'=>0,'hits'=>0,'access_key'=>bin2hex(random_bytes(16))]);
+         if(!$record->check_cli()||!$record->store())throw new \RuntimeException('Dossier natif non enregistré : '.implode('; ',$record->getErrors()));$id=(int)$record->id;$created[]=$id;
+-        $rc=\Joomla\CMS\Table\Table::getInstance('Record_category','JoomcckTable');$rc->bind(['record_id'=>$id,'catid'=>$cat,'section_id'=>(int)$map['section'],'published'=>1,'access'=>1]);if(!$rc->store())throw new \RuntimeException('Catégorie du dossier non enregistrée.');self::values($map,$id,$values);return$id;
++        $rc=\Joomla\CMS\Table\Table::getInstance('Record_category','JoomcckTable');$rc->bind(['record_id'=>$id,'catid'=>$cat,'section_id'=>(int)$map['section'],'published'=>$visible,'access'=>1]);if(!$rc->store())throw new \RuntimeException('Catégorie du dossier non enregistrée.');self::values($map,$id,$values);return$id;
+     }
+     private static function values(array$map,int$id,array$values): void
+     {
+         $db=ProductAccess::store()->db;$data=[];foreach($values as$alias=>$value)if(isset($map['fields'][$alias]))$data[(int)$map['fields'][$alias]['id']]=$value;
+-        $r=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$r->load($id);$r->fields=Seo::json($data);$r->fieldsdata=Text::plain((string)($values['body']??''));if(!$r->store())throw new \RuntimeException('Champs du dossier non enregistrés.');
++        $r=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$r->load($id);$r->fields=Seo::json($data);$r->fieldsdata=Text::plain((string)($values['body']??''));$r->mtime=gmdate('Y-m-d H:i:s');if(!$r->store())throw new \RuntimeException('Champs du dossier non enregistrés.');
+         $db->setQuery('DELETE FROM #__js_res_record_values WHERE record_id='.$id)->execute();
+         foreach(\MModelBase::getInstance('Fields','JoomcckModel')->getFormFields((int)$map['type'])as$f){if(!array_key_exists($f->id,$data)||$f->field_type==='parent')continue;$f->value=$data[$f->id];foreach((array)$f->onStoreValues(['id'=>$id,'fields'=>$data],$r)as$index=>$value){$row=\Joomla\CMS\Table\Table::getInstance('Record_values','JoomcckTable');$row->store_value($value,$index,$r,$f);}}
+     }
+--- 5.27.2/components/com_joomcck/site/controllers/geniuspace.php
++++ 5.27.3/components/com_joomcck/site/controllers/geniuspace.php
+@@ -129,6 +129,14 @@
+         catch(\DomainException|\InvalidArgumentException$e){$app->enqueueMessage($e->getMessage(),'warning');}
+         catch(\Throwable$e){\Joomla\CMS\Log\Log::add('Editorial pack: '.get_class($e).': '.$e->getMessage(),\Joomla\CMS\Log\Log::ERROR,'joomcck');$app->enqueueMessage('Publication des dossiers interrompue. Consultez le journal Joomla.','error');}
+         $this->setRedirect(\Joomla\CMS\Router\Route::_('index.php?option=com_joomcck&view=tools&layout=nexusforum',false));
++    }
++    public function editorialCollection2026()
++    {
++        $app=\Joomla\CMS\Factory::getApplication();$status=200;
++        try{$this->nativePost();$body=\Geniuspace\EditorialPack::collection2026($app->input->post->getCmd('universe',''));}
++        catch(\DomainException$e){$status=in_array($e->getCode(),[403,404,409],true)?$e->getCode():400;$body=['error'=>$e->getMessage()];}
++        catch(\Throwable$e){$status=503;$body=['error'=>'Ce lot n’a pas été terminé. Relancez-le pour vérifier les articles déjà enregistrés et compléter les dossiers manquants.'];\Joomla\CMS\Log\Log::add('Editorial collection: '.get_class($e),\Joomla\CMS\Log\Log::ERROR,'joomcck');}
++        http_response_code($status);$app->setHeader('Content-Type','application/json; charset=utf-8',true);$app->setHeader('Cache-Control','private, no-store',true);$app->setHeader('X-Robots-Tag','noindex',true);$app->setHeader('X-Content-Type-Options','nosniff',true);$app->sendHeaders();echo \Geniuspace\Seo::json($body);$app->close();
+     }
+     public function editorialLibrary2026()
+     {
+--- 5.27.2/components/com_joomcck/site/views/tools/tmpl/nexusforum.php
++++ 5.27.3/components/com_joomcck/site/views/tools/tmpl/nexusforum.php
+@@ -6,14 +6,21 @@
+ $types=$s->db->setQuery('SELECT id,name FROM #__js_res_types WHERE published=1 ORDER BY name')->loadAssocList();$sections=$s->db->setQuery('SELECT id,name FROM #__js_res_sections WHERE published=1 ORDER BY name')->loadAssocList();
+ echo HTMLFormatHelper::layout('navbar');
+ ?>
+-<section class="card p-4"><h1>Forum Geniuspace · utilisation réelle</h1>
++<section class="card p-4"><h1>Forum Geniuspace · utilisation réelle</h1><p><a class="btn btn-primary" href="#collection240">Collection complète : 20 articles par univers</a></p>
+ <p><?= $p['univers'] ?> univers, <?= $p['categories'] ?> catégories et sous-forums, <?= $p['images'] ?> variantes d’images locales. Vues forum7 : hub à quatre colonnes, lecture d’article avec débat et discussion classique. Relations originales parent / child.</p>
+ <?php if($manifest): ?><p>Forum installé. Les catégories et les fields se gèrent dans JoomCCK. Les nouveaux forums bénéficient des mêmes règles de navigation et de métadonnées.</p><p><a class="btn btn-primary" href="<?= $e(\Geniuspace\ForumRoutes::categoryUrl((int)$manifest['section'])) ?>">Ouvrir le Méta-Hub</a></p>
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.forumSetup"><p>Ajoute les formats et les champs médias manquants, et leurs positions vides. Vos contenus et affectations existantes restent prioritaires.</p><button class="btn btn-outline-primary">Compléter les formats et médias natifs</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
+ <hr><h2>Dossiers éditoriaux prêts à explorer</h2><p>Cinq articles originaux sur les achats groupés, les playtests, la vérification vidéo, les offres d’emploi et l’IA locale. Illustrations WebP locales, deux animations pédagogiques avec chapitres et sous-titres, cinq discussions liées par les relations parent/enfant et une note éditoriale signée par dossier. Aucun avis client, paiement, résultat d’étude ou membre fictif.</p><p>Cette action publie les contenus sous votre signature dans votre forum. Ils restent modifiables comme vos autres publications. Une nouvelle exécution conserve les contenus existants.</p>
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialPack"><button class="btn btn-primary">Publier les 5 dossiers et leurs discussions</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
+ <hr><h2>Bibliothèque Geniuspace · douze univers</h2><p>Douze guides approfondis, douze couvertures originales, des carnets CSV et des liens vers les dossiers complémentaires. Auteur affiché : GUILLAUME DEPLANQUE — GENIUSPACE. Les exemples sont identifiés comme hypothétiques. Les dossiers restent éditables dans leurs champs habituels.</p><p>Ce bouton publie douze nouveaux articles. Il conserve les cinq dossiers précédents, leurs vidéos, vos publications et leurs commentaires. Installer une mise à jour ne lance jamais cette publication automatiquement.</p>
+-<form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialLibrary2026"><button class="btn btn-primary">Publier les 12 nouveaux dossiers illustrés</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
++<form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialLibrary2026"><button class="btn btn-primary">Publier uniquement les 12 guides principaux</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
++<hr><h2 id="collection240">Collection complète : 20 articles par univers</h2><p>240 articles répartis dans les douze univers, avec cas pratiques, carnets de vérification et relations natives parent/enfant. Les douze guides principaux sont complétés par dix-neuf dossiers ciblés chacun. Les douze couvertures d’univers existent en quatre tailles WebP et en JPEG pour les aperçus sociaux.</p><p>La publication s’exécute par lots de vingt. Vous pouvez interrompre entre deux lots puis reprendre. Les articles déjà importés et leurs modifications sont conservés. Cette action ne crée aucun compte ni commentaire.</p>
++<form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>" data-editorial-collection>
++<input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialCollection2026">
++<label>Univers à publier <select name="universe" class="form-select"><option value="all">Les douze univers · 240 articles au total</option><?php foreach(['jeux_video'=>'Jeux vidéo','emploi'=>'Emploi & carrières','pays_expat'=>'Pays, voyage & immobilier','artisanat'=>'Boutiques & artisanat','business'=>'Business & entreprise','investissement'=>'Investissement & patrimoine','traditions'=>'Traditions & herboristerie','paranormal'=>'Enquêtes & OSINT','manga'=>'Manga & pop culture','gastronomie'=>'Gastronomie & couteaux','sports'=>'Sports & arts martiaux','tech'=>'IA, technologie & sciences']as$key=>$label): ?><option value="<?= $e($key) ?>"><?= $e($label) ?> · 20 articles</option><?php endforeach; ?></select></label>
++<?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?><button type="submit" class="btn btn-primary">Publier ou compléter la collection</button><button type="button" class="btn btn-outline-secondary" data-collection-stop disabled>Arrêter après ce lot</button><progress max="240" value="0" aria-label="Articles vérifiés" hidden></progress><p role="status" aria-live="polite" data-collection-status></p><ol data-collection-receipts></ol>
++<noscript>Activez JavaScript pour exécuter les lots avec leur progression.</noscript></form>
++<script defer src="<?= $e(\Joomla\CMS\Uri\Uri::root().'media/com_joomcck/nexus/editorial-collection-2026.js?v=5.27.3') ?>"></script>
+ <?php else: ?><p>Cette opération crée un forum public distinct, ses catégories et ses menus. Les publications autorisées paraissent immédiatement ; les règles locales peuvent retenir les contenus signalés. Aucun contenu de démonstration n’est publié.</p>
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.forumSetup">
+ <label>Titre de la communauté <input class="form-control" name="title" maxlength="120" value="Méta-Hub Geniuspace" required></label>
+--- 5.27.2/components/com_joomcck/media/nexus/editorial-collection-2026.js
++++ 5.27.3/components/com_joomcck/media/nexus/editorial-collection-2026.js
+@@ -0,0 +1,29 @@
++/* Admin-only native import, one bounded universe at a time. No client-side secrets. */
++(() => {
++  'use strict';
++  document.querySelectorAll('form[data-editorial-collection]').forEach(form => {
++    const submit=form.querySelector('[type=submit]'),stop=form.querySelector('[data-collection-stop]');
++    const status=form.querySelector('[data-collection-status]'),receipts=form.querySelector('[data-collection-receipts]'),progress=form.querySelector('progress'),select=form.querySelector('[name=universe]');
++    let running=false,stopping=false;
++    stop.addEventListener('click',()=>{stopping=true;stop.disabled=true;status.textContent='Le lot en cours se termine avant l’arrêt. Vous pourrez reprendre ensuite.';});
++    form.addEventListener('submit',async event=>{
++      event.preventDefault();if(running)return;
++      running=true;stopping=false;submit.disabled=true;stop.disabled=false;
++      const keys=select.value==='all'?[...select.options].map(o=>o.value).filter(k=>k!=='all'):[select.value];
++      select.disabled=true;progress.hidden=false;progress.max=keys.length*20;progress.value=0;receipts.replaceChildren();
++      try{
++        for(const key of keys){
++          status.textContent='Publication de '+key+'… Gardez cette page ouverte.';
++          const data=new FormData(form);data.set('universe',key);
++          const response=await fetch(form.action,{method:'POST',body:data,credentials:'same-origin',headers:{Accept:'application/json'}});
++          const result=await response.json();if(!response.ok||result.error)throw new Error(result.error||'Lot indisponible. Réessayez pour reprendre.');
++          if(result.total!==20||Object.keys(result.articles||{}).length!==20)throw new Error('Le reçu de ce lot est incomplet. Reprenez pour vérifier ses articles.');
++          const li=document.createElement('li');li.textContent=result.label+' : 20 articles vérifiés, '+result.created+' créés et '+result.preserved+' conservés.';receipts.append(li);progress.value+=20;
++          if(stopping)break;
++        }
++        status.textContent=stopping?'Arrêt effectué entre deux lots. Les lots terminés sont conservés.':'Collection vérifiée : '+progress.value+' articles. Les publications existantes ont été conservées.';
++      }catch(error){status.textContent='Import interrompu : '+error.message;}
++      finally{running=false;submit.disabled=false;select.disabled=false;stop.disabled=true;}
++    });
++  });
++})();

@@ -1,0 +1,25 @@
+{
+  "articles": 240,
+  "per_universe": {
+    "Jeux vidéo": 20,
+    "Emploi & carrières": 20,
+    "Pays, voyage & immobilier": 20,
+    "Boutiques & artisanat": 20,
+    "Business & entreprise": 20,
+    "Investissement & patrimoine": 20,
+    "Traditions & herboristerie": 20,
+    "Enquêtes & OSINT": 20,
+    "Manga & pop culture": 20,
+    "Gastronomie & couteaux": 20,
+    "Sports & arts martiaux": 20,
+    "IA, technologie & sciences": 20
+  },
+  "words": 58713,
+  "min_words": 183,
+  "max_words": 1172,
+  "native_relation_edges": 912,
+  "unique_universe_covers": 12,
+  "responsive_image_files": 60,
+  "workbooks": 240,
+  "published_to_production": false
+}

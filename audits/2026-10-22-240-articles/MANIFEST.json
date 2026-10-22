@@ -1,0 +1,1429 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.3",
+  "component_version": "6.4.2.195",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.3.zip",
+  "bytes": 57427693,
+  "sha256": "17e5e8906cf59c1d8953e320039dd179e514e4fca48bc1567bd620c83c5ef98c",
+  "source_files": 7751,
+  "baseline": "5.27.2 / 3aeef5511af07cfbc9523934b8e03ce06f2d1ac96f9ba47aa86db5b01fd38627",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/site/controllers/geniuspace.php",
+    "components/com_joomcck/site/library/php/geniuspace/EditorialPack.php",
+    "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-02.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-03.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-04.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-05.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-06.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-07.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-08.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-09.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-10.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-11.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-12.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-13.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-14.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-15.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-16.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-17.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-18.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-19.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-20.csv",
+    "components/com_joomcck/media/nexus/editorial-collection-2026.js",
+    "components/com_joomcck/site/library/php/geniuspace/editorial/collection-240.json"
+  ],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "1b722b1d69ae60aed7362131d346d45fc5cc3f870aa3836091bbca5d570dbd32",
+      "after": "c800d661a2fb4b4f5a73dcac9613632475568d7d8af339388c1e45cb93f7b9a8"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-02.csv",
+      "before": null,
+      "after": "9b6595e91be789e95d736b47da9391caaaf82c6a57efd80b92054ea497a3d2b6"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-03.csv",
+      "before": null,
+      "after": "e71058a98cbfc89e7cd66c20cc1012a5af0b44db771c1803e91c2f0665dd5885"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-04.csv",
+      "before": null,
+      "after": "796d2fbbe018c15ff547f4feea534b4298e2e32e15f1ca852645d69876ac9f01"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-05.csv",
+      "before": null,
+      "after": "d741fb3c7f92048b730e5bb5ddacc006a86bc482990fcecbcba18735257f2219"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-06.csv",
+      "before": null,
+      "after": "7bed7b79556a7165c51e04b78632cb8cf1b9e55cd84f23d232e9905649fb8229"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-07.csv",
+      "before": null,
+      "after": "25d9ff7e6ed85e245e153ba37fc218cae941e1d9f6ae82f1fedc017441f02546"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-08.csv",
+      "before": null,
+      "after": "834f3b70e3f6e554835abb0ec3b7cd9313fbda70860635b780403c4f088d317d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-09.csv",
+      "before": null,
+      "after": "d67c05f06d1220395988121c7a35d4d7efae522c9989fe5651429b095d84d681"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-10.csv",
+      "before": null,
+      "after": "6ccd26e0f6cf5fb1e2f4d196cb0bf1f2a6b6c5976bbbc0ff6639731db49ff0ab"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-11.csv",
+      "before": null,
+      "after": "b233ec7f22c51ffae554f40eee6e466eb57a6e0ee7816c85355bc02196fed075"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-12.csv",
+      "before": null,
+      "after": "cef09ee6156ba7ed3ba75e5d7415bf0a1c349820b53fb52115e906c9c65dda92"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-13.csv",
+      "before": null,
+      "after": "0e9d9121fae36707049d04b95d00d7c7b5b26fdf158a53b9cc71b2fd9d00727e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-14.csv",
+      "before": null,
+      "after": "602b2d15ad8581db3a64b66b37125031cd02f5612cba9ee79ec7eb2c941c8386"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-15.csv",
+      "before": null,
+      "after": "3fa153354bcb5d4f7fb43aad2f2ff009c29b13035f5e3c01020a9346129d5d79"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-16.csv",
+      "before": null,
+      "after": "6acd4068e975dd3ca25b37a1134d71d03b8d3718501dab4d2952efdc4e06ff52"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-17.csv",
+      "before": null,
+      "after": "727bed6a017c6ca30485651f25e064bb02e563672c71135414200fa91d49ee35"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-18.csv",
+      "before": null,
+      "after": "cb8cb8a774d0074151edf5977f437a9d0c6fec3abb00f0e04dbdfa466ba3aa66"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-19.csv",
+      "before": null,
+      "after": "b7866b10ba6ce7571fe17a79da65db6ced8720cd9c0848cb3ac294ca9425b07c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-20.csv",
+      "before": null,
+      "after": "9eb1f71d943525643a47c2d8e2826299b09ea3a82af85f746e69465afd8a4ab8"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-02.csv",
+      "before": null,
+      "after": "f30e87b5ecb3e2f290ba96e2688f6350d7cbc70a03e9a9115e2d0d321fe2fd9b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-03.csv",
+      "before": null,
+      "after": "b020534d437b255d927d4f50295df7aaddd372e27fd32a5a5c619a3939add13c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-04.csv",
+      "before": null,
+      "after": "2a97c5854c280615cdf6299559110d9d588778b87e377602750c285f506c7573"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-05.csv",
+      "before": null,
+      "after": "11ee6c96fc29989cfa97463c9ee211a53d4792794977da422f8c79f9650653e0"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-06.csv",
+      "before": null,
+      "after": "f3d14d51abd36bc7b93a98d238e761493df54a9747e140da8ae7c86d73b9caef"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-07.csv",
+      "before": null,
+      "after": "cac9852532ef4b05bd68c6a4507fa3cba6533ff82cb801321e0a388802a31d79"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-08.csv",
+      "before": null,
+      "after": "61b2314d1b291ebc27c75c1ba497a520709ffaba53963ec6a5c14cd8914c2f79"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-09.csv",
+      "before": null,
+      "after": "5bab55d3a963b971e702b7ae75ae28b45861f84c131aa0949964dfdca5a58566"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-10.csv",
+      "before": null,
+      "after": "6f12a1e32faf0ff9ffc33ea0127ad22653f1d9be7bab74c2dec1635ed560fa9b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-11.csv",
+      "before": null,
+      "after": "db0bc8df0676279a435e86c6bc689c459b56e1b54a0e4c065a6a0bbdada4ad74"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-12.csv",
+      "before": null,
+      "after": "537e661836f00f24083df38c10c20b1406e4488bedb126b14597624659b30759"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-13.csv",
+      "before": null,
+      "after": "2442c80752ce8a7d934175c50208fe9b6d0bbb652caaf32d95319c14250d82dc"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-14.csv",
+      "before": null,
+      "after": "610f849bc524d995112a05240382642d4b11f5fd5212bc8aa1c3a3aecf586d28"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-15.csv",
+      "before": null,
+      "after": "5a7c1718f36ec4423023f04377602c7b743ffb50c78a6c13d1bf9061c0b2889e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-16.csv",
+      "before": null,
+      "after": "82c94dc546a3f840225b1b2237d0c9f7edfac73a71a721958be9b057089469d8"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-17.csv",
+      "before": null,
+      "after": "7bf0debb334b8d840b9a1c5788c45e20a2131d95f0084dde4cad681683a0d930"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-18.csv",
+      "before": null,
+      "after": "89e576e3fda3d7aa7513c1ade2d9d892a179809d49020ba33edcfe5a4ed23193"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-19.csv",
+      "before": null,
+      "after": "f7475db750bb1bc3a3aaf798344d1d5ac26fd3bef6980cceb2fe815d780da422"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-20.csv",
+      "before": null,
+      "after": "a300e69763dad1742b79c929599dc5d6f90a6d9f9bb7ba2482bc6cd743852c00"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-02.csv",
+      "before": null,
+      "after": "67da9f934b779ea5340a508a10e286c4351eafa10f29ce5bc9ce1e54341ef203"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-03.csv",
+      "before": null,
+      "after": "c65d991ac9396fc88d3441823241ea474b205673ff643f582075e046897193ab"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-04.csv",
+      "before": null,
+      "after": "2731440a2ecc0e58e0da8b1cae7a86575425a31fb6d27101ab1fc665159c1a9d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-05.csv",
+      "before": null,
+      "after": "750eda45a5f9e58628fd8b1b12d338f928ed2c23a95ad2ab2b3be6bd0df0bd0d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-06.csv",
+      "before": null,
+      "after": "c75450b62791d24d71917273158137c9bdd221c9a28f8b9c0529feb027e2868d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-07.csv",
+      "before": null,
+      "after": "0d3e2e4ed4b109529c4286b23270a375996dfca3cc0300d7cc33ffb8b287b516"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-08.csv",
+      "before": null,
+      "after": "21bd01c472ec04e0cfb659e8586217784b370ef04addb1d500c7ed50eef7df4e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-09.csv",
+      "before": null,
+      "after": "10b090ea7d728ad96f36f8a4868717174ae32df0dbf9ccc8ccb7524c1cbddfff"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-10.csv",
+      "before": null,
+      "after": "fec81518bf438bfd90413cd8ee4a26adab3084789927213427d206c2ed26284d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-11.csv",
+      "before": null,
+      "after": "f1ac233850b33d27b5a94e6dd90402c4c76a1d3c921047630fd6c6ed24af854d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-12.csv",
+      "before": null,
+      "after": "7a8a6e5fc8ca0f7ea12762de4200bd4de9b8b8728767e3cb6a90951bed18a6fd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-13.csv",
+      "before": null,
+      "after": "64828d135baafe5db27f7bf91ef6083cd7df24dcd1f0ed9c6c084874e3c7a063"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-14.csv",
+      "before": null,
+      "after": "2d0ea204016754748ba59f53895d500c22b4b3f154e958b78d9f49e172a967d2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-15.csv",
+      "before": null,
+      "after": "6e02446e056858f6b88cefa1bca6fef9d09e1f9cb5df60022036d85746402414"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-16.csv",
+      "before": null,
+      "after": "808bea0e0d5943541c2eb67ccaff5ed22896edd546408cf6eb65ee5bd6e1c889"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-17.csv",
+      "before": null,
+      "after": "902d535cf5160b5ec48f82455a3d6e033960a455f2990c13cc96295965b2fb7a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-18.csv",
+      "before": null,
+      "after": "f9fd4fac48bd7e1caabfe98fcec3eb53c8797fad2e8a85f24f743b1f1dd17ec2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-19.csv",
+      "before": null,
+      "after": "079db59a9c47804dd62acad07335d9fc8d8c586e2bc9e487f007ec1ac859bd41"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-20.csv",
+      "before": null,
+      "after": "237736e600c43249ac4a253cd578fdb44359b087b6d1ba5b590f9c29d9ea573a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-02.csv",
+      "before": null,
+      "after": "0b70621fdf67dc11369f9b6a4105232d31b5eeb1c99550a2f04bc8572202d356"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-03.csv",
+      "before": null,
+      "after": "a6431eb6c07abee57d7f19cde4b7f03d6a5bc11f741b84956577982ddf052cec"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-04.csv",
+      "before": null,
+      "after": "7826e342c6bc41e559a510a6e7128033810d09598852dfedb46f2402123ea82c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-05.csv",
+      "before": null,
+      "after": "cf7fc9d2f5b22d15ee9dd0bf257350ff2c4ce369ebcaea2989175d03dd73085e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-06.csv",
+      "before": null,
+      "after": "1534c6815b370138781e09a94ca9588d411ebb5a4c2a2424ad54d14edff9d188"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-07.csv",
+      "before": null,
+      "after": "5b070079a945cc83ee31c4cd0d72a2880a1d6dd4d24381ac8ff8355f1101b60e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-08.csv",
+      "before": null,
+      "after": "b027a9ea3a075194cd6dc0caed196c0cf5b4087742d0e3c1d0a08208a1d6012d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-09.csv",
+      "before": null,
+      "after": "060acfa9619edaca062866c865bf18a9213280776727697d84cc88a9d7d451f9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-10.csv",
+      "before": null,
+      "after": "841e2902fcc42bf80549fdc35b6aa17618085d2fd7557d9d71d5d836ff6696ab"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-11.csv",
+      "before": null,
+      "after": "a709fc10687871aa2f137ad6d49b14572bf4b0f3ada491652d82e9f603b91fc7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-12.csv",
+      "before": null,
+      "after": "34ac680dd8fdccdf63591792363481f8dd2c40bf86bf10990ad7042f96902ca1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-13.csv",
+      "before": null,
+      "after": "07accea5e86192beabb1588a6d860554274dfbc01ccd56b569f816b186c3432e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-14.csv",
+      "before": null,
+      "after": "75a7a25c5cf5a961b54a354484e338528ee022202320f084a649f3c7715cc0c2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-15.csv",
+      "before": null,
+      "after": "5daa5975161c18f8a04230faa253f7c36ffe1c2e53de38035b97cccf449b95cd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-16.csv",
+      "before": null,
+      "after": "efef9a6b112fadce83d73a3d3354c3621efdde17ca1e18fb0c393711c4264f68"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-17.csv",
+      "before": null,
+      "after": "170a31d47810978cd4125e3feabc3523457ed70a7b5a98b2672000336eede37d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-18.csv",
+      "before": null,
+      "after": "1223966c5c22ae3f08bef909ea6822566dfc83d93aeef1bd282f7f094cb6fb86"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-19.csv",
+      "before": null,
+      "after": "31e660c516d839a299e0c38ff6a8f6f2fee67346bfe4c5eb8a46b9cdb0ad2100"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-20.csv",
+      "before": null,
+      "after": "f6f60459072899f7503188928ebac014b93ac6b4af625059e6253321506478d9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-02.csv",
+      "before": null,
+      "after": "15c82795c1fa5e767cc0e4b8d5cd68621bb7981e6b85c204fcd23fa218cbba30"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-03.csv",
+      "before": null,
+      "after": "468ffad6ae54fb8a054ecef20a588d6bb0fb2f9fc6879ff71cae2b0918ed609c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-04.csv",
+      "before": null,
+      "after": "acf4131b0db5d87cdc864e9b9e2c198d925b36c6fb856dbebf551439c61ff131"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-05.csv",
+      "before": null,
+      "after": "416499eb217a54bb3a42e555eb3fd6c3cacb8db6519fbc42789ec3fa29c45d7c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-06.csv",
+      "before": null,
+      "after": "e4701734b4435423d975177aed262be0dd377760103bc6fd01b4be4c766c2fce"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-07.csv",
+      "before": null,
+      "after": "8d5d52ce2c9828c6485d45194e3c9d582f15bec7e6f44eef133e8fc7e8b021f7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-08.csv",
+      "before": null,
+      "after": "a93e1ef33beed4965cc1ffdd937d4f2eb946bef2bb52684741c6eedded0bf463"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-09.csv",
+      "before": null,
+      "after": "0fb429bddc1fece6de983bc77cfa78f24c8ca216123708653ce96bcb7f9fb8d6"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-10.csv",
+      "before": null,
+      "after": "6a87543a81e57e368e5ab0f962d2d2b6be5db12dd73e8da6d178f2789914cee3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-11.csv",
+      "before": null,
+      "after": "1c45090cb49167103079332f29cd10c2fe57b7314ca5a777f8837e90f592809e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-12.csv",
+      "before": null,
+      "after": "66d02c82cf21f9b8e4bf6ed0938b35f288c68dfa35a98d9ac619eb3032c443bd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-13.csv",
+      "before": null,
+      "after": "b0c0260a2f3e093585ccfee24d7b7e6472d542a4877a975a6d09c20e54883c40"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-14.csv",
+      "before": null,
+      "after": "74b014d043ed7e518412d86d5852d937d17dddb44d96502fd8ac5582a3a6b882"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-15.csv",
+      "before": null,
+      "after": "cfde1a07980c9c5b39b9bdeb445c112feebff4c2526261a9318027e24cc0e016"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-16.csv",
+      "before": null,
+      "after": "a40bb58fbda4044d527f4e93050e8d852de4c52bc966d8ec045c9e902777785c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-17.csv",
+      "before": null,
+      "after": "3abd203af64a544845ec1eaa3ae29ce98e22b147a3f24903b023fc65dc041bc2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-18.csv",
+      "before": null,
+      "after": "518c1669b5255a651f66d1b6fca1ad5b313ac45ad1e4b7ab876a8836ce88c5ff"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-19.csv",
+      "before": null,
+      "after": "040ef5fd41fcad247da4659674649104f5ee237517509a59c5f23600a722ce8b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-20.csv",
+      "before": null,
+      "after": "5b2f3d53eddd183489cb7388990fa9a6554aca52a40c7ca2aa14efa2e9cc6681"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-02.csv",
+      "before": null,
+      "after": "420035a2c8409926de95c16c270c29f64b6a2392dc966c187843597a585951ab"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-03.csv",
+      "before": null,
+      "after": "a2d2466d98da032b3a8844a3d63397d16ea33d6238313bfdaddeab33fa552daa"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-04.csv",
+      "before": null,
+      "after": "4229174e5421f6490e6496feef3a7578c52a680f172778929c55bdb9ebc53d2c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-05.csv",
+      "before": null,
+      "after": "a20616f2c9cd87b7e348fec9858a67bc4e3302bb3ecf35a5289e3e958aa85269"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-06.csv",
+      "before": null,
+      "after": "0a56c7260d24c92e70f97d5acab59da3965ac4927c43f0af80dbe1fc714c552f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-07.csv",
+      "before": null,
+      "after": "db9fb80f7388993bc21951fde4476beb8f23b7e9ca7484fecc28bed6107c6d74"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-08.csv",
+      "before": null,
+      "after": "9d5d9f86ca9f55706e4c5f3fa630954c3bbb83ee18ec22889d55ca8427024f39"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-09.csv",
+      "before": null,
+      "after": "8a997b0fec26683ca2537e58d7c91127d8d0a54e084fda5534a0802c5e624b21"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-10.csv",
+      "before": null,
+      "after": "ee3ae771bc614c1c20ecc6000aef9aa8584c9e427582955cb13e2207cc07435f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-11.csv",
+      "before": null,
+      "after": "cf416098d27f9b3943957849cbea8fe470ecdbe10f122cc5d9945e3235e16a03"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-12.csv",
+      "before": null,
+      "after": "d4009e81d47e6615bd4bac98649549b078c8f308d1bcf6cd3569a5e823a088ee"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-13.csv",
+      "before": null,
+      "after": "6f0cf2ccf447d69959d9f9241bd36e07f18da1039ec36e78633e524cf24c0f71"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-14.csv",
+      "before": null,
+      "after": "cca3c2402b7b274c5125ed13ba954c43202d329705a3e12bad839fda130bf506"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-15.csv",
+      "before": null,
+      "after": "060726a6d02ae499a6d5dc3b931a8727ad6831d5407c037e31336153a1e5c136"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-16.csv",
+      "before": null,
+      "after": "b9a273288186b8a7cd1ebe014d05cd9f0d4121b47c46ab257b21153762d37f5f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-17.csv",
+      "before": null,
+      "after": "fa35e798925cc9cf7472d9f105263a4b7f3b4d1968b54a741b2d9c9e9f83ab6f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-18.csv",
+      "before": null,
+      "after": "ba5f7958348ac92372b76fca82647e0f28f1bc92a07ea0e9e2a5a99450d6f29c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-19.csv",
+      "before": null,
+      "after": "88aa0c14d0c17002c52684c2efbd9ebd96a6cb3dcfe69f08f03b41bea081beba"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-20.csv",
+      "before": null,
+      "after": "bddbe207f9104aca4e81bd24187fcf5c6745442783def897d71db103d3d2ae7a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-02.csv",
+      "before": null,
+      "after": "aaf486a72ff7094ef8e3142150c1a78a364bee2b54bac7133454bae378155484"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-03.csv",
+      "before": null,
+      "after": "7219878740f894d3a840d21ac8bed443c4a122e2e3bc913351d7ddfd1520d4f2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-04.csv",
+      "before": null,
+      "after": "a78dd395b5f440aac761064d8d6680ac102550ae5309a9a7a7ec2a6cc0aa3eb4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-05.csv",
+      "before": null,
+      "after": "2fbea02e397a0d35b62dc1091d42758350071a336dd6444b68d4eb4d5fe7753b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-06.csv",
+      "before": null,
+      "after": "b77b8bc6677dd6c87c0e6ba14a5557d7458ea4c625f727ba5fd136fcd7e59d35"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-07.csv",
+      "before": null,
+      "after": "bd33ae9f51b3db7c0e6ab74eaa6b749765ae21844b915d9b36b5ab042c00a603"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-08.csv",
+      "before": null,
+      "after": "97586ff71e2baa41500ae4b5df906fe087c21c75bc12a2aaec97f31a57e8ae85"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-09.csv",
+      "before": null,
+      "after": "ccb8cb9409c0d69054f45c27318eae703cab75fc021b88d88f2b828e7ff37282"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-10.csv",
+      "before": null,
+      "after": "2a87e3ebd7309e252e0f0046dc7a5f3affb9eea91698141ad4546de30b13917a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-11.csv",
+      "before": null,
+      "after": "816edff2a901bafcc6a1795649db34fca089f010d660f742a1063feb2c4a4159"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-12.csv",
+      "before": null,
+      "after": "c5109b4c580ff5acaf89486dcdddd650448590f517d920f862da1aeaf2d163d6"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-13.csv",
+      "before": null,
+      "after": "4f02c11174b07f5d22a69a35d65af4acffc2d0d412c78c6704024dfe7cb3ad00"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-14.csv",
+      "before": null,
+      "after": "5b417ca24f9427877d7c9f3150079cf876b940a1b69e2d2fba5c93eb7ad15a77"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-15.csv",
+      "before": null,
+      "after": "2b1dc9e33ad70f56d6a5108cd3a67284b2c80fe2d76735cc444f4ad2654c46bd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-16.csv",
+      "before": null,
+      "after": "be7f506c84070e37eed5869b41befab61c30ada6a1c371bba1ace081bfdf27ec"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-17.csv",
+      "before": null,
+      "after": "c0a6ce5fa146fdb0354368c38dc4583cdf46a37b5e7c494cf6ba4731ca12e27c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-18.csv",
+      "before": null,
+      "after": "10a98cc521ac65a83870c189886e4fa31abbe737fc2b4cd64a01a671d091c4f9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-19.csv",
+      "before": null,
+      "after": "7a159965dc374198b3606efe785ad5e0fc8ec692c83f01d7081efa3c0e6ec9dd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-20.csv",
+      "before": null,
+      "after": "f4ff6569d52c059d0b01939e90627f951da202b448172415ff5c7040d264d139"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-02.csv",
+      "before": null,
+      "after": "46d4d541bf5c61a1f057bc8b5702187c56eb5cc2596075e0281cd6103e965d8b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-03.csv",
+      "before": null,
+      "after": "59c286d006d16e7e3c55f17c405f8f9c209f08949ee3afe6e35ca12fc87e60cc"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-04.csv",
+      "before": null,
+      "after": "50ba422fbc5f7abd8e9775aca880d26ee6e3f3ac678090b2a6b1e2623ea8419b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-05.csv",
+      "before": null,
+      "after": "3088ae757c91f9de198110f7e159e28ac9a2e63e44980f9c630c0ec68ce038a9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-06.csv",
+      "before": null,
+      "after": "4a95e63d73293452eb810e58e41a0faa9f079f255df3e721ceb287a436353450"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-07.csv",
+      "before": null,
+      "after": "cae0288f4cdd55360a7445da740542c668916a02054d61b49f5bb6e647444698"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-08.csv",
+      "before": null,
+      "after": "77c2a30918bc4b05430e18493d2b49b5a00768b7cc366f3c34bb1411879137a7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-09.csv",
+      "before": null,
+      "after": "7390e0b6f83e14b3e4756a79872ae256c4d165462cbc64e45b895398fe21dc5e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-10.csv",
+      "before": null,
+      "after": "3cee193f5f249f1a076335e35d6fe9d3e87d52f0e09e6e2a729bd0a80a896333"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-11.csv",
+      "before": null,
+      "after": "8a84dadac727cc992b86f6fa90e7bfb3d7fa638c54d957b1cbe9d7c1eb748a71"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-12.csv",
+      "before": null,
+      "after": "5002cc7e703e3a028c45a9da2564dfcec9f48f4f204fdf78148628db02b4b557"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-13.csv",
+      "before": null,
+      "after": "f8e91da4fbfa53113cb9627d848804ca8b286af6ec297821efbddc12f940ee26"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-14.csv",
+      "before": null,
+      "after": "666e2b4b445a1ad0364bd8907439fc345c4e6387c3a210fa19a131a88652fff1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-15.csv",
+      "before": null,
+      "after": "298684ee5a51333ef140d2cdf400ea60bbe562fb0584fcc9ec1aa8cee278b7ce"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-16.csv",
+      "before": null,
+      "after": "f18e608c1a271e51af7547e6bd5a662dfda1a3b72b57c40913a9b79fd9326394"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-17.csv",
+      "before": null,
+      "after": "31c91fb091673befe16760cc8ef0eeaa2ed8534946b1089b81714714bd375784"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-18.csv",
+      "before": null,
+      "after": "377ffb8fc84067f865ceaca13eb80b84f21871bff5228958ba2a71c43be21b0f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-19.csv",
+      "before": null,
+      "after": "0f3b07636001c19644d020f068abf1272e6cbce0fa7452befcdc85640ed138d0"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-20.csv",
+      "before": null,
+      "after": "baddfec45f1975f3578e2ddebd87a1a5aadc116977fe8139634db09ed4972fc9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-02.csv",
+      "before": null,
+      "after": "3e5768aba37abeaa4e55fe14d23ee2b487cf5f68ce12a72ed106f4685afc4802"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-03.csv",
+      "before": null,
+      "after": "8f93d8c93ebc61c6d2921d684d4fa076a7338bfd8b4aec289df231cc2fd85d8a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-04.csv",
+      "before": null,
+      "after": "21928d97a19fc6ea1d430ea01071c936ccc694e500659d1711dc7cec3053ef27"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-05.csv",
+      "before": null,
+      "after": "b096bef684551fad0ca1ccd484ee7008bf8fe10b4667421bc2000019c2dd1000"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-06.csv",
+      "before": null,
+      "after": "0629fb1a592bd14297cc27a3c0e920698dfeedb326eae930178b517b4f480523"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-07.csv",
+      "before": null,
+      "after": "45a58b402b430f41be7f05ca223eb1f04ce87711fd161e4ba91a22893ddec3ec"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-08.csv",
+      "before": null,
+      "after": "7ff3bba2e9639bc8458763f254058414f12b2b7d5e84e580c9036e560e6a12c1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-09.csv",
+      "before": null,
+      "after": "d0124fa32cb93d4436317bbdfd3a68dd3e64d628010965d421eb18395d7fb0c4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-10.csv",
+      "before": null,
+      "after": "0111f293ba3511d6cf829400bb9364912223181c2d239a0d6379a0e06b1bc25b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-11.csv",
+      "before": null,
+      "after": "939ed2ca6300346c410b2de0c325115997b81164bdd67c471c76a3ec0fc1865a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-12.csv",
+      "before": null,
+      "after": "5d24ad64bb5e40980d490f7e27fd29ed7bfe9110cfdbb8cecd2e60bf3187a77e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-13.csv",
+      "before": null,
+      "after": "8ac013eb84ca846db5b866d7f63e9e06541a6c00372b924b580dbb5724d6121d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-14.csv",
+      "before": null,
+      "after": "20575cec4df27e03c881f41ea18edec11b2af372334c93e434f40bf501d8fe96"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-15.csv",
+      "before": null,
+      "after": "86512ad7e57cccecf34c4264582acb147267fb07ac6568866ed407f064adfdff"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-16.csv",
+      "before": null,
+      "after": "f3e2ceb9cf3bf482864cc72c50dc0f4654ff7268c62021a7136ee56fece2354c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-17.csv",
+      "before": null,
+      "after": "25ece0f1da604b97c6f498d5c1bb207f945f2f65a1de87f07e892cf36ff23c28"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-18.csv",
+      "before": null,
+      "after": "8880e4b8497a9e94ea72067bd5e1918891c37626f9143024bbffb88d84b14c1f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-19.csv",
+      "before": null,
+      "after": "31882c897da822c803e875bf7176863ea19a42c51a17137c86c2725467aab8da"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-20.csv",
+      "before": null,
+      "after": "38d8546a8c9972288139638cbfbf0c553ef50df2cca572059843d3bd3efb3be9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-02.csv",
+      "before": null,
+      "after": "b412468195f14b022e5cc43086b854a54217924a093faa6778a0bcb0cba5bcdc"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-03.csv",
+      "before": null,
+      "after": "1b00087449232a3568d1bfadcce00a16bc197543e5ca91e2615864c7f7c9c37a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-04.csv",
+      "before": null,
+      "after": "af0515525b2943bab721a5050849ed8b6edd7f7d10f82cd3b2fd92b8b3db0366"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-05.csv",
+      "before": null,
+      "after": "534864ccde6c363b1425564284aeb80e773fc464f4eacbef46b8110bc3c93071"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-06.csv",
+      "before": null,
+      "after": "283308beabb27b8ff0053628e8db5e37f748bcb25d348c4a9c16b44938573924"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-07.csv",
+      "before": null,
+      "after": "7acb18b894c0f15b65ecc6c5aad9c2d7703d1e7c61422b5083193dd1c27df9ce"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-08.csv",
+      "before": null,
+      "after": "1245609c912b079249fd30f001e0e4080a76884260263c1d513b2ac5c8b66d52"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-09.csv",
+      "before": null,
+      "after": "26f44f34860da38af7b0a3091eadc153ebfdf0d4a5fab8f4a90dc3b1cfe621aa"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-10.csv",
+      "before": null,
+      "after": "a9ab8d6e5909f45c54e8b1f8ca42cc77dbc1e159f23597e117a68bc9310c2061"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-11.csv",
+      "before": null,
+      "after": "3f4b9f16376ac1fb2c0d7da050ebf1905784cdaea4fa408f8d268a69a5af6d87"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-12.csv",
+      "before": null,
+      "after": "129c556570bd390bcdfb5f56bc3c48435685a512b339a8344354b638e34c0fc3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-13.csv",
+      "before": null,
+      "after": "d9ea68833288fc35d221031c0fb35aee445c6535c7ae23cb9fe1e8af4585b547"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-14.csv",
+      "before": null,
+      "after": "6f5f777b99158bf7d15322d34981a5e56dab1fe9e2ccdeb47ed2527432ecae44"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-15.csv",
+      "before": null,
+      "after": "fd3b70102444c3681fb86c84ab8d7e7ef288358561a283a999608f782229b037"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-16.csv",
+      "before": null,
+      "after": "328b71a8e1c779bda91c7004540d59ce30037fe3367e8592eb876db9cee3f5c3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-17.csv",
+      "before": null,
+      "after": "397b9e04ef933ef064f8a5d070a4be0251742f26d4cb00c84504820f1920bad9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-18.csv",
+      "before": null,
+      "after": "8d9c4f28182ac97e5a9868f7b249f8494c05a7112daea814b18c5eeace8ca61f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-19.csv",
+      "before": null,
+      "after": "5daa04e1bcbfa0411cdf1710991414970aa54dac66951a6fe757da7353206496"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-20.csv",
+      "before": null,
+      "after": "0d7922050475be5ba94698713902ab3130b578ade7a9d0e0daf182521812455a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-02.csv",
+      "before": null,
+      "after": "d90c3e4aaea66e4eb6e286cda116aa2e9e7e78e1e235a12e27cd479d89e46283"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-03.csv",
+      "before": null,
+      "after": "fc2a2cc7afb533342c0ea153e2ae5597799c74b261fccfc6428aea1108d3fdf1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-04.csv",
+      "before": null,
+      "after": "c8aed0b22198d61745a68996948236bdd12587e520ab5d93c6756b432a8bade3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-05.csv",
+      "before": null,
+      "after": "4888e09deac5029b1f16c59eef5822a20307ccac8a5554cf9c8cd57526400f4f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-06.csv",
+      "before": null,
+      "after": "0571b67640f26e6a4b2d270fe088c916f228a509c8db4db955d7263669dc1e2a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-07.csv",
+      "before": null,
+      "after": "7dc88988add29d4189781cac1360d951d8b79f53f8d72b3326f64f474eaba7bc"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-08.csv",
+      "before": null,
+      "after": "21a9b2a5fa4a219a6a734c69d1dc15dde35a892996dda9b3114d468ac3f83d3e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-09.csv",
+      "before": null,
+      "after": "18d822d1d28dc8a6be0d7a2cf060c84c00ea9afbd7333f7e378f843d9ec6350d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-10.csv",
+      "before": null,
+      "after": "e3664947df0d88a02d5e18e47281420ee304775980daca494820a86f508f6a8a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-11.csv",
+      "before": null,
+      "after": "8783efea42bbe57cad99ae2d882f88c072121dbf570c252eb7b488aec4eb5e07"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-12.csv",
+      "before": null,
+      "after": "482df80d0b1138ee170f7e39606af6e0346ad29b6ff35f34608a3c83582a5765"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-13.csv",
+      "before": null,
+      "after": "92df32cfec612b8b73d71ccd43fced25074d98ef2a46f3a2b0f47bc91d20f5f6"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-14.csv",
+      "before": null,
+      "after": "049207f5f3382f1969af359f54dd42d5f2e9866a72ad464dca30a9cbb3dd2fd8"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-15.csv",
+      "before": null,
+      "after": "20cef8f3c6335700a6c662fd71479acb28afed85cba420df67d8629bc24f8926"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-16.csv",
+      "before": null,
+      "after": "a4c9f25d4755392da779e44c76a0d5dff11385c419337724940591f0da9c7964"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-17.csv",
+      "before": null,
+      "after": "3ca48b7f6df9f76a810b4bceab5796391020b550cd2fd8a45af1173f90e0b2d5"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-18.csv",
+      "before": null,
+      "after": "0052fee4f93b766c6e66857c164f0394d7c5377a6eff3d4357670b570051d2a7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-19.csv",
+      "before": null,
+      "after": "0fe2fca99b082bcec50de10e5be41bd92d9c941fa4e35d475b307d760efc160d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-20.csv",
+      "before": null,
+      "after": "316a5e999a2b2e90a555d3067825f209a5801fd440c2a3d460a1a5ce87ea2001"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-02.csv",
+      "before": null,
+      "after": "54ca09015117514fa8d8f713ceb22bdcc8402c38e6b15d4462a2ebd966a8a7fa"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-03.csv",
+      "before": null,
+      "after": "49e570b6eff6839a1a73dc52b2bada9a6588153d2ca94dd55146987b91d6bdec"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-04.csv",
+      "before": null,
+      "after": "8892471791c54bc3b87896709c9319e96218229b2cd66160b44697ccb638a639"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-05.csv",
+      "before": null,
+      "after": "b45a3b6cc569cbb88e687637d89a524a122d88d25d226c43f6d06b975a6d1a7e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-06.csv",
+      "before": null,
+      "after": "d84d5afa115d741543c2be50b1f7c93a01f8e2cfdca98e39fd9d9abb71c02bc5"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-07.csv",
+      "before": null,
+      "after": "518770a1c587f68516482c4c592579bd7fb33883e88a66b44f84b51fd910a5b1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-08.csv",
+      "before": null,
+      "after": "2cae6a61abcad435bb8b8840626df7a2450aad3044e016d9cb0dc390b2121ab4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-09.csv",
+      "before": null,
+      "after": "6d663cd4fc7b1bca002538b029c38b1a6e240af91e55b130f86e9a79c8622146"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-10.csv",
+      "before": null,
+      "after": "c0ff9493326fc0cca6338f4b0789b4cbbd9eebbab05fa607f920780a11966b99"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-11.csv",
+      "before": null,
+      "after": "68a3d64d301f6892881dd0f9e708f7600a8acca9918ad79df342ef2ba79e6a00"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-12.csv",
+      "before": null,
+      "after": "cf93a34dd00f0d2ba1ab7a99049edec90d5facdc81fcc159b9eb6ac1cffd217d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-13.csv",
+      "before": null,
+      "after": "2c2fd0a7ddd1a801dfb9bbfc9acbbb90c351f9737fcad27c2e78a510c70c9596"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-14.csv",
+      "before": null,
+      "after": "a2784d4198184e7f7964befb9d9a8b199f0d02474ded778575fec71d94d8bcad"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-15.csv",
+      "before": null,
+      "after": "841c2173de56a851f169e6b0369d88c133ff02b62822bc7be0f99a10f79c0f89"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-16.csv",
+      "before": null,
+      "after": "2380aba261ea855f7e1cf7770b786715443b762e3929d9a29e801c6a9b3cb812"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-17.csv",
+      "before": null,
+      "after": "622b7220e7cda2103cfa8b083aba68d047a1a176124c3b388816aa6b0b437f32"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-18.csv",
+      "before": null,
+      "after": "ce20fe417afaa28cc677e54e9e342e2a3db4b3c7ba8df56c2adb19d79ca68a7d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-19.csv",
+      "before": null,
+      "after": "0d6b0bb747edfe14b4916d77905fb339e106709b40ad3a54e3a2d621a26d6bba"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-20.csv",
+      "before": null,
+      "after": "014d180119469ae1d922b11629837460f07957ad06d7d9046eddfb4ca015a524"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-collection-2026.js",
+      "before": null,
+      "after": "42190ef6d7e73511a2c0c4c591ef234b2b01026d1e32ba59aae77104c0a9a656"
+    },
+    {
+      "path": "components/com_joomcck/site/controllers/geniuspace.php",
+      "before": "dfbfa059f94ac30ca9c7a041f6c7ea994d60805acb4935a00f2b102fe24cca10",
+      "after": "fe948925477a24a2301d7b3ae958c9d604bb2efe3386958e01c0e654d1a479e3"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/EditorialPack.php",
+      "before": "ea59d43a5ee919a68c74bbd4e34cb26eb678474604fdd240924010381f0a19a8",
+      "after": "ff038a958d09a7ab1dee8081d10e41d6850ff926ace9ad743f67ca66c30c94b8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/editorial/collection-240.json",
+      "before": null,
+      "after": "d5b8abccb4a50f4553318f2f384f62282f52fc8b56e0b6337155da4b1ee79fed"
+    },
+    {
+      "path": "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+      "before": "3d7ad7eaec5e0e09bf1317c69c07bc4849744e6b2a97a5c78fd04595509bc226",
+      "after": "72c22d60387098ca602af8fd48d5bef0438fddb26f01b1181e192bd34b14187f"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "644323394a144ff9a1e35b75103fa3e1a02304eef67b61dc3da08ab6634f1964",
+      "after": "b12fa6ba70f895ec56e84590e46fdd6a2842e727ea3c5bd8974243f9763b3b55"
+    }
+  ]
+}

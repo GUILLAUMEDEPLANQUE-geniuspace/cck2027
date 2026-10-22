@@ -1,0 +1,18 @@
+{
+    "passed": 13,
+    "checks": [
+        "Interrupted batch resumes without a duplicate",
+        "Recovery merges only relation field and preserves edited body",
+        "Recovery clears pending state last",
+        "Late indexing SQL failure occurs after native writes",
+        "Late failure removes all twenty new native records",
+        "Late failure removes derived rows: knowledge_chunks",
+        "Late failure removes derived rows: links",
+        "Late failure removes derived rows: native_url_identity",
+        "Late failure removes derived rows: native_url_history",
+        "Late failure removes derived rows: jmap_identity",
+        "Fresh native universe creates all twenty articles",
+        "Fresh pillar has nineteen native child relations",
+        "Fresh pillar contains nineteen resolved native HTML links"
+    ]
+}

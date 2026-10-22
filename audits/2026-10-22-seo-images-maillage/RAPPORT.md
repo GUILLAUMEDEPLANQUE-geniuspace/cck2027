@@ -59,3 +59,5 @@ Version package : **5.27.5**, version composant : **6.4.2.197**. Taille : **60,1
 SHA-256 : `5ee9cbe9d3cdb5cb7e9efc8ec44d866fe86abd3b9f456d28b36a346507a250b1`.
 
 [Rapport d’installation](installation-results.json) · [Tests HTTP](http-results.json) · [Confidentialité](security-results.json) · [Rendu mobile](article-mobile.png) · [Rendu desktop](blog-desktop.png)
+
+[Téléchargement anonyme vérifié](download-verification.json) : HTTP 200, archive complète de 60 113 729 octets, SHA-256 conforme, intégrité ZIP valide.

@@ -1,0 +1,11 @@
+{
+  "verified_at": "2026-10-22T19:34:19.791534+00:00",
+  "anonymous": true,
+  "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.5.zip",
+  "final_url": "https://raw.githubusercontent.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/refs/heads/main/NEXUS_5.27.5.zip",
+  "http_status": 200,
+  "bytes": 60113729,
+  "sha256": "5ee9cbe9d3cdb5cb7e9efc8ec44d866fe86abd3b9f456d28b36a346507a250b1",
+  "zip_integrity": "valid",
+  "entries": 7778
+}

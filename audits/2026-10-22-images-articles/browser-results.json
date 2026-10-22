@@ -1,0 +1,328 @@
+{
+  "checks": [
+    {
+      "label": "Specific photograph in existing card: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Responsive card: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Card image actually decoded: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Card keeps 16:9 crop: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Specific photograph in existing card: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Responsive card: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Card image actually decoded: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Card keeps 16:9 crop: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Specific photograph in existing card: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Responsive card: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Card image actually decoded: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Card keeps 16:9 crop: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Specific photograph in existing card: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Responsive card: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Card image actually decoded: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Card keeps 16:9 crop: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Specific photograph in existing card: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Responsive card: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Card image actually decoded: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Card keeps 16:9 crop: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "All four configured slider entries use the new photographs",
+      "passed": true
+    },
+    {
+      "label": "Slider next button still moves between photographs",
+      "passed": true
+    },
+    {
+      "label": "Mobile card downloads 480px variant: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Mobile card downloads 480px variant: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Mobile card downloads 480px variant: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Mobile card downloads 480px variant: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Mobile card downloads 480px variant: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Blog has no mobile horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "Existing article route: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Article cover matches its subject: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Descriptive cover alt: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Mobile article uses an optimized WebP variant, including cached video posters: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Social JPEG matches article: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Schema uses real new cover dimensions: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Schema credits the illustration: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Illustration is not presented as real reporting: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Article mobile layout remains contained: achat-groupe-cahier-des-charges",
+      "passed": true
+    },
+    {
+      "label": "Existing article route: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Article cover matches its subject: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Descriptive cover alt: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Mobile article uses an optimized WebP variant, including cached video posters: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Social JPEG matches article: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Schema uses real new cover dimensions: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Schema credits the illustration: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Illustration is not presented as real reporting: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Article mobile layout remains contained: playtest-observations-utiles",
+      "passed": true
+    },
+    {
+      "label": "Existing article route: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Article cover matches its subject: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Descriptive cover alt: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Mobile article uses an optimized WebP variant, including cached video posters: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Social JPEG matches article: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Schema uses real new cover dimensions: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Schema credits the illustration: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Illustration is not presented as real reporting: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Article mobile layout remains contained: verifier-video-source-contexte",
+      "passed": true
+    },
+    {
+      "label": "Existing article route: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Article cover matches its subject: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Descriptive cover alt: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Mobile article uses an optimized WebP variant, including cached video posters: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Social JPEG matches article: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Schema uses real new cover dimensions: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Schema credits the illustration: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Illustration is not presented as real reporting: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Article mobile layout remains contained: offre-emploi-transparente",
+      "passed": true
+    },
+    {
+      "label": "Existing article route: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Article cover matches its subject: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Descriptive cover alt: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Mobile article uses an optimized WebP variant, including cached video posters: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Social JPEG matches article: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Schema uses real new cover dimensions: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Schema credits the illustration: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Illustration is not presented as real reporting: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "Article mobile layout remains contained: ia-locale-connaissances-fiables",
+      "passed": true
+    },
+    {
+      "label": "No browser JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "measurements": {
+    "achat-groupe-cahier-des-charges": {
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-480.webp",
+      "width": 358,
+      "viewport": 390
+    },
+    "playtest-observations-utiles": {
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-1200.webp",
+      "width": 358,
+      "viewport": 390
+    },
+    "verifier-video-source-contexte": {
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-1200.webp",
+      "width": 358,
+      "viewport": 390
+    },
+    "offre-emploi-transparente": {
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-480.webp",
+      "width": 358,
+      "viewport": 390
+    },
+    "ia-locale-connaissances-fiables": {
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-480.webp",
+      "width": 358,
+      "viewport": 390
+    }
+  }
+}

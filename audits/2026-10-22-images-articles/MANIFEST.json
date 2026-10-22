@@ -1,0 +1,235 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.4",
+  "component_version": "6.4.2.196",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.4.zip",
+  "bytes": 60111113,
+  "sha256": "1884145d24c7e53cfbccc92486cf957918fb8a2147dab0b81c01e27a1724a97e",
+  "source_files": 7777,
+  "baseline": "5.27.3 / 17e5e8906cf59c1d8953e320039dd179e514e4fca48bc1567bd620c83c5ef98c",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/site/library/php/geniuspace/EditorialImages.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusAurora.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php",
+    "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+    "components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php",
+    "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-1200.webp",
+    "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-1600.webp",
+    "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-480.webp",
+    "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-800.webp",
+    "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-social.jpg",
+    "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-1200.webp",
+    "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-1600.webp",
+    "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-480.webp",
+    "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-800.webp",
+    "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-social.jpg",
+    "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-1200.webp",
+    "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-1600.webp",
+    "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-480.webp",
+    "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-800.webp",
+    "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-social.jpg",
+    "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-1200.webp",
+    "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-1600.webp",
+    "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-480.webp",
+    "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-800.webp",
+    "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-social.jpg",
+    "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-1200.webp",
+    "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-1600.webp",
+    "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-480.webp",
+    "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-800.webp",
+    "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-social.jpg",
+    "components/com_joomcck/site/library/php/geniuspace/editorial/covers-2026.json"
+  ],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "c800d661a2fb4b4f5a73dcac9613632475568d7d8af339388c1e45cb93f7b9a8",
+      "after": "b11dce062185ba81103f5b3de0884144dfc52c16aee66884995ccc74252636c4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-1200.webp",
+      "before": null,
+      "after": "f74814674be808ef777c20936aaec44706b5ff4d3948e4655a15462364db4ac9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-1600.webp",
+      "before": null,
+      "after": "c6b6a36e0d2fbf02318a4d31743761454156200c60c7f387afbf805f92ddaf4d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-480.webp",
+      "before": null,
+      "after": "b4c194ae192f2ae322cbe0c08cfc1bd54b969b5aa847e28227aa5af3567267c3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-800.webp",
+      "before": null,
+      "after": "721e9dcb6d140ec05599de767bd495a6aa7a4f1776a516d19d232daf320bf080"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/achat-groupe-cahier-des-charges-illustration-d9100c42-social.jpg",
+      "before": null,
+      "after": "430914c37b9888df2aa2bbe4e87fe9217a2dc8099cedca881ec4be678020f712"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-1200.webp",
+      "before": null,
+      "after": "b9e5d17c3d55eb5559c7319030c65c8b10b656d6315d579ea718a4cbaa6ce4a9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-1600.webp",
+      "before": null,
+      "after": "8c4af870c56662159829a5f402a7c1299350cea272e268da5f24c5b7ce45df74"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-480.webp",
+      "before": null,
+      "after": "c6394e3ee0ff57da3e33a18993a9b0aff724bf4d11a79b68dd6b81e5034d9378"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-800.webp",
+      "before": null,
+      "after": "be40d9cc3cbed4648a34a3467938bcef85172a28b0c369ca0686524cfc9bbe8e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/ia-locale-connaissances-fiables-illustration-16518b45-social.jpg",
+      "before": null,
+      "after": "1ac6fbc14a5c58aa5ba1a238a780bb09bc6a822a4e9eed3ae6c6c40b216552ad"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-1200.webp",
+      "before": null,
+      "after": "07d7799f6c4ddd1d3e4170c2a8e9a6d2b0939e8728423f956f333bf685be5e9e"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-1600.webp",
+      "before": null,
+      "after": "98ff69f98b9c527809eec7815faaa8d862768751db08511a8847646e452d4785"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-480.webp",
+      "before": null,
+      "after": "713376ac405304125c7d9ce28f699ca6c063cc9fedfc4611f547179281be1fa2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-800.webp",
+      "before": null,
+      "after": "2ff7a2c445176973158599b21764c975b456b4f604bf4e17eb4fd6b266baf79d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/offre-emploi-transparente-illustration-4f9f184b-social.jpg",
+      "before": null,
+      "after": "30c298effb775beab3263f3149247d6861939bd735e7b55a14189d2de7ffe2fd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-1200.webp",
+      "before": null,
+      "after": "efa784099ace3589bb2f98425e4b7b9bd4944bf0a26c0761fe4cfa65884d99ef"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-1600.webp",
+      "before": null,
+      "after": "3e18f3d4b209d39946738b67674d07bd4523db7a31ffea771dfa6af86c186df3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-480.webp",
+      "before": null,
+      "after": "4fcd12907034ec1e8ed4ad0955f5917611d4ae48d12c955bf2157d212611ca64"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-800.webp",
+      "before": null,
+      "after": "02069aadd661f3fce18fdd000e5bc4dd30792b184caee0e29e26e3e4560fee36"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/playtest-observations-utiles-illustration-9fa5c229-social.jpg",
+      "before": null,
+      "after": "e94a41565357ff85767e7a3ddc7e97128196bf1027c983f4f16a2a801fc242b7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-1200.webp",
+      "before": null,
+      "after": "264ee4a467d8d460e1f214850292b2fa948852686e313253708e4d2eb43b0f45"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-1600.webp",
+      "before": null,
+      "after": "ab3d310eadb1e5c2babef010178fec802c4b9b6fb107a508c79a238339f1fba4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-480.webp",
+      "before": null,
+      "after": "73ead96c7ecfc3b1476ec37ee41905a2414afb49c63c27c9fa90623c7c4858e2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-800.webp",
+      "before": null,
+      "after": "d1f717602354c3bc0610303cc9846c8e33f752bd0591aee516a4802d25b634db"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial/verifier-video-source-contexte-illustration-ab25ee60-social.jpg",
+      "before": null,
+      "after": "1e127b56f91358e70052fa4597e8343c0b5de38fb1676d895d13d70faee4734b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/EditorialImages.php",
+      "before": "665335705f959262f8dbcce610b7afcf2e3eab5f93e9aa0cb2f793fa604c0337",
+      "after": "50ecf123e440ff108e88f3909cb00eae214794bc1fcf327a7b31f746a38d022a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusAurora.php",
+      "before": "97e8005aae1a84571c94d74a5084c0ccb1c32ff1bf1232af68dd8a92ac60ec6d",
+      "after": "9c6499b059408c355b3c9edce123cb1c6f8429c6efbf90fa81deecbef5462ca0"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+      "before": "4ca3bb9ac8d614902d1dc91e064d9f7ef039db9f0e555992279ca022d0444a6f",
+      "after": "66e2ad4eb4144122fea9d932d5a58e0190c6fb9da1df4d66b6757836b358874b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+      "before": "e689b3715789b20bf312704adffc3e3fdc5d9931155406e3e30b3af73be7721f",
+      "after": "acfd87ac9129d64b12e69d6d0d95c48d3567582312f92500c566e0628b68f39c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php",
+      "before": "acba380a4c2f05c4cec7b2b9f9acdbe84a3052ddd0517c86721f323affb7c0cf",
+      "after": "2fabf010df85b088bba3213a1f0f04a0ed6c8b33144a7e51e3c0fdcac6614c37"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+      "before": "60fb1bab1d95d1236b06f521cea316efa0fc81fe990ff25a52fac19140404a3e",
+      "after": "5581bd3ab4bbe9f534feec02bc87318bb554f2018bae86536681888303318330"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php",
+      "before": "601bc6da5b4f51b9e060aaf5077bea2d3e13a0abd9d4f128d6be924a2c3870d8",
+      "after": "9619a10d0eb733d298e9469f8e3e766e1407deb8dda914f6263d88edda3acdef"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/editorial/covers-2026.json",
+      "before": null,
+      "after": "b034a07ef86fc0ecb3576c0f045f244f70593a0c656d4a764de3a63352416087"
+    },
+    {
+      "path": "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+      "before": "7e9019e6bbd97fdb4f94c445100cc2114a990cbc8a02df2b47cfe37b75faca40",
+      "after": "e1ebb24824aefffe70273b893ce03c928ec9371fa9ee42187c5b6ac098dc3779"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "b12fa6ba70f895ec56e84590e46fdd6a2842e727ea3c5bd8974243f9763b3b55",
+      "after": "6fbd6c84f08be19fbee82b86ba3a9ea8ec08c47e8a5c0a868fa02de071fc00bd"
+    }
+  ]
+}

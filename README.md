@@ -1,19 +1,17 @@
-# Geniuspace — NEXUS 5.27.3 · 240 articles
+# Geniuspace — NEXUS 5.27.4 · illustrations des articles
 
-[**ZIP installable complet 5.27.3**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.3.zip)
+[**Télécharger le correctif installable complet 5.27.4**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.4.zip)
 
-[**Les 240 articles, illustrations, métadonnées et carnets**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_240_ARTICLES_2026-10-22.zip)
+[**Télécharger les cinq illustrations et leur galerie**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_5_ILLUSTRATIONS_5.27.4.zip)
 
-**20 articles dans chacun des 12 univers.** Les douze guides principaux sont complétés par 228 dossiers d’application rédigés : mécanisme, cas pratique, vérifications et limites. Signature : **GUILLAUME DEPLANQUE — GENIUSPACE**. Chaque article possède sa page de relecture, ses métadonnées et son carnet CSV. Les douze couvertures d’univers sont partagées entre leurs dossiers, avec quatre tailles WebP et un JPEG social chacune.
+Les cinq couvertures du premier lot sont remplacées à l’affichage par des scènes originales correspondant à leur article : IA locale, offre d’emploi, vérification vidéo, playtest et achat groupé. Les titres restent en HTML. Les images comportent quatre variantes WebP, une version JPEG sociale et un texte alternatif descriptif.
 
-Après installation, en super-administrateur : **JoomCCK → Outils → Forum Geniuspace → Collection complète : 20 articles par univers → Publier ou compléter la collection**. Les lots de vingt peuvent être arrêtés puis repris. Les anciens guides et leurs modifications sont réutilisés. Les articles, champs, index et relations parent/enfant restent natifs. Une installation ne déclenche pas automatiquement une publication.
+Le correctif fonctionne aussi sur les articles déjà importés : **aucune réimportation nécessaire**. Les couvertures et descriptions personnalisées restent prioritaires. Les articles, relations, vidéos, commentaires, modules et champs existants sont conservés. Les 240 articles et leur import par univers restent inclus.
 
-L’import des 240 articles, leurs pages, schémas, alias SEF, sitemap et catalogue pour agents IA ont été testés dans la copie isolée. Le paquet complet a passé le test d’installation et de conservation des données. Les corrections précédentes du forum intégré et du sommaire restent présentes.
+[Voir les cinq images et le rapport](audits/2026-10-22-images-articles/RAPPORT.md) · [Empreintes SHA-256](SHA256SUMS)
 
-**Publication sur geniuspace.io non confirmée : l’accès configuré au compte du site avait été refusé.** Les fichiers sont prêts à installer et importer ; ils ne constituent pas un reçu de publication en production.
+**Testé dans la copie isolée. Ce ZIP est prêt à installer ; il n’est pas annoncé comme déjà déployé sur geniuspace.io.**
 
-[Rapport et preuves](audits/2026-10-22-240-articles/RAPPORT.md) · [Décompte par univers](audits/2026-10-22-240-articles/COLLECTION-240-MANIFEST.json) · [Métadonnées](audits/2026-10-22-240-articles/metadonnees-240.csv) · [SHA-256](SHA256SUMS)
+## Collection éditoriale conservée
 
-## Versions précédentes conservées
-
-[5.27.2 et ses douze guides](README-5.27.2.md) · [Rapport 5.27.2](audits/2026-10-22-vue-articles/RAPPORT.md) · [5.27.1](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.1.zip) · [5.27.0](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip) · [5.26.0](README-5.26.0.md)
+[Les 240 articles, métadonnées et carnets](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_240_ARTICLES_2026-10-22.zip) · [Instructions 5.27.3](README-5.27.3.md) · [Rapport des 240 articles](audits/2026-10-22-240-articles/RAPPORT.md) · [Historique 5.27.2](README-5.27.2.md)

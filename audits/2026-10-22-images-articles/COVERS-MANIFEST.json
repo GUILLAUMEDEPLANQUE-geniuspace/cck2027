@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "ia-locale-connaissances-fiables",
+    "master_sha256": "16518b45d76dcb71ef0b2cebef7d22650cbef9a1ed09d40ed6e1b05f24bcc500",
+    "variants": [
+      {
+        "file": "ia-locale-connaissances-fiables-illustration-16518b45-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 29898,
+        "sha256": "c6394e3ee0ff57da3e33a18993a9b0aff724bf4d11a79b68dd6b81e5034d9378"
+      },
+      {
+        "file": "ia-locale-connaissances-fiables-illustration-16518b45-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 66696,
+        "sha256": "be40d9cc3cbed4648a34a3467938bcef85172a28b0c369ca0686524cfc9bbe8e"
+      },
+      {
+        "file": "ia-locale-connaissances-fiables-illustration-16518b45-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 120018,
+        "sha256": "b9e5d17c3d55eb5559c7319030c65c8b10b656d6315d579ea718a4cbaa6ce4a9"
+      },
+      {
+        "file": "ia-locale-connaissances-fiables-illustration-16518b45-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 174290,
+        "sha256": "8c4af870c56662159829a5f402a7c1299350cea272e268da5f24c5b7ce45df74"
+      }
+    ],
+    "social": "ia-locale-connaissances-fiables-illustration-16518b45-social.jpg",
+    "social_bytes": 183824,
+    "alt": "Ordinateur local dans une bibliothèque au crépuscule, notes de recherche et structure de verre évoquant une mémoire reliée.",
+    "caption": "Ordinateur local dans une bibliothèque au crépuscule, notes de recherche et structure de verre évoquant une mémoire reliée. Illustration éditoriale créée avec une assistance IA ; scène illustrative, sans reportage réel."
+  },
+  {
+    "slug": "offre-emploi-transparente",
+    "master_sha256": "4f9f184b81ed2601e484de5b9f0cff8ab5febd0d4c1e225ea6b277a390bf9fa7",
+    "variants": [
+      {
+        "file": "offre-emploi-transparente-illustration-4f9f184b-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 25820,
+        "sha256": "713376ac405304125c7d9ce28f699ca6c063cc9fedfc4611f547179281be1fa2"
+      },
+      {
+        "file": "offre-emploi-transparente-illustration-4f9f184b-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 51678,
+        "sha256": "2ff7a2c445176973158599b21764c975b456b4f604bf4e17eb4fd6b266baf79d"
+      },
+      {
+        "file": "offre-emploi-transparente-illustration-4f9f184b-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 86748,
+        "sha256": "07d7799f6c4ddd1d3e4170c2a8e9a6d2b0939e8728423f956f333bf685be5e9e"
+      },
+      {
+        "file": "offre-emploi-transparente-illustration-4f9f184b-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 123748,
+        "sha256": "98ff69f98b9c527809eec7815faaa8d862768751db08511a8847646e452d4785"
+      }
+    ],
+    "social": "offre-emploi-transparente-illustration-4f9f184b-social.jpg",
+    "social_bytes": 149245,
+    "alt": "Deux personnes examinent une offre et des documents de travail autour d’une table éclairée par la lumière du matin.",
+    "caption": "Deux personnes examinent une offre et des documents de travail autour d’une table éclairée par la lumière du matin. Illustration éditoriale créée avec une assistance IA ; scène illustrative, sans reportage réel."
+  },
+  {
+    "slug": "verifier-video-source-contexte",
+    "master_sha256": "ab25ee60e37161b4750431bb40c5cc99055ea09f2a4fddfd73a384bc329d2725",
+    "variants": [
+      {
+        "file": "verifier-video-source-contexte-illustration-ab25ee60-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 24392,
+        "sha256": "73ead96c7ecfc3b1476ec37ee41905a2414afb49c63c27c9fa90623c7c4858e2"
+      },
+      {
+        "file": "verifier-video-source-contexte-illustration-ab25ee60-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 54820,
+        "sha256": "d1f717602354c3bc0610303cc9846c8e33f752bd0591aee516a4802d25b634db"
+      },
+      {
+        "file": "verifier-video-source-contexte-illustration-ab25ee60-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 98256,
+        "sha256": "264ee4a467d8d460e1f214850292b2fa948852686e313253708e4d2eb43b0f45"
+      },
+      {
+        "file": "verifier-video-source-contexte-illustration-ab25ee60-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 145914,
+        "sha256": "ab3d310eadb1e5c2babef010178fec802c4b9b6fb107a508c79a238339f1fba4"
+      }
+    ],
+    "social": "verifier-video-source-contexte-illustration-ab25ee60-social.jpg",
+    "social_bytes": 160459,
+    "alt": "Un analyste compare deux vues d’un littoral sur un écran, avec appareil photo, carte mémoire et documents de vérification.",
+    "caption": "Un analyste compare deux vues d’un littoral sur un écran, avec appareil photo, carte mémoire et documents de vérification. Illustration éditoriale créée avec une assistance IA ; scène illustrative, sans reportage réel."
+  },
+  {
+    "slug": "playtest-observations-utiles",
+    "master_sha256": "9fa5c2296fcdc058522f7e24efa4d2233e36f0cff5903aa0bab263b3f3292ca7",
+    "variants": [
+      {
+        "file": "playtest-observations-utiles-illustration-9fa5c229-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 29270,
+        "sha256": "4fcd12907034ec1e8ed4ad0955f5917611d4ae48d12c955bf2157d212611ca64"
+      },
+      {
+        "file": "playtest-observations-utiles-illustration-9fa5c229-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 62710,
+        "sha256": "02069aadd661f3fce18fdd000e5bc4dd30792b184caee0e29e26e3e4560fee36"
+      },
+      {
+        "file": "playtest-observations-utiles-illustration-9fa5c229-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 112306,
+        "sha256": "efa784099ace3589bb2f98425e4b7b9bd4944bf0a26c0761fe4cfa65884d99ef"
+      },
+      {
+        "file": "playtest-observations-utiles-illustration-9fa5c229-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 162442,
+        "sha256": "3e18f3d4b209d39946738b67674d07bd4523db7a31ffea771dfa6af86c186df3"
+      }
+    ],
+    "social": "playtest-observations-utiles-illustration-9fa5c229-social.jpg",
+    "social_bytes": 174256,
+    "alt": "Une équipe observe une session de jeu vidéo et prend des notes dans un studio aux lumières violettes et dorées.",
+    "caption": "Une équipe observe une session de jeu vidéo et prend des notes dans un studio aux lumières violettes et dorées. Illustration éditoriale créée avec une assistance IA ; scène illustrative, sans reportage réel."
+  },
+  {
+    "slug": "achat-groupe-cahier-des-charges",
+    "master_sha256": "d9100c4253d3c930913aa0527e527631ee523076c52833beb2191ebea543e044",
+    "variants": [
+      {
+        "file": "achat-groupe-cahier-des-charges-illustration-d9100c42-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 36622,
+        "sha256": "b4c194ae192f2ae322cbe0c08cfc1bd54b969b5aa847e28227aa5af3567267c3"
+      },
+      {
+        "file": "achat-groupe-cahier-des-charges-illustration-d9100c42-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 75946,
+        "sha256": "721e9dcb6d140ec05599de767bd495a6aa7a4f1776a516d19d232daf320bf080"
+      },
+      {
+        "file": "achat-groupe-cahier-des-charges-illustration-d9100c42-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 132894,
+        "sha256": "f74814674be808ef777c20936aaec44706b5ff4d3948e4655a15462364db4ac9"
+      },
+      {
+        "file": "achat-groupe-cahier-des-charges-illustration-d9100c42-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 190476,
+        "sha256": "c6b6a36e0d2fbf02318a4d31743761454156200c60c7f387afbf805f92ddaf4d"
+      }
+    ],
+    "social": "achat-groupe-cahier-des-charges-illustration-d9100c42-social.jpg",
+    "social_bytes": 200506,
+    "alt": "Quatre professionnels comparent des équipements de visioconférence et des échantillons autour d’une table de travail.",
+    "caption": "Quatre professionnels comparent des équipements de visioconférence et des échantillons autour d’une table de travail. Illustration éditoriale créée avec une assistance IA ; scène illustrative, sans reportage réel."
+  }
+]

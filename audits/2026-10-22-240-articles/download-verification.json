@@ -1,0 +1,23 @@
+{
+  "git_commit": "e0f014f",
+  "anonymous_full_downloads": [
+    {
+      "name": "NEXUS_5.27.3.zip",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.3.zip",
+      "anonymous_http_status": 200,
+      "bytes": 57427693,
+      "sha256": "17e5e8906cf59c1d8953e320039dd179e514e4fca48bc1567bd620c83c5ef98c",
+      "matches_published_file": true,
+      "zip_integrity": true
+    },
+    {
+      "name": "GENIUSPACE_240_ARTICLES_2026-10-22.zip",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_240_ARTICLES_2026-10-22.zip",
+      "anonymous_http_status": 200,
+      "bytes": 8650447,
+      "sha256": "811f10d35c7a6089e9f55525eb460ef8da55b5961fe7b9d7a4bb76c39acfe4e1",
+      "matches_published_file": true,
+      "zip_integrity": true
+    }
+  ]
+}

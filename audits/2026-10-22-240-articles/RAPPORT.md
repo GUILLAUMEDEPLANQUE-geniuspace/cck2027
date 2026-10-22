@@ -60,3 +60,5 @@ Après installation, ouvrez `index.php?option=com_joomcck&view=tools&layout=nexu
 **Publication sur geniuspace.io non confirmée.** La connexion native avait refusé le compte configuré. Les imports et tests ci-dessus ont été réalisés sur la copie isolée.
 
 Preuves : [import](collection-results.json), [reprise](recovery-results.json), [écriture interrompue](hard-stop-results.json), [staging](staging-results.json), [240 pages](seo-results.json), [routeur/sitemap/agents](discovery-results.json), [recherche](search-results.json), [navigateur](browser-results.json), [interface admin](admin-browser-results.json), [installation](installation-results.json), [nettoyage](cleanup-results.json), [manifeste du ZIP](MANIFEST.json).
+
+Téléchargements GitHub vérifiés sans authentification : **HTTP 200 pour les deux ZIP**, téléchargement intégral, empreintes SHA-256 identiques et intégrité ZIP contrôlée. [Preuve](download-verification.json).

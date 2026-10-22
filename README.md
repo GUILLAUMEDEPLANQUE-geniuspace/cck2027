@@ -1,21 +1,19 @@
-# Geniuspace — NEXUS 5.27.0
+# Geniuspace — NEXUS 5.27.1
 
-[**Télécharger le ZIP complet NEXUS 5.27.0**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip)
+[**Télécharger le ZIP complet 5.27.1**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.1.zip)
 
-[Ouvrir le ZIP sur GitHub](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/NEXUS_5.27.0.zip) · [Rapport développeur et analyse des 23 formats](audits/2026-10-22/RAPPORT.md) · [Backlog d’expertise](audits/2026-10-22/BACKLOG-EXPERT.csv)
+Cette version corrige le sommaire flottant découpé sur les longs articles. 22 contrôles sur trois tailles d’écran, 5 sur un article natif et 315 contrôles d’installation passent. Aucun fichier source supprimé. **Pas de déploiement sur geniuspace.io.**
 
-Archive installable complète : **49 566 165 octets**. Version technique du composant : `6.4.2.192`.
+[Rapport et captures du correctif](audits/2026-10-22-sommaire/RAPPORT.md)
 
-Cette version ajoute les onglets Discussions / Découvrir / Outils, l’apparition immédiate des publications courtes, les étapes et brouillons des formulaires natifs, la recherche emploi par mots entiers, les missions et dossiers partagés, le tableau de travail professionnel et les preuves de progression IA. Elle corrige les chevauchements mobiles et le bouton de citation.
+## Chantier éditorial
 
-Aucun fichier source antérieur supprimé. Les 899 fichiers de champs natifs et 278 fichiers AllVideoShare concernés sont inchangés. Manifeste détaillé et preuves dans le rapport.
+[**Télécharger le lot éditorial en cours**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_EDITORIAL_2026-10-22.zip)
 
-L’archive contient les extensions complètes ; les comptes, médias et publications de test ne sont pas distribués. L’installation et les parcours ont été testés dans une copie locale. **La publication de ce ZIP n’installe rien sur geniuspace.io.**
+Objectif : 240 articles et 180 topics. Le pack comprend le catalogue de 420 sujets, **12 articles rédigés et illustrés** et **180 ouvertures éditoriales de topics**. Il reste 228 articles à rédiger. **Aucun contenu ni compte n’a été créé en production : le compte configuré est refusé par la connexion native.**
 
-Empreinte SHA-256 :
+Les empreintes des archives sont dans [SHA256SUMS](SHA256SUMS).
 
-```
-491d6f9b0d28f46531b9cc4f66ffbde11d7cd2d23492893af334bbd8f703d0bc
-```
+## Livraison précédente
 
-[Ancienne version 5.26.0 et audit précédent](README-5.26.0.md)
+[ZIP 5.27.0](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip) · [Audit des 23 formats et innovations](audits/2026-10-22/RAPPORT.md) · [Version 5.26.0](README-5.26.0.md)

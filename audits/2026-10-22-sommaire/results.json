@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "label": "Floating outline leaves the transformed and clipped column: 390"
+    },
+    {
+      "passed": true,
+      "label": "Outline remains wholly inside viewport: 390"
+    },
+    {
+      "passed": true,
+      "label": "A later chapter scrolls the actual article pane: 390"
+    },
+    {
+      "passed": true,
+      "label": "Reading progress follows that pane: 390"
+    },
+    {
+      "passed": true,
+      "label": "Back to top returns the pane to its start: 390"
+    },
+    {
+      "passed": true,
+      "label": "Escape closes the outline: 390"
+    },
+    {
+      "passed": true,
+      "label": "Hidden article view does not leave an orphan floating menu: 390"
+    },
+    {
+      "passed": true,
+      "label": "Floating outline leaves the transformed and clipped column: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Outline remains wholly inside viewport: 1280"
+    },
+    {
+      "passed": true,
+      "label": "A later chapter scrolls the actual article pane: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Reading progress follows that pane: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Back to top returns the pane to its start: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Escape closes the outline: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Hidden article view does not leave an orphan floating menu: 1280"
+    },
+    {
+      "passed": true,
+      "label": "Floating outline leaves the transformed and clipped column: 1920"
+    },
+    {
+      "passed": true,
+      "label": "Outline remains wholly inside viewport: 1920"
+    },
+    {
+      "passed": true,
+      "label": "A later chapter scrolls the actual article pane: 1920"
+    },
+    {
+      "passed": true,
+      "label": "Reading progress follows that pane: 1920"
+    },
+    {
+      "passed": true,
+      "label": "Back to top returns the pane to its start: 1920"
+    },
+    {
+      "passed": true,
+      "label": "Escape closes the outline: 1920"
+    },
+    {
+      "passed": true,
+      "label": "Hidden article view does not leave an orphan floating menu: 1920"
+    },
+    {
+      "passed": true,
+      "label": "No browser exceptions"
+    }
+  ],
+  "errors": []
+}

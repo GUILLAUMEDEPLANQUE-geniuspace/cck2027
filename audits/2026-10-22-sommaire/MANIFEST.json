@@ -1,0 +1,48 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.1",
+  "component_version": "6.4.2.193",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.1.zip",
+  "bytes": 49566786,
+  "sha256": "ce19b4e07c445e6c834d5ca5a2636510d138b4b0600d7baad490ecd1f66ab153",
+  "source_files": 7446,
+  "baseline": "5.27.0 / 491d6f9b0d28f46531b9cc4f66ffbde11d7cd2d23492893af334bbd8f703d0bc",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/media/nexus/outline-v571.css",
+    "components/com_joomcck/media/nexus/outline-v571.js",
+    "components/com_joomcck/site/library/php/geniuspace/NexusOutline.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "6e18306f5a04a7a85ea9daa772f7af4959443e52f611d9bc55fac38e034dd287",
+      "after": "2f85f7df4b7cf9f334ff35fe62465e254cb78667e029dbc9665464bb94e5568d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/outline-v571.css",
+      "before": "1fc2cde688fa0774fed51a48589d658cdc32dcfd6ef37d6b8d731bfc0d6d4137",
+      "after": "9b476d1ccb27eb4ed145046221a111f1d05e090141235d74b8d170127e1ffa4b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/outline-v571.js",
+      "before": "cd6d6b6d3e9181db538ff38eb4817669e9e97064bf45a1d989a2842f987c3a0c",
+      "after": "9d7c5b3f79b0e4de9382a4e5534baaa9afcce690f1d0404c0b18a9ceae4132e8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusOutline.php",
+      "before": "e19217186bd9d4a60b30b1307b4d76314cf5f1ffa61ae812cc69f267655bcde6",
+      "after": "13fc980da764bb2a79ff701202afaf71fa5848bdcb49c9d9bf52037756ba34a3"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "050fa81885a6ba83c5a072f20a2d74504d71622291c029e878eb6a49ce1e3822",
+      "after": "89ee2dc1b35ca05e6baed0f68864cbe83ff515ef2e5c371ad96de4e67207f7b9"
+    }
+  ]
+}

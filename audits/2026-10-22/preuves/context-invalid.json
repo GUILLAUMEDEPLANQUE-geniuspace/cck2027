@@ -1,0 +1,6 @@
+{
+    "passed": 7,
+    "checks": [
+        "Malformed or partial stored quote metadata is ignored without PHP notices or fatal errors"
+    ]
+}

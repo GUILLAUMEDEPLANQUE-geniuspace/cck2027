@@ -1,0 +1,97 @@
+{
+  "version": "5.27.0",
+  "component_version": "6.4.2.192",
+  "environment": "copie locale isolée, aucun déploiement en production",
+  "archive": "NEXUS_5.27.0.zip",
+  "bytes": 49566165,
+  "sha256": "491d6f9b0d28f46531b9cc4f66ffbde11d7cd2d23492893af334bbd8f703d0bc",
+  "preservation": {
+    "source_files": 7446,
+    "removed_files": 0,
+    "modified_files": 26,
+    "added_files": 14,
+    "unchanged_native_field_files": 899,
+    "unchanged_avs_files": 278
+  },
+  "native_publications": {
+    "formats": 23,
+    "quick_posts": 12,
+    "other_section_records": 12,
+    "total": 47,
+    "two_replies_per_format": 46,
+    "native_comments_cleaned_after_all_trials": 72
+  },
+  "checks": {
+    "ux_browser": 23,
+    "collaboration_browser": 20,
+    "backend_security_and_search": 22,
+    "malformed_quote_selectors": 7,
+    "native_filter_regressions": 18,
+    "builder_composition_regressions": 16,
+    "format_page_seo": 23,
+    "public_universes_after_install": 12,
+    "final_complete_package_install": 350
+  },
+  "mobile_measurements": {
+    "firstTopicY": 479,
+    "firstTopicTitleY": 584.5,
+    "replyBottom": 716.59375,
+    "feedBottom": 740,
+    "dockTop": 776,
+    "titleColor": "rgb(255, 255, 255)",
+    "cardBackground": "rgb(15, 23, 42)",
+    "brandWidth": 120,
+    "brandScrollWidth": 120,
+    "overflow": false,
+    "h1": [
+      "Jeux Vidéo"
+    ]
+  },
+  "job_initial_visible_controls": 10,
+  "cleanup": {
+    "local_only": true,
+    "records_removed": 47,
+    "comments_removed": 72,
+    "accounts_removed": 14,
+    "physical_files_removed": 12,
+    "boards_removed": 1,
+    "baseline": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "after": {
+      "js_res_record": 481,
+      "js_res_comments": 335,
+      "js_res_categories": 401,
+      "users": 4
+    },
+    "restored": true,
+    "new_native_fields_retained": 10,
+    "new_innodb_tables_retained": 3,
+    "related_rows_removed": {
+      "nx_gp_social_audio_assets": 1,
+      "nx_gp_social_forum_review_details": 6,
+      "nx_gp_social_forum_reviews": 6,
+      "nx_gp_social_knowledge_chunks": 141,
+      "nx_gp_social_native_url_identity": 35,
+      "nx_gp_social_project_boards": 1,
+      "nx_gp_social_project_events": 6,
+      "nx_gp_social_record_versions": 48,
+      "nx_js_res_files": 8,
+      "nx_js_res_hits": 83,
+      "nx_js_res_notifications": 70,
+      "nx_js_res_record_category": 37,
+      "nx_js_res_record_values": 285,
+      "nx_js_res_subscribe": 35
+    }
+  },
+  "limits": [
+    "Chromium automatisé, pas de recette Safari/iOS et Android réel.",
+    "Pas de mesure de charge ni de Core Web Vitals de production.",
+    "Métriques IA : classement des ressources, pas une mesure générale de l’intelligence du modèle.",
+    "Pas de promesse d’absence de tout bug ou de toute faille.",
+    "Une présence au premier rechargement a nécessité une revérification ; la carte immédiate et la requête finale ont été contrôlées."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "local_only": true,
+    "fixture_changes_rolled_back": true,
+    "passed": 22,
+    "checks": [
+        "SQL whole-word search: Product \/ production",
+        "SQL whole-word search: Product \/ Product Manager",
+        "SQL whole-word search: Manager Product \/ Product Manager",
+        "SQL whole-word search: 京都 \/ 京都の生活",
+        "SQL whole-word search: a+b \/ a+b",
+        "SQL whole-word search: x' OR 1=1 -- \/ ordinary title",
+        "Stable relevance rank: Product Manager",
+        "Stable relevance rank: production",
+        "Stable relevance rank: 京都の生活",
+        "Owned test article is used",
+        "Quote selector is checked against the current native article body",
+        "Current native quote resolves without a revision warning",
+        "Removed quote is withheld from an old context annotation",
+        "Stale quote is rejected with 409 before a comment save",
+        "Restricted article does not disclose its old quoted passage",
+        "Mission revision history is returned to the current owner",
+        "A linked resource that becomes restricted disappears from the shared dossier projection",
+        "AI evidence can display a rejected regression without presenting it as progress",
+        "AI public metrics omit non-whitelisted internal keys",
+        "Demo corpus is not presented as a validated public source",
+        "Company owner work queue includes the newly published native course",
+        "An unrelated member does not receive another company’s work queue"
+    ]
+}

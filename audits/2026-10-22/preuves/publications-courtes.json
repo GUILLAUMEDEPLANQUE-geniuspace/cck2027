@@ -1,0 +1,223 @@
+{
+  "count": 12,
+  "immediate_cards": 12,
+  "scenarios": [
+    {
+      "universe": "jeux_video",
+      "recordId": 6091,
+      "publicationMs": 2556,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6091",
+        "feedY": 100,
+        "cardCount": 1
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_JEUX_VIDEO",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "emploi",
+      "recordId": 6095,
+      "publicationMs": 2848,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6095",
+        "feedY": 100,
+        "cardCount": 2
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_EMPLOI",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "pays_expat",
+      "recordId": 6100,
+      "publicationMs": 2148,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6100",
+        "feedY": 100,
+        "cardCount": 4
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_PAYS_EXPAT",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "artisanat",
+      "recordId": 6104,
+      "publicationMs": 4301,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6104",
+        "feedY": 100,
+        "cardCount": 3
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_ARTISANAT",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "business",
+      "recordId": 6110,
+      "publicationMs": 2149,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6110",
+        "feedY": 100,
+        "cardCount": 5
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_BUSINESS",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "investissement",
+      "recordId": 6116,
+      "publicationMs": 1578,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6116",
+        "feedY": 100,
+        "cardCount": 3
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_INVESTISSEMENT",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "traditions",
+      "recordId": 6121,
+      "publicationMs": 1458,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6121",
+        "feedY": 100,
+        "cardCount": 1
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_TRADITIONS",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "paranormal",
+      "recordId": 6124,
+      "publicationMs": 2118,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6124",
+        "feedY": 100,
+        "cardCount": 2
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_PARANORMAL",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "manga",
+      "recordId": 6126,
+      "publicationMs": 1943,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6126",
+        "feedY": 100,
+        "cardCount": 2
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_MANGA",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "gastronomie",
+      "recordId": 6127,
+      "publicationMs": 1442,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": false,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6127",
+        "feedY": 100,
+        "cardCount": 2
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_GASTRONOMIE",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "sports",
+      "recordId": 6128,
+      "publicationMs": 1497,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6128",
+        "feedY": 100,
+        "cardCount": 3
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_SPORTS",
+        "findsRecord": true
+      }
+    },
+    {
+      "universe": "tech",
+      "recordId": 6129,
+      "publicationMs": 1426,
+      "remainsInFeed": true,
+      "inFeedImmediately": true,
+      "inUniverseAfterReload": true,
+      "mobileAfterReload": {
+        "firstTopicY": 550,
+        "firstTopicId": "6129",
+        "feedY": 100,
+        "cardCount": 3
+      },
+      "search": {
+        "url": "http://127.0.0.1:8085/index.php/hub/recherche?q=EXP527_QUICK_TECH",
+        "findsRecord": true
+      }
+    }
+  ],
+  "follow_up": "One Gastronomy desktop reload missed the card initially; the mobile reload and a fresh final server request found it. One Paranormal response was re-entered through the initialized editor; final native save succeeded."
+}

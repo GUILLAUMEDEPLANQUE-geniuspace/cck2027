@@ -1,0 +1,554 @@
+{
+  "environment": "isolated lab",
+  "native_http_saves": true,
+  "count": 23,
+  "formats": [
+    {
+      "format": "discussion",
+      "universe": "emploi",
+      "record": 6083,
+      "published": 1,
+      "category": "781",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "article",
+      "universe": "tech",
+      "record": 6084,
+      "published": 1,
+      "category": "878",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        132
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6883
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "code",
+      "universe": "tech",
+      "record": 6085,
+      "published": 1,
+      "category": "878",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6023
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "business",
+      "universe": "business",
+      "record": 6086,
+      "published": 1,
+      "category": "821",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6020,
+        6052
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "files",
+      "universe": "business",
+      "record": 6087,
+      "published": 1,
+      "category": "821",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        133
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "expert",
+      "universe": "business",
+      "record": 6088,
+      "published": 1,
+      "category": "821",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6063
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "partner",
+      "universe": "business",
+      "record": 6089,
+      "published": 1,
+      "category": "821",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6062
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "finance",
+      "universe": "investissement",
+      "record": 6090,
+      "published": 1,
+      "category": "712",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6025,
+        6053,
+        6054,
+        6055,
+        6056,
+        6057
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "city",
+      "universe": "pays_expat",
+      "record": 6092,
+      "published": 1,
+      "category": "795",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6024,
+        6026,
+        6050
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "country-guide",
+      "universe": "pays_expat",
+      "record": 6093,
+      "published": 1,
+      "category": "795",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6048
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "akiya",
+      "universe": "pays_expat",
+      "record": 6094,
+      "published": 1,
+      "category": "795",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        134
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6056,
+        6877,
+        6878,
+        6879,
+        6880,
+        6881,
+        6882
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "video",
+      "universe": "jeux_video",
+      "record": 6096,
+      "published": 1,
+      "category": "764",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        135
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6049
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "gaming",
+      "universe": "jeux_video",
+      "record": 6097,
+      "published": 1,
+      "category": "764",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6024,
+        6026,
+        6050
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "video-review",
+      "universe": "jeux_video",
+      "record": 6098,
+      "published": 1,
+      "category": "764",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        136
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6048,
+        6049
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "playtest",
+      "universe": "jeux_video",
+      "record": 6099,
+      "published": 1,
+      "category": "764",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6024,
+        6026,
+        6050,
+        6060
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "images",
+      "universe": "artisanat",
+      "record": 6101,
+      "published": 1,
+      "category": "808",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        137
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "buying-pool",
+      "universe": "artisanat",
+      "record": 6102,
+      "published": 1,
+      "category": "808",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6059
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "review",
+      "universe": "gastronomie",
+      "record": 6103,
+      "published": 1,
+      "category": "864",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6048
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "reportage",
+      "universe": "sports",
+      "record": 6105,
+      "published": 1,
+      "category": "871",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        138
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6049
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "sponsorship",
+      "universe": "sports",
+      "record": 6106,
+      "published": 1,
+      "category": "871",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6024,
+        6026,
+        6050,
+        6065
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "fact-check",
+      "universe": "paranormal",
+      "record": 6108,
+      "published": 1,
+      "category": "848",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6061
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "hero",
+      "universe": "manga",
+      "record": 6112,
+      "published": 1,
+      "category": "856",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        139
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6051,
+        6874,
+        6875,
+        6876
+      ],
+      "wizardSteps": 4
+    },
+    {
+      "format": "audio",
+      "universe": "traditions",
+      "record": 6125,
+      "published": 1,
+      "category": "839",
+      "response": {
+        "status": 200,
+        "messages": "Item submitted.",
+        "error": null
+      },
+      "uploads": [
+        "audio:33"
+      ],
+      "storedStructuredFields": [
+        6004,
+        6005,
+        6006,
+        6011,
+        6013,
+        6022
+      ],
+      "wizardSteps": 4
+    }
+  ]
+}

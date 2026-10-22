@@ -1,0 +1,896 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "label": "Every one of the 23 format pages has a native title, one visible H1, canonical, description and parseable JSON-LD"
+    },
+    {
+      "passed": true,
+      "label": "All 23 format canonicals use native SEF paths without UI mode parameters"
+    },
+    {
+      "passed": true,
+      "label": "The contextual article reply includes its native verified passage in Comment schema"
+    },
+    {
+      "passed": true,
+      "label": "Two real user reviews aggregate separately from editorial scoring: review"
+    },
+    {
+      "passed": true,
+      "label": "Two real user reviews aggregate separately from editorial scoring: video-review"
+    },
+    {
+      "passed": true,
+      "label": "Two real user reviews aggregate separately from editorial scoring: country-guide"
+    },
+    {
+      "passed": true,
+      "label": "Native uploaded video retains VideoObject schema"
+    },
+    {
+      "passed": true,
+      "label": "Native uploaded video retains both chapter links"
+    },
+    {
+      "passed": true,
+      "label": "No browser exception during the final 23-format verification"
+    }
+  ],
+  "seo": [
+    {
+      "format": "discussion",
+      "record": 6083,
+      "status": 200,
+      "title": "EXP527 Discussion — Préparer une candidature sans deviner les conditions - Emploi & WTTJ - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Discussion — Préparer une candidature sans deviner les conditions"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-discussion-preparer-une-candidature-sans-deviner-les-conditions"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "article",
+      "record": 6084,
+      "status": 200,
+      "title": "EXP527 Article — Évaluer les progrès d’une IA avec ses sources - IA, Tech & Sciences - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Article — Évaluer les progrès d’une IA avec ses sources"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-article-evaluer-les-progres-d-une-ia-avec-ses-sources"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "CreativeWork",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "ItemList",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 4,
+      "contextAbout": true,
+      "chapterLinks": 0
+    },
+    {
+      "format": "code",
+      "record": 6085,
+      "status": 200,
+      "title": "EXP527 Code — Vérifier un calcul avant de le réutiliser - IA, Tech & Sciences - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Code — Vérifier un calcul avant de le réutiliser"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-code-verifier-un-calcul-avant-de-le-reutiliser"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "business",
+      "record": 6086,
+      "status": 200,
+      "title": "EXP527 Données & pitch — Atelier de décision pour une activité de conseil - Business & Holding - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Données & pitch — Atelier de décision pour une activité de conseil"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-donnees-pitch-atelier-de-decision-pour-une-activite-de-conseil"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "Dataset",
+        "PropertyValue",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "files",
+      "record": 6087,
+      "status": 200,
+      "title": "EXP527 Fichiers — Préparer une grille de comparaison réutilisable - Business & Holding - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Fichiers — Préparer une grille de comparaison réutilisable"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-fichiers-preparer-une-grille-de-comparaison-reutilisable"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "expert",
+      "record": 6088,
+      "status": 200,
+      "title": "EXP527 Rendez-vous expert — Préparer quinze minutes de questions à un expert - Business & Holding - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Rendez-vous expert — Préparer quinze minutes de questions à un expert"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-rendez-vous-expert-preparer-quinze-minutes-de-questions-a-un-expert"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "partner",
+      "record": 6089,
+      "status": 200,
+      "title": "EXP527 Offre partenaire — Trouver un partenaire pour un atelier documenté - Business & Holding - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Offre partenaire — Trouver un partenaire pour un atelier documenté"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-offre-partenaire-trouver-un-partenaire-pour-un-atelier-documente"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "finance",
+      "record": 6090,
+      "status": 200,
+      "title": "EXP527 Finance & sources — Lire une rémunération avec son contexte - INVESTISSEMENT & PATRIMOINE - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Finance & sources — Lire une rémunération avec son contexte"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-finance-sources-lire-une-remuneration-avec-son-contexte"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "city",
+      "record": 6092,
+      "status": 200,
+      "title": "EXP527 Espaces & relations — Organiser une rencontre de voyageurs à Kyoto - Pays & Akiyas - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Espaces & relations — Organiser une rencontre de voyageurs à Kyoto"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-espaces-relations-organiser-une-rencontre-de-voyageurs-a-kyoto"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "country-guide",
+      "record": 6093,
+      "status": 200,
+      "title": "EXP527 Dossier pays & tourisme — Préparer un séjour au Japon avec un budget daté - Pays & Akiyas - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Dossier pays & tourisme — Préparer un séjour au Japon avec un budget daté"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-dossier-pays-tourisme-preparer-un-sejour-au-japon-avec-un-budget-date"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "TouristDestination",
+        "AggregateRating",
+        "Review",
+        "Person",
+        "Rating",
+        "ItemList",
+        "Article",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [
+        {
+          "ratingValue": 4,
+          "ratingCount": 2,
+          "bestRating": 5
+        }
+      ],
+      "editorialRatings": [
+        3,
+        5,
+        4.5
+      ],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "akiya",
+      "record": 6094,
+      "status": 200,
+      "title": "EXP527 Fiche pays / maison Akiya — Examiner une maison ancienne sans sous-estimer les frais - Pays & Akiyas - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Fiche pays / maison Akiya — Examiner une maison ancienne sans sous-estimer les frais"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-fiche-pays-maison-akiya-examiner-une-maison-ancienne-sans-sous-estimer-les-frais"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "TouristDestination",
+        "AggregateRating",
+        "Review",
+        "Rating",
+        "ItemList",
+        "CollectionPage",
+        "ImageObject",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [
+        {
+          "ratingValue": 4,
+          "ratingCount": 2,
+          "bestRating": 5
+        }
+      ],
+      "editorialRatings": [
+        3,
+        5,
+        4.5
+      ],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "video",
+      "record": 6096,
+      "status": 200,
+      "title": "EXP527 Vidéo — Observer un playtest avant de conclure - Jeux Vidéo - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Vidéo — Observer un playtest avant de conclure"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-video-observer-un-playtest-avant-de-conclure"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "VideoObject",
+        "WebPage",
+        "Clip",
+        "InteractionCounter",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "Service",
+        "Product",
+        "AggregateRating",
+        "Review",
+        "Rating",
+        "ItemList",
+        "CollectionPage",
+        "ImageObject",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [
+        {
+          "ratingValue": 16,
+          "ratingCount": 2,
+          "bestRating": 20
+        }
+      ],
+      "editorialRatings": [
+        12,
+        20,
+        18
+      ],
+      "commentCount": 6,
+      "contextAbout": false,
+      "chapterLinks": 6
+    },
+    {
+      "format": "gaming",
+      "record": 6097,
+      "status": 200,
+      "title": "EXP527 Équipe & joueurs — Former une équipe pour un playtest coopératif - Jeux Vidéo - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Équipe & joueurs — Former une équipe pour un playtest coopératif"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-equipe-joueurs-former-une-equipe-pour-un-playtest-cooperatif"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "video-review",
+      "record": 6098,
+      "status": 200,
+      "title": "EXP527 Vidéo & avis produit — Essai vidéo d’un accessoire de jeu - Jeux Vidéo - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Vidéo & avis produit — Essai vidéo d’un accessoire de jeu"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-video-avis-produit-essai-video-d-un-accessoire-de-jeu"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "VideoObject",
+        "WebPage",
+        "Clip",
+        "InteractionCounter",
+        "Product",
+        "AggregateRating",
+        "Review",
+        "Person",
+        "Rating",
+        "ItemList",
+        "Article",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "Service",
+        "CollectionPage",
+        "ImageObject",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [
+        {
+          "ratingValue": 16,
+          "ratingCount": 2,
+          "bestRating": 20
+        }
+      ],
+      "editorialRatings": [
+        12,
+        20,
+        18
+      ],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 6
+    },
+    {
+      "format": "playtest",
+      "record": 6099,
+      "status": 200,
+      "title": "EXP527 Raid & playtest — Retour de session sur une mécanique coopérative - Jeux Vidéo - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Raid & playtest — Retour de session sur une mécanique coopérative"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-raid-playtest-retour-de-session-sur-une-mecanique-cooperative"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "images",
+      "record": 6101,
+      "status": 200,
+      "title": "EXP527 Images — Comparer une matière et une coupe avec des photos - Boutique Japon - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Images — Comparer une matière et une coupe avec des photos"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-images-comparer-une-matiere-et-une-coupe-avec-des-photos"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "buying-pool",
+      "record": 6102,
+      "status": 200,
+      "title": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux - Boutique Japon - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "review",
+      "record": 6103,
+      "status": 200,
+      "title": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais - Gastro & Couteaux - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Product",
+        "AggregateRating",
+        "Review",
+        "Person",
+        "Rating",
+        "ItemList",
+        "Article",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [
+        {
+          "ratingValue": 4,
+          "ratingCount": 2,
+          "bestRating": 5
+        }
+      ],
+      "editorialRatings": [
+        3,
+        5,
+        4.5
+      ],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "reportage",
+      "record": 6105,
+      "status": 200,
+      "title": "EXP527 Reportage — Reprendre le judo avec des repères concrets - Sports & Arts Martiaux - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Reportage — Reprendre le judo avec des repères concrets"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "VideoObject",
+        "WebPage",
+        "Clip",
+        "InteractionCounter",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "Service",
+        "CollectionPage",
+        "ImageObject",
+        "ItemList",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 4
+    },
+    {
+      "format": "sponsorship",
+      "record": 6106,
+      "status": 200,
+      "title": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage - Sports & Arts Martiaux - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "DiscussionForumPosting",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "WebSite",
+        "Organization",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 2,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "fact-check",
+      "record": 6108,
+      "status": 200,
+      "title": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse - Paranormal OSINT - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Enquête & fact-checking — Documenter une observation lumineuse"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Service",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "ItemList",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "hero",
+      "record": 6112,
+      "status": 200,
+      "title": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler - Manga & TCG - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "ItemList",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    },
+    {
+      "format": "audio",
+      "record": 6125,
+      "status": 200,
+      "title": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve - Éso, Herbier & Astro - Méta-Hub Geniuspace",
+      "h1": [
+        "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve"
+      ],
+      "canonicals": [
+        "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+      ],
+      "description": "Questions, expériences, articles et ressources : reliez les savoirs, les métiers et les communautés dans le Méta-Hub Geniuspace.",
+      "robots": "index, follow",
+      "schemaErrors": [],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "WebPage",
+        "AudioObject",
+        "Article",
+        "Person",
+        "DefinedTerm",
+        "Comment",
+        "DiscussionForumPosting",
+        "CollectionPage",
+        "ImageObject",
+        "ItemList",
+        "WebSite",
+        "Organization"
+      ],
+      "aggregates": [],
+      "editorialRatings": [],
+      "commentCount": 4,
+      "contextAbout": false,
+      "chapterLinks": 0
+    }
+  ],
+  "errors": []
+}

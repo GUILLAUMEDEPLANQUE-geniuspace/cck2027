@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "label": "Native player attaches the selected four-second timestamp to the native comment form"
+    },
+    {
+      "passed": true,
+      "label": "Native published video comment renders its timestamp and return link"
+    }
+  ],
+  "seo": [],
+  "errors": [],
+  "cinemaCount": 1,
+  "seconds": "4",
+  "comment": "11714"
+}

@@ -1,0 +1,39 @@
+{
+    "local_only": true,
+    "records_removed": 47,
+    "comments_removed": 72,
+    "accounts_removed": 14,
+    "physical_files_removed": 12,
+    "boards_removed": 1,
+    "baseline": {
+        "js_res_record": 481,
+        "js_res_comments": 335,
+        "js_res_categories": 401,
+        "users": 4
+    },
+    "after": {
+        "js_res_record": 481,
+        "js_res_comments": 335,
+        "js_res_categories": 401,
+        "users": 4
+    },
+    "restored": true,
+    "new_native_fields_retained": 10,
+    "new_innodb_tables_retained": 3,
+    "related_rows_removed": {
+        "nx_gp_social_audio_assets": 1,
+        "nx_gp_social_forum_review_details": 6,
+        "nx_gp_social_forum_reviews": 6,
+        "nx_gp_social_knowledge_chunks": 141,
+        "nx_gp_social_native_url_identity": 35,
+        "nx_gp_social_project_boards": 1,
+        "nx_gp_social_project_events": 6,
+        "nx_gp_social_record_versions": 48,
+        "nx_js_res_files": 8,
+        "nx_js_res_hits": 83,
+        "nx_js_res_notifications": 70,
+        "nx_js_res_record_category": 37,
+        "nx_js_res_record_values": 285,
+        "nx_js_res_subscribe": 35
+    }
+}

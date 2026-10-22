@@ -1,0 +1,1430 @@
+{
+  "environment": "isolated local lab",
+  "records": [
+    {
+      "kind": "companies",
+      "id": 6107,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Entreprise — Atelier des compétences"
+      ],
+      "title": "EXP527 Entreprise — Atelier des compétences - nexusdemo57pack · Entreprises",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "Postuler",
+          "href": "#nx-company-6107-jobs"
+        },
+        {
+          "text": "Apprendre",
+          "href": "#nx-company-6107-academy"
+        },
+        {
+          "text": "Voir les offres →",
+          "href": "#nx-company-6107-jobs"
+        },
+        {
+          "text": "Voir les formations →",
+          "href": "#nx-company-6107-academy"
+        },
+        {
+          "text": "Vitrine & Produits",
+          "href": "#nx-company-6107-overview"
+        },
+        {
+          "text": "Académie & Fichiers",
+          "href": "#nx-company-6107-academy"
+        },
+        {
+          "text": "Offres d’emploi",
+          "href": "#nx-company-6107-jobs"
+        },
+        {
+          "text": "Projets & preuves",
+          "href": "#nx-company-6107-custom-a1b94aed"
+        },
+        {
+          "text": "EXP527 Cours — Clarifier les conditions d’un emploiÀ la fin de ce parcours, vous saurez distinguer u",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-courses/item/6109-exp527-cours-clarifier-les-conditions-d-un-emploi"
+        },
+        {
+          "text": "EXP527 Offre — Chargé de projet pédagogiqueOffre fictive pour tester le parcours natif de publicatio",
+          "href": "http://127.0.0.1:8085/index.php/hub/emploi-carrieres/offres/6113-exp527-offre-charge-de-projet-pedagogique"
+        },
+        {
+          "text": "EXP527 Projet — Comparaison documentée de deux conditions de travailProjet fictif : comparer deux pr",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-forum/nexusdemo57pack-proofs/item/6123-exp527-projet-comparaison-documentee-de-deux-conditions-de-travail"
+        },
+        {
+          "text": "Présentation",
+          "href": "#nx-navigation-record-6107-section-0"
+        },
+        {
+          "text": "L’académie de l’entreprise",
+          "href": "#nx-navigation-record-6107-section-2"
+        },
+        {
+          "text": "Rejoignez l’équipe",
+          "href": "#nx-navigation-record-6107-section-3"
+        },
+        {
+          "text": "Projets et sources reliés",
+          "href": "#nx-navigation-record-6107-section-4"
+        },
+        {
+          "text": "Façons de travailler",
+          "href": "#nx-navigation-record-6107-section-5"
+        },
+        {
+          "text": "Simulateur des façons de travailler",
+          "href": "#nx-navigation-record-6107-section-6"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6107-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6107-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "courses",
+      "id": 6109,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Cours — Clarifier les conditions d’un emploi"
+      ],
+      "title": "EXP527 Cours — Clarifier les conditions d’un emploi - Industrie & Énergie - nexusdemo57pack · Académie Innovation",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-courses/item/6109-exp527-cours-clarifier-les-conditions-d-un-emploi"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "Commencer la première leçon ↗",
+          "href": "http://127.0.0.1:8085/index.php/component/joomcck/item/6111-exp527-lecon-poser-une-question-professionnelle-precise?Itemid=0"
+        },
+        {
+          "text": "Mon parcours, validations et attestation",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/parcours/6109/5132"
+        },
+        {
+          "text": "À découvrirEXP527 Leçon — Poser une question professionnelle préciseUne bonne question rappelle le c",
+          "href": "http://127.0.0.1:8085/index.php/component/joomcck/item/6111-exp527-lecon-poser-une-question-professionnelle-precise?Itemid=0"
+        },
+        {
+          "text": "Passer le quiz et consulter mes résultats",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6109/5134"
+        },
+        {
+          "text": "EXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour les essais",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "À découvrirEXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "En quelques mots",
+          "href": "#nx-navigation-record-6109-section-0"
+        },
+        {
+          "text": "Présentation",
+          "href": "#nx-navigation-record-6109-section-1"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6109-section-2"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6109-section-3"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6109-section-4"
+        },
+        {
+          "text": "Compétences",
+          "href": "#nx-navigation-record-6109-section-5"
+        },
+        {
+          "text": "Programme",
+          "href": "#nx-navigation-record-6109-section-6"
+        },
+        {
+          "text": "Programme",
+          "href": "#nx-navigation-record-6109-section-7"
+        },
+        {
+          "text": "Évaluer mes acquis",
+          "href": "#nx-navigation-record-6109-section-8"
+        },
+        {
+          "text": "Évaluation des connaissances",
+          "href": "#nx-navigation-record-6109-section-9"
+        },
+        {
+          "text": "Pratiquer et recevoir un retour",
+          "href": "#nx-navigation-record-6109-section-10"
+        },
+        {
+          "text": "Une situation du poste à explorer",
+          "href": "#nx-navigation-record-6109-section-11"
+        },
+        {
+          "text": "Questions et échanges sur ce cours",
+          "href": "#nx-navigation-record-6109-section-14"
+        },
+        {
+          "text": "Organisme associé",
+          "href": "#nx-navigation-record-6109-section-15"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6109-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6109-top"
+        },
+        {
+          "text": "Réponses les plus anciennes",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6109&nx_comment_order=oldest&limitstart=0#nxm-conversation"
+        },
+        {
+          "text": "Réponses les plus récentes",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6109&nx_comment_order=newest&limitstart=0#nxm-conversation"
+        },
+        {
+          "text": "Évaluer",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6109&nx_comment_order=helpful&limitstart=0#nxm-conversation"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "lessons",
+      "id": 6111,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Leçon — Poser une question professionnelle précise"
+      ],
+      "title": "EXP527 Leçon — Poser une question professionnelle précise - nexusdemo57pack · Leçons",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/component/joomcck/item/6111-exp527-lecon-poser-une-question-professionnelle-precise?Itemid=0"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "À découvrirEXP527 Cours — Clarifier les conditions d’un emploiÀ la fin de ce parcours, vous saurez d",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-courses/item/6109-exp527-cours-clarifier-les-conditions-d-un-emploi"
+        },
+        {
+          "text": "Passer le quiz et consulter mes résultats",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6111/5156"
+        },
+        {
+          "text": "Média pédagogique",
+          "href": "#nx-navigation-record-6111-section-1"
+        },
+        {
+          "text": "Transcription",
+          "href": "#nx-navigation-record-6111-section-2"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6111-section-3"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6111-section-4"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6111-section-5"
+        },
+        {
+          "text": "Évaluer mes acquis",
+          "href": "#nx-navigation-record-6111-section-6"
+        },
+        {
+          "text": "Évaluation des connaissances",
+          "href": "#nx-navigation-record-6111-section-7"
+        },
+        {
+          "text": "Ressources",
+          "href": "#nx-navigation-record-6111-section-8"
+        },
+        {
+          "text": "Source & révision",
+          "href": "#nx-navigation-record-6111-section-9"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6111-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6111-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "jobs",
+      "id": 6113,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Offre — Chargé de projet pédagogique"
+      ],
+      "title": "EXP527 Offre — Chargé de projet pédagogique · EXP527 Entreprise — Atelier des compétences | Geniuspace",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/hub/emploi-carrieres/offres/6113-exp527-offre-charge-de-projet-pedagogique"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "Vérifier mes prérequis →",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6113/5057"
+        },
+        {
+          "text": "Poser une question",
+          "href": "#gp-job-questions-6113"
+        },
+        {
+          "text": "Découvrir l’entreprise →",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "⚡ Vérifier mes prérequis →",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6113/5057"
+        },
+        {
+          "text": "🎓 Cas pratique métier",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6113/5057"
+        },
+        {
+          "text": "☕ Échanger avec l’équipe",
+          "href": "http://127.0.0.1:8085/index.php/component/joomcck/submit/241-nexusdemo57pack-forum/241?parent=com_joomcck&parent_id=6113&Itemid=101"
+        },
+        {
+          "text": "L’essentiel",
+          "href": "#gp-job-essential-6113"
+        },
+        {
+          "text": "Missions",
+          "href": "#gp-job-mission-6113"
+        },
+        {
+          "text": "Compétences et preuves",
+          "href": "#gp-job-skills-6113"
+        },
+        {
+          "text": "Conditions et équipe",
+          "href": "#gp-job-conditions-6113"
+        },
+        {
+          "text": "Recrutement",
+          "href": "#gp-job-recruitment-6113"
+        },
+        {
+          "text": "Questions",
+          "href": "#gp-job-questions-6113"
+        },
+        {
+          "text": "À découvrirEXP527 Cours — Clarifier les conditions d’un emploiÀ la fin de ce parcours, vous saurez d",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-courses/item/6109-exp527-cours-clarifier-les-conditions-d-un-emploi"
+        },
+        {
+          "text": "Passer le quiz et consulter mes résultats",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6113/5057"
+        },
+        {
+          "text": "Accéder à l’évaluation →",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&task=geniuspace.dispatch&gp_path=/evaluation/nexusdemo57pack/quiz/6113/5057"
+        },
+        {
+          "text": "EXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour les essais",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "Poser une question",
+          "href": "http://127.0.0.1:8085/index.php/component/joomcck/submit/241-nexusdemo57pack-forum/241?parent=com_joomcck&parent_id=6113&Itemid=101"
+        },
+        {
+          "text": "Le poste en bref",
+          "href": "#nx-navigation-record-6113-section-0"
+        },
+        {
+          "text": "Durée du contrat",
+          "href": "#nx-navigation-record-6113-section-1"
+        },
+        {
+          "text": "Prise de poste",
+          "href": "#nx-navigation-record-6113-section-2"
+        },
+        {
+          "text": "Temps de travail hebdomadaire",
+          "href": "#nx-navigation-record-6113-section-3"
+        },
+        {
+          "text": "Formation attendue",
+          "href": "#nx-navigation-record-6113-section-4"
+        },
+        {
+          "text": "Expérience en années",
+          "href": "#nx-navigation-record-6113-section-5"
+        },
+        {
+          "text": "Votre mission",
+          "href": "#nx-navigation-record-6113-section-6"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6113-section-7"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "blog",
+      "id": 6114,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Article — Une semaine de travail documentée"
+      ],
+      "title": "EXP527 Article — Une semaine de travail documentée - Innovation - nexusdemo57pack · Publications",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-blog/item/6114-exp527-article-une-semaine-de-travail-documentee"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "À découvrirEXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "En quelques mots",
+          "href": "#nx-navigation-record-6114-section-0"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6114-section-1"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6114-section-2"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6114-section-3"
+        },
+        {
+          "text": "Entreprise liée",
+          "href": "#nx-navigation-record-6114-section-4"
+        },
+        {
+          "text": "Offre liée",
+          "href": "#nx-navigation-record-6114-section-5"
+        },
+        {
+          "text": "Explorer les connexions",
+          "href": "#nx-navigation-record-6114-section-6"
+        },
+        {
+          "text": "Académie",
+          "href": "#nx-navigation-record-6114-section-7"
+        },
+        {
+          "text": "Sources",
+          "href": "#nx-navigation-record-6114-section-8"
+        },
+        {
+          "text": "La conversation continue",
+          "href": "#nx-navigation-record-6114-section-9"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6114-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6114-top"
+        },
+        {
+          "text": "Réponses les plus anciennes",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6114&nx_comment_order=oldest&limitstart=0#nxm-conversation"
+        },
+        {
+          "text": "Réponses les plus récentes",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6114&nx_comment_order=newest&limitstart=0#nxm-conversation"
+        },
+        {
+          "text": "Évaluer",
+          "href": "http://127.0.0.1:8085/index.php?option=com_joomcck&view=record&id=6114&nx_comment_order=helpful&limitstart=0#nxm-conversation"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "product",
+      "id": 6115,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Produit — Carnet de préparation aux entretiens"
+      ],
+      "title": "EXP527 Produit — Carnet de préparation aux entretiens - nexusdemo57pack · Ressources & Produits",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/component/joomcck/item/6115-exp527-produit-carnet-de-preparation-aux-entretiens?Itemid=0"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "À découvrirEXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        },
+        {
+          "text": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+        },
+        {
+          "text": "EXP527 Images — Comparer une matière et une coupe avec des photos",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-images-comparer-une-matiere-et-une-coupe-avec-des-photos"
+        },
+        {
+          "text": "EXP527_QUICK_PAYS_EXPAT — Je prépare deux semaines au Japon avec une étape à Kyoto. Comment comparer",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-pays-expat-je-prepare-deux-semaines-au-japon-avec-une-etape-a-kyoto-comment-comparer-un-budget-realiste-les-temps-de-trajet-et-les-co"
+        },
+        {
+          "text": "EXP527 Raid & playtest — Retour de session sur une mécanique coopérative",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-raid-playtest-retour-de-session-sur-une-mecanique-cooperative"
+        },
+        {
+          "text": "EXP527 Vidéo & avis produit — Essai vidéo d’un accessoire de jeu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-video-avis-produit-essai-video-d-un-accessoire-de-jeu"
+        },
+        {
+          "text": "EXP527 Équipe & joueurs — Former une équipe pour un playtest coopératif",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-equipe-joueurs-former-une-equipe-pour-un-playtest-cooperatif"
+        },
+        {
+          "text": "EXP527 Vidéo — Observer un playtest avant de conclure",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-video-observer-un-playtest-avant-de-conclure"
+        },
+        {
+          "text": "EXP527_QUICK_EMPLOI — Avant de candidater à une offre hybride, comment demander une semaine type et ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-emploi-avant-de-candidater-a-une-offre-hybride-comment-demander-une-semaine-type-et-distinguer-un-prerequis-obligatoire-d-une-competen"
+        },
+        {
+          "text": "EXP527 Fiche pays / maison Akiya — Examiner une maison ancienne sans sous-estimer les frais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-pays-maison-akiya-examiner-une-maison-ancienne-sans-sous-estimer-les-frais"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "video",
+      "id": 6117,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Vidéo — Observer et formuler un retour utile"
+      ],
+      "title": "EXP527 Vidéo — Observer et formuler un retour utile - nexusdemo57pack · Ressources & Produits",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/component/joomcck/item/6117-exp527-video-observer-et-formuler-un-retour-utile?Itemid=0"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "À découvrirEXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6117-section-0"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6117-section-1"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6117-section-2"
+        },
+        {
+          "text": "Vidéo pédagogique et transcription",
+          "href": "#nx-navigation-record-6117-section-3"
+        },
+        {
+          "text": "Transcription",
+          "href": "#nx-navigation-record-6117-section-4"
+        },
+        {
+          "text": "Repères pour la discussion",
+          "href": "#nx-navigation-record-6117-section-5"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6117-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6117-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        },
+        {
+          "text": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "booking",
+      "id": 6118,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Rendez-vous — Questions sur le parcours pédagogique"
+      ],
+      "title": "EXP527 Rendez-vous — Questions sur le parcours pédagogique - nexusdemo57pack · Ressources & Produits",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/component/joomcck/item/6118-exp527-rendez-vous-questions-sur-le-parcours-pedagogique?Itemid=0"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "À découvrirEXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        },
+        {
+          "text": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+        },
+        {
+          "text": "EXP527 Images — Comparer une matière et une coupe avec des photos",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-images-comparer-une-matiere-et-une-coupe-avec-des-photos"
+        },
+        {
+          "text": "EXP527_QUICK_PAYS_EXPAT — Je prépare deux semaines au Japon avec une étape à Kyoto. Comment comparer",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-pays-expat-je-prepare-deux-semaines-au-japon-avec-une-etape-a-kyoto-comment-comparer-un-budget-realiste-les-temps-de-trajet-et-les-co"
+        },
+        {
+          "text": "EXP527 Raid & playtest — Retour de session sur une mécanique coopérative",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-raid-playtest-retour-de-session-sur-une-mecanique-cooperative"
+        },
+        {
+          "text": "EXP527 Vidéo & avis produit — Essai vidéo d’un accessoire de jeu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-video-avis-produit-essai-video-d-un-accessoire-de-jeu"
+        },
+        {
+          "text": "EXP527 Équipe & joueurs — Former une équipe pour un playtest coopératif",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-equipe-joueurs-former-une-equipe-pour-un-playtest-cooperatif"
+        },
+        {
+          "text": "EXP527 Vidéo — Observer un playtest avant de conclure",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-video-observer-un-playtest-avant-de-conclure"
+        },
+        {
+          "text": "EXP527_QUICK_EMPLOI — Avant de candidater à une offre hybride, comment demander une semaine type et ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-emploi-avant-de-candidater-a-une-offre-hybride-comment-demander-une-semaine-type-et-distinguer-un-prerequis-obligatoire-d-une-competen"
+        },
+        {
+          "text": "EXP527 Fiche pays / maison Akiya — Examiner une maison ancienne sans sous-estimer les frais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-pays-maison-akiya-examiner-une-maison-ancienne-sans-sous-estimer-les-frais"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "skills",
+      "id": 6119,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Compétence — Vérifier une information avec sa source"
+      ],
+      "title": "EXP527 Compétence — Vérifier une information avec sa source - nexusdemo57pack · Catalogue des compétences",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-forum/nexusdemo57pack-skills/item/6119-exp527-competence-verifier-une-information-avec-sa-source"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6119-section-0"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6119-section-1"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6119-section-2"
+        },
+        {
+          "text": "Vérifier une information avec sa source",
+          "href": "#nx-navigation-record-6119-section-3"
+        },
+        {
+          "text": "Repères pour la discussion",
+          "href": "#nx-navigation-record-6119-section-4"
+        },
+        {
+          "text": "Introduction",
+          "href": "#nx-navigation-record-6119-section-6"
+        },
+        {
+          "text": "Auteur / organisme",
+          "href": "#nx-navigation-record-6119-section-7"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6119-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6119-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        },
+        {
+          "text": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "hubs",
+      "id": 6120,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Communauté — Entraide et préparation professionnelle"
+      ],
+      "title": "EXP527 Communauté — Entraide et préparation professionnelle - nexusdemo57pack · Espaces & guildes",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-forum/nexusdemo57pack-hubs/item/6120-exp527-communaute-entraide-et-preparation-professionnelle"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "EXP527 Entreprise — Atelier des compétences →",
+          "href": "/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6120-section-0"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6120-section-1"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6120-section-2"
+        },
+        {
+          "text": "EXP527 Communauté — Entraide et préparation professionnelle",
+          "href": "#nx-navigation-record-6120-section-3"
+        },
+        {
+          "text": "Repères pour la discussion",
+          "href": "#nx-navigation-record-6120-section-4"
+        },
+        {
+          "text": "Introduction",
+          "href": "#nx-navigation-record-6120-section-6"
+        },
+        {
+          "text": "Auteur / organisme",
+          "href": "#nx-navigation-record-6120-section-7"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6120-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6120-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "simulations",
+      "id": 6122,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Exercice — Préparer une demande de précision"
+      ],
+      "title": "EXP527 Exercice — Préparer une demande de précision - nexusdemo57pack · Mises en situation",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-forum/nexusdemo57pack-simulations/item/6122-exp527-exercice-preparer-une-demande-de-precision"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6122-section-0"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6122-section-1"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6122-section-2"
+        },
+        {
+          "text": "Une situation du poste à explorer",
+          "href": "#nx-navigation-record-6122-section-3"
+        },
+        {
+          "text": "Repères pour la discussion",
+          "href": "#nx-navigation-record-6122-section-4"
+        },
+        {
+          "text": "Introduction",
+          "href": "#nx-navigation-record-6122-section-6"
+        },
+        {
+          "text": "Auteur / organisme",
+          "href": "#nx-navigation-record-6122-section-7"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6122-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6122-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        },
+        {
+          "text": "EXP527_QUICK_ARTISANAT — Je cherche un yukata pour une première visite au Japon. Comment comparer le",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-artisanat-je-cherche-un-yukata-pour-une-premiere-visite-au-japon-comment-comparer-les-mesures-la-matiere-l-origine-annoncee-et-le-co"
+        },
+        {
+          "text": "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-avis-notes-essai-d-un-carnet-d-entretien-pour-couteau-japonais"
+        },
+        {
+          "text": "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-coalition-d-achat-construire-une-demande-groupee-de-carnets-artisanaux"
+        }
+      ],
+      "documentOverflow": false
+    },
+    {
+      "kind": "proofs",
+      "id": 6123,
+      "status": 200,
+      "titleVisible": true,
+      "h1": [
+        "EXP527 Projet — Comparaison documentée de deux conditions de travail"
+      ],
+      "title": "EXP527 Projet — Comparaison documentée de deux conditions de travail - nexusdemo57pack · Projets & preuves",
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/nexusdemo57pack-forum/nexusdemo57pack-proofs/item/6123-exp527-projet-comparaison-documentee-de-deux-conditions-de-travail"
+      ],
+      "relatedAuditLinks": [
+        {
+          "text": "EXP527 Entreprise — Atelier des compétencesEntreprise fictive utilisée exclusivement pour les essais",
+          "href": "http://127.0.0.1:8085/index.php/nexusdemo57pack-companies/item/6107-exp527-entreprise-atelier-des-competences"
+        },
+        {
+          "text": "Objectif",
+          "href": "#nx-navigation-record-6123-section-0"
+        },
+        {
+          "text": "Une démarche concrète",
+          "href": "#nx-navigation-record-6123-section-1"
+        },
+        {
+          "text": "Pour aller plus loin",
+          "href": "#nx-navigation-record-6123-section-2"
+        },
+        {
+          "text": "Une réalisation à relire",
+          "href": "#nx-navigation-record-6123-section-3"
+        },
+        {
+          "text": "Sources et limites",
+          "href": "#nx-navigation-record-6123-section-4"
+        },
+        {
+          "text": "Repères pour la discussion",
+          "href": "#nx-navigation-record-6123-section-5"
+        },
+        {
+          "text": "Introduction",
+          "href": "#nx-navigation-record-6123-section-7"
+        },
+        {
+          "text": "Auteur",
+          "href": "#nx-navigation-record-6123-section-8"
+        },
+        {
+          "text": "Entreprise de la revue",
+          "href": "#nx-navigation-record-6123-section-9"
+        },
+        {
+          "text": "Retour en haut ↑",
+          "href": "#nx-navigation-record-6123-top"
+        },
+        {
+          "text": "↑",
+          "href": "#nx-navigation-record-6123-top"
+        },
+        {
+          "text": "EXP527_QUICK_TECH — Je veux évaluer une IA locale qui apprend de ressources autorisées. Comment comp",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-tech-je-veux-evaluer-une-ia-locale-qui-apprend-de-ressources-autorisees-comment-comparer-ses-reponses-avant-et-apres-une-mise-a-jour"
+        },
+        {
+          "text": "EXP527_QUICK_SPORTS — Je reprends le judo après une longue pause. Comment préparer une reprise progr",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-sports-je-reprends-le-judo-apres-une-longue-pause-comment-preparer-une-reprise-progressive-et-trouver-un-club-qui-explique-son-accueil"
+        },
+        {
+          "text": "EXP527_QUICK_GASTRONOMIE — Je découvre les couteaux japonais. Comment choisir un premier couteau sel",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-gastronomie-je-decouvre-les-couteaux-japonais-comment-choisir-un-premier-couteau-selon-les-aliments-prepares-l-entretien-la-prise-en"
+        },
+        {
+          "text": "EXP527_QUICK_MANGA — Je veux discuter du début d’une série sans spoiler les lecteurs. Comment indiqu",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-manga-je-veux-discuter-du-debut-d-une-serie-sans-spoiler-les-lecteurs-comment-indiquer-l-episode-atteint-et-lire-seulement-les-theorie"
+        },
+        {
+          "text": "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-audio-transmettre-une-source-historique-sans-confondre-recit-et-preuve"
+        },
+        {
+          "text": "EXP527_QUICK_PARANORMAL — J’ai une observation lumineuse à documenter. Comment conserver le fichier ",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-paranormal-j-ai-une-observation-lumineuse-a-documenter-comment-conserver-le-fichier-original-son-contexte-les-horaires-et-les-hypoth"
+        },
+        {
+          "text": "EXP527_QUICK_TRADITIONS — Je prépare une lecture sur les grimoires historiques et le folklore. Comme",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-traditions-je-prepare-une-lecture-sur-les-grimoires-historiques-et-le-folklore-comment-distinguer-une-source-historique-une-interpret"
+        },
+        {
+          "text": "EXP527_QUICK_INVESTISSEMENT — Je veux comprendre un ETF avant d’investir. Quels frais, risques et do",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-investissement-je-veux-comprendre-un-etf-avant-d-investir-quels-frais-risques-et-documents-dates-faut-il-reunir-pour-comparer-deux-pr"
+        },
+        {
+          "text": "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-fiche-de-heros-personnage-construire-la-fiche-d-un-personnage-sans-spoiler"
+        },
+        {
+          "text": "EXP527_QUICK_BUSINESS — Je lance une activité de conseil. Comment préparer un dossier de choix de st",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-quick-business-je-lance-une-activite-de-conseil-comment-preparer-un-dossier-de-choix-de-statut-avec-mes-hypotheses-de-revenus-mes-depenses"
+        },
+        {
+          "text": "EXP527 Enquête & fact-checking — Documenter une observation lumineuse",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-enquete-fact-checking-documenter-une-observation-lumineuse"
+        },
+        {
+          "text": "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-sponsoriser-une-equipe-soutenir-un-atelier-sportif-et-ses-retours-d-usage"
+        },
+        {
+          "text": "EXP527 Reportage — Reprendre le judo avec des repères concrets",
+          "href": "http://127.0.0.1:8085/index.php/thread/exp527-reportage-reprendre-le-judo-avec-des-reperes-concrets"
+        }
+      ],
+      "documentOverflow": false
+    }
+  ],
+  "lists": [
+    {
+      "kind": "companies",
+      "route": "/index.php?option=com_joomcck&view=records&section_id=244",
+      "status": 200,
+      "newTitlePresent": true
+    },
+    {
+      "kind": "courses",
+      "route": "/index.php?option=com_joomcck&view=records&section_id=242",
+      "status": 200,
+      "newTitlePresent": true
+    },
+    {
+      "kind": "jobs",
+      "route": "/index.php/hub/emploi-carrieres/offres",
+      "status": 200,
+      "newTitlePresent": true
+    },
+    {
+      "kind": "blog",
+      "route": "/index.php/hub?nx_mode=blog",
+      "status": 200,
+      "newTitlePresent": true
+    },
+    {
+      "kind": "product",
+      "route": "/index.php?option=com_joomcck&view=records&section_id=247",
+      "status": 200,
+      "newTitlePresent": true
+    }
+  ],
+  "errors": []
+}

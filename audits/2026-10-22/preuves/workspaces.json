@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "label": "Mutation without CSRF is rejected",
+      "passed": true
+    },
+    {
+      "label": "Mission with real native resources is saved",
+      "passed": true
+    },
+    {
+      "label": "Retrying creation with the same request key is idempotent",
+      "passed": true
+    },
+    {
+      "label": "An unrelated member cannot read the private dossier",
+      "passed": true
+    },
+    {
+      "label": "The stored step resolves its native course and URL",
+      "passed": true
+    },
+    {
+      "label": "Progression and a documented result save a new revision",
+      "passed": true
+    },
+    {
+      "label": "A stale revision cannot overwrite another change",
+      "passed": true
+    },
+    {
+      "label": "Owner proposes a read-only invitation",
+      "passed": true
+    },
+    {
+      "label": "An invitation alone does not grant dossier access",
+      "passed": true
+    },
+    {
+      "label": "Invited member explicitly accepts",
+      "passed": true
+    },
+    {
+      "label": "Accepted viewer role is returned",
+      "passed": true
+    },
+    {
+      "label": "A viewer cannot modify the dossier",
+      "passed": true
+    },
+    {
+      "label": "An accepted contributor can update the shared steps",
+      "passed": true
+    },
+    {
+      "label": "The dossier retains its revision history",
+      "passed": true
+    },
+    {
+      "label": "Owner can revoke the shared access",
+      "passed": true
+    },
+    {
+      "label": "Revocation also blocks access to history",
+      "passed": true
+    },
+    {
+      "label": "Collaborative dossier remains within the mobile dialog width",
+      "passed": true
+    },
+    {
+      "label": "The professional work queue opens from the same workspace",
+      "passed": true
+    },
+    {
+      "label": "The front-end AI evidence view opens with honest evaluation availability",
+      "passed": true
+    },
+    {
+      "label": "No browser exceptions in the mission and collaboration flows",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "createdBoards": [
+    1
+  ]
+}

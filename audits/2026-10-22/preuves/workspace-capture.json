@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "label": "Collaborative dossier remains within the mobile dialog width",
+      "passed": true
+    },
+    {
+      "label": "The professional work queue opens from the same workspace",
+      "passed": true
+    },
+    {
+      "label": "The front-end AI evidence view opens with honest evaluation availability",
+      "passed": true
+    },
+    {
+      "label": "No browser exceptions in the mission and collaboration flows",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "createdBoards": []
+}

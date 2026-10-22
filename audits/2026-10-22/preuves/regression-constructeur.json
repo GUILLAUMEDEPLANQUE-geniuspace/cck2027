@@ -1,0 +1,23 @@
+{
+    "passed": 16,
+    "checks": [
+        "Every previously delivered widget family remains available",
+        "A native discovery can split into five independently positioned fragments",
+        "Split fragment compositions do not also render the aggregate discovery",
+        "Native fragment is rendered once: universe-heading",
+        "Native fragment is rendered once: universe-announcements",
+        "Native fragment is rendered once: universe-featured",
+        "Native fragment is rendered once: universe-stage",
+        "Native fragment is rendered once: universe-tools",
+        "Existing aggregate compositions remain compatible without duplicating their new subregions",
+        "Duplicate aggregate and detailed discovery cannot be published together",
+        "Server fragment extraction retains native form names, values and Unicode content",
+        "An authorized administrator receives same-origin authoring context",
+        "Universe fragments cannot masquerade as company native system blocks",
+        "Native slots remain an explicit safe allowlist",
+        "Visitor HTML has no editor wrapper or CSRF\/session metadata",
+        "A visitor cannot receive the administrator customization button"
+    ],
+    "failures": [],
+    "scope": "Disposable native Joomla renderer, ACL and composition validation"
+}

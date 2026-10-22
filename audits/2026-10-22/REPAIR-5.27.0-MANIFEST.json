@@ -1,0 +1,259 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.0",
+  "component_version": "6.4.2.192",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.0.zip",
+  "bytes": 49566165,
+  "sha256": "491d6f9b0d28f46531b9cc4f66ffbde11d7cd2d23492893af334bbd8f703d0bc",
+  "source_files": 7446,
+  "baseline": "5.26.0 / fe9e5732908ce7f6e60992f25eae11e9ff6cae27e6e1fe98dcfb02662341937a",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/media/nexus/forum7.js",
+    "components/com_joomcck/media/nexus/multivers-v57.js",
+    "components/com_joomcck/media/nexus/quick-publish.js",
+    "components/com_joomcck/site/library/php/geniuspace/DesignLibrary.php",
+    "components/com_joomcck/site/library/php/geniuspace/DesignRenderer.php",
+    "components/com_joomcck/site/library/php/geniuspace/EmploymentFilters.php",
+    "components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusAuthorForms.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumSeven.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusMultivers.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusQuickPublish.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusSuite.php",
+    "components/com_joomcck/site/library/php/geniuspace/PathPresentation.php",
+    "components/com_joomcck/site/library/php/geniuspace/ProductActions.php",
+    "components/com_joomcck/site/library/php/geniuspace/ProductRead.php",
+    "components/com_joomcck/site/library/php/geniuspace/SchemaMigration.php",
+    "components/com_joomcck/site/library/php/geniuspace/Store.php",
+    "components/com_joomcck/site/library/php/geniuspace/UniverseDock.php",
+    "components/com_joomcck/site/library/php/geniuspace/media/publication-forms.css",
+    "components/com_joomcck/site/library/php/geniuspace/publication-forms.json",
+    "components/com_joomcck/site/tables/cobcomments.php",
+    "components/com_joomcck/site/views/form/tmpl/default.php",
+    "components/com_joomcck/site/views/record/tmpl/default_comments_nexus.php",
+    "components/com_joomcck/site/views/records/tmpl/default_list_nexus_forum7.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/media/nexus/ergonomics.css",
+    "components/com_joomcck/media/nexus/ergonomics.js",
+    "components/com_joomcck/media/nexus/project-workspace.css",
+    "components/com_joomcck/media/nexus/project-workspace.js",
+    "components/com_joomcck/site/library/php/geniuspace/AiProgress.php",
+    "components/com_joomcck/site/library/php/geniuspace/ContextQuestions.php",
+    "components/com_joomcck/site/library/php/geniuspace/Ergonomics.php",
+    "components/com_joomcck/site/library/php/geniuspace/NativeAuthoring.php",
+    "components/com_joomcck/site/library/php/geniuspace/ProjectBoards.php",
+    "components/com_joomcck/site/library/php/geniuspace/ProjectWorkspace.php",
+    "components/com_joomcck/site/library/php/geniuspace/SearchTerms.php",
+    "components/com_joomcck/site/library/php/geniuspace/WorkQueue.php",
+    "components/com_joomcck/site/library/php/geniuspace/media/publication-draft.js",
+    "components/com_joomcck/site/library/php/geniuspace/migrations/schema-5.27.0-workspaces.json"
+  ],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "f51961d22c227ae52aabfe6c4bdba887ed2121e6c80d5738336fc2d6252fb841",
+      "after": "6e18306f5a04a7a85ea9daa772f7af4959443e52f611d9bc55fac38e034dd287"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/ergonomics.css",
+      "before": null,
+      "after": "d68433d0ef1ec3d3e77600bace51b3d4fe9b5175d244f66058e7ad48348f97de"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/ergonomics.js",
+      "before": null,
+      "after": "fe3f13e179b7288ece0414d9c893fb796a1e60a5130188c0a7d6dd0dab26dfa7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/forum7.js",
+      "before": "911c16ff81fc03beb6569708515b5e1152edba1af0b4484cafcb6b7f8224480e",
+      "after": "dc555b2bf6eaacb34bb9ec064aa22527717d8b6a81d7d5599b37a848539916ab"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/multivers-v57.js",
+      "before": "b3f762bd2a863d2bd2471e2dc0c54e6ef950329b78ecf75786438dee74dcc6a1",
+      "after": "9a9c053c7141815237dc5bdbc85e94c9785a9b016472af498d1be89d952c17ef"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/project-workspace.css",
+      "before": null,
+      "after": "26bc2233fe00ff33c97d9e4a3197026b55ed42bc3b6667e8bec5f666c98b2eed"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/project-workspace.js",
+      "before": null,
+      "after": "4c749cb3415a545b8313c99df717b5a1903401398f56dbbf164c466660f8c852"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/quick-publish.js",
+      "before": "4df9fe05b3f8777a32a3410497679d42c9e23677b5fb2b5ce1ffd1dd3f280835",
+      "after": "f7244bf1baa4e121681d4f187f787c68fb35ccd070d2c07f91538aa1d07610a8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/AiProgress.php",
+      "before": null,
+      "after": "577ac5ffd3803d49adb5c0099216ce148623e0e583793c67a14ef8589eb3ed29"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ContextQuestions.php",
+      "before": null,
+      "after": "fd42d113332abe67bca4f0fa2ec2581a1329c3ddec9dc4b8fd922836ffe4b97e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/DesignLibrary.php",
+      "before": "345548fc0358aefd5363ccae6f80586869bbd3c271a0f959c0b4ef389e166cb2",
+      "after": "6f0b90536bd4d81d532eeb9c588431f808eb4cd9ea99acbef44303ba9604b1cb"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/DesignRenderer.php",
+      "before": "c763cf304389a99f61e2ed18e77e8f6633d7fa025f1ea22bb2524669bb131aab",
+      "after": "1dffc20d841ad4437e5bd4695e991478b4abdbc7cf1b70a8311818b2b3b76c2d"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/EmploymentFilters.php",
+      "before": "a89f92fdf47d7e7db1629ce3ee45452b201014d4c135e8ef7c45d19c5636a463",
+      "after": "ebcccbdc77a84db20acb70dcc3a2fa7ea22a5b4546aef8145321becf331e9087"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/Ergonomics.php",
+      "before": null,
+      "after": "f77e804b21b2584af0aeedae648592a533b9e4755aecbc390d85d3669238d7a6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php",
+      "before": "19ad635223d050cb6ca114c219e07832aba435a65cd12028e34b2e65f8d84765",
+      "after": "f1cbfa23e029cb933c15dfebf9b850d2dc9653c72414ee8cd932b325662997ba"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NativeAuthoring.php",
+      "before": null,
+      "after": "5f11096dac45cc2738bed0044a3895fc58cc73e95ff1834e3de41d7960f7d4c4"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusAuthorForms.php",
+      "before": "11b1d6f3217ac97c2084dd5f41c28b34a5ef23d8312e86465e89a5eeb8d849fd",
+      "after": "a1fd422cbc218b2a8ad256675ddb6224ccda1b123b6260d42a733fb836d54564"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusForumSeven.php",
+      "before": "d25e5ef39c11b80f68a48ee7600bc8c8116f51d0927ae2afe670a42d89f6d464",
+      "after": "f83082210dd925e745b8e383418aca93622da47b7bfa6fc7b5a479b0925564e2"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusMultivers.php",
+      "before": "828a2e7463a374d90a58d1861951fb89d27f33e7aa2b6e929748afc8bf077225",
+      "after": "5b9c88d64873c057e2cad3bc451ba3d469aad6ed1723400188f05e0f4dd3240e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusQuickPublish.php",
+      "before": "1817ab101e9e040a81e56b10fe6c30cc161544fc1572f6da263a1d5990915812",
+      "after": "ca7178f7204cbf5cca13aa5d33ebb5115d6a58c94bf1badfa6dbe878e2afd37e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusSuite.php",
+      "before": "7b69269a5b83707c589f0a04da014a8481ec26916cf2c47862016af860b7cf2c",
+      "after": "33df6565c4af833b3bdcb7b8fd561ba653a07d8f4a6034823614c153b9a7352c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/PathPresentation.php",
+      "before": "ddfaa71768e159ebf08bb1a90583a7e31ea7be01ab8ed5e3d08d8f98cf69dc59",
+      "after": "eee8a0e86f1caa3ac42ca99ce6f5f18d4b115ba3cb7796780eec13fa897eef07"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ProductActions.php",
+      "before": "84b7209afe573ca497bb226e484f7a129d5972ea163e63a369ddf44ab3ecc856",
+      "after": "7a9e9fb4580713ad6b8aa9564d67218725e612e1aaf2526acf3d30de8ddc5997"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ProductRead.php",
+      "before": "43b52b9a408a84b81f40bcbad5e238869cce44e8bf60dee23a7003741dea1c5f",
+      "after": "fafc418d1c524749bfa44161bea30eea7560f9619401b3f7e7f88b20055bbef7"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ProjectBoards.php",
+      "before": null,
+      "after": "b3ea816ea2f9280dd1c9810e21e4aa2b189f6b5ccaa03956034427dbd922f0e5"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ProjectWorkspace.php",
+      "before": null,
+      "after": "54d98151139acc213d77eff225d378d09b9f9f1e4feaea606014573f621846dc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/SchemaMigration.php",
+      "before": "1a53a52dda00ef74da5b144247f816d628d850e41c5af9cfe132cb7ec9c9db44",
+      "after": "3eab8f9babc8853c06aa8f3661bdbaca6ba9da0ad41e7546a54e9af3e2ffd1dc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/SearchTerms.php",
+      "before": null,
+      "after": "0cf1d571729ab12f3be8df38a728521844e50698357e426a3fa1fc4212a303f3"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/Store.php",
+      "before": "1c2866ddce51f609e097e6da06ddde9b69f7832367e798bfcb66a0226345a1a3",
+      "after": "e44fbf77a4917333caff6cbe35253f71ba1f1dc22ce0854d9a922109076562b7"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/UniverseDock.php",
+      "before": "6e29043f7fc181df6aeb97caf2dd8e7914219c7e152e4ca5e236a5221313803b",
+      "after": "7176cae6f79c2dd2939ca695e63d1d60c7a131e2a57856bc7f109f84a2faf2fe"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/WorkQueue.php",
+      "before": null,
+      "after": "cf8a58da80260921d7dc57b483c8c02066907064c4963d6d1db1e25e4da23528"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/publication-draft.js",
+      "before": null,
+      "after": "c225fadfe46499a8b9bab2b4ee14dcb552a67486315ba0a7f9496ea99c84210b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/publication-forms.css",
+      "before": "9830ad3940e5aacb048e72be3ec95759bc594b49c2149975b51543a88f0755c7",
+      "after": "454146b384c0eecce5d711605e69e6de5ee27652cc5d063c9c725aaba653dccb"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/migrations/schema-5.27.0-workspaces.json",
+      "before": null,
+      "after": "069307593bd77fcd7c2b241f75d6ed02b2a918bf3704d8da68761c5ac6072361"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/publication-forms.json",
+      "before": "56d5050c67ba1d502015b9a15f880b2c07de1432244e963124fa6432095718f9",
+      "after": "377328a4139c8cee7d1c2b846b56710b284a06405533769560a716316818e1ae"
+    },
+    {
+      "path": "components/com_joomcck/site/tables/cobcomments.php",
+      "before": "ef4e16f6ca4b9f510ecb2bcd62fcd9a077fa822c8f344e0516ab37f810eccc48",
+      "after": "376233fc3db568f74a7a99c67c3fa649a8bdb1b02cb310ac3240db44b33dd30e"
+    },
+    {
+      "path": "components/com_joomcck/site/views/form/tmpl/default.php",
+      "before": "e028071ca3fb1b0b9f2781f940e026dc146621ed6ce83a7f6d205db3c639905f",
+      "after": "b2585bd203b2adcba371c58886cb567199d3741549fa2acbddb6108dad24ebfe"
+    },
+    {
+      "path": "components/com_joomcck/site/views/record/tmpl/default_comments_nexus.php",
+      "before": "eb4772d62902d8dc6d94e0cb833721de2a66eefae81a1de397cde1f813a7b011",
+      "after": "d7a84fde41f58feb02de5de62c9c95765e7ea8da0df63f21d309b54af6a235e7"
+    },
+    {
+      "path": "components/com_joomcck/site/views/records/tmpl/default_list_nexus_forum7.php",
+      "before": "5fa7ec8f4ccd8d3d8ae57189d2a32ff2cf70f11aa840343c78c4304ed9bf91e1",
+      "after": "2e9ccad60160f00420e1bda15096ebf39cc104c4ba30b19a7f18dcec4c17b5e5"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "1de9946afefbee64543f63d55edc052e2070cc41d8bb0898efefaa26591e0f91",
+      "after": "050fa81885a6ba83c5a072f20a2d74504d71622291c029e878eb6a49ce1e3822"
+    }
+  ]
+}

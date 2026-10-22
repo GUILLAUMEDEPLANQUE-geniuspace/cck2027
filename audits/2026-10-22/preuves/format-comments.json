@@ -1,0 +1,651 @@
+{
+  "records": [
+    {
+      "format": "discussion",
+      "record": 6083,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11667",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11668",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Discussion — Préparer une candidature sans deviner les conditions"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "article",
+      "record": 6084,
+      "replies": [
+        {
+          "member": 1,
+          "id": "11669",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 0,
+          "id": "11712",
+          "visible": true,
+          "responseStatus": 200,
+          "contextRendered": 1
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Article — Évaluer les progrès d’une IA avec ses sources"
+          ],
+          "brokenImages": 0
+        }
+      ],
+      "quoteControlUsed": "Une observation utile précise sa source, son contexte et ses limites."
+    },
+    {
+      "format": "code",
+      "record": 6085,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11670",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11671",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Code — Vérifier un calcul avant de le réutiliser"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "business",
+      "record": 6086,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11672",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11673",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Données & pitch — Atelier de décision pour une activité de conseil"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "files",
+      "record": 6087,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11674",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11675",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Fichiers — Préparer une grille de comparaison réutilisable"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "expert",
+      "record": 6088,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11676",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11677",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Rendez-vous expert — Préparer quinze minutes de questions à un expert"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "partner",
+      "record": 6089,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11678",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11679",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Offre partenaire — Trouver un partenaire pour un atelier documenté"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "finance",
+      "record": 6090,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11680",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11681",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Finance & sources — Lire une rémunération avec son contexte"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "city",
+      "record": 6092,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11682",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11683",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Espaces & relations — Organiser une rencontre de voyageurs à Kyoto"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "country-guide",
+      "record": 6093,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11684",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11685",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Dossier pays & tourisme — Préparer un séjour au Japon avec un budget daté"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "akiya",
+      "record": 6094,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11686",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11687",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Fiche pays / maison Akiya — Examiner une maison ancienne sans sous-estimer les frais"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "video",
+      "record": 6096,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11688",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11689",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Vidéo — Observer un playtest avant de conclure"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "gaming",
+      "record": 6097,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11690",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11691",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Équipe & joueurs — Former une équipe pour un playtest coopératif"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "video-review",
+      "record": 6098,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11692",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11693",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Vidéo & avis produit — Essai vidéo d’un accessoire de jeu"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "playtest",
+      "record": 6099,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11694",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11695",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Raid & playtest — Retour de session sur une mécanique coopérative"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "images",
+      "record": 6101,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11696",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11697",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Images — Comparer une matière et une coupe avec des photos"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "buying-pool",
+      "record": 6102,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11698",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11699",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Coalition d’achat — Construire une demande groupée de carnets artisanaux"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "review",
+      "record": 6103,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11700",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11701",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Avis & notes — Essai d’un carnet d’entretien pour couteau japonais"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "reportage",
+      "record": 6105,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11702",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11703",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Reportage — Reprendre le judo avec des repères concrets"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "sponsorship",
+      "record": 6106,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11704",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11705",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Sponsoriser une équipe — Soutenir un atelier sportif et ses retours d’usage"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "fact-check",
+      "record": 6108,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11706",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11707",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Enquête & fact-checking — Documenter une observation lumineuse"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "hero",
+      "record": 6112,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11710",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11711",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Fiche de héros / personnage — Construire la fiche d’un personnage sans spoiler"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    },
+    {
+      "format": "audio",
+      "record": 6125,
+      "replies": [
+        {
+          "member": 0,
+          "id": "11708",
+          "visible": true,
+          "responseStatus": 200
+        },
+        {
+          "member": 1,
+          "id": "11709",
+          "visible": true,
+          "responseStatus": 200
+        }
+      ],
+      "views": [
+        {
+          "width": 390,
+          "overflow": false,
+          "h1": [
+            "EXP527 Audio — Transmettre une source historique sans confondre récit et preuve"
+          ],
+          "brokenImages": 0
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

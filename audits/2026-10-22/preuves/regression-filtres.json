@@ -1,0 +1,23 @@
+{
+    "passed": 18,
+    "checks": [
+        "Multi-type native registry works with ONLY_FULL_GROUP_BY",
+        "A filter belonging to only one type is retained",
+        "Native filter contexts retain the actual user ID instead of boolean 1",
+        "Embedded filters use their current section instead of the first section loaded",
+        "The real native field table saves generic filter configuration",
+        "Native filter registry is enabled when the common field option is selected",
+        "Changing a field label or filter settings preserves its native value-index key",
+        "An explicit common No overrides an enabled native filter",
+        "A native filter module restores the entire primary request context",
+        "A secondary native filter module leaves the shared hub model untouched",
+        "A native filter module renders the universal control of a newly enabled structured field",
+        "Every field editor exposes the common criteria and matching-mode settings",
+        "Native filter activation distinguishes numeric zero from an empty criterion",
+        "An empty filter intersection remains empty when a category has records",
+        "Generic filter labels and retained query values are escaped",
+        "Native selection data cannot close its script element",
+        "Native choices and selected values are both retained",
+        "An administrator can still choose a bounded Multi-Blog width"
+    ]
+}

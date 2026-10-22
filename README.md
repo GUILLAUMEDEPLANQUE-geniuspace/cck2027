@@ -1,27 +1,21 @@
-# Geniuspace — NEXUS 5.26.0
+# Geniuspace — NEXUS 5.27.0
 
-[**Télécharger le ZIP complet NEXUS 5.26.0**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.26.0.zip)
+[**Télécharger le ZIP complet NEXUS 5.27.0**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.0.zip)
 
-[Ouvrir le fichier sur GitHub](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/NEXUS_5.26.0.zip)
+[Ouvrir le ZIP sur GitHub](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/NEXUS_5.27.0.zip) · [Rapport développeur et analyse des 23 formats](audits/2026-10-22/RAPPORT.md) · [Backlog d’expertise](audits/2026-10-22/BACKLOG-EXPERT.csv)
 
-Archive installable complète : **49 534 212 octets**.
+Archive installable complète : **49 566 165 octets**. Version technique du composant : `6.4.2.192`.
 
-Cette version corrige notamment la largeur du Multi-Blog et le filtrage de la recherche d'emploi par champs natifs. Elle conserve les fonctionnalités du package.
+Cette version ajoute les onglets Discussions / Découvrir / Outils, l’apparition immédiate des publications courtes, les étapes et brouillons des formulaires natifs, la recherche emploi par mots entiers, les missions et dossiers partagés, le tableau de travail professionnel et les preuves de progression IA. Elle corrige les chevauchements mobiles et le bouton de citation.
 
-## Intégrité
+Aucun fichier source antérieur supprimé. Les 899 fichiers de champs natifs et 278 fichiers AllVideoShare concernés sont inchangés. Manifeste détaillé et preuves dans le rapport.
 
-Le fichier `SHA256SUMS` accompagne le ZIP. Empreinte SHA-256 :
+L’archive contient les extensions complètes ; les comptes, médias et publications de test ne sont pas distribués. L’installation et les parcours ont été testés dans une copie locale. **La publication de ce ZIP n’installe rien sur geniuspace.io.**
+
+Empreinte SHA-256 :
 
 ```
-fe9e5732908ce7f6e60992f25eae11e9ff6cae27e6e1fe98dcfb02662341937a
+491d6f9b0d28f46531b9cc4f66ffbde11d7cd2d23492893af334bbd8f703d0bc
 ```
 
-Le ZIP contient les documents `docs/AUDIT-CORRECTIFS-5.26.0.md` et `docs/VALIDATION-5.26.0.json`.
-
-La publication de ce fichier sur GitHub n'installe pas la version sur le site de production.
-
-## Audit ergonomie et innovations — 21 octobre 2026
-
-[Lire le rapport complet et les recommandations par univers](audits/2026-10-21/RAPPORT.md) · [Backlog développeur : 47 tâches](audits/2026-10-21/BACKLOG.csv) · [Résultats des vérifications](audits/2026-10-21/BILAN-VERIFICATIONS.json)
-
-Essais fonctionnels dans une copie locale isolée : publications, cours, entreprise, offre, commentaires, avis et upload vidéo. Captures et limites détaillées dans le rapport. Les recommandations ne sont pas déployées ; le ZIP installable reste inchangé.
+[Ancienne version 5.26.0 et audit précédent](README-5.26.0.md)

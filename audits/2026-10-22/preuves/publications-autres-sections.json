@@ -1,0 +1,79 @@
+{
+  "environment": "isolated lab",
+  "native_http_saves": true,
+  "count": 12,
+  "records": [
+    {
+      "kind": "companies",
+      "id": 6107,
+      "title": "EXP527 Entreprise — Atelier des compétences",
+      "published": 1
+    },
+    {
+      "kind": "courses",
+      "id": 6109,
+      "title": "EXP527 Cours — Clarifier les conditions d’un emploi",
+      "published": 1
+    },
+    {
+      "kind": "lessons",
+      "id": 6111,
+      "title": "EXP527 Leçon — Poser une question professionnelle précise",
+      "published": 1
+    },
+    {
+      "kind": "jobs",
+      "id": 6113,
+      "title": "EXP527 Offre — Chargé de projet pédagogique",
+      "published": 1
+    },
+    {
+      "kind": "blog",
+      "id": 6114,
+      "title": "EXP527 Article — Une semaine de travail documentée",
+      "published": 1
+    },
+    {
+      "kind": "product",
+      "id": 6115,
+      "title": "EXP527 Produit — Carnet de préparation aux entretiens",
+      "published": 1
+    },
+    {
+      "kind": "video",
+      "id": 6117,
+      "title": "EXP527 Vidéo — Observer et formuler un retour utile",
+      "published": 1
+    },
+    {
+      "kind": "booking",
+      "id": 6118,
+      "title": "EXP527 Rendez-vous — Questions sur le parcours pédagogique",
+      "published": 1
+    },
+    {
+      "kind": "skills",
+      "id": 6119,
+      "title": "EXP527 Compétence — Vérifier une information avec sa source",
+      "published": 1
+    },
+    {
+      "kind": "hubs",
+      "id": 6120,
+      "title": "EXP527 Communauté — Entraide et préparation professionnelle",
+      "published": 1
+    },
+    {
+      "kind": "simulations",
+      "id": 6122,
+      "title": "EXP527 Exercice — Préparer une demande de précision",
+      "published": 1
+    },
+    {
+      "kind": "proofs",
+      "id": 6123,
+      "title": "EXP527 Projet — Comparaison documentée de deux conditions de travail",
+      "published": 1
+    }
+  ]
+}

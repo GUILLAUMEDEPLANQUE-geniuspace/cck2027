@@ -1,0 +1,185 @@
+{
+  "pages": [
+    {
+      "universe": "jeux_video",
+      "status": 200,
+      "h1": [
+        "Jeux Vidéo"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "emploi",
+      "status": 200,
+      "h1": [
+        "Emploi & WTTJ"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "pays_expat",
+      "status": 200,
+      "h1": [
+        "Pays & Akiyas"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "artisanat",
+      "status": 200,
+      "h1": [
+        "Boutique Japon"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "business",
+      "status": 200,
+      "h1": [
+        "Business & Holding"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "investissement",
+      "status": 200,
+      "h1": [
+        "INVESTISSEMENT & PATRIMOINE"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "traditions",
+      "status": 200,
+      "h1": [
+        "Éso, Herbier & Astro"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "paranormal",
+      "status": 200,
+      "h1": [
+        "Paranormal OSINT"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "manga",
+      "status": 200,
+      "h1": [
+        "Manga & TCG"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "gastronomie",
+      "status": 200,
+      "h1": [
+        "Gastro & Couteaux"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "sports",
+      "status": 200,
+      "h1": [
+        "Sports & Arts Martiaux"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    },
+    {
+      "universe": "tech",
+      "status": 200,
+      "h1": [
+        "IA, Tech & Sciences"
+      ],
+      "tabs": [
+        "💬 Discussions",
+        "✨ Découvrir",
+        "🧰 Outils"
+      ],
+      "panels": 3,
+      "headerOverlap": false,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

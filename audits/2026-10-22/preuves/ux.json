@@ -1,0 +1,153 @@
+{
+  "checks": [
+    {
+      "label": "The first Gaming topic starts within the initial mobile viewport",
+      "passed": true
+    },
+    {
+      "label": "The first topic title, excerpt and Reply are available above the mobile dock",
+      "passed": true
+    },
+    {
+      "label": "The Gaming title retains its white-on-dark palette with readable contrast",
+      "passed": true
+    },
+    {
+      "label": "The mobile discussion wall has no global horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "The Geniuspace brand is not cropped",
+      "passed": true
+    },
+    {
+      "label": "Signed-in mobile author sees a single Publish label",
+      "passed": true
+    },
+    {
+      "label": "Discover retains the native illustrated scenes and slider",
+      "passed": true
+    },
+    {
+      "label": "Discover still includes its images",
+      "passed": true
+    },
+    {
+      "label": "Mobile category chips keep a readable minimum width",
+      "passed": true
+    },
+    {
+      "label": "The Tools panel keeps the native calculators",
+      "passed": true
+    },
+    {
+      "label": "Browser back restores the previous universe panel",
+      "passed": true
+    },
+    {
+      "label": "The actual pointer target at Publish is the native comment button",
+      "passed": true
+    },
+    {
+      "label": "The native job publication form opens successfully",
+      "passed": true
+    },
+    {
+      "label": "Job publication has four guided native steps",
+      "passed": true
+    },
+    {
+      "label": "The initial job step exposes fewer controls than the old ninety-control form",
+      "passed": true
+    },
+    {
+      "label": "The explicit draft restores the native job title",
+      "passed": true
+    },
+    {
+      "label": "Reader preview contains the current job title",
+      "passed": true
+    },
+    {
+      "label": "The guided job form fits a mobile viewport",
+      "passed": true
+    },
+    {
+      "label": "Whole-word native job search: Product",
+      "passed": true
+    },
+    {
+      "label": "Product no longer matches production boilerplate",
+      "passed": true
+    },
+    {
+      "label": "Whole-word native job search: Product Manager",
+      "passed": true
+    },
+    {
+      "label": "Whole-word native job search: zzzzintrouvable527",
+      "passed": true
+    },
+    {
+      "label": "No browser exceptions in the corrected UX flows",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "measurements": {
+    "mobile": {
+      "firstTopicY": 479,
+      "firstTopicTitleY": 584.5,
+      "replyBottom": 716.59375,
+      "feedBottom": 740,
+      "dockTop": 776,
+      "titleColor": "rgb(255, 255, 255)",
+      "cardBackground": "rgb(15, 23, 42)",
+      "brandWidth": 120,
+      "brandScrollWidth": 120,
+      "overflow": false,
+      "h1": [
+        "Jeux Vidéo"
+      ]
+    },
+    "mobileChips": [
+      {
+        "width": 164.578125,
+        "text": "PlayStation 5 & PS5 Pro"
+      },
+      {
+        "width": 187.890625,
+        "text": "Nintendo Switch & Switch 2"
+      },
+      {
+        "width": 196.5625,
+        "text": "Xbox Series X|S & Game Pass"
+      },
+      {
+        "width": 193.125,
+        "text": "Steam Deck OLED & ROG Ally"
+      },
+      {
+        "width": 195.71875,
+        "text": "Rétrogaming & Bornes Arcade"
+      }
+    ],
+    "jobInitialVisibleControls": 10,
+    "search_Product": {
+      "status": 200,
+      "titles": [
+        "Product Manager Senior"
+      ]
+    },
+    "search_Product Manager": {
+      "status": 200,
+      "titles": [
+        "Product Manager Senior"
+      ]
+    },
+    "search_zzzzintrouvable527": {
+      "status": 200,
+      "titles": []
+    }
+  }
+}

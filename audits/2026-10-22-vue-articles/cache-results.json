@@ -1,0 +1,14 @@
+{
+    "passed": 8,
+    "checks": [
+        "Ancestor traversal returns native categories",
+        "Lightweight ancestor rows do not replace prepared categories",
+        "Full native category supports the expected native object API",
+        "Full descriptions and canonical route data remain prepared",
+        "Ancestor traversal preserves an already prepared cached category",
+        "Native category parameters remain a Registry",
+        "Ancestor query preserves its own result, including the selected category",
+        "Ancestor traversal retains the parameters needed by breadcrumbs"
+    ],
+    "database_writes": 0
+}

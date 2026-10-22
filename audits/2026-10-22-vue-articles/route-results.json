@@ -1,0 +1,181 @@
+{
+  "cases": 25,
+  "passed": 25,
+  "results": [
+    {
+      "case": "3577-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3577-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3602-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3602-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3632-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3632-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3635-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3635-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3644-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3644-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3646-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3646-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3648-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3648-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3650-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3650-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3652-blog",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "3652-forum",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-672",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-685",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-692",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-711",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-734",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-748",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    },
+    {
+      "case": "category-763",
+      "http": 200,
+      "fallback": 0,
+      "native_feed": true,
+      "passed": true
+    }
+  ]
+}

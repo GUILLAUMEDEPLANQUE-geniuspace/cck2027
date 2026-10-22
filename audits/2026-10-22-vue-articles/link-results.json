@@ -1,0 +1,678 @@
+{
+  "cases": 84,
+  "passed": 84,
+  "results": [
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 430214,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 449156,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 430379,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 430195,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 423294,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 432300,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 425679,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-documenter-une-observation-inhabituelle-avant-de-chercher-une-explication",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 421926,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 421710,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 420270,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 422489,
+      "passed": true
+    },
+    {
+      "kind": "canonical",
+      "path": "/index.php/thread/geniuspace-guide-2026-evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage",
+      "http": 200,
+      "mime": "text/html",
+      "bytes": 431083,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 32858,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 73588,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 132372,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 191840,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 173826,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/jeux_video-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 117,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 32048,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 63910,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 108994,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 150990,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 154040,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/emploi-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 133,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 49424,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 121304,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 230900,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 349486,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 263025,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/pays_expat-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 122,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 34160,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 72764,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 131386,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 192864,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 173779,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/artisanat-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 125,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 33424,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 67636,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 117652,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 165132,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 162128,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/business-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 130,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 26840,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 58766,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 103272,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 150562,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 145777,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/investissement-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 116,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 37464,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 85714,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 159906,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 238880,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 200927,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/traditions-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 120,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 24988,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 52860,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 90712,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 133924,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 134365,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/paranormal-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 125,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 40154,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 87688,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 157552,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 226148,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 200374,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/manga-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 105,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 40248,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 92058,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 164608,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 240918,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 203740,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/gastronomie-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 113,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 38610,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 86476,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 152728,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 220072,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 196005,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/sports-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 128,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-480.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 22634,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-800.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 49012,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1200.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 88662,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1600.webp",
+      "http": 200,
+      "mime": "image/webp",
+      "bytes": 129878,
+      "passed": true
+    },
+    {
+      "kind": "cover",
+      "path": "/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-social.jpg",
+      "http": 200,
+      "mime": "image/jpeg",
+      "bytes": 125910,
+      "passed": true
+    },
+    {
+      "kind": "workbook",
+      "path": "/media/com_joomcck/nexus/editorial-2026/tech-article-01.csv",
+      "http": 200,
+      "mime": "text/csv",
+      "bytes": 156,
+      "passed": true
+    }
+  ]
+}

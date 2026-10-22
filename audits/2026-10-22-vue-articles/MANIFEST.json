@@ -1,0 +1,565 @@
+{
+  "unchanged_native_avs_files": 278,
+  "version": "5.27.2",
+  "component_version": "6.4.2.194",
+  "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.2.zip",
+  "bytes": 57123469,
+  "sha256": "3aeef5511af07cfbc9523934b8e03ce06f2d1ac96f9ba47aa86db5b01fd38627",
+  "source_files": 7521,
+  "baseline": "5.27.1 / ce19b4e07c445e6c834d5ca5a2636510d138b4b0600d7baad490ecd1f66ab153",
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/media/nexus/outline-v571.css",
+    "components/com_joomcck/media/nexus/outline-v571.js",
+    "components/com_joomcck/site/controllers/geniuspace.php",
+    "components/com_joomcck/site/library/php/geniuspace/EditorialPack.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusForumEight.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusOutline.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php",
+    "components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php",
+    "components/com_joomcck/site/models/categories.php",
+    "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+    "components/com_joomcck/site/views/records/view.html.php",
+    "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/business-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/emploi-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/investissement-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/manga-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1200.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1600.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-480.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-800.webp",
+    "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-social.jpg",
+    "components/com_joomcck/media/nexus/editorial-2026/sports-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/tech-article-01.csv",
+    "components/com_joomcck/media/nexus/editorial-2026/traditions-article-01.csv",
+    "components/com_joomcck/site/library/php/geniuspace/EditorialImages.php",
+    "components/com_joomcck/site/library/php/geniuspace/editorial/images-2026.json",
+    "components/com_joomcck/site/library/php/geniuspace/editorial/library-2026.json"
+  ],
+  "unchanged_prior_field_files": 899,
+  "reviewed_native_field_changes": [],
+  "changes": [
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "2f85f7df4b7cf9f334ff35fe62465e254cb78667e029dbc9665464bb94e5568d",
+      "after": "1b722b1d69ae60aed7362131d346d45fc5cc3f870aa3836091bbca5d570dbd32"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1200.webp",
+      "before": null,
+      "after": "6fd90f73e63e649afe702cba3e51c5ba4bf7c112a8f6dbb087cbb7333b2fec1f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-1600.webp",
+      "before": null,
+      "after": "abd1eb62977655fa8d5f62d066ac8d8fbb32f475c118937a1c09feee4c9e8350"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-480.webp",
+      "before": null,
+      "after": "cc76310e7c66a78b0646b8929ba7fd792351c4c4d4150a0f5ac19482b4c98a6a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-800.webp",
+      "before": null,
+      "after": "d22de8bb7d1df3f84ed62bcd22fa871677319a6240c28ea81616ce2d9ab04773"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien-social.jpg",
+      "before": null,
+      "after": "e620fbf1e5087adf8418176e7633c99c89e77a0fc5e2644267905c71f1ec8f55"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/artisanat-article-01.csv",
+      "before": null,
+      "after": "9bc7a2970efe87df513cd2c7a3756e68df994d2b31e8b8deb7090c46fec151b7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/business-article-01.csv",
+      "before": null,
+      "after": "925635a02a6743a7c3c45a25e77ad443902e997b721ba142c2e560a0fb5c056a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1200.webp",
+      "before": null,
+      "after": "963cf8d7569616e317a993f133d28ee6c6230e4c593e66ead2b76962cbc75d33"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-1600.webp",
+      "before": null,
+      "after": "5b65ff66a7e9ffbf832220a6b70ef116ddb3b03f2eb38cc31b0e0b2f6e400197"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-480.webp",
+      "before": null,
+      "after": "9e257331a2473842c7f25c460e8d9e387b16b9584961bd6c40a5f8acc173a3b4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-800.webp",
+      "before": null,
+      "after": "df70a793b8ba9a9d2b607c6cc979597c6901d53aaea7de01265d2b0d7fe8e305"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien-social.jpg",
+      "before": null,
+      "after": "f7f23926738fb9911c6dd5db78e92bc6d1742353be53412ef8e9a5b896c30e30"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1200.webp",
+      "before": null,
+      "after": "64c567d7aac80d1ee6c49f88a3db45ae2e78d51ff42ecccffd244db87024f06c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-1600.webp",
+      "before": null,
+      "after": "68c2296e13c65a949236a158e3f9f8116d21a91e7868baaf9c20ed5da68d0193"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-480.webp",
+      "before": null,
+      "after": "1cad64e4e9622cf35178b265a1ff5bed382df1a72d4e28461b4fe591e19ad588"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-800.webp",
+      "before": null,
+      "after": "9c402e82c9ea6b9c626ca0564b8b8eede5d465a8a5ff2073d190c2a24034e36f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels-social.jpg",
+      "before": null,
+      "after": "814c00c84e387ce56a0023937783703d8d26bb544071b53b31c75d075837952a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1200.webp",
+      "before": null,
+      "after": "94d70a72262563b179fdaa6b9ee29ecd6276c1bb2a206d867b49d590721b11d2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-1600.webp",
+      "before": null,
+      "after": "63c4019a6a45eb769c03e987d1106bd6da94bbb03761b1e65b98462e0d8a298a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-480.webp",
+      "before": null,
+      "after": "2657a818c67c602df220b0fe94eef2864cc8fb13697162cd6e517221b372f2a1"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-800.webp",
+      "before": null,
+      "after": "d421491fa0ea1c7f83bb1bd5edcc3491a107440274cf8fb9fefcbf5ac968d055"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants-social.jpg",
+      "before": null,
+      "after": "af4c3bb32463132ad09a22989a27f240039c70864e33950a57b52de908621038"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1200.webp",
+      "before": null,
+      "after": "8a90114440344a6af9f7af3a908d2138bf1bef891ae5609010b00abc9f2bc110"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-1600.webp",
+      "before": null,
+      "after": "d44f7742d6eab106c8feb0f53b3d5e24cd4d47497c769a8c22a8b48fbb345aff"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-480.webp",
+      "before": null,
+      "after": "530a088248b28b7e89c0ca431fcc01a8a1fea0ef9f26cb6969129b87fd0dc719"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-800.webp",
+      "before": null,
+      "after": "9fe26e41626634675ae28e1370a936a6e464a62d1418bcd0f6df6432784e25a6"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable-social.jpg",
+      "before": null,
+      "after": "42e9f6259d24055f5ec58b117127dc968f1592b1e8a3e8d0ac7a84e05cfa6051"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1200.webp",
+      "before": null,
+      "after": "33f51f8166c889898cd435c5013ed1f4764f1b456b9b2f9967d17920d4f08829"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-1600.webp",
+      "before": null,
+      "after": "4d953c380fc1d62cfea4d7d7d595541c55cc2388087388689b4a0f4e6ee3a55a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-480.webp",
+      "before": null,
+      "after": "b4db73e204dcb9c286da5039bd32d442799df9169cfdae3d1cbd78ab81fc4a36"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-800.webp",
+      "before": null,
+      "after": "cddd6666115d751bed17f3bbdc0835d4f8feaaadc7b99e3b1fecee33d833bce0"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites-social.jpg",
+      "before": null,
+      "after": "eeb6a321f77c609c13259376661b75fbfc69d7f606b4bfc96212423ae95f4de3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1200.webp",
+      "before": null,
+      "after": "3130c499ea9c75e4e1a41679216f579c89f45056016c2743ff395382e114efd2"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-1600.webp",
+      "before": null,
+      "after": "2487059bf57b44d4b26d6e1bc2e49890a0250cb9d524e9d1628f7ab3147e0985"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-480.webp",
+      "before": null,
+      "after": "454e9693218593d47a96f26fb062b37265920db1581bb53e58c5f6e9aa8f61bc"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-800.webp",
+      "before": null,
+      "after": "9f7f811be0d40fd878ad18000a485d72fff9784f903711810c273a89295079fb"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/documenter-une-observation-inhabituelle-avant-de-chercher-une-explication-social.jpg",
+      "before": null,
+      "after": "2851d4bb08e3983d170b50d0be9d5ef1eec75d3554ce562dc355f22a2e4c987c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/emploi-article-01.csv",
+      "before": null,
+      "after": "07957e1957d1bc423feb10b91b3e338319aeccdaded73ffb30f177acc84289c8"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1200.webp",
+      "before": null,
+      "after": "19d5f183b6b45756522ff5b94cc52cd3f2a7e7018df9a73594ee4819c15cf7c9"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-1600.webp",
+      "before": null,
+      "after": "3d9e84f01a6a6f8ea4dabafcee0f828776963c8b9f625642ce6f226f3369c10c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-480.webp",
+      "before": null,
+      "after": "650fb2db81631ccfdf85171f72addd746b9d76585cc6caf2a72943ac43cb9589"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-800.webp",
+      "before": null,
+      "after": "4161f4b425b3d094e1b0e6ab93f5a808af3ba7fae6c55dc65a258b00967f0b7b"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-social.jpg",
+      "before": null,
+      "after": "9b46d90181e352deb5ed76e642aae04011b5effd38d7f4016a739c8accdcbebe"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/gastronomie-article-01.csv",
+      "before": null,
+      "after": "dcc7460257fa6963b1eb996a8b635cc685a464459a0ed7a89bcac1a0fd9b2e62"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/investissement-article-01.csv",
+      "before": null,
+      "after": "3b5db5071ea9b89e83ffa29dbae2c387afe4c0f9fc191725d7463634b7c6f805"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/jeux_video-article-01.csv",
+      "before": null,
+      "after": "a8f5ae8b738e4a0a06326b1492d1c9084490408f2cae1666914ce3109c9cae39"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1200.webp",
+      "before": null,
+      "after": "465550d5834bc009004ad65478eb374f2ac3f274ef42ee505f277c064eac14c3"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-1600.webp",
+      "before": null,
+      "after": "eb17b1f46ae544464b14323d5950e16d02807de90147fd6335508516b48e4113"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-480.webp",
+      "before": null,
+      "after": "7aa47bd83752079fa3c16b719bfd591adcb9be5f0b8e6bad994b031b6fb582b7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-800.webp",
+      "before": null,
+      "after": "a57007d1bf081c541554af348362cbe8c3c644f1f9d5e325723ee567a775dc61"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation-social.jpg",
+      "before": null,
+      "after": "f71e8a59507dbaa67d5fe44f2a37b262a5f091a2c8814d84890446a1d17b269c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1200.webp",
+      "before": null,
+      "after": "c2af831e4aaa7432cfe53ee330eb3aa6e25de1f3cfadcadc5f593b2478f554e5"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-1600.webp",
+      "before": null,
+      "after": "7799bd232985403a2c6a8edffd7e663c1b45e3011c0639df3b35788258571966"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-480.webp",
+      "before": null,
+      "after": "8cc5b5fa10a15bd3f56e85fbefef7f152a30bd8f45a417b7435cdbbe6bf4df51"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-800.webp",
+      "before": null,
+      "after": "f6ee70fcdeacabd04f6eb723ffe0c05efc6adea44ea9a4990a033cbdfa25db72"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires-social.jpg",
+      "before": null,
+      "after": "b963bdb53f23f1622aaba77d6c4367c98ad92a498f9697d748b43a62373f595d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/manga-article-01.csv",
+      "before": null,
+      "after": "10f6a9aa45a568e241ad33d135077329e103823c1f374eb5843778e413d11c85"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/paranormal-article-01.csv",
+      "before": null,
+      "after": "72f90cf76438ec25dcc37fecdc5fe3de886397daab42fc3ba992346b37e7fadf"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/pays_expat-article-01.csv",
+      "before": null,
+      "after": "67a97f9b5452029fe1b46b44d2111085058abf55671d1fe692d21a98d9945b8d"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1200.webp",
+      "before": null,
+      "after": "4d1137b32ae979a67c5f865005a845e5ce9144436a634aa5ae0769a42abaf23c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-1600.webp",
+      "before": null,
+      "after": "530dc0f703a2a05d42d04fe94aa5ce381a0d5037c48b88d864e90945578b99d5"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-480.webp",
+      "before": null,
+      "after": "0c9bed070e899d39f9a4bdae93fa46bfaac54e934c9f210dbfda1fc06ce77c9c"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-800.webp",
+      "before": null,
+      "after": "ab4f8fbfc7c7619dc4bbcd304d5958b12a86d54608eb5949f07f41e25c9e1208"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible-social.jpg",
+      "before": null,
+      "after": "75bcd561f52baf525c9725932c278e94454758b0b5d6213072b6b78883ed6004"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1200.webp",
+      "before": null,
+      "after": "1b34d52b1ceeffae098fbdab4241e25a099a589233966b0106a4d5d6201ca5b4"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-1600.webp",
+      "before": null,
+      "after": "c19c6a5279369c64c6604ab2aeb9fb0bb92826a632346d96396326fb040ee8cd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-480.webp",
+      "before": null,
+      "after": "1b081bb23c29185fd73f3e590513f2575619e7969898dbdab8dba0b531135d4a"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-800.webp",
+      "before": null,
+      "after": "1b1081c56dbd02e611ca0ed4f57a46bba024cec7dd8f3e61d47cc6d6f4b613ee"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme-social.jpg",
+      "before": null,
+      "after": "b95666f768174d5f211cad0f519e4eb2b1bc374eb07cee0e7c2c9f91e4d1e0dd"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/sports-article-01.csv",
+      "before": null,
+      "after": "ec396aca4ba15853a681320090a6fd134508cb471836bdb0f1e90664a7ad3140"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/tech-article-01.csv",
+      "before": null,
+      "after": "4d40ec0ece0c56b5d9f4e3c105b84ae61e7057270d49244af0ac1da7e333c16f"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/editorial-2026/traditions-article-01.csv",
+      "before": null,
+      "after": "93a4df692e9202a0160e76113813d868afa9f08745757166c26a0d4a460c93e7"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/outline-v571.css",
+      "before": "9b476d1ccb27eb4ed145046221a111f1d05e090141235d74b8d170127e1ffa4b",
+      "after": "1f123fc259866803523aaac0e518b3253728cd6ac1a879d53a4b062cfc445196"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/outline-v571.js",
+      "before": "9d7c5b3f79b0e4de9382a4e5534baaa9afcce690f1d0404c0b18a9ceae4132e8",
+      "after": "8590988f9e7940fad99f15523e41a29d4d4722f112c2b3ff15803e826b4247d6"
+    },
+    {
+      "path": "components/com_joomcck/site/controllers/geniuspace.php",
+      "before": "ccb6b0c2b64eff16a6be89c35d4d08be9cbe05a2f17c4466c30ddbbaac9e6533",
+      "after": "dfbfa059f94ac30ca9c7a041f6c7ea994d60805acb4935a00f2b102fe24cca10"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/EditorialImages.php",
+      "before": null,
+      "after": "665335705f959262f8dbcce610b7afcf2e3eab5f93e9aa0cb2f793fa604c0337"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/EditorialPack.php",
+      "before": "e1e86744ef0a451627a3b51dfaf0d1608b730247c94c261d42c32321de5feccf",
+      "after": "ea59d43a5ee919a68c74bbd4e34cb26eb678474604fdd240924010381f0a19a8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+      "before": "ba1516d46c6380b5584861bccf658bd53f7d2a8d70642a08afd8f64686adb0c7",
+      "after": "4ca3bb9ac8d614902d1dc91e064d9f7ef039db9f0e555992279ca022d0444a6f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php",
+      "before": "e8e8437a5cd2327a9f842227c89a8f8de0b312adc3c3f1f283f0b30c799f5d70",
+      "after": "e689b3715789b20bf312704adffc3e3fdc5d9931155406e3e30b3af73be7721f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusForumEight.php",
+      "before": "377e6ce5fbfe093524f6f0168d010d6fb1a6470f5296bff4b53cb76f20a9e997",
+      "after": "02d8a7c35ec57c687cdb656a43bfacb10e1613111f692aecde918ce5e359d839"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusOutline.php",
+      "before": "13fc980da764bb2a79ff701202afaf71fa5848bdcb49c9d9bf52037756ba34a3",
+      "after": "c734b65d1abb22d092964cc47b1ec2c0d5cb7eee8762c893764034accda85209"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php",
+      "before": "58e1e4785f2661cad639a2fe96bf1f870344edabedeb4db8ac1b196c6c9e0150",
+      "after": "acba380a4c2f05c4cec7b2b9f9acdbe84a3052ddd0517c86721f323affb7c0cf"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php",
+      "before": "e9e5ecea3e510e038734a17d624dc9025a2028c9719337e9029aabf7bb8f4cff",
+      "after": "601bc6da5b4f51b9e060aaf5077bea2d3e13a0abd9d4f128d6be924a2c3870d8"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/editorial/images-2026.json",
+      "before": null,
+      "after": "3d855a70bf489122ba702d560a4bd144f58db06bb354ef82a7aee4213f33bfa6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/editorial/library-2026.json",
+      "before": null,
+      "after": "9eaf2fcfabbdec0725407c7ce629c3b90ed3cf2c527cddd2f95e7be19bf8f751"
+    },
+    {
+      "path": "components/com_joomcck/site/models/categories.php",
+      "before": "b1e67c67c62f5a32dc4cd2866946c430efcd54d4cdd59233a0b368aae3861560",
+      "after": "7fa003cb7f22a82dc171e5a9afa8bf03e5b27d4d27294a4f9e88746459182f76"
+    },
+    {
+      "path": "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+      "before": "9824834de5251ffa851188c47cea85e8e475d1e4b4b2cd284d2e1009eeebb079",
+      "after": "7e9019e6bbd97fdb4f94c445100cc2114a990cbc8a02df2b47cfe37b75faca40"
+    },
+    {
+      "path": "components/com_joomcck/site/views/records/view.html.php",
+      "before": "b361911e5c758994db667aebfc92a5b28d3076a6c62818462de24d010bf01ca1",
+      "after": "14251195c837b7dc1abf8bf83921deb75512f24373b38e1dbd5360f23c8a750c"
+    },
+    {
+      "path": "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+      "before": "a8e8b5d93ed2c75c5f5981f0748d25102b73826009f78930831d2d7636ba353c",
+      "after": "3d7ad7eaec5e0e09bf1317c69c07bc4849744e6b2a97a5c78fd04595509bc226"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "89ee2dc1b35ca05e6baed0f68864cbe83ff515ef2e5c371ad96de4e67207f7b9",
+      "after": "644323394a144ff9a1e35b75103fa3e1a02304eef67b61dc3da08ab6634f1964"
+    }
+  ]
+}

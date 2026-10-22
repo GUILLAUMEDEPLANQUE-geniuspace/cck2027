@@ -1,0 +1,289 @@
+--- 5.27.1/components/com_joomcck/joomcck.xml
++++ 5.27.2/components/com_joomcck/joomcck.xml
+@@ -7,7 +7,7 @@
+ 	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+ 	<authorEmail>support@joomcoder.com</authorEmail>
+ 	<authorUrl>https://www.joomcoder.com</authorUrl>
+-	<version>6.4.2.193</version>
++	<version>6.4.2.194</version>
+ 	<scriptfile>install.php</scriptfile>
+ 	<install>
+ 		<sql>
+--- 5.27.1/components/com_joomcck/media/nexus/outline-v571.css
++++ 5.27.2/components/com_joomcck/media/nexus/outline-v571.css
+@@ -7,3 +7,16 @@
+ .nx-floating-outline[data-outline-portal]{box-sizing:border-box;max-width:min(24rem,calc(100vw - 16px))!important;max-height:calc(100dvh - var(--nx-dock-height,76px) - 36px)}
+ .nx-floating-outline[data-outline-portal] details[open] ol{max-height:min(50dvh,340px);overflow:auto;overscroll-behavior:contain}
+ @media(max-width:640px){.nx-floating-outline[data-outline-portal]{max-width:min(21rem,calc(100vw - 16px))!important}}
++
++/* Keep the first screen for the article; the complete chapter list remains semantic and available. */
++.nx-forum7 .forum8-reading-outline summary{cursor:pointer;font-size:12px;font-weight:700;line-height:1.6;color:#5141cf;padding:10px 12px;border:1px solid #e0e7ff;border-radius:10px;background:#f7f7ff}
++.nx-forum7 .forum8-reading-outline details{margin:0}
++@media(max-width:1679px){
++ .nx-forum-absolu.nx-forum7 .forum8-reading-layout{display:block!important}
++ .nx-forum-absolu.nx-forum7 .forum8-reading-outline{padding:12px 24px 0!important}
++ .nx-forum-absolu.nx-forum7 .forum8-reading-outline nav{position:static!important}
++ .nx-forum-absolu.nx-forum7 .forum8-reading-outline ol{display:block!important;max-height:45dvh;overflow:auto;overscroll-behavior:contain;margin:10px 0}
++ .nx-forum-absolu.nx-forum7 .forum8-reading-outline li{display:block!important}
++ .nx-forum-absolu.nx-forum7 .forum8-reading-layout>.forum7-reading-content{padding-top:24px}
++}
++@media print{.nx-forum7 .forum8-reading-outline summary{display:none}}
+--- 5.27.1/components/com_joomcck/media/nexus/outline-v571.js
++++ 5.27.2/components/com_joomcck/media/nexus/outline-v571.js
+@@ -1,6 +1,13 @@
+ /* Native anchors remain usable without JavaScript. A portal keeps floating navigation out of clipped app panes. */
+ (()=>{'use strict';
+-function enhance(){for(const scope of document.querySelectorAll('[data-nx-outline-scope]')){
++function enhance(){
++ for(const details of document.querySelectorAll('[data-native-outline-details]')){
++  if(details.dataset.responsiveOutlineReady)continue;details.dataset.responsiveOutlineReady='1';
++  const wide=matchMedia('(min-width: 1680px)');let chosen=false;
++  const resize=()=>{if(!chosen)details.open=wide.matches;};resize();wide.addEventListener('change',resize);
++  details.querySelector('summary')?.addEventListener('click',()=>{chosen=true;});
++ }
++ for(const scope of document.querySelectorAll('[data-nx-outline-scope]')){
+  if(scope.dataset.outlineReady)continue;
+  const nav=scope.querySelector('[data-nx-outline]');if(!nav)continue;scope.dataset.outlineReady='1';nav.dataset.outlineEnhanced='true';
+  const links=[...nav.querySelectorAll('ol a')],targets=links.map(a=>document.getElementById(decodeURIComponent(a.hash.slice(1)))),details=nav.querySelector('details'),list=nav.querySelector('ol');
+--- 5.27.1/components/com_joomcck/site/controllers/geniuspace.php
++++ 5.27.2/components/com_joomcck/site/controllers/geniuspace.php
+@@ -128,6 +128,14 @@
+         try{$this->nativePost();$result=\Geniuspace\EditorialPack::install();$app->enqueueMessage(!empty($result['already_installed'])?'Les dossiers existent déjà. Vos modifications et leurs commentaires sont conservés.':'Cinq dossiers illustrés, deux vidéos pédagogiques et cinq discussions associées sont publiés sous votre signature.');}
+         catch(\DomainException|\InvalidArgumentException$e){$app->enqueueMessage($e->getMessage(),'warning');}
+         catch(\Throwable$e){\Joomla\CMS\Log\Log::add('Editorial pack: '.get_class($e).': '.$e->getMessage(),\Joomla\CMS\Log\Log::ERROR,'joomcck');$app->enqueueMessage('Publication des dossiers interrompue. Consultez le journal Joomla.','error');}
++        $this->setRedirect(\Joomla\CMS\Router\Route::_('index.php?option=com_joomcck&view=tools&layout=nexusforum',false));
++    }
++    public function editorialLibrary2026()
++    {
++        $app=\Joomla\CMS\Factory::getApplication();
++        try{$this->nativePost();$result=\Geniuspace\EditorialPack::library2026();$app->enqueueMessage(!empty($result['already_installed'])?'Les douze dossiers existent déjà. Vos modifications et commentaires sont conservés.':'Douze dossiers illustrés et leurs carnets sont publiés dans leurs univers, avec des liens entre les dossiers.');}
++        catch(\DomainException|\InvalidArgumentException $e){$app->enqueueMessage($e->getMessage(),'warning');}
++        catch(\Throwable $e){\Joomla\CMS\Log\Log::add('Editorial library: '.get_class($e),\Joomla\CMS\Log\Log::ERROR,'joomcck');$app->enqueueMessage('Import interrompu. Consultez le journal Joomla.','error');}
+         $this->setRedirect(\Joomla\CMS\Router\Route::_('index.php?option=com_joomcck&view=tools&layout=nexusforum',false));
+     }
+     public function shellBindings()
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/EditorialPack.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/EditorialPack.php
+@@ -43,9 +43,49 @@
+             throw$e;
+         }finally{$db->setQuery('SELECT RELEASE_LOCK('.$db->quote($lock).')')->loadResult();}
+     }
+-    private static function record(array$map,string$alias,string$title,int$cat,string$description,array$values,string$format,object$user,array&$created): int
++    /** Explicit admin import. A package update never changes an existing publication. */
++    public static function library2026(): array
+     {
+-        $record=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$record->bind(['title'=>$title,'alias'=>$alias,'type_id'=>(int)$map['type'],'section_id'=>(int)$map['section'],'user_id'=>(int)$user->id,'published'=>1,'hidden'=>0,'archive'=>0,'access'=>1,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s'),'fields'=>'{}','categories'=>Seo::json([$cat=>(string)$cat]),'params'=>Seo::json(['nexus_publication_form'=>$format,'nexus_editorial_pack'=>'5.12.0']),'meta_index'=>'index, follow','meta_descr'=>mb_substr($description,0,250),'langs'=>'*','ip'=>'127.0.0.1','comments'=>0,'hits'=>0,'access_key'=>bin2hex(random_bytes(16))]);
++        $user=ProductAccess::user();if(!$user->id||$user->block||!$user->authorise('core.admin'))throw new \DomainException('Accès administrateur requis.',403);
++        $map=ForumProvisioner::manifest();if(!$map)throw new \DomainException('Créez d’abord votre forum.',409);
++        $db=ProductAccess::store()->db;$lock='nexus-editorial-'.(int)$map['section'];if((int)$db->setQuery('SELECT GET_LOCK('.$db->quote($lock).',0)')->loadResult()!==1)throw new \DomainException('Import éditorial en cours.',409);
++        $created=[];
++        try{
++            $component=json_decode($db->setQuery("SELECT params FROM #__extensions WHERE element='com_joomcck' AND type='component'")->loadResult(),true)?:[];
++            if(!empty($component['geniuspace_editorial_library_2026']))return$component['geniuspace_editorial_library_2026']+['already_installed'=>true];
++            $articles=json_decode((string)file_get_contents(__DIR__.'/editorial/library-2026.json'),true,64,JSON_THROW_ON_ERROR);
++            $context=UniverseBlueprint::context((int)$map['section']);$categories=[];foreach($context['roots']as$root){$key=UniverseBlueprint::rootKey($root,$context['flat']);if($key&&!isset($categories[$key]))$categories[$key]=(int)$root->id;}
++            // Preflight the complete batch before writing, including all native field bindings.
++            foreach(['body','content_type','author','cover','cover_alt','related']as$key)if(empty($map['fields'][$key]['id']))throw new \DomainException('Un champ de publication indispensable manque : '.$key,409);
++            foreach($articles as$a){
++                if(empty($categories[$a['universe']]))throw new \DomainException('Univers absent : '.$a['universe_label'],409);
++                if($db->setQuery('SELECT id FROM #__js_res_record WHERE alias='.$db->quote('geniuspace-guide-2026-'.$a['slug']))->loadResult())throw new \DomainException('Un dossier utilise déjà cette adresse. Aucun remplacement effectué.',409);
++                foreach($a['illustration']['variants']as$v)if(!is_file(JPATH_ROOT.'/media/com_joomcck/nexus/editorial-2026/'.basename($v['path'])))throw new \RuntimeException('Une variante de couverture manque.');
++            }
++            $result=['version'=>'2026-10-22','section'=>(int)$map['section'],'articles'=>[]];$values=[];
++            foreach($articles as$a){
++                $base=\Joomla\CMS\Uri\Uri::root().'media/com_joomcck/nexus/editorial-2026/';$image=$a['illustration'];$srcset=[];
++                foreach($image['variants']as$v)if($v['type']==='image/webp')$srcset[]=$base.basename($v['path']).' '.$v['width'].'w';
++                $cover=$base.basename($image['path']);$size=getimagesize(JPATH_ROOT.'/media/com_joomcck/nexus/editorial-2026/'.basename($image['path']));
++                $body=$a['body_html'].'<h2>Votre carnet de travail</h2><p><a href="'.Text::escape($base.basename($a['workbook'])).'" download>'.Text::escape($a['tool_label']).'</a>. Modèle à remplir, sans collecte de vos réponses.</p>';
++                if($a['sources']){$body.='<h2>Sources et périmètre documentaire</h2><ul>';foreach($a['sources']as$source)$body.='<li><a href="'.Text::escape($source['url']).'" rel="noopener">'.Text::escape($source['label']).'</a> — '.Text::escape($source['reviewed_sections']).'.</li>';$body.='</ul><p>Documentation consultée pour les passages indiqués le 22 octobre 2026. Les autres grilles et exemples sont des propositions méthodologiques de la rédaction.</p>';}
++                $body.='<p><small>'.Text::escape($image['caption']).'</small></p>';
++                $v=['content_type'=>['article'],'author'=>'GUILLAUME DEPLANQUE — GENIUSPACE','author_bio'=>'Rédaction Geniuspace. Guide méthodologique ; exemples, limites et sources détaillés dans le dossier.','body'=>$body,'excerpt'=>$a['meta_description'],'summary'=>$a['meta_description'],'cover'=>'<img src="'.Text::escape($cover).'" srcset="'.Text::escape(implode(', ',$srcset)).'" sizes="(max-width: 700px) 100vw, 900px" alt="'.Text::escape($image['alt']).'" width="'.(int)$size[0].'" height="'.(int)$size[1].'" decoding="async">','cover_alt'=>$image['alt'],'topic'=>$a['universe_label']];
++                $id=self::record($map,'geniuspace-guide-2026-'.$a['slug'],$a['seo_title'],$categories[$a['universe']],$a['meta_description'],$v,'article',$user,$created,'2026-10-22');$result['articles'][$a['key']]=$id;$values[$a['key']]=$v;
++            }
++            // Resolve links only after every target exists in the native record store.
++            foreach($articles as$a){$id=$result['articles'][$a['key']];$v=$values[$a['key']];$v['body'].='<h2>Pour poursuivre votre parcours</h2><ul>';foreach($a['related_content_keys']as$key){$target=ProductAccess::raw($result['articles'][$key]);$url=\NexusPlatform::recordUrl((object)$target);if(!$url)throw new \RuntimeException('Adresse native de dossier introuvable.');$v['body'].='<li><a href="'.Text::escape($url).'">'.Text::escape($target['title']).'</a></li>';}$v['body'].='</ul>';$v['related']=array_map(static fn($key)=>(int)$result['articles'][$key],$a['related_content_keys']);self::values($map,$id,$v);}
++            foreach($created as$id){LinkIndex::record(new Store($db),$id);if(class_exists(NexusKnowledge::class))NexusKnowledge::indexRecord($id);}
++            $component=json_decode($db->setQuery("SELECT params FROM #__extensions WHERE element='com_joomcck' AND type='component'")->loadResult(),true)?:[];$component['geniuspace_editorial_library_2026']=$result;$db->setQuery("UPDATE #__extensions SET params=".$db->quote(Seo::json($component))." WHERE element='com_joomcck' AND type='component'")->execute();return$result;
++        }catch(\Throwable$e){
++            // Native record tables may still use MyISAM: compensate only this run's new rows.
++            foreach(array_reverse($created)as$id){$db->setQuery('DELETE FROM #__js_res_record_values WHERE record_id='.(int)$id)->execute();$db->setQuery('DELETE FROM #__js_res_record_category WHERE record_id='.(int)$id)->execute();$table=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$table->delete($id);foreach(['knowledge_chunks','native_url_identity','native_url_history','jmap_identity']as$table)if(SchemaHealth::has($table))$db->setQuery('DELETE FROM #__gp_social_'.$table.' WHERE record_id='.(int)$id)->execute();if(SchemaHealth::has('links'))$db->setQuery('DELETE FROM #__gp_social_links WHERE source_id='.(int)$id.' OR target_id='.(int)$id)->execute();}
++            throw$e;
++        }finally{$db->setQuery('SELECT RELEASE_LOCK('.$db->quote($lock).')')->loadResult();}
++    }
++    private static function record(array$map,string$alias,string$title,int$cat,string$description,array$values,string$format,object$user,array&$created,string$edition='5.12.0'): int
++    {
++        $record=\Joomla\CMS\Table\Table::getInstance('Record','JoomcckTable');$record->bind(['title'=>$title,'alias'=>$alias,'type_id'=>(int)$map['type'],'section_id'=>(int)$map['section'],'user_id'=>(int)$user->id,'published'=>1,'hidden'=>0,'archive'=>0,'access'=>1,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s'),'fields'=>'{}','categories'=>Seo::json([$cat=>(string)$cat]),'params'=>Seo::json(['nexus_publication_form'=>$format,'nexus_editorial_pack'=>$edition]),'meta_index'=>'index, follow','meta_descr'=>mb_substr($description,0,250),'langs'=>'*','ip'=>'127.0.0.1','comments'=>0,'hits'=>0,'access_key'=>bin2hex(random_bytes(16))]);
+         if(!$record->check_cli()||!$record->store())throw new \RuntimeException('Dossier natif non enregistré : '.implode('; ',$record->getErrors()));$id=(int)$record->id;$created[]=$id;
+         $rc=\Joomla\CMS\Table\Table::getInstance('Record_category','JoomcckTable');$rc->bind(['record_id'=>$id,'catid'=>$cat,'section_id'=>(int)$map['section'],'published'=>1,'access'=>1]);if(!$rc->store())throw new \RuntimeException('Catégorie du dossier non enregistrée.');self::values($map,$id,$values);return$id;
+     }
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php
+@@ -55,7 +55,11 @@
+             $safe=SpoilerShield::hit(['record_id'=>$last,'title'=>$p['record']['title'],'excerpt'=>mb_substr(Text::plain($excerpt),0,230)]);
+             if(!empty($safe['spoiler_protected'])){$cover='';$alt='';}
+             $user=$s->rows('SELECT name FROM #__users WHERE id='.(int)$p['raw']['user_id'].' AND block=0',1)[0]??[];
+-            $items[]=['id'=>$last,'title'=>$safe['title'],'excerpt'=>$safe['excerpt'],'url'=>$public['url'],'author_id'=>(int)$p['raw']['user_id'],'author'=>$user['name']??'Auteur','company'=>self::company($p),
++            $byline=$user['name']??'Auteur';$authorKey=\NexusPlatform::config($params,'field_author');
++            foreach($p['fields']as$id=>$field)if((($field['key']??'')===$authorKey||($field['alias']??'')==='author')&&in_array($field['field_type'],['text','textarea','html'],true)&&is_scalar($p['values'][$id]??null)){
++                $name=Text::plain((string)$p['values'][$id]);if($name!=='')$byline=mb_substr($name,0,220);break;
++            }
++            $items[]=['id'=>$last,'title'=>$safe['title'],'excerpt'=>$safe['excerpt'],'url'=>$public['url'],'author_id'=>(int)$p['raw']['user_id'],'author'=>$byline,'company'=>self::company($p),
+                 'cover'=>$cover,'alt'=>$alt,'format'=>$kind,'date'=>$public['created'],'comments'=>(int)$public['comment_count'],'views'=>(int)$p['raw']['hits'],'indexable'=>PublicMaterial::record($last,true,$access)!==null,'spoiler'=>!empty($safe['spoiler_protected'])];
+         }
+         if(count($rows)===200&&!$more)$more=true;
+@@ -128,7 +132,7 @@
+     private static function card(array $item,int $hub,bool $feature=false,int $number=0): string
+     {
+         $e=[Text::class,'escape'];$format=self::FORMATS[$item['format']];
+-        $img=$item['cover']?'<img src="'.$e($item['cover']).'" alt="'.$e($item['alt']).'" width="1200" height="700" loading="'.($feature&&$number===0?'eager':'lazy').'" decoding="async"'.($feature&&$number===0?' fetchpriority="high"':'').'>':'<span class="nx-blog-art" aria-hidden="true">'.\NexusConnect::icon(['video'=>'video','audio'=>'microphone','review'=>'star','reportage'=>'camera'][''.$item['format']]??'book-open').'</span>';
++        $img=$item['cover']?'<img src="'.$e($item['cover']).'" alt="'.$e($item['alt']).'" '.EditorialImages::attributes($item['cover'],$feature?'(max-width: 700px) 100vw, 900px':'(max-width: 700px) 100vw, 400px').' loading="'.($feature&&$number===0?'eager':'lazy').'" decoding="async"'.($feature&&$number===0?' fetchpriority="high"':'').'>':'<span class="nx-blog-art" aria-hidden="true">'.\NexusConnect::icon(['video'=>'video','audio'=>'microphone','review'=>'star','reportage'=>'camera'][''.$item['format']]??'book-open').'</span>';
+         $company=$item['company'];$linked=$company?'<a class="nx-blog-company" href="'.$e($company['url']).'">'.($company['logo']?'<img src="'.$e($company['logo']).'" alt="" width="24" height="24" loading="lazy">':'').'<span>En lien avec '.$e($company['name']).'</span></a>':'';
+         $activity=[];if($item['comments']>0)$activity[]=$item['comments'].' réponse'.($item['comments']>1?'s':'');if($item['views']>0)$activity[]=$item['views'].' vue'.($item['views']>1?'s':'');
+         return '<article class="nx-blog-card'.($feature?' nx-blog-feature':'').'" data-blog-format="'.$item['format'].'" data-blog-record="'.$item['id'].'"'.($feature?' data-blog-slide':'').'><a class="nx-blog-cover" href="'.$e($item['url']).'">'.$img.'<span class="nx-blog-format">'.$e($format).'</span></a><div class="nx-blog-card-copy"><p class="nx-blog-byline"><a href="'.$e(self::url($hub,['nx_blog_author'=>$item['author_id']])).'">'.$e($item['author']).'</a><time datetime="'.$e($item['date']).'">'.$e(substr($item['date'],0,10)).'</time></p>'.$linked.'<h2><a href="'.$e($item['url']).'">'.$e($item['title']).'</a></h2><p>'.$e($item['excerpt']).'</p><footer><span>'.($activity?implode(' · ',$activity):'Ouvrez la conversation').'</span><a href="'.$e($item['url']).'">Lire & échanger →</a></footer></div></article>';
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/NexusForumApp.php
+@@ -23,7 +23,12 @@
+         $doc->setHeadData($head);
+         foreach(['og:title'=>$doc->getTitle(),'og:description'=>$doc->getDescription(),'og:url'=>$url,'og:type'=>$type]as$name=>$content)$doc->setMetaData($name,$content,'property');
+         foreach(['twitter:title'=>$doc->getTitle(),'twitter:description'=>$doc->getDescription(),'twitter:card'=>$image?'summary_large_image':'summary']as$name=>$content)$doc->setMetaData($name,$content);
+-        if($image){$image=\Geniuspace\ExtendedLists::absolute($image);$doc->setMetaData('og:image',$image,'property');$doc->setMetaData('og:image:alt',$alt,'property');$doc->setMetaData('twitter:image',$image);$doc->setMetaData('twitter:image:alt',$alt);}
++        if($image){$image=\Geniuspace\ExtendedLists::absolute($image);
++            if($asset=\Geniuspace\EditorialImages::metadata($image)){
++                $image=\Joomla\CMS\Uri\Uri::root().'media/com_joomcck/nexus/editorial-2026/'.$asset['social'];
++                foreach(['og:image:width'=>(string)$asset['social_width'],'og:image:height'=>(string)$asset['social_height'],'og:image:type'=>'image/jpeg']as$name=>$content)$doc->setMetaData($name,$content,'property');
++            }
++            $doc->setMetaData('og:image',$image,'property');$doc->setMetaData('og:image:alt',$alt,'property');$doc->setMetaData('twitter:image',$image);$doc->setMetaData('twitter:image:alt',$alt);}
+     }
+     public static function listParams(int $section): \Joomla\Registry\Registry
+     {
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/NexusForumEight.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/NexusForumEight.php
+@@ -60,7 +60,7 @@
+         }
+         foreach(array_reverse($changes)as[$position,$length,$replacement])$html=substr_replace($html,$replacement,$position,$length);
+         if(count($links)<2&&!$partner)return$html;
+-        $nav='<aside class="forum8-reading-outline" aria-label="Sommaire du reportage"><nav><p>'.NexusConnect::icon('list-ul').' Sommaire du dossier</p><ol>';foreach($links as$l)$nav.='<li class="'.($l['level']==='h3'?'forum8-outline-child':'').'"><a href="#'.NexusSuite::e($l['id']).'">'.NexusSuite::e($l['text']).'</a></li>';$nav.='</ol><a class="forum8-outline-discuss" href="#comments">'.NexusConnect::icon('comments').' Rejoindre les débats</a><a href="#forum7-top">Retour en haut ↑</a>'.$partner.'</nav></aside>';
++        $nav='<aside class="forum8-reading-outline" aria-label="Sommaire du reportage"><nav><details data-native-outline-details><summary>'.NexusConnect::icon('list-ul').' Sommaire du dossier · '.count($links).' repères</summary><ol>';foreach($links as$l)$nav.='<li class="'.($l['level']==='h3'?'forum8-outline-child':'').'"><a href="#'.NexusSuite::e($l['id']).'">'.NexusSuite::e($l['text']).'</a></li>';$nav.='</ol><a class="forum8-outline-discuss" href="#comments">'.NexusConnect::icon('comments').' Rejoindre les débats</a><a href="#forum7-top">Retour en haut ↑</a>'.$partner.'</details></nav></aside>';
+         $html=str_replace('<main class="forum7-article-pane"><div class="forum7-reading-content">','<main class="forum7-article-pane"><div class="forum8-reading-layout">'.$nav.'<div class="forum7-reading-content">',$html);return str_replace('</div></main>','</div></div></main>',$html);
+     }
+ }
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/NexusOutline.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/NexusOutline.php
+@@ -38,7 +38,7 @@
+         $links='';foreach($entries as$entry)$links.='<li data-outline-level="'.$entry['level'].'"><a href="#'.NexusSuite::e($entry['id']).'">'.NexusSuite::e($entry['title']).'</a></li>';
+         $nav='<nav class="nx-floating-outline" aria-label="Sommaire de cette page" data-nx-outline><details><summary aria-label="Sommaire interactif de cette page"><span class="nx-outline-symbol" aria-hidden="true">⌘</span><span>Sur cette page <small data-outline-current>'.count($entries).' repères</small></span><span class="nx-outline-percent" data-outline-percent aria-hidden="true">0%</span></summary><ol>'.$links.'</ol><a class="nx-outline-top" href="#'.NexusSuite::e($top).'">Retour en haut ↑</a></details><span class="nx-outline-track" aria-hidden="true"><span data-outline-progress></span></span><a class="nx-outline-quick-top" href="#'.NexusSuite::e($top).'" aria-label="Revenir au début de cette page">↑</a></nav>';
+         $document=\Joomla\CMS\Factory::getApplication()->getDocument();$base=\Joomla\CMS\Uri\Uri::root(true).'/media/com_joomcck/nexus/';
+-        $document->addStyleSheet($base.'outline-v571.css',['version'=>'5.27.1']);$document->addScript($base.'outline-v571.js',['version'=>'5.27.1'],['defer'=>true]);
++        $document->addStyleSheet($base.'outline-v571.css',['version'=>'5.27.2']);$document->addScript($base.'outline-v571.js',['version'=>'5.27.2'],['defer'=>true]);
+         return '<div class="nx-outline-scope" id="'.NexusSuite::e($scope).'" data-nx-outline-scope><span class="nx-outline-anchor" id="'.NexusSuite::e($top).'" tabindex="-1"></span>'.$html.$nav.'</div>';
+     }
+ }
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/NexusPlatform.php
+@@ -94,7 +94,17 @@
+         }
+         if($nodes=NexusSuite::commentGraph($comments,$url))$d['comment']=$nodes;
+         if(in_array($kind,['BlogPosting','Article'],true))$d['wordCount']=preg_match_all('/[\p{L}\p{N}]+/u',NexusSuite::plain($body));
+-        if($image=NexusAurora::cover($i,$p,'field_cover'))$d['image']=$image;
++        if(in_array($kind,['BlogPosting','Article'],true)){
++            $d['mainEntityOfPage']=['@type'=>'WebPage','@id'=>$url];
++            $excerpt=self::value($i,$p,'field_excerpt');
++            if($excerpt)$d['description']=NexusSuite::plain($excerpt);
++        }
++        if($image=NexusAurora::cover($i,$p,'field_cover')){
++            $d['image']=in_array($kind,['BlogPosting','Article'],true)
++                ?['@type'=>'ImageObject','url'=>$image,'caption'=>self::value($i,$p,'field_cover_alt')?:(string)$i->title]
++                :$image;
++            if(is_array($d['image'])&&($size=\Geniuspace\EditorialImages::metadata($image))){$d['image']['width']=$size['width'];$d['image']['height']=$size['height'];}
++        }
+         self::ld($d);
+     }
+     public static function quiz($i,$p): array
+--- 5.27.1/components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php
++++ 5.27.2/components/com_joomcck/site/library/php/geniuspace/UniverseComposition.php
+@@ -21,7 +21,7 @@
+         $url=self::asset($url);
+         // Reference imagery is a reviewed design asset, never an arbitrary URL supplied by a visitor.
+         if(!preg_match('~^https://images\.unsplash\.com/photo-[a-zA-Z0-9-]+\?~D',$url)&&!\NexusAurora::safeImage($url))return '';
+-        return '<img data-reference-photo src="'.self::esc($url).'" alt="'.self::esc($alt).'" class="'.self::esc($classes).'" width="1200" height="700" loading="'.($priority?'eager':'lazy').'" decoding="async" referrerpolicy="no-referrer"'.($priority?' fetchpriority="high"':'').'>';
++        return '<img data-reference-photo src="'.self::esc($url).'" alt="'.self::esc($alt).'" class="'.self::esc($classes).'" '.EditorialImages::attributes($url,'(max-width: 700px) 100vw, 900px').' loading="'.($priority?'eager':'lazy').'" decoding="async" referrerpolicy="no-referrer"'.($priority?' fetchpriority="high"':'').'>';
+     }
+     public static function hero(array $c): string
+     {
+--- 5.27.1/components/com_joomcck/site/models/categories.php
++++ 5.27.2/components/com_joomcck/site/models/categories.php
+@@ -318,7 +318,8 @@
+ 			foreach ($result as $key => $cat) {
+ 				$cat->params = new \Joomla\Registry\Registry($cat->params);
+ 				$cat->path = str_replace('root/', '', $cat->path);
+-				ItemsStore::$categories[$key] = $cat;
++				// Parent query rows lack the prepared descriptions and CMSObject contract.
++				// Keep them local; ItemsStore::getCategory() loads the complete native model.
+ 			}
+ 		}
+ 		return $result;
+--- 5.27.1/components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php
++++ 5.27.2/components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php
+@@ -20,10 +20,10 @@
+ <div class="flex flex-wrap gap-2 mb-4 items-center"><span class="forum7-type-badge"><?= NexusConnect::icon($format==='review'?'star':($kind==='article'?'newspaper':'comments')) ?> <?= $formatLabel!==''?$e($formatLabel):($format==='review'?'Avis &amp; notes':($format==='reportage'?'Reportage':($kind==='article'?'Article de fond':'Discussion'))) ?></span><?php if($kind==='article'): ?><span class="forum7-reading-time"><?= NexusConnect::icon('clock') ?> Lecture : <?= $read ?> min</span><?php endif; ?><?php if($category): ?><a class="forum7-category-badge" href="<?= $e($category->link) ?>"><?= NexusConnect::icon((string)$category->params->get('icon','hashtag')) ?> <?= $e($category->title) ?></a><?php endif; ?></div>
+ <h1><?= $e($i->title) ?></h1>
+ <?= \Geniuspace\ModerationBot::notices((int)$i->id) ?>
+-<div class="forum7-author flex items-center gap-4 border-b border-brand-100 pb-6"><?php $identity=\Geniuspace\AccountIdentity::render((int)$i->user_id); echo $identity ?: NexusMultivers::avatar($author).'<strong>'.$e($author).'</strong>'; ?><div><span class="forum7-author-badges"><?= NexusPlatform::widget($i,$p,'field_author_badges') ?></span><time datetime="<?= $e(NexusSuite::iso($i->mtime?:$i->ctime)) ?>"><?= $e(substr(NexusSuite::iso($i->mtime?:$i->ctime),0,10)) ?></time><?= NexusPlatform::widget($i,$p,'field_author_bio') ?></div></div>
++<div class="forum7-author flex items-center gap-4 border-b border-brand-100 pb-6"><?php $identity=\Geniuspace\AccountIdentity::render((int)$i->user_id); echo $identity ?: NexusMultivers::avatar($author).'<strong>'.$e($author).'</strong>'; ?><div><?php if($identity&&$author!==(string)($i->user_name??'')): ?><strong class="forum7-editorial-byline"><?= $e($author) ?></strong><?php endif; ?><span class="forum7-author-badges"><?= NexusPlatform::widget($i,$p,'field_author_badges') ?></span><time datetime="<?= $e(NexusSuite::iso($i->mtime?:$i->ctime)) ?>"><?= $e(substr(NexusSuite::iso($i->mtime?:$i->ctime),0,10)) ?></time><?= NexusPlatform::widget($i,$p,'field_author_bio') ?></div></div>
+ <?= NexusConnect::region($i,$p,'header').NexusDisplay::extras($i,$p,'header') ?>
+ <?php if($intro=NexusPlatform::value($i,$p,'field_excerpt')): ?><p class="forum7-lead"><?= $e($intro) ?></p><?php endif; ?>
+-<?php if($cover=NexusAurora::cover($i,$p,'field_cover')): ?><figure class="forum7-cover"><img src="<?= $e($cover) ?>" alt="<?= $e(NexusPlatform::value($i,$p,'field_cover_alt')) ?>" width="900" height="500" decoding="async" fetchpriority="high"></figure><?php endif; ?>
++<?php if($cover=NexusAurora::cover($i,$p,'field_cover')): ?><figure class="forum7-cover"><img src="<?= $e($cover) ?>" alt="<?= $e(NexusPlatform::value($i,$p,'field_cover_alt')) ?>" <?= \Geniuspace\EditorialImages::attributes($cover,'(max-width: 700px) 100vw, 900px',900,500) ?> decoding="async" fetchpriority="high"></figure><?php endif; ?>
+ <?= \Geniuspace\MultiverseMechanisms::crystallized((int)$i->id) ?>
+ <div class="blog-content nx-rich-body" data-forum7-body data-source-url="<?= $e($url) ?>"><?= $body ?></div>
+ <?php if($kind==='article'): ?><button type="button" class="forum7-reading-tools" data-forum7-distraction aria-pressed="false">Lire sans distractions</button><?php endif; ?>
+--- 5.27.1/components/com_joomcck/site/views/records/view.html.php
++++ 5.27.2/components/com_joomcck/site/views/records/view.html.php
+@@ -744,10 +744,12 @@
+ 		if($this->category->id)
+ 		{
+ 			$meta                = array();
+-			$meta['description'] = $this->category->get('metadesc');
+-			$meta['keywords']    = $this->category->get('metakey');
+-			$meta['author']      = $this->category->get('metadata.author');
+-			$meta['robots']      = $this->category->get('metadata.robots');
++			// Native category metadata is stored as a JSON object, not dotted CMSObject keys.
++			$categoryMeta = new \Joomla\Registry\Registry($this->category->metadata ?? '{}');
++			$meta['description'] = $this->category->metadesc ?? '';
++			$meta['keywords']    = $this->category->metakey ?? '';
++			$meta['author']      = $categoryMeta->get('author', '');
++			$meta['robots']      = $categoryMeta->get('robots', '');
+ 
+ 			MetaHelper::setMeta($meta);
+ 		}
+@@ -848,7 +850,7 @@
+ 		{
+ 			$key .= '-' . $this->category->id;
+ 			$this->list_templates = $this->_getTemplatesNames($cat_tmpl);
+-			$default_tmpl         = $this->category->get('tmpl_list_default', $default_tmpl);
++			$default_tmpl         = $this->category->params->get('tmpl_list_default', $default_tmpl);
+ 		}
+ 
+ 		$ak               = array_keys($this->list_templates);
+--- 5.27.1/components/com_joomcck/site/views/tools/tmpl/nexusforum.php
++++ 5.27.2/components/com_joomcck/site/views/tools/tmpl/nexusforum.php
+@@ -12,6 +12,8 @@
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.forumSetup"><p>Ajoute les formats et les champs médias manquants, et leurs positions vides. Vos contenus et affectations existantes restent prioritaires.</p><button class="btn btn-outline-primary">Compléter les formats et médias natifs</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
+ <hr><h2>Dossiers éditoriaux prêts à explorer</h2><p>Cinq articles originaux sur les achats groupés, les playtests, la vérification vidéo, les offres d’emploi et l’IA locale. Illustrations WebP locales, deux animations pédagogiques avec chapitres et sous-titres, cinq discussions liées par les relations parent/enfant et une note éditoriale signée par dossier. Aucun avis client, paiement, résultat d’étude ou membre fictif.</p><p>Cette action publie les contenus sous votre signature dans votre forum. Ils restent modifiables comme vos autres publications. Une nouvelle exécution conserve les contenus existants.</p>
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialPack"><button class="btn btn-primary">Publier les 5 dossiers et leurs discussions</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
++<hr><h2>Bibliothèque Geniuspace · douze univers</h2><p>Douze guides approfondis, douze couvertures originales, des carnets CSV et des liens vers les dossiers complémentaires. Auteur affiché : GUILLAUME DEPLANQUE — GENIUSPACE. Les exemples sont identifiés comme hypothétiques. Les dossiers restent éditables dans leurs champs habituels.</p><p>Ce bouton publie douze nouveaux articles. Il conserve les cinq dossiers précédents, leurs vidéos, vos publications et leurs commentaires. Installer une mise à jour ne lance jamais cette publication automatiquement.</p>
++<form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.editorialLibrary2026"><button class="btn btn-primary">Publier les 12 nouveaux dossiers illustrés</button><?= \Joomla\CMS\HTML\HTMLHelper::_('form.token') ?></form>
+ <?php else: ?><p>Cette opération crée un forum public distinct, ses catégories et ses menus. Les publications autorisées paraissent immédiatement ; les règles locales peuvent retenir les contenus signalés. Aucun contenu de démonstration n’est publié.</p>
+ <form method="post" action="<?= $e(\Joomla\CMS\Uri\Uri::root().'index.php') ?>"><input type="hidden" name="option" value="com_joomcck"><input type="hidden" name="task" value="geniuspace.forumSetup">
+ <label>Titre de la communauté <input class="form-control" name="title" maxlength="120" value="Méta-Hub Geniuspace" required></label>
+--- 5.27.1/pkg_JoomCCK.xml
++++ 5.27.2/pkg_JoomCCK.xml
+@@ -2,7 +2,7 @@
+ <extension type="package" version="3.4" method="upgrade">
+     <name>JoomCCK</name>
+     <packagename>JoomCCK</packagename>
+-    <version>6.4.2.193</version>
++    <version>6.4.2.194</version>
+     <url>https://www.joomcoder.com</url>
+     <creationDate>27/03/2023</creationDate>
+     <copyright>(C) 2012 - 2023 JoomCoder. All rights reserved.</copyright>

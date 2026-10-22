@@ -1,0 +1,319 @@
+{
+  "articles": 12,
+  "passed": 12,
+  "checks_passed": 180,
+  "results": [
+    {
+      "key": "jeux_video-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-choisir-une-configuration-pc-a-partir-des-jeux-et-de-lecran-pas-dune-liste-de-composants"
+      ],
+      "h1": 1,
+      "schema_words": 1092
+    },
+    {
+      "key": "emploi-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-lire-une-offre-demploi-distinguer-missions-conditions-et-criteres-eliminatoires"
+      ],
+      "h1": 1,
+      "schema_words": 985
+    },
+    {
+      "key": "pays_expat-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-preparer-un-voyage-au-japon-construire-un-itineraire-a-partir-du-temps-disponible"
+      ],
+      "h1": 1,
+      "schema_words": 1028
+    },
+    {
+      "key": "artisanat-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-acheter-un-kimono-ou-un-yukata-comparer-mesures-usage-et-entretien"
+      ],
+      "h1": 1,
+      "schema_words": 948
+    },
+    {
+      "key": "business-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-choisir-un-modele-economique-a-partir-du-probleme-client-et-des-couts-reels"
+      ],
+      "h1": 1,
+      "schema_words": 987
+    },
+    {
+      "key": "investissement-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-construire-une-decision-dinvestissement-a-partir-de-lhorizon-et-du-risque-supportable"
+      ],
+      "h1": 1,
+      "schema_words": 952
+    },
+    {
+      "key": "traditions-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-lire-un-grimoire-ancien-distinguer-document-historique-recit-et-allegation"
+      ],
+      "h1": 1,
+      "schema_words": 977
+    },
+    {
+      "key": "paranormal-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-documenter-une-observation-inhabituelle-avant-de-chercher-une-explication"
+      ],
+      "h1": 1,
+      "schema_words": 1017
+    },
+    {
+      "key": "manga-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-discuter-dune-serie-sans-spoiler-construire-des-niveaux-de-lecture-explicites"
+      ],
+      "h1": 1,
+      "schema_words": 934
+    },
+    {
+      "key": "gastronomie-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-choisir-un-couteau-de-cuisine-selon-les-aliments-les-gestes-et-lentretien"
+      ],
+      "h1": 1,
+      "schema_words": 973
+    },
+    {
+      "key": "sports-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-reprendre-une-activite-physique-preparer-un-objectif-et-un-contexte-avant-un-programme"
+      ],
+      "h1": 1,
+      "schema_words": 930
+    },
+    {
+      "key": "tech-article-01",
+      "checks": {
+        "http_200": true,
+        "no_embedded_error": true,
+        "one_h1": true,
+        "one_canonical": true,
+        "sef_canonical": true,
+        "specific_description": true,
+        "large_social_image": true,
+        "signed_author": true,
+        "image_object": true,
+        "real_article_body": true,
+        "no_fake_rating": true,
+        "page_identity": true,
+        "public_indexing": true,
+        "jpeg_social_variant": true,
+        "schema_image_dimensions": true
+      },
+      "passed": true,
+      "canonical": [
+        "http://127.0.0.1:8085/index.php/thread/geniuspace-guide-2026-evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage"
+      ],
+      "h1": 1,
+      "schema_words": 1327
+    }
+  ]
+}

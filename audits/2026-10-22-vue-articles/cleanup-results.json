@@ -1,0 +1,20 @@
+{
+    "local_only": true,
+    "owned_articles_removed": 12,
+    "baseline": {
+        "js_res_record": 481,
+        "js_res_record_category": 313,
+        "js_res_record_values": 5119,
+        "js_res_comments": 335,
+        "users": 4
+    },
+    "after": {
+        "js_res_record": 481,
+        "js_res_record_category": 313,
+        "js_res_record_values": 5119,
+        "js_res_comments": 335,
+        "users": 4
+    },
+    "prior_records_preserved": true,
+    "restored": true
+}

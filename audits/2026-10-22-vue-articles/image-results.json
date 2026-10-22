@@ -1,0 +1,14 @@
+{
+    "passed": 9,
+    "checks": [
+        "Known native cover has four packaged variants",
+        "Real cover dimensions are retained",
+        "Unsupported URL does not receive an invented srcset",
+        "Unsupported URL does not receive an invented srcset",
+        "Unsupported URL does not receive an invented srcset",
+        "Unsupported URL does not receive an invented srcset",
+        "Unsupported URL does not receive an invented srcset",
+        "Existing images retain their native dimension fallback",
+        "Responsive attributes escape injected HTML"
+    ]
+}

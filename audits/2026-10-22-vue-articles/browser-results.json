@@ -1,0 +1,113 @@
+{
+  "checks": [
+    {
+      "label": "New native AI article returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "Hidden forum view contains its real feed rather than the previous failure",
+      "passed": true
+    },
+    {
+      "label": "Native article actually renders four responsive image sources",
+      "passed": true
+    },
+    {
+      "label": "Native image retains its descriptive alt text",
+      "passed": true
+    },
+    {
+      "label": "Long-article outline retains the corrected viewport portal",
+      "passed": true
+    },
+    {
+      "label": "Medium desktop keeps the complete chapter list collapsed initially",
+      "passed": true
+    },
+    {
+      "label": "The article heading appears near the top instead of below a giant chapter list",
+      "passed": true
+    },
+    {
+      "label": "Wide desktop opens the original lateral chapter list",
+      "passed": true
+    },
+    {
+      "label": "A mobile browser fetches the 480px cover variant",
+      "passed": true
+    },
+    {
+      "label": "Native article has no global horizontal overflow on mobile",
+      "passed": true
+    },
+    {
+      "label": "Native article outline remains fully within the mobile viewport",
+      "passed": true
+    },
+    {
+      "label": "Forum toggle opens the real embedded native forum",
+      "passed": true
+    },
+    {
+      "label": "The native forum feed is populated by its own renderer",
+      "passed": true
+    },
+    {
+      "label": "Hidden article outline does not remain on top of the forum",
+      "passed": true
+    },
+    {
+      "label": "The shared native multi-blog lists the imported articles",
+      "passed": true
+    },
+    {
+      "label": "Repeated native forum toggle 1",
+      "passed": true
+    },
+    {
+      "label": "Repeated native multi-blog toggle 1",
+      "passed": true
+    },
+    {
+      "label": "Repeated native forum toggle 2",
+      "passed": true
+    },
+    {
+      "label": "Repeated native multi-blog toggle 2",
+      "passed": true
+    },
+    {
+      "label": "Repeated native forum toggle 3",
+      "passed": true
+    },
+    {
+      "label": "Repeated native multi-blog toggle 3",
+      "passed": true
+    },
+    {
+      "label": "Repeated native forum toggle 4",
+      "passed": true
+    },
+    {
+      "label": "Repeated native multi-blog toggle 4",
+      "passed": true
+    },
+    {
+      "label": "Eight index mode changes need no full page navigation",
+      "passed": true
+    },
+    {
+      "label": "No browser JavaScript exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "measurements": {
+    "headingTop": 267.6875,
+    "mobileCover": {
+      "src": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial-2026/evaluer-une-ia-locale-separer-ressources-memoire-classement-et-modele-de-langage-480.webp",
+      "width": 389,
+      "box": 358
+    }
+  }
+}

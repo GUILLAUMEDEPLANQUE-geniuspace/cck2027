@@ -1,0 +1,23 @@
+{
+  "artifact_commit": "ce266ab",
+  "downloads": [
+    {
+      "file": "NEXUS_5.27.4.zip",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.4.zip",
+      "anonymous_http_status": 200,
+      "bytes": 60111113,
+      "sha256": "1884145d24c7e53cfbccc92486cf957918fb8a2147dab0b81c01e27a1724a97e",
+      "zip_valid": true,
+      "matches_published_archive": true
+    },
+    {
+      "file": "GENIUSPACE_5_ILLUSTRATIONS_5.27.4.zip",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_5_ILLUSTRATIONS_5.27.4.zip",
+      "anonymous_http_status": 200,
+      "bytes": 2683725,
+      "sha256": "583f27f379d16911f7a230e1924a0989b1e5616bd72230ad3c1daae42bbc00c2",
+      "zip_valid": true,
+      "matches_published_archive": true
+    }
+  ]
+}

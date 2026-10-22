@@ -54,8 +54,10 @@ Cette version corrige les **cinq couvertures de la capture**. Elle ne prétend p
 
 [Correctif installable complet 5.27.4](../../NEXUS_5.27.4.zip) · [Images seules avec galerie hors ligne](../../GENIUSPACE_5_ILLUSTRATIONS_5.27.4.zip)
 
-Installez le paquet complet dans Joomla pour appliquer la correction aux articles déjà présents. Il n’est pas nécessaire de relancer l’import des cinq ou des 240 articles.
+Installez le paquet complet dans Joomla pour appliquer la correction aux articles déjà présents. Il n’est pas nécessaire de relancer l’import des cinq ou des 240 articles. Videz le cache Joomla après la mise à jour pour renouveler les pages HTML.
 
 **La correction est testée sur la copie isolée ; elle n’est pas annoncée comme déployée sur geniuspace.io.**
 
 Preuves : [navigateur](browser-results.json), [registre et compatibilité](native-results.json), [personnalisation](custom-cover-results.json), [installation](installation-results.json), [conservation des données](preservation-results.json), [manifeste du ZIP](MANIFEST.json), [manifeste des images](COVERS-MANIFEST.json).
+
+Téléchargement intégral des deux ZIP vérifié sans authentification GitHub : **HTTP 200**, empreintes SHA-256 identiques et intégrité ZIP valide. [Preuve](download-verification.json).

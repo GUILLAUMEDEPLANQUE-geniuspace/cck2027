@@ -1,5 +1,5 @@
 {
-  "passed": 14,
+  "passed": 19,
   "checks": [
     "240 readable preview entries",
     "Twenty filtered entries: jeux_video",
@@ -14,9 +14,12 @@
     "Twenty filtered entries: gastronomie",
     "Twenty filtered entries: sports",
     "Twenty filtered entries: tech",
-    "Topic search works"
+    "Topic search works",
+    "Desktop preview has a sharp 1200px original",
+    "Topic-specific worked case and table in preview",
+    "Mobile preview selects its 480px variant",
+    "Preview stays inside mobile viewport",
+    "Preview has no JavaScript errors"
   ],
-  "errors": [
-    "Error: Desktop preview has a sharp 1200px original\n    at ck (/workspace/nexus-v5/qa/repair5276/preview.cjs:2:151)\n    at /workspace/nexus-v5/qa/repair5276/preview.cjs:2:976"
-  ]
+  "errors": []
 }

@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-10-23T11:47:05.214436+00:00",
+  "downloads": [
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.6.zip",
+      "final_url": "https://raw.githubusercontent.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/refs/heads/main/NEXUS_5.27.6.zip",
+      "anonymous": true,
+      "status": 200,
+      "bytes": 60598722,
+      "sha256": "a0629d7771fca683d7d9e3a4cf9f68ee5b02116bff22a45392836d0d07ffd24a",
+      "zip_integrity": "valid",
+      "entries": 7782,
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_A.zip",
+      "final_url": "https://raw.githubusercontent.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_A.zip",
+      "anonymous": true,
+      "status": 200,
+      "bytes": 55819288,
+      "sha256": "3049363062596070a52e081d7d31343ad3757428f1598637b38d291da8ced067",
+      "zip_integrity": "valid",
+      "entries": 601,
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_B.zip",
+      "final_url": "https://raw.githubusercontent.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_B.zip",
+      "anonymous": true,
+      "status": 200,
+      "bytes": 56315261,
+      "sha256": "64c9bce7d0d4178ba7af4057588415da6df9026d002c7c4d8a2c27920bfdab24",
+      "zip_integrity": "valid",
+      "entries": 601,
+      "content_type": "application/zip"
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_APERCU_240_5.27.6.zip",
+      "final_url": "https://raw.githubusercontent.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/refs/heads/main/GENIUSPACE_APERCU_240_5.27.6.zip",
+      "anonymous": true,
+      "status": 200,
+      "bytes": 30555283,
+      "sha256": "c446a6f2fdac29d77e70b7e1f92f8ce8f4726afca1bfe2a0b2e7fbdedceab59c",
+      "zip_integrity": "valid",
+      "entries": 965,
+      "content_type": "application/zip"
+    }
+  ]
+}

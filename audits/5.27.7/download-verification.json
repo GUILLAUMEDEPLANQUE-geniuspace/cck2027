@@ -1,0 +1,27 @@
+{
+  "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.7.zip",
+  "http": 200,
+  "bytes": 60717896,
+  "sha256": "7307646a5bac5e405b53b82fd0aad2757499a1e1dcf31e2e6a725fbc50ac6e66",
+  "expected_sha256_matches": true,
+  "zip_crc_valid": true,
+  "zip_entries": 7787,
+  "anonymous_request": true,
+  "seconds": 3.94,
+  "media_packs": [
+    {
+      "pack": "A",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_A.zip",
+      "http": 200,
+      "bytes": 55819288,
+      "unchanged_pack_bytes_previously_verified": true
+    },
+    {
+      "pack": "B",
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_B.zip",
+      "http": 200,
+      "bytes": 56315261,
+      "unchanged_pack_bytes_previously_verified": true
+    }
+  ]
+}

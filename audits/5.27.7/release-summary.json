@@ -97,5 +97,24 @@
     "sitemap_get": "timeout",
     "sitemap_head_retry": "timeout",
     "production_modified": false
-  }
+  },
+  "final_state": {
+    "users": 454,
+    "js_res_record": 1351,
+    "js_res_fields": 1849,
+    "js_res_categories": 401,
+    "js_res_comments": 335,
+    "js_res_types": 120,
+    "js_res_sections": 120,
+    "imported_accounts": 450,
+    "published_collection_articles": 240,
+    "published_editorial_topics": 180
+  },
+  "preservation": {
+    "original_native_records_and_imported_profiles_preserved": 931,
+    "native_field_definitions_and_dictionaries_preserved": true,
+    "test_records_remaining": 0,
+    "test_categories_remaining": 0
+  },
+  "download_verified_anonymously": true
 }

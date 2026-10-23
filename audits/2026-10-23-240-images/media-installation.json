@@ -1,0 +1,11 @@
+{
+    "A": {
+        "installed": true,
+        "sha256": "3049363062596070a52e081d7d31343ad3757428f1598637b38d291da8ced067"
+    },
+    "B": {
+        "installed": true,
+        "sha256": "64c9bce7d0d4178ba7af4057588415da6df9026d002c7c4d8a2c27920bfdab24"
+    },
+    "verified_files": 1200
+}

@@ -1,0 +1,10 @@
+{
+    "passed": 5,
+    "checks": [
+        "Recognised body revision succeeds: custom_alt",
+        "Specific worked case is in the native field: custom_alt",
+        "Unmodified seed cover is updated",
+        "Personal alternative retained while default cover changes",
+        "No global native field definition modified"
+    ]
+}

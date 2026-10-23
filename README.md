@@ -1,15 +1,21 @@
-# Geniuspace — NEXUS 5.27.5 · images et maillage SEO
+# Geniuspace — NEXUS 5.27.6 · 240 illustrations originales et cas pratiques
 
-[**Télécharger le ZIP installable complet 5.27.5**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.5.zip)
+**Les trois ZIP installables se complètent. Installer A et B, puis le paquet principal.** Ils sont séparés pour fournir des téléchargements directs de taille raisonnable ; toutes les fonctionnalités du paquet 5.27.5 restent dans le paquet principal.
 
-Sitemap enrichi des images publiques, catalogue pour les agents IA avec images et relations parent/enfant, URL cohérentes en sous-répertoire, cartes responsives et grands aperçus des illustrations. Les exclusions privées et `noindex` restent respectées. Le nom du site apparaît dans les cartes de partage.
+| Ordre | Téléchargement | Contenu |
+|---|---|---|
+| 1 | [Images A](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_A.zip) | 120 images originales, quatre variantes WebP et un JPEG par image |
+| 2 | [Images B](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_B.zip) | Les 120 autres images, avec les mêmes variantes |
+| 3 | [Paquet complet 5.27.6](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.6.zip) | Toutes les fonctions antérieures, textes enrichis, raccordement des images et correctifs d’identité SEO |
 
-Aucune fonctionnalité retirée : les champs natifs, modules AllVideoShare, abonnements, vidéos, commentaires, 240 textes, import par univers et cinq illustrations thématiques restent inclus.
+[**Aperçu des 240 articles et images**](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_APERCU_240_5.27.6.zip) — extraire puis ouvrir `index.html`. Cet aperçu permet de lire chaque dossier et de télécharger son carnet de travail ; il ne s’installe pas dans Joomla.
 
-[**Rapport, mesures et instructions d’installation**](audits/2026-10-22-seo-images-maillage/RAPPORT.md) · [Empreintes SHA-256](SHA256SUMS)
+Après installation et vidage des caches, ouvrir **JoomCCK → Outils → Forum Geniuspace → Collection complète**, puis **Publier ou actualiser les textes d’origine**. L’installation seule ne publie rien. L’action travaille par lots de vingt ; elle enrichit les textes d’origine reconnus et conserve les textes réécrits, ajouts personnels, couvertures personnalisées, autres champs, commentaires, identités et relations parent/enfant.
 
-**Testé sur la copie isolée, y compris l’installation réelle du package complet. Non annoncé comme déployé sur geniuspace.io.** Après installation, vider le cache Joomla et déclarer le sitemap selon le rapport. Aucun classement Google n’est garanti.
+La collection comporte vingt sujets par univers, avec cas pédagogiques propres au sujet, tableaux, protocoles, limites et carnets CSV. Les 240 illustrations ont été générées individuellement et contrôlées sur douze planches. Les exemples sont explicitement fictifs et les images sont créditées comme illustrations avec assistance IA. Aucune expérience de terrain, qualification, statistique de trafic ni garantie de classement n’est inventée.
 
-## Versions et contenus conservés
+[Audit d’indexation et marche à suivre](audits/2026-10-23-240-images/AUDIT-INDEXATION-5.27.6.md) · [Manifestes et contrôles](audits/2026-10-23-240-images/) · [Empreintes SHA-256](SHA256SUMS)
 
-[Illustrations et instructions 5.27.4](README-5.27.4.md) · [Les cinq illustrations seules](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_5_ILLUSTRATIONS_5.27.4.zip) · [Collection éditoriale de 240 articles](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_240_ARTICLES_2026-10-22.zip) · [Instructions 5.27.3](README-5.27.3.md)
+**Travail testé sur la copie locale Joomla. Aucune installation en production n’est annoncée.** Le statut Search Console « Explorée, actuellement non indexée » demande un examen du contenu, des canoniques et de la sélection de Google ; il ne prouve pas une pénalité et aucun correctif ne garantit l’indexation.
+
+Les anciens paquets et documents restent disponibles : [5.27.5](README-5.27.5.md), [5.27.4](README-5.27.4.md), [5.27.3](README-5.27.3.md).

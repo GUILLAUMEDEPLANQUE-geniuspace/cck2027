@@ -1,0 +1,71 @@
+{
+  "passed": 31,
+  "checks": [
+    "Native article opens jeux_video-article-02 false",
+    "Correct topic cover jeux_video-article-02 false",
+    "Four responsive image choices jeux_video-article-02 false",
+    "Descriptive native alternative jeux_video-article-02 false",
+    "Browser decoded the image jeux_video-article-02 false",
+    "No global horizontal overflow jeux_video-article-02 false",
+    "Native topic-specific worked case visible jeux_video-article-02 false",
+    "Native article opens jeux_video-article-02 true",
+    "Correct topic cover jeux_video-article-02 true",
+    "Four responsive image choices jeux_video-article-02 true",
+    "Descriptive native alternative jeux_video-article-02 true",
+    "Browser decoded the image jeux_video-article-02 true",
+    "No global horizontal overflow jeux_video-article-02 true",
+    "Mobile uses a bounded WebP variant jeux_video-article-02",
+    "Native topic-specific worked case visible jeux_video-article-02 true",
+    "Native article opens tech-article-02 false",
+    "Correct topic cover tech-article-02 false",
+    "Four responsive image choices tech-article-02 false",
+    "Descriptive native alternative tech-article-02 false",
+    "Browser decoded the image tech-article-02 false",
+    "No global horizontal overflow tech-article-02 false",
+    "Native topic-specific worked case visible tech-article-02 false",
+    "Native article opens tech-article-02 true",
+    "Correct topic cover tech-article-02 true",
+    "Four responsive image choices tech-article-02 true",
+    "Descriptive native alternative tech-article-02 true",
+    "Browser decoded the image tech-article-02 true",
+    "No global horizontal overflow tech-article-02 true",
+    "Mobile uses a bounded WebP variant tech-article-02",
+    "Native topic-specific worked case visible tech-article-02 true",
+    "No JavaScript page exceptions in twelve universes"
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "key": "jeux_video-article-02",
+      "mobile": false,
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial-2026/fps-moyens-1-low-et-temps-de-trame-lire-un-benchmark-sans-se-tromper-949ac53a-1200.webp",
+      "width": 720,
+      "viewport": 1440,
+      "natural": 900
+    },
+    {
+      "key": "jeux_video-article-02",
+      "mobile": true,
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial-2026/fps-moyens-1-low-et-temps-de-trame-lire-un-benchmark-sans-se-tromper-949ac53a-480.webp",
+      "width": 358,
+      "viewport": 390,
+      "natural": 389
+    },
+    {
+      "key": "tech-article-02",
+      "mobile": false,
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial-2026/construire-un-jeu-de-questions-qui-revele-aussi-les-regressions-dune-ia-ca589964-1200.webp",
+      "width": 720,
+      "viewport": 1440,
+      "natural": 900
+    },
+    {
+      "key": "tech-article-02",
+      "mobile": true,
+      "currentSrc": "http://127.0.0.1:8085/media/com_joomcck/nexus/editorial-2026/construire-un-jeu-de-questions-qui-revele-aussi-les-regressions-dune-ia-ca589964-480.webp",
+      "width": 358,
+      "viewport": 390,
+      "natural": 389
+    }
+  ]
+}

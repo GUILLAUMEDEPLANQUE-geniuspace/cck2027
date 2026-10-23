@@ -1,0 +1,1690 @@
+{
+  "articles": 240,
+  "unique_original_images": 240,
+  "cases": 240,
+  "total_words": 102258,
+  "min_words": 341,
+  "mean_words": 426,
+  "articles_detail": [
+    {
+      "key": "jeux_video-article-01",
+      "before_words": 1003,
+      "after_words": 1221,
+      "image_master_sha256": "a2d711dbe0f3efdc61c7812c4463feac84a54896f1cafbfcda36518419748305",
+      "case_heading": "Quand une carte graphique plus chère ne résout pas le besoin"
+    },
+    {
+      "key": "jeux_video-article-02",
+      "before_words": 269,
+      "after_words": 485,
+      "image_master_sha256": "949ac53afa92146f3d93f4b0a7f040c1dacf4b84f0ea1b5294b2c02d0bad53ce",
+      "case_heading": "Pourquoi calculer la moyenne des inverses peut induire en erreur"
+    },
+    {
+      "key": "jeux_video-article-03",
+      "before_words": 262,
+      "after_words": 477,
+      "image_master_sha256": "3c4eccceac733b6d0e342cf905d878a6835b22d3161fd9f86a0a19bfdd3df2e9",
+      "case_heading": "Comparer le calcul d’images et le ressenti de commande séparément"
+    },
+    {
+      "key": "jeux_video-article-04",
+      "before_words": 263,
+      "after_words": 488,
+      "image_master_sha256": "26faab71d77f87eb4d6095681dadd5af00bd5bf971f53a99e9c9cd15cc65f43f",
+      "case_heading": "Ce que le passage de 144 à 240 Hz change réellement"
+    },
+    {
+      "key": "jeux_video-article-05",
+      "before_words": 264,
+      "after_words": 478,
+      "image_master_sha256": "015993fe83f051342726a52c970ac39d855379890770a1c803eaec517599177d",
+      "case_heading": "Localiser un retard sans additionner des mesures incompatibles"
+    },
+    {
+      "key": "jeux_video-article-06",
+      "before_words": 252,
+      "after_words": 461,
+      "image_master_sha256": "b4e5780ce5ad591620a70e1e739457e82e309790be0a54fdeba036c68d60e837",
+      "case_heading": "Transformer une difficulté de navigation en observation exploitable"
+    },
+    {
+      "key": "jeux_video-article-07",
+      "before_words": 259,
+      "after_words": 458,
+      "image_master_sha256": "9f73780121cfc3575e81d903ee2a06333078c271423b29ec6aeb47e0d1d8bfad",
+      "case_heading": "Vérifier une commande remappée au-delà du menu des touches"
+    },
+    {
+      "key": "jeux_video-article-08",
+      "before_words": 255,
+      "after_words": 461,
+      "image_master_sha256": "4cf343fda415ad9ab1b2c5b0b8f2e3de5ea7d51d581e2f2ba649a7ae7ec6007a",
+      "case_heading": "Calculer une autonomie théorique avec toutes les consommations"
+    },
+    {
+      "key": "jeux_video-article-09",
+      "before_words": 250,
+      "after_words": 459,
+      "image_master_sha256": "edccfbb07c7a99b2089e606c7010b3dc240c08e217a3780914cad72c60e90b24",
+      "case_heading": "Distinguer temps de transfert et temps de chargement"
+    },
+    {
+      "key": "jeux_video-article-10",
+      "before_words": 263,
+      "after_words": 489,
+      "image_master_sha256": "bf41b462e154bfbdab27efc495cf6378ee6e7e53b213268433aad8aafe7acc03",
+      "case_heading": "Diagnostiquer une température élevée avec la température ambiante"
+    },
+    {
+      "key": "jeux_video-article-11",
+      "before_words": 248,
+      "after_words": 458,
+      "image_master_sha256": "840d898abc94dec36dc079eca51542915a03eb93fcde9139c79c97f79ddcf928",
+      "case_heading": "Comparer un achat complet et son coût d’usage"
+    },
+    {
+      "key": "jeux_video-article-12",
+      "before_words": 248,
+      "after_words": 448,
+      "image_master_sha256": "690991ffd7a8af233c14443f50eb47f749bb7703b379bde8c667a7e24d2fd236",
+      "case_heading": "Accueillir un débutant sans immobiliser toute une équipe"
+    },
+    {
+      "key": "jeux_video-article-13",
+      "before_words": 241,
+      "after_words": 438,
+      "image_master_sha256": "0d0b891aba81124d67dbb59c1b3d132294dcfb3c5f9867b183564166009d3a64",
+      "case_heading": "Calculer la durée minimale d’un tournoi avant les inscriptions"
+    },
+    {
+      "key": "jeux_video-article-14",
+      "before_words": 244,
+      "after_words": 451,
+      "image_master_sha256": "61287e8b8215f0f3f80ef6128cd0dbcb65c6f397a7c717d6d9993a75ac593eb9",
+      "case_heading": "Faire d’une grille d’accessibilité un test de tâches"
+    },
+    {
+      "key": "jeux_video-article-15",
+      "before_words": 252,
+      "after_words": 462,
+      "image_master_sha256": "23ae7fa9e6f649b8103640a4f909cf94304b303e70a928279faa89909e11c35e",
+      "case_heading": "Estimer le poids d’une vidéo avant sa mise en ligne"
+    },
+    {
+      "key": "jeux_video-article-16",
+      "before_words": 241,
+      "after_words": 437,
+      "image_master_sha256": "2fa260f96fb1ea8cb289d01353b804e695228226a860d627af13865ea48ce33d",
+      "case_heading": "Rendre un rapport de bug falsifiable"
+    },
+    {
+      "key": "jeux_video-article-17",
+      "before_words": 253,
+      "after_words": 461,
+      "image_master_sha256": "6a459af44674468e583a450ce0ad74f40083257cce3001f47db21996101cbcb6",
+      "case_heading": "Décider d’un achat de lancement avec une règle d’arrêt"
+    },
+    {
+      "key": "jeux_video-article-18",
+      "before_words": 243,
+      "after_words": 449,
+      "image_master_sha256": "95acab441adf48cc80f5cd002296a964b3d35ac0e6aeeeb08f9c7e099b9aa466",
+      "case_heading": "Séparer confort, restitution et capture vocale"
+    },
+    {
+      "key": "jeux_video-article-19",
+      "before_words": 252,
+      "after_words": 442,
+      "image_master_sha256": "c757849e27d2be82e452dde139149e79c96aec2e7ddb3ebdaa510544531ffafa",
+      "case_heading": "Prioriser après un playtest sans confondre fréquence et gravité"
+    },
+    {
+      "key": "jeux_video-article-20",
+      "before_words": 243,
+      "after_words": 444,
+      "image_master_sha256": "3dce20d6e2ac3559723c6542e531c1426543b1ba4760519ab2c27ff0e7975e14",
+      "case_heading": "Vérifier qu’une sauvegarde est réellement récupérable"
+    },
+    {
+      "key": "emploi-article-01",
+      "before_words": 945,
+      "after_words": 1128,
+      "image_master_sha256": "e7fa71c6e67fdc3d874f86bb4c7d1d7a7ee07225dadae0c5f27a5dd4b5c54fa1",
+      "case_heading": "Lire une mission à travers les décisions réellement confiées"
+    },
+    {
+      "key": "emploi-article-02",
+      "before_words": 215,
+      "after_words": 409,
+      "image_master_sha256": "0b847f90aebbe91e06031a2c6ea8ec35333257c8c3b05eecd0c5c8e99ecb984e",
+      "case_heading": "Passer d’une qualité vague à une situation de travail observable"
+    },
+    {
+      "key": "emploi-article-03",
+      "before_words": 227,
+      "after_words": 416,
+      "image_master_sha256": "d212f4fee27081808c62ee5f39025ccbc1c6dd8f28555049168808d21729e48e",
+      "case_heading": "Construire une preuve de compétence sans gonfler son rôle"
+    },
+    {
+      "key": "emploi-article-04",
+      "before_words": 226,
+      "after_words": 418,
+      "image_master_sha256": "b178469257f5fdcc6c3b3383bbc7209ae50fa2795f85aadb4eacd7468f0194b5",
+      "case_heading": "Comparer un fixe garanti et un variable incertain"
+    },
+    {
+      "key": "emploi-article-05",
+      "before_words": 209,
+      "after_words": 392,
+      "image_master_sha256": "3881b1f5bc0ad5f3c2530cb2a3987ddec792537093350d7399a38d1db67c7af1",
+      "case_heading": "Transformer une promesse de télétravail en semaine compréhensible"
+    },
+    {
+      "key": "emploi-article-06",
+      "before_words": 217,
+      "after_words": 403,
+      "image_master_sha256": "8e2d23af111ac7c038a279e87fa68c08c22fb5edb945c8f4dddd2d3bd3ff83d3",
+      "case_heading": "Évaluer une réponse avec une grille avant de connaître le profil"
+    },
+    {
+      "key": "emploi-article-07",
+      "before_words": 213,
+      "after_words": 399,
+      "image_master_sha256": "1120ad0eae2d855c8ab0bf8144972a31fe40b802ea61ae25b5caa496baa7e306",
+      "case_heading": "Borner un test de recrutement et ce qu’il permet d’observer"
+    },
+    {
+      "key": "emploi-article-08",
+      "before_words": 213,
+      "after_words": 404,
+      "image_master_sha256": "d3f9ea37cc2adf2b72639984cbe14ee09f292b0dfa8d9208d02f6cefa297bfc9",
+      "case_heading": "Relier une formation à une compétence effectivement testable"
+    },
+    {
+      "key": "emploi-article-09",
+      "before_words": 211,
+      "after_words": 402,
+      "image_master_sha256": "1e85a994723d70cdcecd3b0143c5e8b683f164ed6cc7ca728ed4dd3de8c624cb",
+      "case_heading": "Décrire un transfert de compétence avec ses limites"
+    },
+    {
+      "key": "emploi-article-10",
+      "before_words": 206,
+      "after_words": 389,
+      "image_master_sha256": "69f756c821ac69db202e55654a0f29eb853397de3de3cfca85449b3246157c48",
+      "case_heading": "Sélectionner un portfolio qui répond à une question de recrutement"
+    },
+    {
+      "key": "emploi-article-11",
+      "before_words": 208,
+      "after_words": 395,
+      "image_master_sha256": "1218ca54010af2d3e0f0fb0f03d72fcc1d0eb53d5b47692e44a77c2df3cb7325",
+      "case_heading": "Repérer une annonce qui additionne plusieurs fonctions"
+    },
+    {
+      "key": "emploi-article-12",
+      "before_words": 209,
+      "after_words": 392,
+      "image_master_sha256": "ba37cf3341b9a75985e559fc582785af4ca9f0015be9d946819249d48851da65",
+      "case_heading": "Définir un plan d’arrivée qui ne confond pas apprentissage et rendement"
+    },
+    {
+      "key": "emploi-article-13",
+      "before_words": 212,
+      "after_words": 395,
+      "image_master_sha256": "57072a3c52d8fef3014959ac4e4f01851413e13823ca3a6d08b5ca6431b49ac8",
+      "case_heading": "Mesurer l’attente dans un processus de recrutement"
+    },
+    {
+      "key": "emploi-article-14",
+      "before_words": 221,
+      "after_words": 424,
+      "image_master_sha256": "6dfe6706ad82a188ff12cdcfec283d1a2d109d1aed4e4a6df325368e7ec56515",
+      "case_heading": "Ne pas convertir un salaire annuel en TJM par une simple division"
+    },
+    {
+      "key": "emploi-article-15",
+      "before_words": 219,
+      "after_words": 394,
+      "image_master_sha256": "bd899e2220cb37cf8591b0f23a63b54a6206a4318682db313103a463618e91a7",
+      "case_heading": "Construire une évaluation de compétence avant la lecture du CV"
+    },
+    {
+      "key": "emploi-article-16",
+      "before_words": 221,
+      "after_words": 398,
+      "image_master_sha256": "2f755cb01b4c8a73da5246879cfe891e9dd4e9f201ad72a9e30ef869b2721b16",
+      "case_heading": "Distinguer prérequis, ressource de préparation et promesse d’embauche"
+    },
+    {
+      "key": "emploi-article-17",
+      "before_words": 220,
+      "after_words": 401,
+      "image_master_sha256": "d609284e1881d34575ba844dc58d5424c5b899677344715fe0e00b5b1b417337",
+      "case_heading": "Tester une candidature au clavier et sur un téléphone"
+    },
+    {
+      "key": "emploi-article-18",
+      "before_words": 221,
+      "after_words": 407,
+      "image_master_sha256": "f3bf61d9aa764d41f9a56af3ba262339ea7600da05c731e9c7928111820aa8a4",
+      "case_heading": "Poser une question utile sans identifier un candidat"
+    },
+    {
+      "key": "emploi-article-19",
+      "before_words": 221,
+      "after_words": 408,
+      "image_master_sha256": "c2942fef7e969629e9857d976513bd726bbc4d119ee3438febedb750d3341991",
+      "case_heading": "Conserver des versions qui rendent une relance pertinente"
+    },
+    {
+      "key": "emploi-article-20",
+      "before_words": 213,
+      "after_words": 401,
+      "image_master_sha256": "8b9a673e0844485192780b3c21d9048ee45692c0a583192a75f9d747186f2f32",
+      "case_heading": "Évaluer un recrutement avec plusieurs indicateurs et leurs limites"
+    },
+    {
+      "key": "pays_expat-article-01",
+      "before_words": 983,
+      "after_words": 1162,
+      "image_master_sha256": "59bbe600b081b64d33f87fb3d4d2b4cd704b7670db35df0d5a50adee04552a60",
+      "case_heading": "Construire un trajet autour des nuits disponibles"
+    },
+    {
+      "key": "pays_expat-article-02",
+      "before_words": 218,
+      "after_words": 412,
+      "image_master_sha256": "38e435ba2542bc5b6b24be9d95f357f109390b5939a809997cd10d16b2c7eb5d",
+      "case_heading": "Tester le change sans transformer une hypothèse en tarif"
+    },
+    {
+      "key": "pays_expat-article-03",
+      "before_words": 218,
+      "after_words": 401,
+      "image_master_sha256": "aa0055e1b8ee02e741eab4bd6fa9cf969b06ca593890a5628e0dd4f696f4cfd8",
+      "case_heading": "Comparer un quartier à partir d’une journée type"
+    },
+    {
+      "key": "pays_expat-article-04",
+      "before_words": 229,
+      "after_words": 413,
+      "image_master_sha256": "50d570b06a766eefc8a657fc8bd1782a515cf498e5334ba370ebb1cc3c8480c3",
+      "case_heading": "Séparer visite esthétique et vérification technique d’une Akiya"
+    },
+    {
+      "key": "pays_expat-article-05",
+      "before_words": 224,
+      "after_words": 404,
+      "image_master_sha256": "6ea8790a044b1ec8861cc7e6349e2866d594032921574c0ae2fbd2a3f6b94b6c",
+      "case_heading": "Calculer un projet immobilier avec une réserve explicite"
+    },
+    {
+      "key": "pays_expat-article-06",
+      "before_words": 218,
+      "after_words": 404,
+      "image_master_sha256": "9a837c05669f3fb86e44de8250dd166bc5120714bec38112bb2530c27dc66dfd",
+      "case_heading": "Distinguer un séjour réussi d’une installation viable"
+    },
+    {
+      "key": "pays_expat-article-07",
+      "before_words": 233,
+      "after_words": 415,
+      "image_master_sha256": "68bd8ce3d1f2641f3e297c51342204556c649f8de8bb7db4be85ae58b4acc05d",
+      "case_heading": "Conserver la version officielle qui fonde une démarche"
+    },
+    {
+      "key": "pays_expat-article-08",
+      "before_words": 217,
+      "after_words": 397,
+      "image_master_sha256": "017c78f8a3ae0b08941e84a83ee5ada99a37a9d160abfaa695a155a371814181",
+      "case_heading": "Comparer des villes avec des poids personnels visibles"
+    },
+    {
+      "key": "pays_expat-article-09",
+      "before_words": 218,
+      "after_words": 408,
+      "image_master_sha256": "3971432c0b8e735cf3e4b2f08f64ba103fdcbdf8048692742367f547c38a1991",
+      "case_heading": "Préparer le travail à distance au-delà de la connexion internet"
+    },
+    {
+      "key": "pays_expat-article-10",
+      "before_words": 222,
+      "after_words": 410,
+      "image_master_sha256": "f3c437b299fefd3a53d0fd58cbbf3605c82c87a8e51e0456791c6cd97cb08485",
+      "case_heading": "Vérifier un logement distant sans accumuler des documents sensibles"
+    },
+    {
+      "key": "pays_expat-article-11",
+      "before_words": 230,
+      "after_words": 415,
+      "image_master_sha256": "d7f8ae3aef129fe9a9d78653df5d9dc44b7feccb7b30c2b42ba10344aa99ebe4",
+      "case_heading": "Arbitrer un bagage avec la logistique réelle du voyage"
+    },
+    {
+      "key": "pays_expat-article-12",
+      "before_words": 216,
+      "after_words": 398,
+      "image_master_sha256": "f3dde6358839860445f1cfc8692f6f18cb958f632aae79cd78dd8deb079c7feb",
+      "case_heading": "Comparer un pass à des trajets effectivement prévus"
+    },
+    {
+      "key": "pays_expat-article-13",
+      "before_words": 218,
+      "after_words": 402,
+      "image_master_sha256": "894b37f81a941f6bec1196be08c2a143c7abaa94acb09bc488122ee6726f09fa",
+      "case_heading": "Séparer observation, conseil et souvenir dans un carnet"
+    },
+    {
+      "key": "pays_expat-article-14",
+      "before_words": 222,
+      "after_words": 403,
+      "image_master_sha256": "f951b44f87e67dc83b0d778d0b5503f9efac6e17f77d3560329614a30e6c5bb2",
+      "case_heading": "Relier un paiement de travaux à un jalon vérifiable"
+    },
+    {
+      "key": "pays_expat-article-15",
+      "before_words": 210,
+      "after_words": 378,
+      "image_master_sha256": "70eea18e2015045685dfefb6ca1c586c1285fc5359b47a96e3a48c2084ceb687",
+      "case_heading": "Répartir les responsabilités avant l’achat d’un bien étranger"
+    },
+    {
+      "key": "pays_expat-article-16",
+      "before_words": 218,
+      "after_words": 403,
+      "image_master_sha256": "d9e3ce08c696b3acdfee08fa13711f705e3cca675b213cbfcec54bd7bd5431b7",
+      "case_heading": "Comparer un coût de vie à son propre panier de dépenses"
+    },
+    {
+      "key": "pays_expat-article-17",
+      "before_words": 213,
+      "after_words": 390,
+      "image_master_sha256": "61893d10d85e03729c3caf9496cb023ab80d012f8489a267ba1dc37929bab054",
+      "case_heading": "Vérifier une chaîne de déplacement accessible de bout en bout"
+    },
+    {
+      "key": "pays_expat-article-18",
+      "before_words": 212,
+      "after_words": 390,
+      "image_master_sha256": "fb79e43c7cb1a06f339d6a0eee9f8d9c292d23bf32a82f3f1a4d2de9d03019fe",
+      "case_heading": "Lire une assurance à partir d’un incident concret"
+    },
+    {
+      "key": "pays_expat-article-19",
+      "before_words": 209,
+      "after_words": 390,
+      "image_master_sha256": "9d8f62af4d4bc42b032698608d364ff55d69032ff3a326ab1555c2aeecdac274",
+      "case_heading": "Interroger un résident sur un usage plutôt que sur sa vie privée"
+    },
+    {
+      "key": "pays_expat-article-20",
+      "before_words": 223,
+      "after_words": 423,
+      "image_master_sha256": "e50a6f0c6992905e883861bf8bb73752b687d9af7e840c27fb304c82283c01f4",
+      "case_heading": "Transformer un retour de voyage en guide que l’on peut mettre à jour"
+    },
+    {
+      "key": "artisanat-article-01",
+      "before_words": 904,
+      "after_words": 1100,
+      "image_master_sha256": "f85a33833d7ff6acccc86c64d16c0a18a2ce048838147a3a614135a843f4951e",
+      "case_heading": "Comparer une pièce à ses mesures d’usage plutôt qu’à une taille nominale"
+    },
+    {
+      "key": "artisanat-article-02",
+      "before_words": 215,
+      "after_words": 402,
+      "image_master_sha256": "b81315c9586b604469987cfec47cd28f156228cbec3a6c1d3579592be773174e",
+      "case_heading": "Relier chaque affirmation d’origine à une pièce du dossier"
+    },
+    {
+      "key": "artisanat-article-03",
+      "before_words": 211,
+      "after_words": 394,
+      "image_master_sha256": "8a14ca8bd3868c23d63f226a13fe158ffa76966662da66dab762d4b961b73072",
+      "case_heading": "Comparer le coût livré et ses exclusions"
+    },
+    {
+      "key": "artisanat-article-04",
+      "before_words": 209,
+      "after_words": 395,
+      "image_master_sha256": "c9931b20dfd3fcc8d709aebead0ff10c242bf9e4dac6c736b43c6cac1cc6bfd2",
+      "case_heading": "Évaluer une céramique pour l’usage prévu"
+    },
+    {
+      "key": "artisanat-article-05",
+      "before_words": 214,
+      "after_words": 394,
+      "image_master_sha256": "1672405efa64b55baefdd1585199256a0f9f29730bda5da320491cda7ecf125a",
+      "case_heading": "Comparer ce qui est vérifiable dans deux fiches produit"
+    },
+    {
+      "key": "artisanat-article-06",
+      "before_words": 216,
+      "after_words": 393,
+      "image_master_sha256": "b277eaaf34e0f979910e20fa2a37704c0d1c0ae101ccdc0220940ae19ec697af",
+      "case_heading": "Montrer la matière sans masquer sa variabilité"
+    },
+    {
+      "key": "artisanat-article-07",
+      "before_words": 220,
+      "after_words": 392,
+      "image_master_sha256": "d5c807d7af8250fb73cfa92bc737b1ad1082af7d6e7c6525aa1b2555b5b4dc63",
+      "case_heading": "Construire une fiche boutique autour des questions avant achat"
+    },
+    {
+      "key": "artisanat-article-08",
+      "before_words": 211,
+      "after_words": 394,
+      "image_master_sha256": "d7d39034552f8e31102582bb4120e979a0d2009415f0e41ebb2b7cd5a7e30f6e",
+      "case_heading": "Décrire une précommande comme un engagement avec des inconnues"
+    },
+    {
+      "key": "artisanat-article-09",
+      "before_words": 212,
+      "after_words": 386,
+      "image_master_sha256": "aa484a47b38e8612d8e6e897f5ea0a5148eff3e4de7f9a2ba39ae59bc5ad4d0c",
+      "case_heading": "Écrire un cahier des charges qui accepte les variations prévues"
+    },
+    {
+      "key": "artisanat-article-10",
+      "before_words": 219,
+      "after_words": 405,
+      "image_master_sha256": "ff14b6e57eaa3994f0ca868482a2f88191c49f89ff34832d9c00db1927224e19",
+      "case_heading": "Éviter l’erreur de taille en précisant où la mesure est prise"
+    },
+    {
+      "key": "artisanat-article-11",
+      "before_words": 220,
+      "after_words": 396,
+      "image_master_sha256": "2504bc3c89ba74d41b4d1cab309b61344e18331919fdf3336c99a67afc8171e3",
+      "case_heading": "Rédiger une notice à partir des matériaux réellement présents"
+    },
+    {
+      "key": "artisanat-article-12",
+      "before_words": 201,
+      "after_words": 366,
+      "image_master_sha256": "6198293fc6f03da4edc29a074a1c759dbb5a6a20474cf4731b8f783254dbde13",
+      "case_heading": "Raconter un savoir-faire sans inventer son histoire"
+    },
+    {
+      "key": "artisanat-article-13",
+      "before_words": 216,
+      "after_words": 390,
+      "image_master_sha256": "bfc924f692e1667b1a6283e9827f7b48a1386e65ace18f889d25f1cf406b8f1d",
+      "case_heading": "Préparer le traitement d’un dommage avant l’expédition"
+    },
+    {
+      "key": "artisanat-article-14",
+      "before_words": 226,
+      "after_words": 400,
+      "image_master_sha256": "8a7f56e9e3d70f1d04fc9233dcaccac6e5c039d5c5b79c77e956f94c372531f5",
+      "case_heading": "Comparer un prix en séparant pièce et service"
+    },
+    {
+      "key": "artisanat-article-15",
+      "before_words": 207,
+      "after_words": 376,
+      "image_master_sha256": "2851b923070e7ee714de76ce642dd5531267d76d89287afa7032e44f3ed9da59",
+      "case_heading": "Organiser un achat groupé avec des engagements séparés"
+    },
+    {
+      "key": "artisanat-article-16",
+      "before_words": 207,
+      "after_words": 387,
+      "image_master_sha256": "e40278409b342195899da5a09ec348cfdcb4196976d490dcae783a369e3ba95a",
+      "case_heading": "Écrire un avis utile sur une durée d’usage connue"
+    },
+    {
+      "key": "artisanat-article-17",
+      "before_words": 211,
+      "after_words": 372,
+      "image_master_sha256": "a6cee09f758be750c0e250f6ca65a91b9f120e0e2e849ab41444e021e70f86bf",
+      "case_heading": "Traduire les données produit sans modifier leur sens"
+    },
+    {
+      "key": "artisanat-article-18",
+      "before_words": 210,
+      "after_words": 386,
+      "image_master_sha256": "92507d0c4cf8f254a9ff6f3431ea1e65a26aa425ca311ebbfa826757e1a4e50a",
+      "case_heading": "Choisir un cadeau à partir de son usage futur"
+    },
+    {
+      "key": "artisanat-article-19",
+      "before_words": 208,
+      "after_words": 392,
+      "image_master_sha256": "e18c23476e218c1b470265d7a1867739d8828d1784c7ee86fdc2e218ea710854",
+      "case_heading": "Évaluer la réparabilité avec une demande concrète"
+    },
+    {
+      "key": "artisanat-article-20",
+      "before_words": 209,
+      "after_words": 383,
+      "image_master_sha256": "cfd3c10b9bc00fde3bb57cac9b58e3b74ea73a965d53c43476db4fdad6f10a09",
+      "case_heading": "Créer une collection autour d’un rôle précis pour chaque référence"
+    },
+    {
+      "key": "business-article-01",
+      "before_words": 941,
+      "after_words": 1129,
+      "image_master_sha256": "e241449f6275458fa71d6122b4b4787e7e95160079334e841b048d2af87b03e3",
+      "case_heading": "Tester un modèle économique avec une unité de travail explicite"
+    },
+    {
+      "key": "business-article-02",
+      "before_words": 218,
+      "after_words": 399,
+      "image_master_sha256": "fd764b81649d6630441c50eb21a79243996858ad81701ea8f86caae6e458c442",
+      "case_heading": "Comprendre une activité rentable qui manque de trésorerie"
+    },
+    {
+      "key": "business-article-03",
+      "before_words": 207,
+      "after_words": 390,
+      "image_master_sha256": "682de97a240595a0c0eafb6659457a3be6864d88f849fe0d7c00d30967643e30",
+      "case_heading": "Comparer des cadres d’activité sans rechercher un taux magique"
+    },
+    {
+      "key": "business-article-04",
+      "before_words": 217,
+      "after_words": 407,
+      "image_master_sha256": "c016d35a483e3e913ed6e177c2a291f307ad7823eb0dba7dd0ba9f2c5f97c476",
+      "case_heading": "Mener un entretien qui peut contredire l’idée de départ"
+    },
+    {
+      "key": "business-article-05",
+      "before_words": 206,
+      "after_words": 377,
+      "image_master_sha256": "ac7050c8b740111748490815dd27864dda63ad64f1db3bb6f6d12d46b450fb5c",
+      "case_heading": "Décrire un service par son livrable et ses limites"
+    },
+    {
+      "key": "business-article-06",
+      "before_words": 216,
+      "after_words": 396,
+      "image_master_sha256": "c6c46e0279d0a7151f1790cdabed05441685dfdd4bc543e5ae25be588f3b124a",
+      "case_heading": "Calculer un prix minimal avec une capacité réaliste"
+    },
+    {
+      "key": "business-article-07",
+      "before_words": 203,
+      "after_words": 380,
+      "image_master_sha256": "c50770e6698ddca5c6cd13d78bbd60c34faa99e7b6c7cafb7c5df3d756796af9",
+      "case_heading": "Rendre deux devis comparables avant une négociation de prix"
+    },
+    {
+      "key": "business-article-08",
+      "before_words": 205,
+      "after_words": 390,
+      "image_master_sha256": "382f1804e7b289a094199e2a6a9b70d41d128328c4a33f915be6102909010d49",
+      "case_heading": "Transformer une visite de fiche entreprise en demande pertinente"
+    },
+    {
+      "key": "business-article-09",
+      "before_words": 209,
+      "after_words": 389,
+      "image_master_sha256": "169c2976796b487afadaae54470961af63d59605071a25d76344073876ddc90e",
+      "case_heading": "Prioriser un tableau de travail avec échéance et responsabilité"
+    },
+    {
+      "key": "business-article-10",
+      "before_words": 198,
+      "after_words": 371,
+      "image_master_sha256": "9563ef893282c8b96f80dbca5427b282fec12f180172bd7b5afc286faae96867",
+      "case_heading": "Déléguer une décision avec un seuil d’escalade"
+    },
+    {
+      "key": "business-article-11",
+      "before_words": 203,
+      "after_words": 388,
+      "image_master_sha256": "8c4930ebd6b9b8ddda3468d335207c1d23e7f0fd4a0f89bec90478620178ecbb",
+      "case_heading": "Calculer le coût de sortie d’un logiciel avant de l’adopter"
+    },
+    {
+      "key": "business-article-12",
+      "before_words": 209,
+      "after_words": 386,
+      "image_master_sha256": "a9c5d32c0eb21ced7b1ada9da0f4fe828652764ac5c9dd16443beefded798cc3",
+      "case_heading": "Documenter un processus à partir d’une exception réelle"
+    },
+    {
+      "key": "business-article-13",
+      "before_words": 197,
+      "after_words": 374,
+      "image_master_sha256": "527d39b4451478e236cb3dd1be75964c3d7b2f5ba0df48bf7e2c822bef16df37",
+      "case_heading": "Préparer un partenariat avec des engagements réciproques"
+    },
+    {
+      "key": "business-article-14",
+      "before_words": 200,
+      "after_words": 389,
+      "image_master_sha256": "7dfcdd730954ee54c9b64aa613c290cc6669ec767683cbfdd0c626f828bc2a4e",
+      "case_heading": "Tester un retard de paiement dans le calendrier de trésorerie"
+    },
+    {
+      "key": "business-article-15",
+      "before_words": 205,
+      "after_words": 389,
+      "image_master_sha256": "dad0090f549e6653bfd40150f02bcc7d199007cb79c606f221f5e430d9308976",
+      "case_heading": "Tester un canal d’acquisition avec une règle de décision préalable"
+    },
+    {
+      "key": "business-article-16",
+      "before_words": 213,
+      "after_words": 390,
+      "image_master_sha256": "5d0a071e6f6dc1b31943cfe9abe54b9ebbb09bf414be4b9941ded2f0d47e31ee",
+      "case_heading": "Relier clics et demandes sans confondre attribution et causalité"
+    },
+    {
+      "key": "business-article-17",
+      "before_words": 213,
+      "after_words": 396,
+      "image_master_sha256": "eabec9c2eebb3c5551dc36c582ce65f59cd6e91f13c442db63129a0f713a645d",
+      "case_heading": "Traiter des retours contradictoires sans fabriquer une offre incohérente"
+    },
+    {
+      "key": "business-article-18",
+      "before_words": 201,
+      "after_words": 368,
+      "image_master_sha256": "c499bbfef334a5593f43076299906ff63adfdcecf153a5504f685da68b2673e7",
+      "case_heading": "Décider collectivement avec un responsable de la suite"
+    },
+    {
+      "key": "business-article-19",
+      "before_words": 215,
+      "after_words": 386,
+      "image_master_sha256": "8ad6a7152e9a8442d5f53df58a21cf9025508c88ac82074da79dc4a8f75eb9e9",
+      "case_heading": "Acheter une prestation intellectuelle avec des critères de réception"
+    },
+    {
+      "key": "business-article-20",
+      "before_words": 203,
+      "after_words": 384,
+      "image_master_sha256": "4a3716c3c50629b9c0a614605c586b075e7979b789060d1c01432a0e0514c5d5",
+      "case_heading": "Organiser un dossier collaboratif avec une permission de moindre accès"
+    },
+    {
+      "key": "investissement-article-01",
+      "before_words": 919,
+      "after_words": 1102,
+      "image_master_sha256": "56f75d65a266ca45309d48339f9c3b2bc446c67c697d6c803b04bd197e65108f",
+      "case_heading": "Relier une perte possible à une dépense datée"
+    },
+    {
+      "key": "investissement-article-02",
+      "before_words": 221,
+      "after_words": 407,
+      "image_master_sha256": "81a6e8ba04ff19cd4c7ce98f3ca2b9cdd0cdd010526c38f9e7587d835bd19c77",
+      "case_heading": "Lire un scénario de performance avec ses conditions de sortie"
+    },
+    {
+      "key": "investissement-article-03",
+      "before_words": 219,
+      "after_words": 405,
+      "image_master_sha256": "a500811dbf59e35ebfb7a86998f9ad82a16c7ebc49fe63ae8cc884d8e9e20502",
+      "case_heading": "Comparer un ETF à l’exposition que l’on souhaite réellement"
+    },
+    {
+      "key": "investissement-article-04",
+      "before_words": 208,
+      "after_words": 383,
+      "image_master_sha256": "0ec6ab9f18014424d1b4c3ac4c6ce791442350573d8817918f6fdb56bf057aa3",
+      "case_heading": "Repérer une concentration cachée derrière plusieurs lignes"
+    },
+    {
+      "key": "investissement-article-05",
+      "before_words": 212,
+      "after_words": 396,
+      "image_master_sha256": "c97c6107e05fba3851711a68fcceff658856c450b0183ce88c774ae030f6e670",
+      "case_heading": "Distinguer un calcul composé d’une prévision de marché"
+    },
+    {
+      "key": "investissement-article-06",
+      "before_words": 217,
+      "after_words": 401,
+      "image_master_sha256": "709b41b88d4f4703353f1e7c81c2ddc9c38ec551b75b152776291fa035d5cc38",
+      "case_heading": "Mesurer un coût récurrent sur une base cohérente"
+    },
+    {
+      "key": "investissement-article-07",
+      "before_words": 209,
+      "after_words": 393,
+      "image_master_sha256": "bcb011a0a8ffdbb23da3533b1601215ba296ace51c331ed74c2a668f03c89c2d",
+      "case_heading": "Tester une sortie dans de mauvaises conditions"
+    },
+    {
+      "key": "investissement-article-08",
+      "before_words": 208,
+      "after_words": 390,
+      "image_master_sha256": "6fba5c024ae8638dcc7e317c1eaef1d915694ab1b1384e4bcb83a84b730d8407",
+      "case_heading": "Évaluer une performance sans faire disparaître les apports"
+    },
+    {
+      "key": "investissement-article-09",
+      "before_words": 198,
+      "after_words": 376,
+      "image_master_sha256": "4d1b64a4f8c0aa98d6c09e67ab1cf766aec3610547e5eaaaa62614075a813df8",
+      "case_heading": "Faire un tableau de patrimoine sans publier son inventaire privé"
+    },
+    {
+      "key": "investissement-article-10",
+      "before_words": 216,
+      "after_words": 407,
+      "image_master_sha256": "4232c8d57658a7a871d009766b400facae67e9afa29a56a31a93ec8aa71c579d",
+      "case_heading": "Vérifier une proposition avant de discuter son rendement"
+    },
+    {
+      "key": "investissement-article-11",
+      "before_words": 235,
+      "after_words": 426,
+      "image_master_sha256": "943ee846278217b9448bfff69f53d1ae22b4dc8a0ba399e0cec0bb3a79841305",
+      "case_heading": "Distinguer coupon reçu et valeur de revente d’une obligation"
+    },
+    {
+      "key": "investissement-article-12",
+      "before_words": 206,
+      "after_words": 377,
+      "image_master_sha256": "ece01045ca5f678da3ca84bbc2d23642fd8df28f9d848be3f2afbf85675f5cdc",
+      "case_heading": "Calculer le locatif après les postes réellement supportés"
+    },
+    {
+      "key": "investissement-article-13",
+      "before_words": 219,
+      "after_words": 401,
+      "image_master_sha256": "a6a5723de9c870e2e24b4dcf5fe1c81c0b1df49028b943a44f7f1f4075eb741a",
+      "case_heading": "Vérifier ce que signifie détenir un actif adossé à l’or"
+    },
+    {
+      "key": "investissement-article-14",
+      "before_words": 228,
+      "after_words": 410,
+      "image_master_sha256": "d67a74fa1f041c75f0cbe8bb4cfcb1134269cfe846ebd4b1ddfcecb52667e39f",
+      "case_heading": "Comprendre pourquoi un stablecoin peut s’écarter de sa cible"
+    },
+    {
+      "key": "investissement-article-15",
+      "before_words": 218,
+      "after_words": 402,
+      "image_master_sha256": "346f982dbcaac69ebebaa40e2f7ccffc5283430a6a50aec43a8d020584899c3f",
+      "case_heading": "Organiser une récupération sans exposer ses secrets"
+    },
+    {
+      "key": "investissement-article-16",
+      "before_words": 208,
+      "after_words": 396,
+      "image_master_sha256": "1a4538d777711cb321311e5cae22f4ceba908478799b4113d7e2c6fc321e28e5",
+      "case_heading": "Calculer le gain nécessaire après une baisse"
+    },
+    {
+      "key": "investissement-article-17",
+      "before_words": 215,
+      "after_words": 405,
+      "image_master_sha256": "6bf1c99bf8bcd56d1dd7d3232e9fad00147f2f72f71a67b3aaaaa81d1b56f658",
+      "case_heading": "Comparer un apport unique et des versements datés sans choisir après coup"
+    },
+    {
+      "key": "investissement-article-18",
+      "before_words": 205,
+      "after_words": 379,
+      "image_master_sha256": "e52bb9efbb709c8a926ff6827dd782087d27b16f4ff17c8c1cbb1a152ff8470d",
+      "case_heading": "Rééquilibrer avec une règle définie avant les mouvements"
+    },
+    {
+      "key": "investissement-article-19",
+      "before_words": 212,
+      "after_words": 386,
+      "image_master_sha256": "0c01a00a4e71c0d84262a6f79b750d21a62124e12a8872cd6b3a0b5ead7d306e",
+      "case_heading": "Écrire ce qui pourrait invalider une thèse d’investissement"
+    },
+    {
+      "key": "investissement-article-20",
+      "before_words": 206,
+      "after_words": 389,
+      "image_master_sha256": "d115cda0de68bfa70aa78c94c80a4837ec7604b62a3bca45283fd9a3b6541123",
+      "case_heading": "Partager une analyse sans suggérer un conseil adapté à tous"
+    },
+    {
+      "key": "traditions-article-01",
+      "before_words": 928,
+      "after_words": 1076,
+      "image_master_sha256": "ef55342894c8eb0e2f734d502f918b5cd68f80f2a73c45e56697c1565eaadc5c",
+      "case_heading": "Distinguer le texte, son support et son interprétation"
+    },
+    {
+      "key": "traditions-article-02",
+      "before_words": 223,
+      "after_words": 379,
+      "image_master_sha256": "4accfa2dfd12553814bd55c22605124a7072fe23812e18165487f168cc21ac5c",
+      "case_heading": "Nommer les caractères manquants avant de proposer une espèce"
+    },
+    {
+      "key": "traditions-article-03",
+      "before_words": 200,
+      "after_words": 353,
+      "image_master_sha256": "8543f3d27ca686b72900bd57c5b4e4e73008b71eb54863f3584a0eb51bfbc1b8",
+      "case_heading": "Créer une fiche qui conserve l’incertitude taxonomique"
+    },
+    {
+      "key": "traditions-article-04",
+      "before_words": 216,
+      "after_words": 373,
+      "image_master_sha256": "4e84a8d270e939ddc298c493bc36b7f1392dd2f99a5cc4137b160b66aa290661",
+      "case_heading": "Pourquoi un usage ancien ne démontre pas son efficacité"
+    },
+    {
+      "key": "traditions-article-05",
+      "before_words": 199,
+      "after_words": 353,
+      "image_master_sha256": "ba1a69364aac478c1608af6e06183ae3a968915981177ca2ed5d50f853dfdd61",
+      "case_heading": "Citer une édition de folklore qui permette de retrouver le passage"
+    },
+    {
+      "key": "traditions-article-06",
+      "before_words": 217,
+      "after_words": 359,
+      "image_master_sha256": "630f8c03af9c61da2503918fe9b3a2398dd24cbe5edad5af1f87b11f4ed87a3e",
+      "case_heading": "Photographier un spécimen pour répondre à une question précise"
+    },
+    {
+      "key": "traditions-article-07",
+      "before_words": 201,
+      "after_words": 351,
+      "image_master_sha256": "f54813368f94affb3a0b739cb87c1cd08bfc79aadb9c94e047fa48e9b75ddb74",
+      "case_heading": "Situer une pratique culturelle sans l’attribuer à tout un peuple"
+    },
+    {
+      "key": "traditions-article-08",
+      "before_words": 197,
+      "after_words": 343,
+      "image_master_sha256": "28bea2ab48663402e2cef5b1b72fb6fd133511c26f4819a6f36b97c4c89a49b2",
+      "case_heading": "Séparer un herbier documentaire d’une notice d’usage"
+    },
+    {
+      "key": "traditions-article-09",
+      "before_words": 196,
+      "after_words": 341,
+      "image_master_sha256": "a288092fa265e0fe96441ae8f764f97263917d8fc8b59fe5b2460abdd714cd7c",
+      "case_heading": "Comparer deux éditions sans supprimer leurs différences"
+    },
+    {
+      "key": "traditions-article-10",
+      "before_words": 214,
+      "after_words": 368,
+      "image_master_sha256": "852967478b43315520be66e7260076dbe41db3b320fc1ce3788de3affa2278c8",
+      "case_heading": "Distinguer un motif de sorcellerie d’une preuve historique"
+    },
+    {
+      "key": "traditions-article-11",
+      "before_words": 199,
+      "after_words": 348,
+      "image_master_sha256": "2eb1b9e227c2c19578c63480713ce26dd81db4eabbb0e8d96c9e370e69ffe10d",
+      "case_heading": "Recueillir un récit oral avec un accord de diffusion précis"
+    },
+    {
+      "key": "traditions-article-12",
+      "before_words": 205,
+      "after_words": 352,
+      "image_master_sha256": "8befa5bc3760509c4f7c825beba35279994f09669d63b67f02a9c7ec168de4d8",
+      "case_heading": "Étudier un symbole sans lui attribuer une causalité démontrée"
+    },
+    {
+      "key": "traditions-article-13",
+      "before_words": 214,
+      "after_words": 368,
+      "image_master_sha256": "952a54d8004fe9e957ebf3c27a6177bca4f5f60304eae4b42509c134a3fd4330",
+      "case_heading": "Évaluer une affirmation botanique sans expérimentation personnelle risquée"
+    },
+    {
+      "key": "traditions-article-14",
+      "before_words": 203,
+      "after_words": 345,
+      "image_master_sha256": "3709cb3ad54ddbe672621e54d9c42992806a4ef672f562cd33736652f4fef663",
+      "case_heading": "Documenter une observation sans révéler un site fragile"
+    },
+    {
+      "key": "traditions-article-15",
+      "before_words": 202,
+      "after_words": 346,
+      "image_master_sha256": "2d29c7ab0db5c1f7e1a8ac28f1a31dd3b21a25dbce4e0eddb5c347c30a7c2f7f",
+      "case_heading": "Organiser une lecture de sources qui accepte le désaccord"
+    },
+    {
+      "key": "traditions-article-16",
+      "before_words": 197,
+      "after_words": 350,
+      "image_master_sha256": "2d66b18178ec166e386c311342011a00e4a89970f73beb691b98698514ef6985",
+      "case_heading": "Numériser une archive en conservant une copie de référence"
+    },
+    {
+      "key": "traditions-article-17",
+      "before_words": 209,
+      "after_words": 361,
+      "image_master_sha256": "eb6ef7b1f8d55a4d89522feb34ed143026c5cac1b8b4e6c24a0ebded33b47281",
+      "case_heading": "Dater un objet avec des bornes plutôt qu’une fausse précision"
+    },
+    {
+      "key": "traditions-article-18",
+      "before_words": 201,
+      "after_words": 347,
+      "image_master_sha256": "4c86443573de63410def415e69c22d2bb6b1e4ff1022e09431a6960573db8bea",
+      "case_heading": "Présenter une interprétation avec une hypothèse concurrente"
+    },
+    {
+      "key": "traditions-article-19",
+      "before_words": 202,
+      "after_words": 344,
+      "image_master_sha256": "a39e6fdb19db5ea6111dbb6e8744b3103b9ae76ecb4659d92d3430845188a2a6",
+      "case_heading": "Construire un lexique qui conserve les variantes régionales"
+    },
+    {
+      "key": "traditions-article-20",
+      "before_words": 231,
+      "after_words": 384,
+      "image_master_sha256": "c4fb451c87dbbb352ce000bdaf81b48689cd1e880225b2ae13ee629eeb1ab363",
+      "case_heading": "Partager une ressource de plante avec une frontière d’usage claire"
+    },
+    {
+      "key": "paranormal-article-01",
+      "before_words": 935,
+      "after_words": 1093,
+      "image_master_sha256": "89e043fd4bb7debc2b1c60d59e8c07f81e2a8deab674e1ba7f9fab75fa01c122",
+      "case_heading": "Noter ce qui a été vu avant de nommer un phénomène"
+    },
+    {
+      "key": "paranormal-article-02",
+      "before_words": 215,
+      "after_words": 382,
+      "image_master_sha256": "2befb20e29a99b74d5e12c2eeccd3e52e3a90cb5257d3dfb096839b3c73c8394",
+      "case_heading": "Vérifier une empreinte sans lui attribuer une portée excessive"
+    },
+    {
+      "key": "paranormal-article-03",
+      "before_words": 207,
+      "after_words": 358,
+      "image_master_sha256": "1c93e7f6b189b0afabcbf38bec098ecbadfaed625acce55f7c366a3d69c9da08",
+      "case_heading": "Lire une date de métadonnée comme un indice contextualisé"
+    },
+    {
+      "key": "paranormal-article-04",
+      "before_words": 205,
+      "after_words": 366,
+      "image_master_sha256": "b7b4e5077cab55b9d34c9ab1251ab3b540413a0652302311784dfd351153c581",
+      "case_heading": "Examiner une lumière nocturne avec une géométrie minimale"
+    },
+    {
+      "key": "paranormal-article-05",
+      "before_words": 190,
+      "after_words": 352,
+      "image_master_sha256": "d28cc3020c2c7cf9d873116e4ef7dc88e99dd08fd3718f5b45abb21a09dfedd7",
+      "case_heading": "Éviter de compter plusieurs republications comme plusieurs preuves"
+    },
+    {
+      "key": "paranormal-article-06",
+      "before_words": 206,
+      "after_words": 364,
+      "image_master_sha256": "a43d8f2af18743bf5cf2cf1dfa1712ccfbc99736196eeba49eb0436048604d1c",
+      "case_heading": "Géolocaliser sans choisir uniquement les indices favorables"
+    },
+    {
+      "key": "paranormal-article-07",
+      "before_words": 202,
+      "after_words": 361,
+      "image_master_sha256": "0a1d0148e64add49c43661aec3ba503fc441910b0507dc6462d8451db41ceed9",
+      "case_heading": "Analyser la continuité d’une vidéo avant ses images isolées"
+    },
+    {
+      "key": "paranormal-article-08",
+      "before_words": 195,
+      "after_words": 352,
+      "image_master_sha256": "c314ec96eefc54ba5510a7c7a0423242b9bcc4cc9870be82fc738c569f31cc9e",
+      "case_heading": "Recueillir un témoignage sans imposer un vocabulaire"
+    },
+    {
+      "key": "paranormal-article-09",
+      "before_words": 204,
+      "after_words": 364,
+      "image_master_sha256": "c74730a4a1d2f6e121c7f2ec64b6ff93aeac3411dff80313d69a99d96b9539dc",
+      "case_heading": "Construire une chronologie avec des fuseaux explicites"
+    },
+    {
+      "key": "paranormal-article-10",
+      "before_words": 212,
+      "after_words": 370,
+      "image_master_sha256": "4bdf06b673dbcf2ac20e7ecb8fb30e038755a367aa94344016f43687b6dfeefb",
+      "case_heading": "Retrouver une source première sans la supposer fiable par défaut"
+    },
+    {
+      "key": "paranormal-article-11",
+      "before_words": 208,
+      "after_words": 372,
+      "image_master_sha256": "88799ad04eddd0294bb22f40a61d05b81c1a0d3345bbbf95c6b6074bcfdbeb14",
+      "case_heading": "Reconnaître une limite de compression sans inventer un objet"
+    },
+    {
+      "key": "paranormal-article-12",
+      "before_words": 215,
+      "after_words": 381,
+      "image_master_sha256": "d6944d0a4365b010973368552c36b127dcbb1432f19fc29797b9c99a2a464a01",
+      "case_heading": "Calculer une vitesse seulement avec une échelle défendable"
+    },
+    {
+      "key": "paranormal-article-13",
+      "before_words": 198,
+      "after_words": 355,
+      "image_master_sha256": "ca0d63354f03561512114be91f4112e79f9724dcc89231165aa31c0b7b69e498",
+      "case_heading": "Analyser un son avec son environnement d’enregistrement"
+    },
+    {
+      "key": "paranormal-article-14",
+      "before_words": 204,
+      "after_words": 358,
+      "image_master_sha256": "bd0fe571e48adfb8e4dad8724c533bb0228590e59e0a781ff3b52f9b0086c66f",
+      "case_heading": "Écrire un rapport qui garde les questions ouvertes"
+    },
+    {
+      "key": "paranormal-article-15",
+      "before_words": 195,
+      "after_words": 355,
+      "image_master_sha256": "3fa4e3b4e37f5833acd201d89711a30091be086a9bd3328105c9be4d950842d6",
+      "case_heading": "Collaborer sur une enquête avec des vues publiques et privées"
+    },
+    {
+      "key": "paranormal-article-16",
+      "before_words": 203,
+      "after_words": 365,
+      "image_master_sha256": "6b67e1e3cf0c3cbf3a00bde229ab83c2f8ca9d3795f6a517555e91b3bcc7699e",
+      "case_heading": "Vérifier un média au-delà d’un score de détecteur d’IA"
+    },
+    {
+      "key": "paranormal-article-17",
+      "before_words": 196,
+      "after_words": 344,
+      "image_master_sha256": "57e47caadf77f29ca44998977c76019d813715efb70eac1653ffb9b51c76baff",
+      "case_heading": "Cartographier un phénomène sans exposer un domicile"
+    },
+    {
+      "key": "paranormal-article-18",
+      "before_words": 203,
+      "after_words": 353,
+      "image_master_sha256": "c0c62095fae27f722e833360b2bd13dd408e203c6cd703b9ca5b406e741e1592",
+      "case_heading": "Réviser une conclusion sans réécrire silencieusement le dossier"
+    },
+    {
+      "key": "paranormal-article-19",
+      "before_words": 190,
+      "after_words": 347,
+      "image_master_sha256": "ea02b59f635bb405f752a0c49645e416bc2b61547ca80f05ea60d5fb0e7986d0",
+      "case_heading": "Construire une confiance qui reste reliée aux preuves"
+    },
+    {
+      "key": "paranormal-article-20",
+      "before_words": 215,
+      "after_words": 380,
+      "image_master_sha256": "90022b010621aaf6e09df7ee13d0f008b2a0c1c300f15eb8a3a4840eed125ad6",
+      "case_heading": "Publier une enquête ouverte sans accuser au-delà des preuves"
+    },
+    {
+      "key": "manga-article-01",
+      "before_words": 891,
+      "after_words": 1056,
+      "image_master_sha256": "2ffaa994a97c2ee126ba35bbdbfe54c9f9429108dbc56444f243124d7b809e82",
+      "case_heading": "Construire une discussion avec un seuil de progression explicite"
+    },
+    {
+      "key": "manga-article-02",
+      "before_words": 206,
+      "after_words": 384,
+      "image_master_sha256": "b779e107dea38953c644bee0cf97ee10aec79976f8c3afa4e95bc21d8503f026",
+      "case_heading": "Lire un choix de personnage avec une hypothèse concurrente"
+    },
+    {
+      "key": "manga-article-03",
+      "before_words": 213,
+      "after_words": 370,
+      "image_master_sha256": "b6d2085ea792e5d7f38e416ab1c759ed09ea25fb73b5781a329ba013c826fd79",
+      "case_heading": "Décrire un cadrage avant d’expliquer son effet"
+    },
+    {
+      "key": "manga-article-04",
+      "before_words": 206,
+      "after_words": 366,
+      "image_master_sha256": "364abd93c617c68fe046ae0d4cff22b8899cbacdab4a07b19c9b1f597413aa6c",
+      "case_heading": "Comparer une adaptation sur une fonction de scène"
+    },
+    {
+      "key": "manga-article-05",
+      "before_words": 199,
+      "after_words": 349,
+      "image_master_sha256": "7dedd9cf0d8674aeaed1857b03f147f2fa38d55ed2ff5ceba999f14ea2f3ff7b",
+      "case_heading": "Créer une fiche de héros qui distingue capacité et contrainte"
+    },
+    {
+      "key": "manga-article-06",
+      "before_words": 196,
+      "after_words": 353,
+      "image_master_sha256": "9b6b4735d188f47a7657cae3374d3742c910ac8e972e7a585f7ad1c35fda19ed",
+      "case_heading": "Écrire une théorie que l’on pourrait réfuter"
+    },
+    {
+      "key": "manga-article-07",
+      "before_words": 220,
+      "after_words": 372,
+      "image_master_sha256": "e0061f6af852ccd1b51d88feb4d4e9811a6b926d35cfc29f4f9a65c7ef0bfb22",
+      "case_heading": "Faire évoluer un avis de lecture sans effacer la première impression"
+    },
+    {
+      "key": "manga-article-08",
+      "before_words": 220,
+      "after_words": 372,
+      "image_master_sha256": "626877d02d4135490adedf49a75e1dada3428e6f72ff5fd68797210c18eb651b",
+      "case_heading": "Comparer une traduction avec la scène et ses contraintes"
+    },
+    {
+      "key": "manga-article-09",
+      "before_words": 205,
+      "after_words": 351,
+      "image_master_sha256": "6247cf4c13c1e79cd0c3cd65f873d512e115709fefbe6a222ac02c9b4eda4484",
+      "case_heading": "Construire une critique autour d’une proposition limitée"
+    },
+    {
+      "key": "manga-article-10",
+      "before_words": 208,
+      "after_words": 371,
+      "image_master_sha256": "b021010887ec49f95e46129b0cba1e83d4707f302d054fb9b295f043b9ea4dfd",
+      "case_heading": "Lire un système de pouvoirs avec ses coûts et exceptions"
+    },
+    {
+      "key": "manga-article-11",
+      "before_words": 192,
+      "after_words": 348,
+      "image_master_sha256": "081c453f37dfe07ccbbb2149fc0bf2a23a0bd50ee38deea27cfb549237e83029",
+      "case_heading": "Expliquer un antagoniste sans justifier ses actes"
+    },
+    {
+      "key": "manga-article-12",
+      "before_words": 222,
+      "after_words": 386,
+      "image_master_sha256": "e6e57c3b088188d6b9e7bbce0fa0811195593fc571cfa552f1747903c17a2291",
+      "case_heading": "Distinguer un rythme lent d’une répétition sans effet"
+    },
+    {
+      "key": "manga-article-13",
+      "before_words": 210,
+      "after_words": 363,
+      "image_master_sha256": "6a92f3652e5f28e895f5e6e53f7ab0e571be165ff384a9873d06096921338c5c",
+      "case_heading": "Discuter une fin avec un périmètre de révélations complet"
+    },
+    {
+      "key": "manga-article-14",
+      "before_words": 204,
+      "after_words": 359,
+      "image_master_sha256": "53f0b8241359aa46539047fef89239375fab52bc9c691ece445812e2c3419647",
+      "case_heading": "Analyser un choix sonore avec un repère temporel"
+    },
+    {
+      "key": "manga-article-15",
+      "before_words": 207,
+      "after_words": 371,
+      "image_master_sha256": "8cb56d3d32630353836513c1dfa0fd5f7d36628f1183813459702c485b250328",
+      "case_heading": "Choisir une édition à partir de ce qui sera réellement lu"
+    },
+    {
+      "key": "manga-article-16",
+      "before_words": 202,
+      "after_words": 358,
+      "image_master_sha256": "02c76118ae2990600489011887cda74212cbbcb6b03f30b34caadcec4c95a378",
+      "case_heading": "Organiser un club avec plusieurs progressions sans exclure les débutants"
+    },
+    {
+      "key": "manga-article-17",
+      "before_words": 206,
+      "after_words": 367,
+      "image_master_sha256": "7c51c476bbbed0988dede39548b378c09396b11084ba32ba8cc9763e103387a4",
+      "case_heading": "Séparer jouer, collectionner et spéculer sur un jeu de cartes"
+    },
+    {
+      "key": "manga-article-18",
+      "before_words": 199,
+      "after_words": 353,
+      "image_master_sha256": "a2ea2a5b853428744c4de8adda2243e13034363a9b10a2cf6af1f309bbe55175",
+      "case_heading": "Classer une collection sans rendre son inventaire public"
+    },
+    {
+      "key": "manga-article-19",
+      "before_words": 203,
+      "after_words": 343,
+      "image_master_sha256": "8b25a35f6580e059979acd97edabe2ab183c2aad2be0ccc24ec766b8f3ff592f",
+      "case_heading": "Créer un dossier d’œuvre avec des versions attribuées"
+    },
+    {
+      "key": "manga-article-20",
+      "before_words": 201,
+      "after_words": 355,
+      "image_master_sha256": "b74358e4c2b015337f960a9a4e2a9d52abf41052845a18bc826a56adf95146f4",
+      "case_heading": "Passer d’un fil d’opinions à une analyse collective"
+    },
+    {
+      "key": "gastronomie-article-01",
+      "before_words": 924,
+      "after_words": 1088,
+      "image_master_sha256": "d4a6d57877d3ca01471421f8b1559e794269d4454f392cd6969fc37557851416",
+      "case_heading": "Choisir un couteau pour les gestes réellement prévus"
+    },
+    {
+      "key": "gastronomie-article-02",
+      "before_words": 227,
+      "after_words": 395,
+      "image_master_sha256": "0c41e04c7e3b98164672a9a7dbb3726893bbcebbcfb1b95b4fa4cbc702296a8f",
+      "case_heading": "Distinguer l’angle par côté de l’angle total annoncé"
+    },
+    {
+      "key": "gastronomie-article-03",
+      "before_words": 222,
+      "after_words": 385,
+      "image_master_sha256": "0711941b29c691f9dec9a71a1ee901283d1779cbfc00376ea28017a49f9da531",
+      "case_heading": "Comparer des matériaux avec leur entretien réel"
+    },
+    {
+      "key": "gastronomie-article-04",
+      "before_words": 206,
+      "after_words": 358,
+      "image_master_sha256": "939d33c4ea6b104dba446528d19c6927b4f45ad1a352ffc4afd2fb800d9023e3",
+      "case_heading": "Évaluer une planche avec la stabilité du poste"
+    },
+    {
+      "key": "gastronomie-article-05",
+      "before_words": 211,
+      "after_words": 384,
+      "image_master_sha256": "c2c5af16e6247dbdaefb4d6dcf5142350b46a63af8e0cbfc4dc83c3f6578d827",
+      "case_heading": "Distinguer un entretien courant d’une réparation de tranchant"
+    },
+    {
+      "key": "gastronomie-article-06",
+      "before_words": 201,
+      "after_words": 352,
+      "image_master_sha256": "76bec1b91c9a34b499e82bb5bf18f2fb34b0c7e99ff95e68b233d2b06ed4020e",
+      "case_heading": "Lire une dureté annoncée avec les autres caractéristiques"
+    },
+    {
+      "key": "gastronomie-article-07",
+      "before_words": 203,
+      "after_words": 361,
+      "image_master_sha256": "14458cf6b53a64ced216a687a65fd77a2d9fd98b128c9bf87648a4ae060598fc",
+      "case_heading": "Comparer une recette en conservant sa base de calcul"
+    },
+    {
+      "key": "gastronomie-article-08",
+      "before_words": 203,
+      "after_words": 374,
+      "image_master_sha256": "6ba28299a8f5c4a09522976aefffec7acdf4af890161383b281d09f76c422933",
+      "case_heading": "Calculer une proportion avec un dénominateur explicite"
+    },
+    {
+      "key": "gastronomie-article-09",
+      "before_words": 207,
+      "after_words": 374,
+      "image_master_sha256": "4d08c886265fe72f1d4dbe1f51cdbb0badcdf056666e2a153d7825e46393a99b",
+      "case_heading": "Organiser le poste pour éviter les croisements de gestes"
+    },
+    {
+      "key": "gastronomie-article-10",
+      "before_words": 205,
+      "after_words": 352,
+      "image_master_sha256": "30b7f4c4ece24af077e379ebc1e65604859b48b331d8dece38de501810fa6ef6",
+      "case_heading": "Tenir un carnet qui permet un second essai comparable"
+    },
+    {
+      "key": "gastronomie-article-11",
+      "before_words": 205,
+      "after_words": 360,
+      "image_master_sha256": "fbe9617f8f087384e6271c0b9f875383a54d40efc5ac96434608cdeae63debbb",
+      "case_heading": "Photographier une étape sans embellir un défaut important"
+    },
+    {
+      "key": "gastronomie-article-12",
+      "before_words": 205,
+      "after_words": 366,
+      "image_master_sha256": "ba1b7e34c07df131a6134c4df62204bec1fa545f7db14ec52602cfd7a04090b4",
+      "case_heading": "Séparer une préférence d’un problème d’exécution"
+    },
+    {
+      "key": "gastronomie-article-13",
+      "before_words": 217,
+      "after_words": 397,
+      "image_master_sha256": "7a3f8eb4043b0fe5fb66facf19bcfdc15cea0bdec14cfd4aaea9e1a1d6bee02a",
+      "case_heading": "Calculer le coût consommé plutôt que le seul ticket de caisse"
+    },
+    {
+      "key": "gastronomie-article-14",
+      "before_words": 210,
+      "after_words": 375,
+      "image_master_sha256": "9144dbd3999e3573e965e4d72822b01214f18601484d43b60eb8f4150a79fc30",
+      "case_heading": "Choisir un abrasif en partant du besoin observé"
+    },
+    {
+      "key": "gastronomie-article-15",
+      "before_words": 223,
+      "after_words": 390,
+      "image_master_sha256": "dcd888d2c700d2fbeef70b1fa28632de1f27887a2e74d990135516a7ad46e778",
+      "case_heading": "Protéger une lame pendant le rangement et le transport"
+    },
+    {
+      "key": "gastronomie-article-16",
+      "before_words": 217,
+      "after_words": 379,
+      "image_master_sha256": "21d073c5c6fdd206006b02397b8aed413411c82126a69c786c73e7a49531630d",
+      "case_heading": "Comparer un outil polyvalent à un ensemble spécialisé"
+    },
+    {
+      "key": "gastronomie-article-17",
+      "before_words": 203,
+      "after_words": 355,
+      "image_master_sha256": "b39c2d5d8a3a26467643b6247fd1163483e66ae43561a500b076e435aaecfa38",
+      "case_heading": "Rédiger une notice sans inventer un entretien standard"
+    },
+    {
+      "key": "gastronomie-article-18",
+      "before_words": 198,
+      "after_words": 353,
+      "image_master_sha256": "dcf11ea97df77fd51b7066c3c453c6d2421f485fdf510e3d950f66cb0fc4bfb9",
+      "case_heading": "Organiser une dégustation en réduisant quelques biais simples"
+    },
+    {
+      "key": "gastronomie-article-19",
+      "before_words": 210,
+      "after_words": 368,
+      "image_master_sha256": "477c54e2039f46e8a39b1ba340f39fef9478ef7d4485c122ec9efbc55182214f",
+      "case_heading": "Relier une information alimentaire à un produit précis"
+    },
+    {
+      "key": "gastronomie-article-20",
+      "before_words": 208,
+      "after_words": 365,
+      "image_master_sha256": "fe59eafa55e48ef2874538b7ac7332914479eae5ec6530f73b1db0134c79b651",
+      "case_heading": "Partager une technique avec les variables qui changent son résultat"
+    },
+    {
+      "key": "sports-article-01",
+      "before_words": 887,
+      "after_words": 1047,
+      "image_master_sha256": "24f68997eba49a1afd566afcf1d2b718a5e73d9c7d47b897899682c67e4e4215",
+      "case_heading": "Choisir une reprise compatible avec la semaine réelle"
+    },
+    {
+      "key": "sports-article-02",
+      "before_words": 216,
+      "after_words": 366,
+      "image_master_sha256": "5acddadccfb7487172e3d8b9c100cc67d52a50d1d3d1618ca1f8fbb1b5a1dcfd",
+      "case_heading": "Comparer deux clubs à partir de l’accueil d’un débutant"
+    },
+    {
+      "key": "sports-article-03",
+      "before_words": 202,
+      "after_words": 357,
+      "image_master_sha256": "fbc56b1448650dbf7f2337c17e5e9a0ce2f31b99c00ad4efdb4c22df6f224ffb",
+      "case_heading": "Conserver les unités d’un journal d’entraînement"
+    },
+    {
+      "key": "sports-article-04",
+      "before_words": 203,
+      "after_words": 351,
+      "image_master_sha256": "858cf6ce34580a34d87411a0bf7b0d084a54204f296fca9ebe5714590b26b84d",
+      "case_heading": "Définir un objectif qui indique une prochaine action"
+    },
+    {
+      "key": "sports-article-05",
+      "before_words": 209,
+      "after_words": 353,
+      "image_master_sha256": "9932614878de38a40b712b74b10af26180adafb817c671b0bb19d03af0801206",
+      "case_heading": "Comparer des programmes destinés au même public"
+    },
+    {
+      "key": "sports-article-06",
+      "before_words": 207,
+      "after_words": 369,
+      "image_master_sha256": "357c944bcddfe2b954c0f18d60678e32778f0d9db339a5718671886a2707767c",
+      "case_heading": "Organiser un retour sur un geste avec un critère à la fois"
+    },
+    {
+      "key": "sports-article-07",
+      "before_words": 210,
+      "after_words": 364,
+      "image_master_sha256": "a7c000a5885650affb2f5e98827ef0d5bf7fad932db8dc3a6040ca118b9880e3",
+      "case_heading": "Préparer une première séance de judo avec les bonnes questions"
+    },
+    {
+      "key": "sports-article-08",
+      "before_words": 198,
+      "after_words": 350,
+      "image_master_sha256": "1799a313a792fd30c95b72822b267aaf41cb0acfa219f86d305b63bc03cbb960",
+      "case_heading": "Évaluer un équipement avec son ajustement réel"
+    },
+    {
+      "key": "sports-article-09",
+      "before_words": 225,
+      "after_words": 378,
+      "image_master_sha256": "f0facdc5232db0b01042e409d67f90992994ee45f7de9785ebd1d4a2064e8847",
+      "case_heading": "Lire une tendance de récupération sans la transformer en diagnostic"
+    },
+    {
+      "key": "sports-article-10",
+      "before_words": 208,
+      "after_words": 357,
+      "image_master_sha256": "c218c339c3ad12d93fa88baf230d13b0b3aa251e358ce43d0365cb614933c021",
+      "case_heading": "Accueillir un nouveau membre sans le mettre en comparaison permanente"
+    },
+    {
+      "key": "sports-article-11",
+      "before_words": 209,
+      "after_words": 355,
+      "image_master_sha256": "b0622a5d76efa08775dae1fd1e02820ab468ece83ceb31f969154288fd87e5f9",
+      "case_heading": "Filmer un mouvement pour une question définie"
+    },
+    {
+      "key": "sports-article-12",
+      "before_words": 216,
+      "after_words": 371,
+      "image_master_sha256": "c9232cb7174d0962c3123b27bd0934c81e08589a3d27ff2b26cf8ad8aa248b0b",
+      "case_heading": "Faire un bilan au-delà d’une meilleure performance ponctuelle"
+    },
+    {
+      "key": "sports-article-13",
+      "before_words": 202,
+      "after_words": 351,
+      "image_master_sha256": "318e9c9790306421ae36e9d6bc478bb0862726b655d77d158a02585075950653",
+      "case_heading": "Décrire un incident sans chercher immédiatement un coupable"
+    },
+    {
+      "key": "sports-article-14",
+      "before_words": 207,
+      "after_words": 360,
+      "image_master_sha256": "ceaa0f353fddea450eca5a294cae3830b6185ad677eb8903705fcde9d426a13d",
+      "case_heading": "Lire les conditions d’une compétition avant l’inscription"
+    },
+    {
+      "key": "sports-article-15",
+      "before_words": 192,
+      "after_words": 341,
+      "image_master_sha256": "31c8d23282ec6c8dbc0f2ea2dd8d45a97e14b411b6d37661424da8780d0e8a0d",
+      "case_heading": "Calculer le coût d’une saison complète"
+    },
+    {
+      "key": "sports-article-16",
+      "before_words": 205,
+      "after_words": 366,
+      "image_master_sha256": "5d2ad2a85af898dbd2db3ab69e4d458a3abc259a80e0c6a8f184e8b8bd8629f7",
+      "case_heading": "Organiser une rencontre avec des rôles et des seuils d’arrêt"
+    },
+    {
+      "key": "sports-article-17",
+      "before_words": 204,
+      "after_words": 356,
+      "image_master_sha256": "273820456c9fb4b9331dfda42302e0bdac7082e0fa48ecaf0280b641a8a9267f",
+      "case_heading": "Rendre la prochaine séance plus facile à engager"
+    },
+    {
+      "key": "sports-article-18",
+      "before_words": 202,
+      "after_words": 357,
+      "image_master_sha256": "824210dea5e63b6adf3ca5d5506ff6e6590d2e3da3972fb67ba261aa710c9ee3",
+      "case_heading": "Réviser un objectif quand la disponibilité change"
+    },
+    {
+      "key": "sports-article-19",
+      "before_words": 200,
+      "after_words": 356,
+      "image_master_sha256": "2a9fa274d6e4f6359cf3bec3747999f162993873bdf26f99509cf9f20b5af427",
+      "case_heading": "Créer une fiche de club qui répond aux hésitations avant la visite"
+    },
+    {
+      "key": "sports-article-20",
+      "before_words": 220,
+      "after_words": 374,
+      "image_master_sha256": "83dcfe1fa69bd0e2cc82b26b2ec044610aa66dccbc0cfa1896c72797e7d31c41",
+      "case_heading": "Partager une expérience sportive sans l’étendre à tous"
+    },
+    {
+      "key": "tech-article-01",
+      "before_words": 1240,
+      "after_words": 1418,
+      "image_master_sha256": "8405a16673a75c8666f5b978c20133f5f832a11eaaefa55d48aec7759b5bc6fb",
+      "case_heading": "Distinguer une meilleure recherche d’un modèle réellement réentraîné"
+    },
+    {
+      "key": "tech-article-02",
+      "before_words": 247,
+      "after_words": 421,
+      "image_master_sha256": "ca589964ace56429acf61be2171a850821853c0d431c73371bf19ff52e622386",
+      "case_heading": "Lire un gain moyen avec ses régressions bloquantes"
+    },
+    {
+      "key": "tech-article-03",
+      "before_words": 263,
+      "after_words": 433,
+      "image_master_sha256": "bb91b995f1989ff2c9a60dffa7c6cf50c2fa10fd6870457e705f0ca39b0e7a44",
+      "case_heading": "Vérifier qu’une citation soutient réellement la réponse"
+    },
+    {
+      "key": "tech-article-04",
+      "before_words": 256,
+      "after_words": 427,
+      "image_master_sha256": "1cbc41142ccd09da0dd07566062f1115bd259646094ac77db83a0233af78db70",
+      "case_heading": "Donner à un agent autonome un périmètre qui reste contrôlable"
+    },
+    {
+      "key": "tech-article-05",
+      "before_words": 238,
+      "after_words": 399,
+      "image_master_sha256": "783a7871af3ae148ec2eb4ea59dac2415ed769c8bafce2d6e734f73d1106c329",
+      "case_heading": "Conserver une provenance exploitable pendant l’ingestion"
+    },
+    {
+      "key": "tech-article-06",
+      "before_words": 257,
+      "after_words": 417,
+      "image_master_sha256": "9f3f8c2b15effb2d0964e1fdb77db1a50edebd79e33c3b395b4c49d7e7e8677b",
+      "case_heading": "Résumer une vidéo avec des repères vérifiés"
+    },
+    {
+      "key": "tech-article-07",
+      "before_words": 254,
+      "after_words": 421,
+      "image_master_sha256": "e81723abed8f64e9e6a81d96255749eda19890d5ef0b0329133819fc84929c2d",
+      "case_heading": "Évaluer une recherche avec un jugement de pertinence explicite"
+    },
+    {
+      "key": "tech-article-08",
+      "before_words": 249,
+      "after_words": 419,
+      "image_master_sha256": "12570d145e6339ec50da57d213bcbcebbc498ea8924debd03f3c7c7d5f0fd19d",
+      "case_heading": "Créer des comptes de test sans publier des accès réutilisables"
+    },
+    {
+      "key": "tech-article-09",
+      "before_words": 223,
+      "after_words": 387,
+      "image_master_sha256": "6fccf7582d334e9f39674ccecb70e60c19f3b4e41185436adf539aaecd339ba7",
+      "case_heading": "Tester l’autorisation après l’authentification"
+    },
+    {
+      "key": "tech-article-10",
+      "before_words": 253,
+      "after_words": 421,
+      "image_master_sha256": "ce3b73bc983be43ef98b58f6d9531ed382814fd820b20a45517446058752af96",
+      "case_heading": "Valider un import avant de l’appliquer aux données natives"
+    },
+    {
+      "key": "tech-article-11",
+      "before_words": 246,
+      "after_words": 415,
+      "image_master_sha256": "f334fe134b6c99f791aa09d972181b1a5f459e3ec4f501005738cd8862cd7b63",
+      "case_heading": "Mesurer la vitesse sur un scénario reproductible"
+    },
+    {
+      "key": "tech-article-12",
+      "before_words": 257,
+      "after_words": 431,
+      "image_master_sha256": "77dbc11fc4c13571742ea477a5bb45bbaa2a1434402c99bf4a9a851a44d01d4b",
+      "case_heading": "Comprendre la limite d’une transaction entre moteurs différents"
+    },
+    {
+      "key": "tech-article-13",
+      "before_words": 255,
+      "after_words": 425,
+      "image_master_sha256": "eabc774b19ec183f236c021f265bc0ad720446bbf82c9b764ca21e4f1b4e05ae",
+      "case_heading": "Définir un contrat de widget qui sépare données et exécution"
+    },
+    {
+      "key": "tech-article-14",
+      "before_words": 242,
+      "after_words": 404,
+      "image_master_sha256": "ae3e1f95bac13f571226665bd4f2e874c59122b97b19bbe58b2c95e754dcde1c",
+      "case_heading": "Comparer des modèles avec les mêmes tâches et budgets"
+    },
+    {
+      "key": "tech-article-15",
+      "before_words": 247,
+      "after_words": 408,
+      "image_master_sha256": "bb5caf378bda7b092cece27e682cd45f855c4d0020fca52cbbd1f0ea6f7a6a6d",
+      "case_heading": "Construire une mémoire commune avec des périmètres distincts"
+    },
+    {
+      "key": "tech-article-16",
+      "before_words": 246,
+      "after_words": 409,
+      "image_master_sha256": "25a917597d255080f9ee9310c91a5e82be52283b74b70f83bb0521ea2b855e0b",
+      "case_heading": "Chercher une fuite après révocation et via les dérivés"
+    },
+    {
+      "key": "tech-article-17",
+      "before_words": 241,
+      "after_words": 401,
+      "image_master_sha256": "392134c3191d9de21467071418dc8649cb8bcb908883b56852501443704d3b7e",
+      "case_heading": "Tester une interface riche sans souris"
+    },
+    {
+      "key": "tech-article-18",
+      "before_words": 260,
+      "after_words": 444,
+      "image_master_sha256": "6ae2dee65ee6c0da929b46afcde3a16b7f385ebcfb3d9a02feaeda71776e9db5",
+      "case_heading": "Calculer un budget de vidéo en unités cohérentes"
+    },
+    {
+      "key": "tech-article-19",
+      "before_words": 241,
+      "after_words": 402,
+      "image_master_sha256": "3a824385519b0ceb382b6ccd6ac2048e5264d58f1de75461eb9570453d7b133d",
+      "case_heading": "Journaliser une action sans recopier son secret"
+    },
+    {
+      "key": "tech-article-20",
+      "before_words": 244,
+      "after_words": 414,
+      "image_master_sha256": "766f7472dfbe87e06d0939274875295d4ab85d0a2d5c4f2841abb814552d42d4",
+      "case_heading": "Documenter une expérience avec ce qui permet de la contredire"
+    }
+  ]
+}

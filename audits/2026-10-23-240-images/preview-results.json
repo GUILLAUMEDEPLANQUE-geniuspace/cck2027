@@ -1,0 +1,22 @@
+{
+  "passed": 14,
+  "checks": [
+    "240 readable preview entries",
+    "Twenty filtered entries: jeux_video",
+    "Twenty filtered entries: emploi",
+    "Twenty filtered entries: pays_expat",
+    "Twenty filtered entries: artisanat",
+    "Twenty filtered entries: business",
+    "Twenty filtered entries: investissement",
+    "Twenty filtered entries: traditions",
+    "Twenty filtered entries: paranormal",
+    "Twenty filtered entries: manga",
+    "Twenty filtered entries: gastronomie",
+    "Twenty filtered entries: sports",
+    "Twenty filtered entries: tech",
+    "Topic search works"
+  ],
+  "errors": [
+    "Error: Desktop preview has a sharp 1200px original\n    at ck (/workspace/nexus-v5/qa/repair5276/preview.cjs:2:151)\n    at /workspace/nexus-v5/qa/repair5276/preview.cjs:2:976"
+  ]
+}

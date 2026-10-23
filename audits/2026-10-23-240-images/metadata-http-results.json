@@ -1,0 +1,66 @@
+{
+  "pages": 12,
+  "passed": 36,
+  "results": [
+    {
+      "key": "jeux_video-article-02",
+      "description": "Une moyenne de FPS ne décrit pas les à-coups : il faut conserver la distribution des durées d’images.",
+      "status": 200
+    },
+    {
+      "key": "emploi-article-02",
+      "description": "Une annonce utile permet de se représenter une semaine de travail et les décisions attendues.",
+      "status": 200
+    },
+    {
+      "key": "pays_expat-article-02",
+      "description": "Un budget de voyage doit distinguer dépenses confirmées, estimations et réserve mobilisable.",
+      "status": 200
+    },
+    {
+      "key": "artisanat-article-02",
+      "description": "L’origine d’un objet se décrit par des étapes de fabrication et des preuves précises.",
+      "status": 200
+    },
+    {
+      "key": "business-article-02",
+      "description": "La marge décrit une activité économique ; la trésorerie décrit des mouvements d’argent à des dates données.",
+      "status": 200
+    },
+    {
+      "key": "investissement-article-02",
+      "description": "Un document d’informations clés doit être lu au-delà d’un rendement ou d’un scénario favorable.",
+      "status": 200
+    },
+    {
+      "key": "traditions-article-02",
+      "description": "Une reconnaissance de plante sur photographie fournit une hypothèse, pas une autorisation d’usage.",
+      "status": 200
+    },
+    {
+      "key": "paranormal-article-02",
+      "description": "Conserver un original signifie garder le fichier reçu et documenter sa provenance.",
+      "status": 200
+    },
+    {
+      "key": "manga-article-02",
+      "description": "L’analyse d’un personnage porte sur ses décisions, ses contraintes et leurs conséquences.",
+      "status": 200
+    },
+    {
+      "key": "gastronomie-article-02",
+      "description": "La géométrie d’une lame se comprend en séparant angle du fil, épaisseur et forme générale.",
+      "status": 200
+    },
+    {
+      "key": "sports-article-02",
+      "description": "Choisir un club demande d’examiner l’accueil, l’encadrement et les règles de pratique.",
+      "status": 200
+    },
+    {
+      "key": "tech-article-02",
+      "description": "Un jeu d’évaluation doit pouvoir invalider une amélioration annoncée, y compris lorsqu’une démonstration paraît convaincante.",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "js_res_record": {
+        "preserved": true,
+        "rows": 481
+    },
+    "js_res_comments": {
+        "preserved": true,
+        "rows": 335
+    },
+    "js_res_fields": {
+        "preserved": true,
+        "rows": 1822
+    },
+    "js_res_types": {
+        "preserved": true,
+        "rows": 119
+    },
+    "js_res_sections": {
+        "preserved": true,
+        "rows": 119
+    },
+    "js_res_categories": {
+        "preserved": true,
+        "rows": 401
+    },
+    "users": {
+        "preserved": true,
+        "rows": 4
+    }
+}

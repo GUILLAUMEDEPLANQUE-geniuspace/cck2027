@@ -1,0 +1,9 @@
+{
+    "passed": 4,
+    "checks": [
+        "Recognised body revision succeeds: normal",
+        "Specific worked case is in the native field: normal",
+        "Unmodified seed cover is updated",
+        "No global native field definition modified"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "passed": 4,
+    "checks": [
+        "Recognised body revision succeeds: replaced_file",
+        "Specific worked case is in the native field: replaced_file",
+        "Direct replacement of legacy cover file prevents automatic cover rewriting",
+        "No global native field definition modified"
+    ]
+}

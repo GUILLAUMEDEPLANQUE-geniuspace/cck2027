@@ -1,0 +1,12 @@
+[
+  {
+    "host_simulated_on_local_copy": "geniuspace.io",
+    "status": 301,
+    "location": "https://geniuspace.io/index.php?option=com_joomcck&task=geniuspace.sitemap"
+  },
+  {
+    "host_simulated_on_local_copy": "www.geniuspace.io",
+    "status": 301,
+    "location": "https://geniuspace.io/index.php?option=com_joomcck&task=geniuspace.sitemap"
+  }
+]

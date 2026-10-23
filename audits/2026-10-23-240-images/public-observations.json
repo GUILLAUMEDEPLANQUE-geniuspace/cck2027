@@ -1,0 +1,169 @@
+[
+  {
+    "name": "home",
+    "url": "https://geniuspace.io/",
+    "final_url": "https://geniuspace.io/hub/jeux-video?nx_mode=forum",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "seconds": 5.13,
+    "title": "Jeux Vidéo | Communauté Geniuspace",
+    "has_google_verification": false,
+    "canonical": [
+      "https://geniuspace.io/hub/jeux-video"
+    ],
+    "schema_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "BreadcrumbList",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "website_schema": [
+      {
+        "@type": "WebSite",
+        "@id": "https://geniuspace.io/#website",
+        "url": "https://geniuspace.io/",
+        "name": "Geniuspace",
+        "inLanguage": "en-gb"
+      }
+    ],
+    "schema_errors": []
+  },
+  {
+    "name": "home-www",
+    "url": "https://www.geniuspace.io/",
+    "final_url": "https://www.geniuspace.io/hub/jeux-video?nx_mode=forum",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "seconds": 5.11,
+    "title": "Jeux Vidéo | Communauté Geniuspace",
+    "has_google_verification": false,
+    "canonical": [
+      "https://www.geniuspace.io/hub/jeux-video"
+    ],
+    "schema_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "BreadcrumbList",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "website_schema": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.geniuspace.io/#website",
+        "url": "https://www.geniuspace.io/",
+        "name": "Geniuspace",
+        "inLanguage": "en-gb"
+      }
+    ],
+    "schema_errors": []
+  },
+  {
+    "name": "home-http",
+    "url": "http://geniuspace.io/",
+    "final_url": "http://geniuspace.io/hub/jeux-video?nx_mode=forum",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "seconds": 4.01,
+    "title": "Jeux Vidéo | Communauté Geniuspace",
+    "has_google_verification": false,
+    "canonical": [
+      "http://geniuspace.io/hub/jeux-video"
+    ],
+    "schema_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "BreadcrumbList",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "website_schema": [
+      {
+        "@type": "WebSite",
+        "@id": "http://geniuspace.io/#website",
+        "url": "http://geniuspace.io/",
+        "name": "Geniuspace",
+        "inLanguage": "en-gb"
+      }
+    ],
+    "schema_errors": []
+  },
+  {
+    "name": "robots",
+    "url": "https://geniuspace.io/robots.txt",
+    "final_url": "https://geniuspace.io/robots.txt",
+    "status": 200,
+    "content_type": "text/plain",
+    "x_robots_tag": null,
+    "seconds": 1.09,
+    "title": "",
+    "has_google_verification": false,
+    "canonical": [],
+    "schema_types": [],
+    "website_schema": [],
+    "schema_errors": []
+  },
+  {
+    "name": "native-sitemap",
+    "url": "https://geniuspace.io/index.php?option=com_joomcck&task=geniuspace.sitemap",
+    "error": "The read operation timed out",
+    "seconds": 50.43
+  },
+  {
+    "name": "hub-jeux-video",
+    "url": "https://geniuspace.io/hub/jeux-video",
+    "final_url": "https://geniuspace.io/hub/jeux-video",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "seconds": 2.15,
+    "title": "Jeux Vidéo | Communauté Geniuspace",
+    "has_google_verification": false,
+    "canonical": [
+      "https://geniuspace.io/hub/jeux-video"
+    ],
+    "schema_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ItemList",
+      "BreadcrumbList",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "website_schema": [
+      {
+        "@type": "WebSite",
+        "@id": "https://geniuspace.io/#website",
+        "url": "https://geniuspace.io/",
+        "name": "Geniuspace",
+        "inLanguage": "en-gb"
+      }
+    ],
+    "schema_errors": []
+  },
+  {
+    "name": "search-brand",
+    "url": "https://www.google.com/search?q=%22Geniuspace%22&hl=fr&num=10",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "seconds": 0.01
+  },
+  {
+    "name": "search-site",
+    "url": "https://www.google.com/search?q=site%3Ageniuspace.io&hl=fr&num=10",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "seconds": 0.01
+  },
+  {
+    "name": "search-bare",
+    "url": "https://www.google.com/search?q=geniuspace&hl=fr&num=10",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "seconds": 0.0
+  }
+]

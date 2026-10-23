@@ -1,0 +1,38 @@
+[
+  {
+    "file": "components/com_joomcck/media/nexus/editorial-collection-2026.js",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/EditorialImages.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/EditorialPack.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/NexusAurora.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/PublicMaterial.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+    "pass": true
+  },
+  {
+    "file": "plugins/plg_system_joomcck/joomcck.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/BrandSeo.php",
+    "pass": true
+  },
+  {
+    "file": "components/com_joomcck/site/library/php/geniuspace/EditorialRevision.php",
+    "pass": true
+  }
+]

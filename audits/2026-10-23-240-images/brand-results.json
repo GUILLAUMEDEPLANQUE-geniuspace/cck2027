@@ -1,0 +1,22 @@
+{
+    "passed": 17,
+    "checks": [
+        "Owned host consolidation preserves method, administration and path: http:\/\/geniuspace.io\/hub\/jeux-video?nx_mode=blog",
+        "Owned host consolidation preserves method, administration and path: https:\/\/www.geniuspace.io\/thread\/un-article",
+        "Owned host consolidation preserves method, administration and path: https:\/\/geniuspace.io\/thread\/un-article",
+        "Owned host consolidation preserves method, administration and path: https:\/\/example.test\/page",
+        "Owned host consolidation preserves method, administration and path: http:\/\/127.0.0.1:8085\/",
+        "Owned host consolidation preserves method, administration and path: http:\/\/geniuspace.io\/payment\/webhook",
+        "Owned host consolidation preserves method, administration and path: http:\/\/geniuspace.io\/administrator\/",
+        "Owned host consolidation preserves method, administration and path: http:\/\/geniuspace.io.evil.test\/",
+        "Owned host consolidation preserves method, administration and path: http:\/\/attacker@geniuspace.io\/",
+        "Single stable native WebSite identity",
+        "Existing alternate site name retained",
+        "Language and configured search action retained",
+        "Other schema entities retained",
+        "Brand output is idempotent without duplicate JSON-LD",
+        "Other installations remain unchanged",
+        "Missing WebSite identity is added without replacing page content",
+        "Added WebSite is idempotent"
+    ]
+}

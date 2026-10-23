@@ -1,0 +1,31 @@
+{
+    "js_res_record": {
+        "rows": 481,
+        "preserved": true
+    },
+    "js_res_comments": {
+        "rows": 335,
+        "preserved": true
+    },
+    "js_res_fields": {
+        "rows": 1822,
+        "preserved": true
+    },
+    "js_res_types": {
+        "rows": 119,
+        "preserved": true
+    },
+    "js_res_sections": {
+        "rows": 119,
+        "preserved": true
+    },
+    "js_res_categories": {
+        "rows": 401,
+        "preserved": true
+    },
+    "users": {
+        "rows": 4,
+        "preserved": true
+    },
+    "note": "All original rows match the saved baseline; only eighteen unreferenced suggestions created by the first diagnostic run were removed from the cover-alt field dictionary."
+}

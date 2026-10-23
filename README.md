@@ -1,3 +1,7 @@
+## Version 5.27.7
+
+[ZIP complet 5.27.7](NEXUS_5.27.7.zip) · [Installation, images et migration des membres](README-5.27.7.md). Les deux packs d’images 5.27.6 restent nécessaires s’ils ne sont pas déjà installés. Aucun fichier d’import de membres ni donnée personnelle n’est distribué.
+
 # Geniuspace — NEXUS 5.27.6 · 240 illustrations originales et cas pratiques
 
 **Les trois ZIP installables se complètent. Installer A et B, puis le paquet principal.** Ils sont séparés pour fournir des téléchargements directs de taille raisonnable ; toutes les fonctionnalités du paquet 5.27.5 restent dans le paquet principal.

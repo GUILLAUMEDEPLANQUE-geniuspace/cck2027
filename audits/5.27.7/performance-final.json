@@ -1,0 +1,26 @@
+{
+  "blog": {
+    "queries": 1335,
+    "sql_seconds": 0.882,
+    "peak_memory_MiB": 64,
+    "unprofiled_seconds": [
+      3.443,
+      3.091,
+      2.497
+    ],
+    "median_seconds": 3.091,
+    "response_bytes": 545468
+  },
+  "forum": {
+    "queries": 1728,
+    "sql_seconds": 0.705,
+    "peak_memory_MiB": 68,
+    "unprofiled_seconds": [
+      3.964,
+      4.165,
+      4.076
+    ],
+    "median_seconds": 4.076,
+    "response_bytes": 601209
+  }
+}

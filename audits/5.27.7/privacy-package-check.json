@@ -1,0 +1,8 @@
+{
+  "source_matches_built_manifest": true,
+  "imported_emails_or_shared_password_in_package": false,
+  "import_files_bundled": false,
+  "private_jobs_bundled": false,
+  "runtime_profiler_removed": true,
+  "final_archive_sha256": "7307646a5bac5e405b53b82fd0aad2757499a1e1dcf31e2e6a725fbc50ac6e66"
+}

@@ -1,0 +1,13 @@
+{
+    "accounts": 450,
+    "profiles": 450,
+    "native_fields": 27,
+    "unique_generated_password_hashes": 450,
+    "blocked": 450,
+    "require_reset": 450,
+    "registered_only": true,
+    "existing_users_and_groups_unchanged": true,
+    "public_profiles": 0,
+    "verified_claims": 0,
+    "mail_sent": 0
+}

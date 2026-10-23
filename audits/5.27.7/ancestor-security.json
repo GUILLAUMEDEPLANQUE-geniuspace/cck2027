@@ -1,0 +1,10 @@
+{
+    "passed": 5,
+    "checks": [
+        "Published child below an unpublished parent is excluded from the guest projection, including for an administrator",
+        "Restoring the native parent publication restores public visibility",
+        "A private ancestor hides an otherwise public child and record from public exports",
+        "CLI mutations bypass request memoization",
+        "Mutation reads remain fresh"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "passed": 5,
+    "checks": [
+        "Pending import reuses all fifteen native topic identities",
+        "Pending body and relations complete before publication",
+        "Completed native values remain byte-identical",
+        "Resume does not expand or rewrite native field dictionaries",
+        "A completed topic unpublished by the owner stays unpublished on reimport"
+    ]
+}

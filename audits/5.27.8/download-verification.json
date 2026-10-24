@@ -1,0 +1,29 @@
+{
+  "version": "5.27.8",
+  "commit": "d81ff75",
+  "status": 200,
+  "bytes": 61535060,
+  "sha256": "c529356d66bdf4225682b918da552965d817ded3ba095e7854d3ce0ece216844",
+  "crc_ok": true,
+  "entries": 7886,
+  "anonymous_download": true,
+  "seconds": 11.84,
+  "links": [
+    {
+      "path": "blob/main/README-5.27.8.md",
+      "status": 200
+    },
+    {
+      "path": "blob/main/TECHNICAL-DELTA-5.27.8.md",
+      "status": 200
+    },
+    {
+      "path": "raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_A.zip",
+      "status": 200
+    },
+    {
+      "path": "raw/refs/heads/main/GENIUSPACE_IMAGES_5.27.6_B.zip",
+      "status": 200
+    }
+  ]
+}

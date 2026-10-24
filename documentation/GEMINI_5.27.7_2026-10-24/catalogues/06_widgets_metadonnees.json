@@ -1,0 +1,3928 @@
+[
+  {
+    "id": "mission-board",
+    "label": "Missions & dossiers collaboratifs",
+    "base": "mission-board",
+    "category": "Parcours & travail",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      },
+      "record": {
+        "label": "Fiche source native",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "field": {
+        "label": "Champ parcours natif (facultatif)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "professional-work",
+    "label": "Tableau de travail professionnel",
+    "base": "professional-work",
+    "category": "Parcours & travail",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "ai-progress",
+    "label": "IA · sources et progrès mesurés",
+    "base": "ai-progress",
+    "category": "Parcours & travail",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "native",
+    "label": "Région native conservée",
+    "base": "native",
+    "category": "Système",
+    "version": "1.0.0",
+    "properties": {
+      "slot": {
+        "label": "Région",
+        "type": "select",
+        "options": [
+          "community",
+          "directory",
+          "sidebar",
+          "discovery",
+          "company",
+          "record",
+          "form",
+          "universe-heading",
+          "universe-announcements",
+          "universe-featured",
+          "universe-stage",
+          "universe-tools",
+          "sidebar-featured",
+          "sidebar-assistant",
+          "sidebar-compass",
+          "sidebar-business",
+          "sidebar-connections",
+          "sidebar-more",
+          "sidebar-other",
+          "community-highlights",
+          "community-related"
+        ]
+      },
+      "contentTitle": {
+        "label": "Titre du module",
+        "type": "text"
+      },
+      "intro": {
+        "label": "Texte de présentation",
+        "type": "text"
+      },
+      "image": {
+        "label": "Illustration",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "buttonLabel": {
+        "label": "Texte du bouton",
+        "type": "text"
+      },
+      "buttonUrl": {
+        "label": "Destination du bouton",
+        "type": "url"
+      }
+    }
+  },
+  {
+    "id": "section",
+    "label": "Section / grille imbriquée",
+    "base": "section",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": []
+  },
+  {
+    "id": "heading",
+    "label": "Titre éditorial",
+    "base": "heading",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "level": {
+        "label": "Niveau",
+        "type": "select",
+        "options": [
+          "h2",
+          "h3",
+          "h4"
+        ]
+      }
+    }
+  },
+  {
+    "id": "text",
+    "label": "Texte et sources",
+    "base": "text",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "button",
+    "label": "Bouton avec icône",
+    "base": "button",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "variant": {
+        "label": "Style",
+        "type": "select",
+        "options": [
+          "solid",
+          "outline",
+          "soft",
+          "link"
+        ]
+      },
+      "shape": {
+        "label": "Forme",
+        "type": "select",
+        "options": [
+          "rounded",
+          "pill",
+          "square"
+        ]
+      },
+      "target": {
+        "label": "Ouverture",
+        "type": "select",
+        "options": [
+          "same",
+          "blank"
+        ]
+      }
+    }
+  },
+  {
+    "id": "hero",
+    "label": "Bannière immersive",
+    "base": "hero",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "layout": {
+        "label": "Disposition",
+        "type": "select",
+        "options": [
+          "cover",
+          "split"
+        ]
+      }
+    }
+  },
+  {
+    "id": "image",
+    "label": "Image avec légende",
+    "base": "image",
+    "category": "Médias",
+    "version": "1.0.0",
+    "properties": {
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "text": {
+        "label": "Légende",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      }
+    }
+  },
+  {
+    "id": "gallery",
+    "label": "Galerie & lightbox",
+    "base": "gallery",
+    "category": "Médias",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "slider",
+    "label": "Studio de scènes à calques",
+    "base": "slider",
+    "category": "Scènes & animations",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "height": {
+        "label": "Hauteur",
+        "type": "number",
+        "min": 160,
+        "max": 1000
+      },
+      "interval": {
+        "label": "Intervalle (secondes)",
+        "type": "number",
+        "min": 3,
+        "max": 60
+      },
+      "autoplay": {
+        "label": "Défilement automatique",
+        "type": "boolean"
+      },
+      "transition": {
+        "label": "Transition",
+        "type": "select",
+        "options": [
+          "none",
+          "fade",
+          "slide",
+          "zoom",
+          "flip",
+          "kenburns",
+          "duotone",
+          "glass",
+          "reveal",
+          "typewriter",
+          "parallax",
+          "depth",
+          "filmstrip",
+          "panorama",
+          "particles",
+          "snow",
+          "bubbles",
+          "wave",
+          "sunbeam",
+          "spectrum",
+          "shapes",
+          "cluster",
+          "polyfold",
+          "distortion",
+          "fluid",
+          "cymatic",
+          "paint",
+          "whiteboard",
+          "kinetic",
+          "explode",
+          "hovermorph",
+          "scrollvideo"
+        ]
+      }
+    }
+  },
+  {
+    "id": "carousel",
+    "label": "Carrousel de cartes",
+    "base": "carousel",
+    "category": "Scènes & animations",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "autoplay": {
+        "label": "Défilement automatique",
+        "type": "boolean"
+      },
+      "interval": {
+        "label": "Intervalle (secondes)",
+        "type": "number",
+        "min": 3,
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "newsticker",
+    "label": "Fil d’actualité animé",
+    "base": "newsticker",
+    "category": "Scènes & animations",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "speed": {
+        "label": "Durée de traversée (secondes)",
+        "type": "number",
+        "min": 15,
+        "max": 180
+      },
+      "direction": {
+        "label": "Sens",
+        "type": "select",
+        "options": [
+          "left",
+          "right"
+        ]
+      },
+      "source": {
+        "label": "Source",
+        "type": "select",
+        "options": [
+          "manual",
+          "universe",
+          "company"
+        ]
+      }
+    }
+  },
+  {
+    "id": "video",
+    "label": "Lecteur vidéo & chapitres",
+    "base": "video",
+    "category": "Médias",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "url": {
+        "label": "Vidéo",
+        "type": "url"
+      },
+      "poster": {
+        "label": "Affiche",
+        "type": "url"
+      },
+      "text": {
+        "label": "Description",
+        "type": "text"
+      },
+      "transcript": {
+        "label": "Transcription",
+        "type": "text",
+        "max": 24000
+      },
+      "duration": {
+        "label": "Durée ISO 8601",
+        "type": "text"
+      },
+      "date": {
+        "label": "Date de publication ISO",
+        "type": "text"
+      },
+      "chapters": {
+        "label": "Chapitres",
+        "type": "chapters"
+      },
+      "record": {
+        "label": "Fiche liée (commentaires et avis)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "audio",
+    "label": "Lecteur audio & transcription",
+    "base": "audio",
+    "category": "Médias",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "url": {
+        "label": "Audio",
+        "type": "url"
+      },
+      "text": {
+        "label": "Description",
+        "type": "text"
+      },
+      "transcript": {
+        "label": "Transcription",
+        "type": "text",
+        "max": 24000
+      },
+      "chapters": {
+        "label": "Chapitres",
+        "type": "chapters"
+      },
+      "record": {
+        "label": "Fiche liée",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "joomla-module",
+    "label": "Modules Joomla · position native",
+    "base": "joomla-module",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "module": {
+        "label": "Instance native (0 = position)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "position": {
+        "label": "Position native de modules",
+        "type": "text"
+      },
+      "showTitle": {
+        "label": "Afficher le titre natif",
+        "type": "boolean"
+      }
+    }
+  },
+  {
+    "id": "form-step",
+    "label": "Étape du formulaire",
+    "base": "form-step",
+    "category": "Formulaires",
+    "version": "1.0.0",
+    "properties": {
+      "intro": {
+        "label": "Introduction",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "form-field",
+    "label": "Champ du formulaire natif",
+    "base": "form-field",
+    "category": "Formulaires",
+    "version": "1.0.0",
+    "properties": {
+      "field": {
+        "label": "Champ natif",
+        "type": "number",
+        "min": 1,
+        "max": 2147483647
+      },
+      "audience": {
+        "label": "Affichage selon le format",
+        "type": "select",
+        "options": [
+          "profile",
+          "always"
+        ]
+      }
+    }
+  },
+  {
+    "id": "comments",
+    "label": "Échanges & commentaires natifs",
+    "base": "comments",
+    "category": "Participation",
+    "version": "1.0.0",
+    "properties": {
+      "record": {
+        "label": "Fiche (0 = courante)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "limit": {
+        "label": "Extraits",
+        "type": "number",
+        "min": 1,
+        "max": 6
+      }
+    }
+  },
+  {
+    "id": "reply-zone",
+    "label": "Répondre · zone contextuelle",
+    "base": "reply-zone",
+    "category": "Participation",
+    "version": "1.0.0",
+    "properties": {
+      "record": {
+        "label": "Fiche (0 = courante)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "label": {
+        "label": "Invitation",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "ad-slot",
+    "label": "Partenaire & publicité identifiée",
+    "base": "ad-slot",
+    "category": "Monétisation",
+    "version": "1.0.0",
+    "properties": {
+      "position": {
+        "label": "Emplacement des publicités payées (vide = création manuelle)",
+        "type": "text"
+      },
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Présentation",
+        "type": "text"
+      },
+      "url": {
+        "label": "Destination",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "label": {
+        "label": "Mention",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      }
+    }
+  },
+  {
+    "id": "native-player",
+    "label": "Lecteur média natif · cinéma & audio",
+    "base": "native-player",
+    "category": "Médias",
+    "version": "1.0.0",
+    "properties": {
+      "record": {
+        "label": "Fiche source (0 = page courante)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "field": {
+        "label": "Champ vidéo ou audio",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "universe-tools",
+    "label": "Outils interactifs de l’univers",
+    "base": "universe-tools",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": []
+  },
+  {
+    "id": "mega-menu",
+    "label": "Méga-menu de cet univers",
+    "base": "mega-menu",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Nom du menu",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "menu",
+    "label": "Menu à icônes",
+    "base": "menu",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Nom du menu",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "record-grid",
+    "label": "Publications de l’univers",
+    "base": "record-grid",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "limit": {
+        "label": "Nombre de fiches",
+        "type": "number",
+        "min": 1,
+        "max": 24
+      },
+      "format": {
+        "label": "Présentation",
+        "type": "select",
+        "options": [
+          "cards",
+          "list",
+          "carousel"
+        ]
+      }
+    }
+  },
+  {
+    "id": "related",
+    "label": "Relations parent / enfant",
+    "base": "related",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "record": {
+        "label": "Fiche source (0 = page courante)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "field",
+    "label": "Champ natif au choix",
+    "base": "field",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "record": {
+        "label": "Fiche source (0 = page courante)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "field": {
+        "label": "Champ",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "faq",
+    "label": "Questions fréquentes",
+    "base": "faq",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "accordion",
+    "label": "Accordéon",
+    "base": "accordion",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "tabs",
+    "label": "Onglets",
+    "base": "tabs",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "separator",
+    "label": "Séparateur",
+    "base": "separator",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": []
+  },
+  {
+    "id": "spacer",
+    "label": "Espace réglable",
+    "base": "spacer",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": {
+      "height": {
+        "label": "Hauteur",
+        "type": "number",
+        "min": 0,
+        "max": 240
+      }
+    }
+  },
+  {
+    "id": "source-list",
+    "label": "Bibliographie & sources",
+    "base": "source-list",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "search",
+    "label": "Recherche contextuelle",
+    "base": "search",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "review",
+    "label": "Avis & notes de la fiche",
+    "base": "review",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "record": {
+        "label": "Fiche source",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "field": {
+        "label": "Champ de notes",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "images",
+    "label": "Images",
+    "base": "images",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "subscribe",
+    "label": "Subscribe",
+    "base": "subscribe",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "contact",
+    "label": "Contact",
+    "base": "contact",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "lineChart",
+    "label": "LineChart",
+    "base": "lineChart",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "chart_data": {
+        "label": "Données du graphique",
+        "type": "chart"
+      }
+    }
+  },
+  {
+    "id": "lottie",
+    "label": "Lottie",
+    "base": "lottie",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "countdown",
+    "label": "Countdown",
+    "base": "countdown",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "barChart",
+    "label": "BarChart",
+    "base": "barChart",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "chart_data": {
+        "label": "Données du graphique",
+        "type": "chart"
+      }
+    }
+  },
+  {
+    "id": "parallax",
+    "label": "Parallax",
+    "base": "parallax",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "products",
+    "label": "Products",
+    "base": "products",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "topRated",
+    "label": "TopRated",
+    "base": "topRated",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "bestSellers",
+    "label": "BestSellers",
+    "base": "bestSellers",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "sale",
+    "label": "Sale",
+    "base": "sale",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "featured",
+    "label": "Featured",
+    "base": "featured",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "recent",
+    "label": "Recent",
+    "base": "recent",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "download",
+    "label": "Download",
+    "base": "download",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "weather",
+    "label": "Weather",
+    "base": "weather",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "temperature": {
+        "label": "Temperature",
+        "type": "text"
+      },
+      "conditions": {
+        "label": "Conditions",
+        "type": "text"
+      },
+      "observed_at": {
+        "label": "Observed_at",
+        "type": "text"
+      },
+      "attribution": {
+        "label": "Attribution",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "instagram",
+    "label": "Instagram",
+    "base": "instagram",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "dropbar",
+    "label": "Dropbar",
+    "base": "dropbar",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "posts",
+    "label": "Posts",
+    "base": "posts",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "banner",
+    "label": "Banner",
+    "base": "banner",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "beforeAfter",
+    "label": "BeforeAfter",
+    "base": "beforeAfter",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "portfolio",
+    "label": "Portfolio",
+    "base": "portfolio",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "pricing",
+    "label": "Pricing",
+    "base": "pricing",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "services",
+    "label": "Services",
+    "base": "services",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "headline",
+    "label": "Headline",
+    "base": "headline",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "map",
+    "label": "Map",
+    "base": "map",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "latitude": {
+        "label": "Latitude",
+        "type": "number",
+        "min": -90,
+        "max": 90
+      },
+      "longitude": {
+        "label": "Longitude",
+        "type": "number",
+        "min": -180,
+        "max": 180
+      },
+      "address": {
+        "label": "Adresse",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "horizontalTimeline",
+    "label": "HorizontalTimeline",
+    "base": "horizontalTimeline",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "testimonials",
+    "label": "Testimonials",
+    "base": "testimonials",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "table",
+    "label": "Table",
+    "base": "table",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "columns": {
+        "label": "Colonnes",
+        "type": "textlist"
+      }
+    }
+  },
+  {
+    "id": "priceList",
+    "label": "PriceList",
+    "base": "priceList",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "team",
+    "label": "Team",
+    "base": "team",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "verticalTimeline",
+    "label": "VerticalTimeline",
+    "base": "verticalTimeline",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "circleProgress",
+    "label": "CircleProgress",
+    "base": "circleProgress",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "animatedText",
+    "label": "AnimatedText",
+    "base": "animatedText",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "animatedBox",
+    "label": "AnimatedBox",
+    "base": "animatedBox",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "pieChart",
+    "label": "PieChart",
+    "base": "pieChart",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "chart_data": {
+        "label": "Données du graphique",
+        "type": "chart"
+      }
+    }
+  },
+  {
+    "id": "progress",
+    "label": "Progress",
+    "base": "progress",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "scrollNavigation",
+    "label": "ScrollNavigation",
+    "base": "scrollNavigation",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "inlineSvg",
+    "label": "InlineSvg",
+    "base": "inlineSvg",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      },
+      "svg": {
+        "label": "SVG contrôlé côté serveur",
+        "type": "text",
+        "max": 32000
+      }
+    }
+  },
+  {
+    "id": "logos",
+    "label": "Logos",
+    "base": "logos",
+    "category": "Bibliothèque native",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      },
+      "value": {
+        "label": "Valeur",
+        "type": "number",
+        "min": 0,
+        "max": 1000000000
+      },
+      "max": {
+        "label": "Maximum",
+        "type": "number",
+        "min": 1,
+        "max": 1000000000
+      },
+      "date": {
+        "label": "Date ISO avec fuseau",
+        "type": "text"
+      },
+      "before": {
+        "label": "Image avant",
+        "type": "url"
+      },
+      "after": {
+        "label": "Image après",
+        "type": "url"
+      },
+      "unit": {
+        "label": "Unité",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "share",
+    "label": "Partage & lien permanent",
+    "base": "share",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "publication",
+    "label": "Publier · formulaires natifs",
+    "base": "publication",
+    "category": "Contenus natifs",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      },
+      "section": {
+        "label": "Section (0 = univers courant)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      },
+      "type": {
+        "label": "Type (0 = tous les formats de cette section)",
+        "type": "number",
+        "min": 0,
+        "max": 2147483647
+      }
+    }
+  },
+  {
+    "id": "icon",
+    "label": "Icône & libellé",
+    "base": "icon",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "text": {
+        "label": "Libellé",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "code",
+    "label": "Bloc de code",
+    "base": "code",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "text": {
+        "label": "Code affiché, jamais exécuté",
+        "type": "text",
+        "max": 24000
+      },
+      "language": {
+        "label": "Langage",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "alert",
+    "label": "Information & alerte",
+    "base": "alert",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "tone": {
+        "label": "Ton",
+        "type": "select",
+        "options": [
+          "info",
+          "success",
+          "warning",
+          "danger"
+        ]
+      }
+    }
+  },
+  {
+    "id": "quote",
+    "label": "Citation & attribution",
+    "base": "quote",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "text": {
+        "label": "Citation",
+        "type": "text"
+      },
+      "name": {
+        "label": "Auteur",
+        "type": "text"
+      },
+      "url": {
+        "label": "Source",
+        "type": "url"
+      }
+    }
+  },
+  {
+    "id": "list",
+    "label": "Liste à icônes",
+    "base": "list",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "description-list",
+    "label": "Liste de définitions",
+    "base": "description-list",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "popover",
+    "label": "Encart dépliable",
+    "base": "popover",
+    "category": "Structure",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Libellé",
+        "type": "text"
+      },
+      "text": {
+        "label": "Contenu",
+        "type": "text"
+      }
+    }
+  },
+  {
+    "id": "back-top",
+    "label": "Retour en haut",
+    "base": "back-top",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "label": {
+        "label": "Libellé",
+        "type": "text"
+      },
+      "url": {
+        "label": "Ancre",
+        "type": "url"
+      }
+    }
+  },
+  {
+    "id": "overlay",
+    "label": "Carte illustrée en superposition",
+    "base": "overlay",
+    "category": "Éditorial",
+    "version": "1.0.0",
+    "properties": {
+      "title": {
+        "label": "Titre",
+        "type": "text"
+      },
+      "text": {
+        "label": "Texte",
+        "type": "text"
+      },
+      "url": {
+        "label": "Lien",
+        "type": "url"
+      },
+      "image": {
+        "label": "Image",
+        "type": "url"
+      },
+      "alt": {
+        "label": "Texte alternatif",
+        "type": "text"
+      },
+      "icon": {
+        "label": "Icône",
+        "type": "icon"
+      },
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  },
+  {
+    "id": "social",
+    "label": "Liens sociaux",
+    "base": "social",
+    "category": "Navigation",
+    "version": "1.0.0",
+    "properties": {
+      "items": {
+        "label": "Éléments",
+        "type": "items",
+        "max": 60
+      }
+    }
+  }
+]

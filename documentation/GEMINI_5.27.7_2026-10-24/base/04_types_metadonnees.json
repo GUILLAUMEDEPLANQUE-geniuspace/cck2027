@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "name": "DEMO Offre",
+    "published": 1,
+    "article_template": "nexus_strict_job.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 2,
+    "name": "DEMO Topic",
+    "published": 1,
+    "article_template": "nexus_crystal.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 3,
+    "name": "DEMO Cours",
+    "published": 1,
+    "article_template": "nexus_course.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 4,
+    "name": "DEMO Leçon",
+    "published": 1,
+    "article_template": "nexus_lesson.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 5,
+    "name": "DEMO Entreprise",
+    "published": 1,
+    "article_template": "nexus_company.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 6,
+    "name": "DEMO Candidature",
+    "published": 1,
+    "article_template": "default.lab",
+    "author_template": "nexus_author.lab",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 7,
+    "name": "provisionqa · Offres d’emploi",
+    "published": 0,
+    "article_template": "nexus_strict_job.provisionqa_jobs",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 8,
+    "name": "provisionqa · Forum",
+    "published": 0,
+    "article_template": "nexus_crystal.provisionqa_forum",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 9,
+    "name": "provisionqa · Académie Innovation",
+    "published": 0,
+    "article_template": "nexus_course.provisionqa_courses",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 10,
+    "name": "provisionqa · Leçons",
+    "published": 0,
+    "article_template": "nexus_lesson.provisionqa_lessons",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 11,
+    "name": "provisionqa · Entreprises",
+    "published": 0,
+    "article_template": "nexus_company.provisionqa_companies",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 12,
+    "name": "provisionqa · Candidatures",
+    "published": 0,
+    "article_template": "default.provisionqa_applications",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 13,
+    "name": "provisionqa · Publications",
+    "published": 0,
+    "article_template": "nexus_article.provisionqa_blog",
+    "author_template": "nexus_author.provisionqa",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 14,
+    "name": "nexusqa2 · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusqa2_jobs",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 15,
+    "name": "nexusqa2 · Forum",
+    "published": 1,
+    "article_template": "nexus_crystal.nexusqa2_forum",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 16,
+    "name": "nexusqa2 · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusqa2_courses",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 17,
+    "name": "nexusqa2 · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusqa2_lessons",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 18,
+    "name": "nexusqa2 · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusqa2_companies",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 19,
+    "name": "nexusqa2 · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusqa2_applications",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 20,
+    "name": "nexusqa2 · Publications",
+    "published": 1,
+    "article_template": "nexus_article.nexusqa2_blog",
+    "author_template": "nexus_author.nexusqa2",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 21,
+    "name": "nexusqa51 · Offres d’emploi",
+    "published": 0,
+    "article_template": "nexus_strict_job.nexusqa51_jobs",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 22,
+    "name": "nexusqa51 · Forum",
+    "published": 0,
+    "article_template": "nexus_crystal.nexusqa51_forum",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 23,
+    "name": "nexusqa51 · Académie Innovation",
+    "published": 0,
+    "article_template": "nexus_course.nexusqa51_courses",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 24,
+    "name": "nexusqa51 · Leçons",
+    "published": 0,
+    "article_template": "nexus_lesson.nexusqa51_lessons",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 25,
+    "name": "nexusqa51 · Entreprises",
+    "published": 0,
+    "article_template": "nexus_company.nexusqa51_companies",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 26,
+    "name": "nexusqa51 · Candidatures",
+    "published": 0,
+    "article_template": "default.nexusqa51_applications",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 27,
+    "name": "nexusqa51 · Publications",
+    "published": 0,
+    "article_template": "nexus_article.nexusqa51_blog",
+    "author_template": "nexus_author.nexusqa51",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 163,
+    "name": "nexusdemo · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo_jobs",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 164,
+    "name": "nexusdemo · Forum",
+    "published": 1,
+    "article_template": "nexus_super_thread.nexusdemo_forum",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 165,
+    "name": "nexusdemo · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo_courses",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 166,
+    "name": "nexusdemo · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo_lessons",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 167,
+    "name": "nexusdemo · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo_companies",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 168,
+    "name": "nexusdemo · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo_applications",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 169,
+    "name": "nexusdemo · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo_blog",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 170,
+    "name": "nexusdemo · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo_resources",
+    "author_template": "nexus_author.nexusdemo",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 171,
+    "name": "nexusdemo561 · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo561_jobs",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 172,
+    "name": "nexusdemo561 · Forum",
+    "published": 1,
+    "article_template": "nexus_super_thread.nexusdemo561_forum",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 173,
+    "name": "nexusdemo561 · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo561_courses",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 174,
+    "name": "nexusdemo561 · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo561_lessons",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 175,
+    "name": "nexusdemo561 · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo561_companies",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 176,
+    "name": "nexusdemo561 · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo561_applications",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 177,
+    "name": "nexusdemo561 · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo561_blog",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 178,
+    "name": "nexusdemo561 · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo561_resources",
+    "author_template": "nexus_author.nexusdemo561",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 179,
+    "name": "nexusdemo57 · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo57_jobs",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 180,
+    "name": "nexusdemo57 · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo57_forum",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 181,
+    "name": "nexusdemo57 · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo57_courses",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 182,
+    "name": "nexusdemo57 · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo57_lessons",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 183,
+    "name": "nexusdemo57 · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo57_companies",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 184,
+    "name": "nexusdemo57 · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo57_applications",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 185,
+    "name": "nexusdemo57 · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_blog",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 186,
+    "name": "nexusdemo57 · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_resources",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 187,
+    "name": "nexusdemo57 · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_skills",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 188,
+    "name": "nexusdemo57 · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_passports",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 189,
+    "name": "nexusdemo57 · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_hubs",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 190,
+    "name": "nexusdemo57 · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57_simulations",
+    "author_template": "nexus_author.nexusdemo57",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 203,
+    "name": "nexusdemo57b · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo57b_jobs",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 204,
+    "name": "nexusdemo57b · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo57b_forum",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 205,
+    "name": "nexusdemo57b · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo57b_courses",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 206,
+    "name": "nexusdemo57b · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo57b_lessons",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 207,
+    "name": "nexusdemo57b · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo57b_companies",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 208,
+    "name": "nexusdemo57b · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo57b_applications",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 209,
+    "name": "nexusdemo57b · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_blog",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 210,
+    "name": "nexusdemo57b · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_resources",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 211,
+    "name": "nexusdemo57b · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_skills",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 212,
+    "name": "nexusdemo57b · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_passports",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 213,
+    "name": "nexusdemo57b · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_hubs",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 214,
+    "name": "nexusdemo57b · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57b_simulations",
+    "author_template": "nexus_author.nexusdemo57b",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 215,
+    "name": "nexusdemo57final · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo57final_jobs",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 216,
+    "name": "nexusdemo57final · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo57final_forum",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 217,
+    "name": "nexusdemo57final · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo57final_courses",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 218,
+    "name": "nexusdemo57final · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo57final_lessons",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 219,
+    "name": "nexusdemo57final · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo57final_companies",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 220,
+    "name": "nexusdemo57final · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo57final_applications",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 221,
+    "name": "nexusdemo57final · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_blog",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 222,
+    "name": "nexusdemo57final · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_resources",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 223,
+    "name": "nexusdemo57final · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_skills",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 224,
+    "name": "nexusdemo57final · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_passports",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 225,
+    "name": "nexusdemo57final · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_hubs",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 226,
+    "name": "nexusdemo57final · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57final_simulations",
+    "author_template": "nexus_author.nexusdemo57final",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 227,
+    "name": "nexusdemo57release · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo57release_jobs",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 228,
+    "name": "nexusdemo57release · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo57release_forum",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 229,
+    "name": "nexusdemo57release · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo57release_courses",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 230,
+    "name": "nexusdemo57release · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo57release_lessons",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 231,
+    "name": "nexusdemo57release · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo57release_companies",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 232,
+    "name": "nexusdemo57release · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo57release_applications",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 233,
+    "name": "nexusdemo57release · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_blog",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 234,
+    "name": "nexusdemo57release · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_resources",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 235,
+    "name": "nexusdemo57release · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_skills",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 236,
+    "name": "nexusdemo57release · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_passports",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 237,
+    "name": "nexusdemo57release · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_hubs",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 238,
+    "name": "nexusdemo57release · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_simulations",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 239,
+    "name": "nexusdemo57release · Projets & preuves",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57release_proofs",
+    "author_template": "nexus_author_multivers.nexusdemo57release",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 240,
+    "name": "nexusdemo57pack · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo57pack_jobs",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 241,
+    "name": "nexusdemo57pack · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo57pack_forum",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 242,
+    "name": "nexusdemo57pack · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo57pack_courses",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 243,
+    "name": "nexusdemo57pack · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo57pack_lessons",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 244,
+    "name": "nexusdemo57pack · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo57pack_companies",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 245,
+    "name": "nexusdemo57pack · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo57pack_applications",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 246,
+    "name": "nexusdemo57pack · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_blog",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 247,
+    "name": "nexusdemo57pack · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_resources",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 248,
+    "name": "nexusdemo57pack · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_skills",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 249,
+    "name": "nexusdemo57pack · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_passports",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 250,
+    "name": "nexusdemo57pack · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_hubs",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 251,
+    "name": "nexusdemo57pack · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_simulations",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 252,
+    "name": "nexusdemo57pack · Projets & preuves",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo57pack_proofs",
+    "author_template": "nexus_author_multivers.nexusdemo57pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 279,
+    "name": "nexusdemo58pack · Offres d’emploi",
+    "published": 1,
+    "article_template": "nexus_strict_job.nexusdemo58pack_jobs",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 280,
+    "name": "nexusdemo58pack · Forum",
+    "published": 1,
+    "article_template": "nexus_multivers_thread.nexusdemo58pack_forum",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 281,
+    "name": "nexusdemo58pack · Académie Innovation",
+    "published": 1,
+    "article_template": "nexus_course.nexusdemo58pack_courses",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 282,
+    "name": "nexusdemo58pack · Leçons",
+    "published": 1,
+    "article_template": "nexus_lesson.nexusdemo58pack_lessons",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 283,
+    "name": "nexusdemo58pack · Entreprises",
+    "published": 1,
+    "article_template": "nexus_company.nexusdemo58pack_companies",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 284,
+    "name": "nexusdemo58pack · Candidatures",
+    "published": 1,
+    "article_template": "default.nexusdemo58pack_applications",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 285,
+    "name": "nexusdemo58pack · Publications",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_blog",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 286,
+    "name": "nexusdemo58pack · Ressources & Produits",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_resources",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 287,
+    "name": "nexusdemo58pack · Catalogue des compétences",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_skills",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 288,
+    "name": "nexusdemo58pack · Passeports privés",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_passports",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 289,
+    "name": "nexusdemo58pack · Espaces & guildes",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_hubs",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 290,
+    "name": "nexusdemo58pack · Mises en situation",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_simulations",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 291,
+    "name": "nexusdemo58pack · Projets & preuves",
+    "published": 1,
+    "article_template": "nexus_connect.nexusdemo58pack_proofs",
+    "author_template": "nexus_author_multivers.nexusdemo58pack",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  },
+  {
+    "id": 296,
+    "name": "Forum Geniuspace · Article & discussion",
+    "published": 1,
+    "article_template": "nexus_forum7.forum7",
+    "author_template": "nexus_author_multivers.forum7",
+    "semantic_entity": "none",
+    "comments_engine": "core"
+  },
+  {
+    "id": 305,
+    "name": "Membres historiques · migration privée",
+    "published": 1,
+    "article_template": "default",
+    "author_template": "default",
+    "semantic_entity": "none",
+    "comments_engine": ""
+  }
+]

@@ -1,0 +1,374 @@
+{
+  "discussion": {
+    "label": "Discussion",
+    "icon": "comments",
+    "kind": "discussion",
+    "intro": "Posez votre question ou partagez une idée avec la communauté.",
+    "fields": [
+      "body",
+      "excerpt",
+      "topic",
+      "skills",
+      "source",
+      "related",
+      "company",
+      "job",
+      "courses",
+      "spoiler"
+    ]
+  },
+  "article": {
+    "label": "Article",
+    "icon": "book-open",
+    "kind": "article",
+    "intro": "Racontez, expliquez et partagez vos sources. Le sommaire et les métadonnées seront préparés automatiquement.",
+    "fields": [
+      "body",
+      "excerpt",
+      "images_upload",
+      "source",
+      "related",
+      "company",
+      "job",
+      "courses",
+      "spoiler"
+    ]
+  },
+  "business": {
+    "label": "Données & pitch",
+    "icon": "chart-line",
+    "kind": "data",
+    "intro": "Présentez votre projet ou vos chiffres avec leur date et leur source.",
+    "fields": [
+      "body",
+      "widgets",
+      "series",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "finance": {
+    "label": "Finance & sources",
+    "icon": "coins",
+    "kind": "finance",
+    "intro": "Partagez votre rémunération ou votre analyse, avec les informations utiles à sa compréhension.",
+    "fields": [
+      "body",
+      "base_salary",
+      "bonus_salary",
+      "equity_salary",
+      "currency",
+      "salary_period",
+      "market",
+      "source",
+      "finance_proof",
+      "related",
+      "company",
+      "job"
+    ]
+  },
+  "code": {
+    "label": "Code",
+    "icon": "code",
+    "kind": "code",
+    "intro": "Partagez votre exemple de code, votre question et le résultat recherché.",
+    "fields": [
+      "code",
+      "body",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "city": {
+    "label": "Espaces & relations",
+    "icon": "city",
+    "kind": "space",
+    "intro": "Présentez votre communauté et les ressources qui lui sont utiles.",
+    "fields": [
+      "guild",
+      "teamspace",
+      "room",
+      "body",
+      "related",
+      "workspaces",
+      "company",
+      "courses"
+    ]
+  },
+  "audio": {
+    "label": "Audio",
+    "icon": "microphone",
+    "kind": "audio",
+    "intro": "Joignez votre audio ou enregistrez un mémo, puis complétez votre présentation.",
+    "fields": [
+      "audio",
+      "body",
+      "images_upload",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "video": {
+    "label": "Vidéo",
+    "icon": "video",
+    "kind": "video",
+    "intro": "Ajoutez votre vidéo, ses chapitres, sa transcription et les ressources associées.",
+    "fields": [
+      "video_upload",
+      "timed_media",
+      "body",
+      "images_upload",
+      "source",
+      "related",
+      "company",
+      "job",
+      "courses"
+    ]
+  },
+  "images": {
+    "label": "Images",
+    "icon": "images",
+    "kind": "images",
+    "intro": "Partagez votre galerie et racontez ce qu’elle présente.",
+    "fields": [
+      "images_upload",
+      "body",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "files": {
+    "label": "Fichiers",
+    "icon": "paperclip",
+    "kind": "files",
+    "intro": "Partagez vos documents et indiquez à quoi ils servent.",
+    "fields": [
+      "files_upload",
+      "body",
+      "source",
+      "related",
+      "company",
+      "courses"
+    ]
+  },
+  "review": {
+    "label": "Avis & notes",
+    "icon": "star",
+    "kind": "review",
+    "intro": "Partagez le verdict de la rédaction, ses points forts et ses limites. Les lecteurs pourront noter leur propre expérience.",
+    "fields": [
+      "review",
+      "body",
+      "images_upload",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "gaming": {
+    "label": "Équipe & joueurs",
+    "icon": "gamepad",
+    "kind": "gaming",
+    "intro": "Présentez votre groupe, votre jeu et les rôles que vous recherchez.",
+    "fields": [
+      "teamspace",
+      "body",
+      "room",
+      "guild",
+      "spoiler",
+      "related",
+      "company"
+    ]
+  },
+  "reportage": {
+    "label": "Reportage",
+    "icon": "newspaper",
+    "kind": "reportage",
+    "intro": "Racontez votre enquête, présentez vos témoins et documentez vos sources.",
+    "fields": [
+      "body",
+      "excerpt",
+      "images_upload",
+      "video_upload",
+      "timed_media",
+      "audio",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "video-review": {
+    "label": "Vidéo & avis produit",
+    "icon": "star",
+    "kind": "review",
+    "intro": "Montrez le produit en vidéo, partagez votre verdict et invitez les lecteurs à donner leur avis.",
+    "fields": [
+      "video_upload",
+      "timed_media",
+      "review",
+      "body",
+      "excerpt",
+      "images_upload",
+      "source",
+      "related",
+      "company",
+      "job",
+      "courses"
+    ]
+  },
+  "buying-pool": {
+    "label": "Coalition d’achat",
+    "icon": "users-rays",
+    "kind": "data",
+    "intro": "Réunissez les personnes qui préparent le même achat. Les entreprises peuvent soumettre leurs propositions en privé.",
+    "fields": [
+      "coalition",
+      "body",
+      "excerpt",
+      "source",
+      "related",
+      "company",
+      "images_upload"
+    ]
+  },
+  "playtest": {
+    "label": "Raid & playtest",
+    "icon": "gamepad",
+    "kind": "gaming",
+    "intro": "Présentez votre session, ses places, ses horaires et la récompense annoncée.",
+    "fields": [
+      "opportunity",
+      "teamspace",
+      "body",
+      "room",
+      "images_upload",
+      "related",
+      "company"
+    ]
+  },
+  "fact-check": {
+    "label": "Enquête & fact-checking",
+    "icon": "magnifying-glass",
+    "kind": "reportage",
+    "intro": "Décrivez les faits à vérifier, les preuves attendues et les conditions de votre prime.",
+    "fields": [
+      "factcheck",
+      "body",
+      "source",
+      "images_upload",
+      "video_upload",
+      "timed_media",
+      "related",
+      "company"
+    ]
+  },
+  "expert": {
+    "label": "Rendez-vous expert",
+    "icon": "video",
+    "kind": "space",
+    "intro": "Présentez votre expertise, votre créneau et les conditions de réservation.",
+    "fields": [
+      "consultation",
+      "body",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "partner": {
+    "label": "Offre partenaire",
+    "icon": "handshake",
+    "kind": "data",
+    "intro": "Présentez une offre documentée et invitez les membres intéressés à vous contacter.",
+    "fields": [
+      "partner",
+      "intent",
+      "body",
+      "images_upload",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "sponsorship": {
+    "label": "Sponsoriser une équipe",
+    "icon": "bolt",
+    "kind": "data",
+    "intro": "Reliez votre offre à une équipe et recevez des propositions privées.",
+    "fields": [
+      "sponsorship",
+      "teamspace",
+      "body",
+      "source",
+      "related",
+      "company"
+    ]
+  },
+  "country-guide": {
+    "label": "Dossier pays & tourisme",
+    "icon": "earth-asia",
+    "kind": "review",
+    "intro": "Documentez une destination, ses critères de qualité de vie, ses ressources et les projets de la communauté.",
+    "fields": [
+      "body",
+      "excerpt",
+      "review",
+      "coalition",
+      "partner",
+      "images_upload",
+      "source",
+      "related",
+      "company",
+      "country",
+      "city",
+      "currency",
+      "mission"
+    ]
+  },
+  "hero": {
+    "label": "Fiche de héros / personnage",
+    "icon": "mask",
+    "kind": "article",
+    "intro": "Présentez un personnage, son histoire et ses univers avec des images et des sources.",
+    "fields": [
+      "body",
+      "excerpt",
+      "character-name",
+      "biography",
+      "abilities",
+      "workspaces",
+      "images_upload",
+      "source",
+      "related",
+      "spoiler",
+      "mission"
+    ]
+  },
+  "akiya": {
+    "label": "Fiche pays / maison Akiya",
+    "icon": "house-chimney",
+    "kind": "article",
+    "intro": "Réunissez le lieu, les photos, le budget et les démarches de votre projet.",
+    "fields": [
+      "body",
+      "excerpt",
+      "city",
+      "country",
+      "purchase",
+      "works",
+      "fees",
+      "aid",
+      "images_upload",
+      "files_upload",
+      "source",
+      "related",
+      "company",
+      "currency",
+      "mission"
+    ]
+  }
+}

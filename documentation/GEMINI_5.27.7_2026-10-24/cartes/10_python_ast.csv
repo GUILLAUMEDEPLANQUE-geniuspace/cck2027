@@ -1,0 +1,12 @@
+﻿file,name,kind,line,end_line
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,digest,FunctionDef,23,25
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,atomic_json,FunctionDef,28,35
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,examples,FunctionDef,38,53
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,encode,FunctionDef,56,60
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,load_base,FunctionDef,63,80
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,loss,FunctionDef,83,92
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,train,FunctionDef,95,171
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,answer,FunctionDef,174,187
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,perceive,FunctionDef,190,228
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,transcribe,FunctionDef,231,243
+components/com_joomcck/site/library/php/geniuspace/ai/local-model.py,main,FunctionDef,246,283

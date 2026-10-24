@@ -1,0 +1,37 @@
+﻿task,url_template,function,declared_guards,file,line
+geniuspace.subscriptions,index.php?option=com_joomcck&task=geniuspace.subscriptions,JoomcckControllerGeniuspace::subscriptions,[],components/com_joomcck/site/controllers/geniuspace.php,8
+geniuspace.subscriptionWebhook,index.php?option=com_joomcck&task=geniuspace.subscriptionWebhook,JoomcckControllerGeniuspace::subscriptionWebhook,[],components/com_joomcck/site/controllers/geniuspace.php,9
+geniuspace.jobPreview,index.php?option=com_joomcck&task=geniuspace.jobPreview,JoomcckControllerGeniuspace::jobPreview,"[""getMethod"", ""NativeAccess""]",components/com_joomcck/site/controllers/geniuspace.php,17
+geniuspace.product,index.php?option=com_joomcck&task=geniuspace.product,JoomcckControllerGeniuspace::product,"[""Tokens::valid"", ""HTTP_X_GENIUSPACE_CSRF"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,32
+geniuspace.designStudio,index.php?option=com_joomcck&task=geniuspace.designStudio,JoomcckControllerGeniuspace::designStudio,[],components/com_joomcck/site/controllers/geniuspace.php,58
+geniuspace.designApi,index.php?option=com_joomcck&task=geniuspace.designApi,JoomcckControllerGeniuspace::designApi,[],components/com_joomcck/site/controllers/geniuspace.php,59
+geniuspace.productRead,index.php?option=com_joomcck&task=geniuspace.productRead,JoomcckControllerGeniuspace::productRead,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,60
+geniuspace.nativeMedia,index.php?option=com_joomcck&task=geniuspace.nativeMedia,JoomcckControllerGeniuspace::nativeMedia,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,69
+geniuspace.participationUpload,index.php?option=com_joomcck&task=geniuspace.participationUpload,JoomcckControllerGeniuspace::participationUpload,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,77
+geniuspace.productMedia,index.php?option=com_joomcck&task=geniuspace.productMedia,JoomcckControllerGeniuspace::productMedia,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,85
+geniuspace.repairNexus,index.php?option=com_joomcck&task=geniuspace.repairNexus,JoomcckControllerGeniuspace::repairNexus,"[""nativePost"", ""authorise""]",components/com_joomcck/site/controllers/geniuspace.php,92
+geniuspace.demo,index.php?option=com_joomcck&task=geniuspace.demo,JoomcckControllerGeniuspace::demo,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,106
+geniuspace.forumSetup,index.php?option=com_joomcck&task=geniuspace.forumSetup,JoomcckControllerGeniuspace::forumSetup,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,114
+geniuspace.editorialPack,index.php?option=com_joomcck&task=geniuspace.editorialPack,JoomcckControllerGeniuspace::editorialPack,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,125
+geniuspace.editorialCollection2026,index.php?option=com_joomcck&task=geniuspace.editorialCollection2026,JoomcckControllerGeniuspace::editorialCollection2026,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,133
+geniuspace.forumRadar,index.php?option=com_joomcck&task=geniuspace.forumRadar,JoomcckControllerGeniuspace::forumRadar,"[""getMethod""]",components/com_joomcck/site/controllers/geniuspace.php,141
+geniuspace.editorialTopics2026,index.php?option=com_joomcck&task=geniuspace.editorialTopics2026,JoomcckControllerGeniuspace::editorialTopics2026,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,153
+geniuspace.memberImport,index.php?option=com_joomcck&task=geniuspace.memberImport,JoomcckControllerGeniuspace::memberImport,"[""nativePost"", ""authorise""]",components/com_joomcck/site/controllers/geniuspace.php,161
+geniuspace.editorialLibrary2026,index.php?option=com_joomcck&task=geniuspace.editorialLibrary2026,JoomcckControllerGeniuspace::editorialLibrary2026,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,174
+geniuspace.shellBindings,index.php?option=com_joomcck&task=geniuspace.shellBindings,JoomcckControllerGeniuspace::shellBindings,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,182
+geniuspace.vault,index.php?option=com_joomcck&task=geniuspace.vault,JoomcckControllerGeniuspace::vault,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,190
+geniuspace.vaultDownload,index.php?option=com_joomcck&task=geniuspace.vaultDownload,JoomcckControllerGeniuspace::vaultDownload,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,202
+geniuspace.creatorRevenue,index.php?option=com_joomcck&task=geniuspace.creatorRevenue,JoomcckControllerGeniuspace::creatorRevenue,"[""nativePost""]",components/com_joomcck/site/controllers/geniuspace.php,209
+geniuspace.workstyle,index.php?option=com_joomcck&task=geniuspace.workstyle,JoomcckControllerGeniuspace::workstyle,"[""Tokens::valid"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,216
+geniuspace.cohort,index.php?option=com_joomcck&task=geniuspace.cohort,JoomcckControllerGeniuspace::cohort,"[""Tokens::valid"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,226
+geniuspace.hiring,index.php?option=com_joomcck&task=geniuspace.hiring,JoomcckControllerGeniuspace::hiring,"[""Tokens::valid"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,236
+geniuspace.talentmarket,index.php?option=com_joomcck&task=geniuspace.talentmarket,JoomcckControllerGeniuspace::talentmarket,"[""Tokens::valid"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,246
+geniuspace.community,index.php?option=com_joomcck&task=geniuspace.community,JoomcckControllerGeniuspace::community,"[""Tokens::valid"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,257
+geniuspace.omega,index.php?option=com_joomcck&task=geniuspace.omega,JoomcckControllerGeniuspace::omega,"[""HTTP_X_GENIUSPACE_CSRF"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,268
+geniuspace.sitemap,index.php?option=com_joomcck&task=geniuspace.sitemap,JoomcckControllerGeniuspace::sitemap,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,284
+geniuspace.discovery,index.php?option=com_joomcck&task=geniuspace.discovery,JoomcckControllerGeniuspace::discovery,[],components/com_joomcck/site/controllers/geniuspace.php,292
+geniuspace.openapi,index.php?option=com_joomcck&task=geniuspace.openapi,JoomcckControllerGeniuspace::openapi,[],components/com_joomcck/site/controllers/geniuspace.php,293
+geniuspace.semantic,index.php?option=com_joomcck&task=geniuspace.semantic,JoomcckControllerGeniuspace::semantic,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,305
+geniuspace.extendedPay,index.php?option=com_joomcck&task=geniuspace.extendedPay,JoomcckControllerGeniuspace::extendedPay,"[""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,316
+geniuspace.assist,index.php?option=com_joomcck&task=geniuspace.assist,JoomcckControllerGeniuspace::assist,"[""HTTP_X_GENIUSPACE_CSRF"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,327
+geniuspace.dispatch,index.php?option=com_joomcck&task=geniuspace.dispatch,JoomcckControllerGeniuspace::dispatch,"[""Tokens::valid"", ""HTTP_X_GENIUSPACE_CSRF"", ""REQUEST_METHOD""]",components/com_joomcck/site/controllers/geniuspace.php,341

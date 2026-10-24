@@ -1,0 +1,644 @@
+﻿method,domain,function,file,line,truncated,expression
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Controller\AigeneratorController::generateEntity,components/com_jmap/admin/Controller/AigeneratorController.php,333,False,Folder::delete ( $imagesPath )
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\File::delete,components/com_jmap/admin/Framework/File/File.php,199,False,$ftp->delete ( $file )
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\File\Folderwrapper::delete,components/com_jmap/admin/Framework/File/Folderwrapper.php,77,False,Folder::delete ( $path )
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\File\Sources::install,components/com_jmap/admin/Framework/File/Sources.php,238,False,Folder::delete($folderPluginPath)
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\File\Sources::install,components/com_jmap/admin/Framework/File/Sources.php,252,False,JMapFile::delete($folderPluginPath . '/' . $tmpFileName)
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\File\Sources::install,components/com_jmap/admin/Framework/File/Sources.php,283,False,Folder::delete(JPATH_COMPONENT_ADMINISTRATOR . '/plugins/' . strtolower($pluginName))
+insert,15_jsitemap,Monolog\Handler\MongoDBHandler::write,components/com_jmap/admin/Framework/Google/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php,84,False,"$bulk->insert($record[""formatted""])"
+insertObject,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\Model::storeActionLog,components/com_jmap/admin/Framework/Model/Model.php,306,False,"dbInstance->insertObject('#__action_logs', $actionLogTable)"
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\Model::deleteEntity,components/com_jmap/admin/Framework/Model/Model.php,473,False,$table->delete ( $id )
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Framework\Xml\Precacher::writeFile,components/com_jmap/admin/Framework/Xml/Precacher.php,164,False,File::delete($tempFileName)
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\AigeneratorModel::deleteEntity,components/com_jmap/admin/Model/AigeneratorModel.php,422,False,Folder::delete($imagesPath)
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\AigeneratorModel::deleteEntity,components/com_jmap/admin/Model/AigeneratorModel.php,426,False,$table->delete ( $id )
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\AjaxserverModel::storeUpdatePriority,components/com_jmap/admin/Model/AjaxserverModel.php,1025,False,$table->delete()
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\GoogleModel::deleteSitemap,components/com_jmap/admin/Model/GoogleModel.php,3454,False,"sitemaps->delete($webmastersStatsDomain, $sitemapUri)"
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\MetainfoModel::deletePageMetainfo,components/com_jmap/admin/Model/MetainfoModel.php,487,False,$query->delete($db->quoteName('#__jmap_metainfo'))
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\SourcesModel::deleteEntity,components/com_jmap/admin/Model/SourcesModel.php,1305,False,Folder::delete($folderPluginPath)
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Model\SourcesModel::deleteEntity,components/com_jmap/admin/Model/SourcesModel.php,1310,False,$table->delete ( $id )
+updateObject,15_jsitemap,JExtstore\Component\JMap\Administrator\Table\CatsPrioritiesTable::store,components/com_jmap/admin/Table/CatsPrioritiesTable.php,69,False,"dbo->updateObject($this->_tbl, $this, $this->_tbl_key, $updateNulls)"
+insertObject,15_jsitemap,JExtstore\Component\JMap\Administrator\Table\CatsPrioritiesTable::store,components/com_jmap/admin/Table/CatsPrioritiesTable.php,72,False,"dbo->insertObject($this->_tbl, $this, $this->_tbl_key)"
+delete,15_jsitemap,JExtstore\Component\JMap\Administrator\Table\DatasetsTable::delete,components/com_jmap/admin/Table/DatasetsTable.php,141,False,parent::delete($pk)
+updateObject,15_jsitemap,JExtstore\Component\JMap\Administrator\Table\MenuPrioritiesTable::store,components/com_jmap/admin/Table/MenuPrioritiesTable.php,69,False,"dbo->updateObject($this->_tbl, $this, $this->_tbl_key, $updateNulls)"
+insertObject,15_jsitemap,JExtstore\Component\JMap\Administrator\Table\MenuPrioritiesTable::store,components/com_jmap/admin/Table/MenuPrioritiesTable.php,72,False,"dbo->insertObject($this->_tbl, $this, $this->_tbl_key)"
+insert,15_jsitemap,JMapBaseInstallerScript::install,components/com_jmap/installscript.php,204,False,$query->insert('#__modules_menu')
+insert,15_jsitemap,PlgContentPingomatic::pingContent,components/com_jmap/pluginping/pingomatic.php,621,False,$query->insert ( $this->dbInstance->quoteName ( '#__jmap_metainfo' ) )
+insert,15_jsitemap,PlgContentPingomatic::pingContent,components/com_jmap/pluginping/pingomatic.php,699,False,$query->insert($this->dbInstance->quoteName('#__jmap_metainfo'))
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,174,False,\Joomla\Filesystem\Folder::delete(CDIR . 'controllers')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,178,False,\Joomla\Filesystem\Folder::delete(CDIR . 'helpers')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,182,False,\Joomla\Filesystem\Folder::delete(CDIR . 'tables')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,186,False,\Joomla\Filesystem\Folder::delete(CDIR . 'models')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,190,False,\Joomla\Filesystem\Folder::delete(CDIR . 'xml')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,194,False,\Joomla\Filesystem\Folder::delete(CDIR . 'library/css')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,198,False,\Joomla\Filesystem\Folder::delete(CDIR . 'library/js')
+delete,12_legacy_native,com_joomcckInstallerScript::_joomcck,components/com_joomcck/install.php,202,False,\Joomla\Filesystem\Folder::delete(CDIR . 'library/php')
+delete,12_legacy_native,com_joomcckInstallerScript::_deleteFiles59,components/com_joomcck/install.php,634,False,\Joomla\Filesystem\File::delete(JPATH_ROOT . $file)
+store_value,12_legacy_native,JoomcckApi::_touchRecord,components/com_joomcck/site/api.php,379,False,"$table->store_value($value, $key, $record, $field)"
+delete,12_legacy_native,JoomcckControllerAjax::uploadIconPack,components/com_joomcck/site/controllers/ajax.php,229,False,\Joomla\Filesystem\Folder::delete($target)
+delete,12_legacy_native,JoomcckControllerAjax::uploadIconPack,components/com_joomcck/site/controllers/ajax.php,239,False,\Joomla\Filesystem\Folder::delete($target)
+delete,12_legacy_native,JoomcckControllerAjax::followsection,components/com_joomcck/site/controllers/ajax.php,456,False,$table->delete()
+delete,12_legacy_native,JoomcckControllerAjax::follow,components/com_joomcck/site/controllers/ajax.php,643,False,$table->delete()
+delete,12_legacy_native,JoomcckControllerAjax::bookmark,components/com_joomcck/site/controllers/ajax.php,772,False,$table->delete()
+delete,12_legacy_native,JoomcckControllerAjax::removeucicon,components/com_joomcck/site/controllers/ajax.php,821,False,\Joomla\Filesystem\File::delete($fullpath)
+delete,12_legacy_native,JoomcckControllerAjax::remove_tag,components/com_joomcck/site/controllers/ajax.php,1141,False,$table->delete()
+delete,12_legacy_native,JoomcckControllerAjax::remove_notification,components/com_joomcck/site/controllers/ajax.php,1406,False,$query->delete()
+delete,12_legacy_native,JoomcckControllerAjax::remove_notification_by,components/com_joomcck/site/controllers/ajax.php,1505,False,$query->delete()
+delete,12_legacy_native,JoomcckControllerAjax::remove_log,components/com_joomcck/site/controllers/ajax.php,1589,False,$query->delete()
+delete,12_legacy_native,JoomcckControllerCats::delete,components/com_joomcck/site/controllers/cats.php,32,False,parent::delete()
+transactionStart,12_legacy_native,JoomcckControllerComment::report,components/com_joomcck/site/controllers/comment.php,152,False,$db->transactionStart()
+transactionCommit,12_legacy_native,JoomcckControllerComment::report,components/com_joomcck/site/controllers/comment.php,164,False,$db->transactionCommit()
+transactionRollback,12_legacy_native,JoomcckControllerComment::report,components/com_joomcck/site/controllers/comment.php,165,False,$db->transactionRollback()
+delete,12_legacy_native,JoomcckControllerComments::delete,components/com_joomcck/site/controllers/comments.php,38,False,parent::delete()
+delete,12_legacy_native,JoomcckControllerFiles::upload,components/com_joomcck/site/controllers/files.php,451,False,\Joomla\Filesystem\File::delete($src)
+delete,12_legacy_native,JoomcckControllerFiles::upload,components/com_joomcck/site/controllers/files.php,455,False,\Joomla\Filesystem\File::delete($src)
+store_value,12_legacy_native,JoomcckControllerFiles::upload,components/com_joomcck/site/controllers/files.php,466,False,"$rv->store_value($save['realname'], NULL, $record, $field)"
+delete,12_legacy_native,JoomcckControllerFiles::mooupload,components/com_joomcck/site/controllers/files.php,529,False,\Joomla\Filesystem\File::delete($src)
+delete,12_legacy_native,JoomcckControllerFiles::uploadremove,components/com_joomcck/site/controllers/files.php,713,False,\Joomla\Filesystem\File::delete($full_file_path)
+delete,12_legacy_native,JoomcckControllerFiles::uploadremove,components/com_joomcck/site/controllers/files.php,718,False,$files_table->delete()
+store_value,12_legacy_native,JoomcckControllerForm::postSaveHook,components/com_joomcck/site/controllers/form.php,213,False,"$table->store_value($value, $key, $record, $field)"
+store_value,12_legacy_native,JoomcckControllerImport::import,components/com_joomcck/site/controllers/import.php,312,False,"$record_values->store_value($value, $key, $item, $field)"
+insert,12_legacy_native,JoomcckControllerImport::_row,components/com_joomcck/site/controllers/import.php,610,False,")
+			->insert($this->db->quoteName('#__js_res_import_rows'))"
+delete,12_legacy_native,JoomcckControllerImport::_error,components/com_joomcck/site/controllers/import.php,647,False,\Joomla\Filesystem\Folder::delete($this->dir)
+delete,12_legacy_native,JoomcckControllerImport::deletePreset,components/com_joomcck/site/controllers/import.php,780,False,")
+			->delete('#__js_res_import')"
+delete,12_legacy_native,JoomcckControllerItems::delete,components/com_joomcck/site/controllers/items.php,112,False,parent::delete()
+delete,12_legacy_native,JoomcckControllerRecords::delete,components/com_joomcck/site/controllers/records.php,507,False,record->delete()
+delete,12_legacy_native,JoomcckControllerSale::delete,components/com_joomcck/site/controllers/sale.php,119,False,$table->delete()
+insertObject,12_legacy_native,JFormFieldCDripcontent::_approveUser,components/com_joomcck/site/fields/dripcontent/dripcontent.php,296,False,"$db->insertObject('#__js_res_field_stepaccess',$data)"
+delete,12_legacy_native,JFormFieldCImage::deleteImage,components/com_joomcck/site/fields/image/image.php,255,False,File::delete($full_file_path)
+delete,12_legacy_native,JFormFieldCImage::deleteImage,components/com_joomcck/site/fields/image/image.php,260,False,$files_table->delete()
+delete,12_legacy_native,JFormFieldCMultilevelselect::_delete,components/com_joomcck/site/fields/multilevelselect/multilevelselect.php,487,False,$row->delete((int)$r->id)
+delete,16_dependances,Flow\Mongo\MongoUploader::pruneChunks,components/com_joomcck/site/libraries/vendor/flowjs/flow-php-server/src/Flow/Mongo/MongoUploader.php,25,False,$gridFs->delete($file['_id'])
+delete,12_legacy_native,UploadHandler::initialize,components/com_joomcck/site/library/php/UploadHandler.php,217,False,$this->delete($this->options['print_response'])
+delete,12_legacy_native,UploadHandler::post,components/com_joomcck/site/library/php/UploadHandler.php,1398,False,$this->delete($print_response)
+insert,01_socle_acces,Geniuspace\ApiIdentity::create,components/com_joomcck/site/library/php/geniuspace/ApiIdentity.php,12,False,"store->insert('definitions',['scope'=>$s->company['slug'],'kind'=>'api_key','name'=>'api-'.bin2hex(random_bytes(12)),'data'=>Seo::json(['hash'=>hash('sha256',$key),'user_id'=>$user,'expires_at'=>$expires,'permissions'=>$permissions]),'revision'=>1])"
+insert,05_medias,Geniuspace\AudioRoom::handle,components/com_joomcck/site/library/php/geniuspace/AudioRoom.php,37,False,"$s->insert('room_signals',['record_id'=>$record,'field_id'=>$field,'sender_id'=>$user,'recipient_id'=>0,'kind'=>'audio','payload'=>Seo::json(['from_session'=>$session['session_token'],'pcm'=>$encoded]),'ctime'=>$now])"
+insert,05_medias,Geniuspace\AudioRoom::handle,components/com_joomcck/site/library/php/geniuspace/AudioRoom.php,46,False,"$s->insert('room_signals',['record_id'=>$record,'field_id'=>$field,'sender_id'=>$user,'recipient_id'=>$target,'kind'=>$kind,'payload'=>Seo::json(['from_session'=>$session['session_token'],'to_session'=>$targetSession['session_token'],'body'=>$payload]),'ctime'=>$now])"
+insert,05_medias,Geniuspace\AudioWorkshop::upload,components/com_joomcck/site/library/php/geniuspace/AudioWorkshop.php,20,False,"$s->insert('audio_assets',['record_id'=>$record,'field_id'=>$field,'user_id'=>$user,'mime'=>$mime,'bytes'=>$size,
+            'checksum'=>hash('sha256',$bytes),'payload'=>base64_encode($bytes),'ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,01_socle_acces,Geniuspace\Blueprint::apply,components/com_joomcck/site/library/php/geniuspace/Blueprint.php,22,False,"store->atomic(function()use($studio,$plan){$result=[];
+            foreach($plan['types'] as $type)$result[]=$studio->saveDefinition('content_type',$type['name'],$type['schema']);
+            foreach($plan['queries']??[] as $q)$result[]=$studio->saveDefinition('query',$q['name'],$q['query']);
+            foreach($plan['glossaries']??[] as $g)$result[]=$studio->saveDefinition('glossary',$g['name'],$g['items']);
+            return $result;
+        })"
+atomic,11_metiers,Geniuspace\Booking::reserve,components/com_joomcck/site/library/php/geniuspace/Booking.php,16,False,"store->atomic(function()use($key,$slot,$quantity,$expected,$s){$this->definition($key,true);$available=$this->available($key);if($available['revision']!==$expected)throw new \DomainException('Calendrier modifié : recharger les disponibilités.',409);$selected=null;foreach($available['slots'] as $candidate)if($candidate['key']===$slot)$selected=$candidate;if(!$selected||strtotime($selected['start'])<=time()||$selected['remaining']<$quantity)throw new \DomainException('Créneau indisponible.',409);if($s->store->rows('SELECT id FROM #__gp_social_reservations WHERE '.$this->where($key).' AND user_id='.$s->user.' AND slot_key='.$s->store->q($slot)."" AND state='confirmed'"",1))throw new \DomainException('Créneau déjà réservé par ce compte.',409);$id=$s->store->insert('reservations',['scope'=>$s->company['slug'],'booking_name'=>$key,'user_id'=>$s->user,'slot_key'=>$slot,'starts_at'=>$selected['start'],'ends_at'=>$selected['end'],'quantity'=>$quantity,'revision'=>1,'state'=>'confirmed','ctime'=>gmdate('Y-m-d H:i:s')]);return ['id'=>$id,'state'=>'confirmed','quantity'=>$quantity,'slot'=>$selected];})"
+insert,11_metiers,Geniuspace\Booking::reserve,components/com_joomcck/site/library/php/geniuspace/Booking.php,16,False,"store->insert('reservations',['scope'=>$s->company['slug'],'booking_name'=>$key,'user_id'=>$s->user,'slot_key'=>$slot,'starts_at'=>$selected['start'],'ends_at'=>$selected['end'],'quantity'=>$quantity,'revision'=>1,'state'=>'confirmed','ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,11_metiers,Geniuspace\Booking::cancel,components/com_joomcck/site/library/php/geniuspace/Booking.php,18,False,"store->atomic(function()use($key,$id,$expected,$s){$lock=$s->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';$r=$s->store->rows('SELECT * FROM #__gp_social_reservations WHERE '.$this->where($key).' AND id='.$id.$lock,1)[0]??null;if(!$r||!$s->admin&&(int)$r['user_id']!==$s->user)throw new \DomainException('Réservation inaccessible.',404);if((int)$r['revision']!==$expected||$r['state']!=='confirmed')throw new \DomainException('Réservation modifiée.',409);$s->store->run(""UPDATE #__gp_social_reservations SET state='cancelled',revision=revision+1 WHERE id="".$id.' AND '.$this->where($key));})"
+atomic,10_facturation,Geniuspace\Commerce::create,components/com_joomcck/site/library/php/geniuspace/Commerce.php,85,False,"store->atomic(function () use ($offerKey, $record, $buyer): string {
+            $user = $this->authenticated(true); $offer = null;
+            foreach ($this->offers() as $o) if ($o['key'] === $offerKey) $offer = $o;
+            if (!$offer) throw new \DomainException('Offre indisponible.', 404);
+            if ($offer['kind'] === 'featured') $this->owned($record); else $record = 0;
+            $buyer = self::buyer($buyer);
+            // Double-clicks reuse a pending checkout, preventing duplicate pending subscriptions.
+            $pending = $this->store->rows('SELECT token FROM #__gp_social_orders WHERE scope=' . $this->q($this->company['slug']) . ' AND user_id=' . $this->user . ' AND plan_id=' . $offer['plan_id'] . ' AND record_id=' . $record . "" AND state='pending' AND ctime>"" . $this->q($this->date($this->now() - 3600)), 1)[0] ?? null;
+            if ($pending) return $pending['token'];
+            $token = bin2hex(random_bytes(24)); $created = $this->date($this->now());
+            $snapshot = ['seller' => $this->settings['seller'], 'buyer' => $buyer, 'vat_basis_points'"
+insert,10_facturation,Geniuspace\Commerce::create,components/com_joomcck/site/library/php/geniuspace/Commerce.php,97,False,"store->insert('orders', ['token' => $token, 'scope' => $this->company['slug'], 'user_id' => $this->user, 'record_id' => $record, 'plan_id' => $offer['plan_id'], 'subscription_id' => $sub, 'days' => $offer['days'], 'amount' => $offer['amount'], 'currency' => $offer['currency'], 'state' => 'pending', 'snapshot' => Seo::json($snapshot), 'ctime' => $created])"
+atomic,10_facturation,Geniuspace\Commerce::checkout,components/com_joomcck/site/library/php/geniuspace/Commerce.php,112,False,"store->atomic(function () use ($token): string {
+            $this->authenticated(true); $o = $this->order($token, true);
+            if ($o['state'] !== 'pending' || strtotime($o['ctime'] . ' UTC') + 7200 <= $this->now()) throw new \DomainException('Commande terminée ou expirée.', 409);
+            if ((int) $o['record_id']) $this->owned((int) $o['record_id']);
+            $s = json_decode($o['snapshot'], true); $base = 'https://' . $this->config->domain . '/abonnements/' . $this->company['slug'];
+            $data = ['mode' => 'payment', 'client_reference_id' => $token, 'metadata' => ['geniuspace_order' => $token], 'payment_intent_data' => ['metadata' => ['geniuspace_order' => $token]], 'success_url' => $base . '/commande/' . $token, 'cancel_url' => $base . '/commande/' . $token . '?cancel=1', 'line_items' => [['quantity' => 1, 'price_data' => ['currency' => $o['currency'], 'unit_amount' => (int) $o['amount'], 'product_data' => ['name' => $s['offer']['name']"
+atomic,10_facturation,Geniuspace\Commerce::webhook,components/com_joomcck/site/library/php/geniuspace/Commerce.php,130,False,"store->atomic(function () use ($event, $body): void {
+            $object = $event['data']['object']; $token = $object['metadata']['geniuspace_order'] ?? '';
+            if (!is_string($token)) throw new \DomainException('Métadonnées invalides.', 400);
+            if ($token !== '' && !preg_match('/^[a-f0-9]{48}$/D', $token)) throw new \DomainException('Commande invalide.', 400);
+            $where = $token !== '' ? 'token=' . $this->q($token) : 'intent_id=' . $this->q(is_string($object['payment_intent'] ?? null) ? $object['payment_intent'] : '');
+            if ($token === '' && empty($object['payment_intent'])) return;
+            $past = $this->store->rows('SELECT checksum FROM #__gp_social_stripe_events WHERE event_id=' . $this->q($event['id']), 1)[0] ?? null;
+            if ($past) { if (!hash_equals($past['checksum'], hash('sha256', $body))) throw new \DomainException('Notification dupliquée et modifiée.', 409); return; }
+            $paid = str_starts_with($event['type'], 'checkout.session.');
+            $o = $this->store->rows('SELECT * FROM #__gp_social_orders WHERE ' ."
+insert,10_facturation,Geniuspace\Commerce::webhook,components/com_joomcck/site/library/php/geniuspace/Commerce.php,177,False,"store->insert('stripe_events', ['event_id' => $event['id'], 'order_id' => (int) ($o['id'] ?? 0), 'kind' => $event['type'], 'checksum' => hash('sha256', $body), 'ctime' => $this->date($this->now())])"
+insert,10_facturation,Geniuspace\Commerce::adjustment,components/com_joomcck/site/library/php/geniuspace/Commerce.php,188,False,"store->insert('stripe_adjustments', $data)"
+insert,10_facturation,Geniuspace\Commerce::invoice,components/com_joomcck/site/library/php/geniuspace/Commerce.php,208,False,"store->insert('invoices', ['order_id' => (int) $o['id'], 'number' => 'pending-' . bin2hex(random_bytes(16)), 'kind' => $kind, 'amount' => $amount, 'snapshot' => $o['snapshot'], 'ctime' => $this->date($this->now())])"
+atomic,10_facturation,Geniuspace\ContentSubscription::set,components/com_joomcck/site/library/php/geniuspace/ContentSubscription.php,10,False,"store->atomic(function()use($record,$enabled,$s){$lock=$s->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';$s->store->rows('SELECT id FROM #__users WHERE id='.$s->user.$lock,1);$s->store->run('DELETE FROM #__js_res_subscribe WHERE '.$this->where($record));if($enabled)$s->store->run(""INSERT INTO #__js_res_subscribe(user_id,type,ref_id,section_id,ctime) VALUES("".$s->user."",'record',"".$record.','.$s->repository->record($s->company,$record)['section_id'].','.$s->store->q(gmdate('Y-m-d H:i:s')).')');return ['subscribed'=>$enabled];})"
+updateObject,11_metiers,Geniuspace\DemoInstaller::update,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,44,False,"db->updateObject($table,$row,'id')"
+delete,11_metiers,Geniuspace\DemoInstaller::cleanup,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,73,False,)->delete((int)$id)
+delete,11_metiers,Geniuspace\DemoInstaller::cleanup,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,77,False,$native->delete((int)$id)
+transactionStart,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,104,False,$db->transactionStart()
+store_value,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,144,False,"$table->store_value($vv,$vi,$r,$field)"
+insertObject,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,147,False,"$db->insertObject('#__js_res_comments',$row)"
+insertObject,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,153,False,"$db->insertObject('#__modules_menu',$binding)"
+insert,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,168,False,")->insert('demo_manifests',['prefix'=>$prefix,'payload'=>Seo::json($this->map),'ctime'=>gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,168,False,")->insert('demo_manifests',['prefix'=>$prefix,'payload'=>Seo::json($this->map),'ctime'=>gmdate('Y-m-d H:i:s')])"
+transactionCommit,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,169,False,$db->transactionCommit()
+transactionRollback,11_metiers,Geniuspace\DemoInstaller::apply,components/com_joomcck/site/library/php/geniuspace/DemoInstaller.php,170,False,$db->transactionRollback()
+atomic,09_ia,Geniuspace\Documents::upload,components/com_joomcck/site/library/php/geniuspace/Documents.php,92,False,"store->atomic(function () use ($s, $record, $field, $key, $data, $visibility, $expires, $metadata, $bytes): int {
+            // Lock the CCK parent: concurrent uploads cannot reuse a revision number.
+            $s->store->run('UPDATE #__js_res_record SET id=id WHERE id=' . $record);
+            $current = (int) ($s->store->rows('SELECT MAX(revision) AS revision FROM #__gp_social_documents WHERE ' . $this->where() . ' AND record_id=' . $record . ' AND document_key=' . $s->store->q($key), 1)[0]['revision'] ?? 0);
+            if (Social::id($data, 'expected_revision') !== $current) { throw new \DomainException('Une nouvelle version existe déjà. Rechargez avant de remplacer.', 409); }
+            $usage = (int) ($s->store->rows('SELECT COALESCE(SUM(bytes),0) AS total FROM #__gp_social_documents WHERE ' . $this->where(), 1)[0]['total'] ?? 0);
+            if ($usage + $metadata['bytes'] > 100 * 1024 * 1024) { throw new \DomainException('Quota de 100 Mo du réseau atteint.', 413); }
+            $id = $s->store->insert('documents', $metadata + ['scope' => $s->company['slug'], 'user_id' => $s->user, 'record_id' => $record, 'field_id' => $field,
+                'document_key' => $key, 'title' => Text::"
+insert,09_ia,Geniuspace\Documents::upload,components/com_joomcck/site/library/php/geniuspace/Documents.php,99,False,"store->insert('documents', $metadata + ['scope' => $s->company['slug'], 'user_id' => $s->user, 'record_id' => $record, 'field_id' => $field,
+                'document_key' => $key, 'title' => Text::plain($data['title'] ?? '') ?: $metadata['filename'], 'description' => Text::plain($data['description'] ?? ''),
+                'revision' => $current + 1, 'license' => Text::plain($data['license'] ?? ''), 'expires_at' => $expires, 'visibility' => $visibility, 'state' => 'active', 'payload' => $bytes, 'ctime' => gmdate('Y-m-d H:i:s')])"
+insert,09_ia,Geniuspace\Documents::upload,components/com_joomcck/site/library/php/geniuspace/Documents.php,102,False,"store->insert('audit', ['scope' => $s->company['slug'], 'actor' => $s->user, 'action' => 'upload_document', 'target_id' => $id, 'ctime' => gmdate('Y-m-d H:i:s')])"
+insert,09_ia,Geniuspace\Documents::revoke,components/com_joomcck/site/library/php/geniuspace/Documents.php,111,False,"store->insert('audit', ['scope' => $s->company['slug'], 'actor' => $s->user, 'action' => 'revoke_document', 'target_id' => $id, 'ctime' => gmdate('Y-m-d H:i:s')])"
+delete,08_seo_recherche,Geniuspace\EditorialPack::install,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,40,False,$table->delete($id)
+delete,08_seo_recherche,Geniuspace\EditorialPack::install,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,42,False,$table->delete($id)
+delete,08_seo_recherche,Geniuspace\EditorialPack::library2026,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,82,False,$table->delete($id)
+insertObject,08_seo_recherche,Geniuspace\EditorialPack::collection2026,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,148,False,"$db->insertObject('#__js_res_record_values',$obj)"
+updateObject,08_seo_recherche,Geniuspace\EditorialPack::topics2026,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,187,False,"$db->updateObject('#__js_res_record',$row,'id')"
+insertObject,08_seo_recherche,Geniuspace\EditorialPack::topics2026,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,187,False,"$db->insertObject('#__js_res_record_values',$v)"
+insertObject,08_seo_recherche,Geniuspace\EditorialPack::topics2026,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,187,False,"$db->insertObject('#__js_res_record_category',$v)"
+store_value,08_seo_recherche,Geniuspace\EditorialPack::mergeCollectionRelations,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,211,False,"$row->store_value($value,$index,$record,$f)"
+delete,08_seo_recherche,Geniuspace\EditorialPack::removeCollectionRecords,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,216,False,$table->delete($id)
+store_value,08_seo_recherche,Geniuspace\EditorialPack::values,components/com_joomcck/site/library/php/geniuspace/EditorialPack.php,230,False,"$row->store_value($value,$index,$r,$f)"
+atomic,10_facturation,Geniuspace\ExtendedCommerce::checkout,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,63,False,"$s->atomic(function()use($s,$token,$u,$record,$field,$amount,$currency,$r,$v){$code='';if($r['field_type']==='payvoucher'){$code=self::remaining($record,$field,(string)($v['vouchers']??''))[0]??'';if(!$code)throw new \DomainException('Tous les bons sont vendus ou réservés.',409);}
+            $id=$s->insert('extended_orders',['token'=>$token,'user_id'=>(int)$u->id,'record_id'=>$record,'field_id'=>$field,'amount'=>$amount,'currency'=>$currency,'snapshot'=>json_encode(['title'=>$r['title'],'seller'=>(int)$r['user_id'],'type'=>$r['field_type'],'section'=>(int)$r['section_id'],'type_id'=>(int)$r['type_id']],JSON_THROW_ON_ERROR),'ctime'=>gmdate('Y-m-d H:i:s')]);
+            if($code)$s->insert('extended_vouchers',['record_id'=>$record,'field_id'=>$field,'code_hash'=>hash('sha256',$code),'order_id'=>$id,'code'=>$code]);return $id;})"
+insert,10_facturation,Geniuspace\ExtendedCommerce::checkout,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,64,False,"$s->insert('extended_orders',['token'=>$token,'user_id'=>(int)$u->id,'record_id'=>$record,'field_id'=>$field,'amount'=>$amount,'currency'=>$currency,'snapshot'=>json_encode(['title'=>$r['title'],'seller'=>(int)$r['user_id'],'type'=>$r['field_type'],'section'=>(int)$r['section_id'],'type_id'=>(int)$r['type_id']],JSON_THROW_ON_ERROR),'ctime'=>gmdate('Y-m-d H:i:s')])"
+insert,10_facturation,Geniuspace\ExtendedCommerce::checkout,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,65,False,"$s->insert('extended_vouchers',['record_id'=>$record,'field_id'=>$field,'code_hash'=>hash('sha256',$code),'order_id'=>$id,'code'=>$code])"
+atomic,10_facturation,Geniuspace\ExtendedCommerce::event,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,81,False,"$s->atomic(function()use($s,$where,$event,$o){
+            $row=$s->rows('SELECT * FROM #__gp_social_extended_orders WHERE '.$where.' FOR UPDATE',1)[0]??null;if(!$row)throw new \DomainException('Commande inconnue.',404);
+            $prior=$s->rows('SELECT checksum FROM #__gp_social_extended_events WHERE event_id='.$s->q($event['id']),1)[0]??null;$checksum=hash('sha256',json_encode($event,JSON_THROW_ON_ERROR));if($prior){if(!hash_equals($prior['checksum'],$checksum))throw new \DomainException('Événement incohérent.',409);return;}
+            $state='revoked';if(str_starts_with($event['type'],'checkout.')){
+                if((string)($o['id']??'')!==$row['checkout_id']||(string)($o['client_reference_id']??'')!==(string)$row['id']||(int)($o['amount_total']??-1)!==(int)$row['amount']||($o['currency']??'')!==$row['currency']||($o['mode']??'')!=='payment')throw new \DomainException('Paiement incohérent.',409);
+                if($event['type']==='checkout.session.expired'){
+                    if(($o['status']??'')!=='expired'||$row['state']!=='pending')return;
+                    $s->run('DELETE FROM #__gp_social_extended_vouchers WHERE order_id='.(int)$row['id']);$s->run(""UPDATE #__gp_social_extended_orders SET state='expired' WHERE id="".(int)$row['id']);$s->insert('extended_events',['event_id'=>$event"
+insert,10_facturation,Geniuspace\ExtendedCommerce::event,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,88,False,"$s->insert('extended_events',['event_id'=>$event['id'],'order_id'=>(int)$row['id'],'checksum'=>$checksum,'ctime'=>gmdate('Y-m-d H:i:s')])"
+updateObject,10_facturation,Geniuspace\ExtendedCommerce::event,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,100,False,"db->updateObject('#__js_res_sales',$data,'id')"
+insertObject,10_facturation,Geniuspace\ExtendedCommerce::event,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,100,False,"db->insertObject('#__js_res_sales',$data)"
+insert,10_facturation,Geniuspace\ExtendedCommerce::event,components/com_joomcck/site/library/php/geniuspace/ExtendedCommerce.php,101,False,"$s->insert('extended_events',['event_id'=>$event['id'],'order_id'=>(int)$row['id'],'checksum'=>$checksum,'ctime'=>gmdate('Y-m-d H:i:s')])"
+insert,03_publication_forum,Geniuspace\FieldCorrection::propose,components/com_joomcck/site/library/php/geniuspace/FieldCorrection.php,18,False,"$s->insert('field_corrections',['record_id'=>$target,'field_id'=>$field,'topic_id'=>$topic,'comment_id'=>0,'author_id'=>$user,
+            'expected_hash'=>ProductAccess::valueHash($public['values'][$field]??''),'proposed'=>$proposed,'source_url'=>$source,'reason'=>$reason,
+            'state'=>'pending','ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s')])"
+atomic,03_publication_forum,Geniuspace\FieldCorrection::decide,components/com_joomcck/site/library/php/geniuspace/FieldCorrection.php,27,False,"$s->atomic(function()use($s,$row,$id,$apply){$fresh=$s->rows('SELECT state FROM #__gp_social_field_corrections WHERE id='.$id.' FOR UPDATE',1)[0]??null;
+            if(!$fresh||$fresh['state']!=='pending')throw new \DomainException('Proposition déjà traitée.',409);
+            if($apply){
+                $field=ProductAccess::field((int)$row['record_id'],(int)$row['field_id'],['text','textarea','html','select','digits'],true);
+                $value=$row['proposed'];if($field['field']['field_type']==='select')$value=[$value];
+                $saved=NativeMutation::replace((int)$row['record_id'],(int)$row['field_id'],$value,$row['expected_hash']);
+            }
+            $s->run('UPDATE #__gp_social_field_corrections SET state='.$s->q($apply?'applied':'rejected').',reviewer_id='.(int)ProductAccess::user()->id.',mtime='.$s->q(gmdate('Y-m-d H:i:s')).' WHERE id='.$id);
+            ProductAccess::event((int)$row['record_id'],'correction.'.($apply?'applied':'rejected'),['id'=>$id,'source_topic'=>(int)$row['topic_id'],'field'=>(int)$row['field_id']]);
+        })"
+insert,11_metiers,Geniuspace\FieldHealth::sourceSaved,components/com_joomcck/site/library/php/geniuspace/FieldHealth.php,16,False,"$store->insert('field_alerts',['fingerprint'=>$fingerprint,'record_id'=>(int)$link['source_id'],'source_id'=>$source,'field_id'=>(int)$link['field_id'],'state'=>'review','ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,05_medias,Geniuspace\FileMetadata::save,components/com_joomcck/site/library/php/geniuspace/FileMetadata.php,28,False,"$store->atomic(function()use($store,$record,$field,$file,$clean,$expected){
+            $store->db->setQuery('SELECT id FROM #__js_res_files WHERE record_id='.$record.' AND field_id='.$field.' AND id='.$file.' AND saved=1 FOR UPDATE');if(!$store->db->loadResult())throw new \DomainException('Fichier inaccessible.',404);
+            $prior=self::read($record,$field,$file);if($expected!==$prior['revision'])throw new \DomainException('Métadonnées modifiées : rechargez leur version.',409);
+            $where='record_id='.$record.' AND field_id='.$field.' AND file_id='.$file;
+            if($prior['revision'])$store->run('UPDATE #__gp_social_file_metadata SET data='.$store->q(Seo::json($clean)).',revision='.($expected+1).',mtime='.$store->q(gmdate('Y-m-d H:i:s')).' WHERE '.$where);
+            else$store->insert('file_metadata',['record_id'=>$record,'field_id'=>$field,'file_id'=>$file,'revision'=>1,'data'=>Seo::json($clean),'mtime'=>gmdate('Y-m-d H:i:s')]);
+            return ['revision'=>$expected+1,'data'=>$clean];
+        })"
+insert,05_medias,Geniuspace\FileMetadata::save,components/com_joomcck/site/library/php/geniuspace/FileMetadata.php,33,False,"$store->insert('file_metadata',['record_id'=>$record,'field_id'=>$field,'file_id'=>$file,'revision'=>1,'data'=>Seo::json($clean),'mtime'=>gmdate('Y-m-d H:i:s')])"
+atomic,03_publication_forum,Geniuspace\ForumKnowledge::react,components/com_joomcck/site/library/php/geniuspace/ForumKnowledge.php,46,False,"$s->atomic(function()use($s,$record,$user,$kind){$s->rows('SELECT id FROM #__js_res_record WHERE id='.$record.' FOR UPDATE',1);
+            $where='record_id='.$record.' AND user_id='.$user.' AND kind='.$s->q($kind);
+            if($s->rows('SELECT kind FROM #__gp_social_forum_reactions WHERE '.$where,1))$s->run('DELETE FROM #__gp_social_forum_reactions WHERE '.$where);
+            else $s->insert('forum_reactions',['record_id'=>$record,'user_id'=>$user,'kind'=>$kind,'ctime'=>gmdate('Y-m-d H:i:s')]);})"
+insert,03_publication_forum,Geniuspace\ForumKnowledge::react,components/com_joomcck/site/library/php/geniuspace/ForumKnowledge.php,49,False,"$s->insert('forum_reactions',['record_id'=>$record,'user_id'=>$user,'kind'=>$kind,'ctime'=>gmdate('Y-m-d H:i:s')])"
+delete,02_shell_navigation,Geniuspace\ForumProvisioner::cleanup,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,57,False,$t->delete($id)
+delete,02_shell_navigation,Geniuspace\ForumProvisioner::cleanup,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,58,False,$t->delete($id)
+transactionStart,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,166,False,$db->transactionStart()
+updateObject,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,181,False,"$db->updateObject('#__js_res_fields',$update,'id')"
+updateObject,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,182,False,"$db->updateObject('#__js_res_fields',$update,'id')"
+updateObject,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,184,False,"$db->updateObject('#__js_res_fields',$update,'id')"
+transactionCommit,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,199,False,$db->transactionCommit()
+transactionRollback,02_shell_navigation,Geniuspace\ForumProvisioner::apply,components/com_joomcck/site/library/php/geniuspace/ForumProvisioner.php,200,False,$db->transactionRollback()
+atomic,03_publication_forum,Geniuspace\ForumReviews::submit,components/com_joomcck/site/library/php/geniuspace/ForumReviews.php,75,False,"$s->atomic(function()use($s,$record,$field,$user,$ballot,$text,$item,$type,&$table){
+                $s->rows('SELECT id FROM #__js_res_record WHERE id='.$record.' FOR UPDATE',1);
+                $existing=$s->rows('SELECT c.* FROM #__gp_social_forum_reviews v INNER JOIN #__js_res_comments c ON c.id=v.comment_id AND c.record_id=v.record_id AND c.user_id=v.user_id WHERE v.record_id='.$record.' AND v.field_id='.$field.' AND v.user_id='.$user,1)[0]??null;
+                $table=\Joomla\CMS\Table\Table::getInstance('Cobcomments','JoomcckTable');if($existing)$table->load((int)$existing['id']);else$table->setLocation(1,'last-child');
+                $table->bind(['record_id'=>$record,'section_id'=>(int)$item->section_id,'type_id'=>(int)$item->type_id,'user_id'=>$user,'name'=>ProductAccess::user()->name,'email'=>'','comment'=>'<p>'.nl2br(Text::escape($text)).'</p>','access'=>(int)$type->params->get('comments.comments_access_view',1),'parent_id'=>1]);
+                if(!$table->check()||!$table->store())throw new \DomainException('Votre avis n’a pas pu être enregistré.',422);
+                self::persist($record,$field,$user,(int)$table->id,$ballot);
+            })"
+atomic,03_publication_forum,Geniuspace\GamingTeam::join,components/com_joomcck/site/library/php/geniuspace/GamingTeam.php,9,False,"$s->atomic(function()use($s,$user,$record,$field,$data,$input){
+            $s->rows('SELECT id FROM #__js_res_record WHERE id='.$record.' FOR UPDATE',1);$where='record_id='.$record.' AND field_id='.$field;
+            if(empty($input['join'])){$s->run('DELETE FROM #__gp_social_record_followers WHERE '.$where.' AND user_id='.$user);return;}
+            if($s->rows('SELECT user_id FROM #__gp_social_record_followers WHERE '.$where.' AND user_id='.$user,1))return;
+            $count=(int)($s->rows('SELECT COUNT(*) AS n FROM #__gp_social_record_followers WHERE user_id IN (SELECT id FROM #__users WHERE block=0) AND '.$where,1)[0]['n']??0);if($count>=$data['capacity'])throw new \DomainException('Cette équipe est complète.',409);
+            $s->run('INSERT INTO #__gp_social_record_followers (record_id,field_id,user_id,ctime) VALUES ('.$record.','.$field.','.$user.','.$s->q(gmdate('Y-m-d H:i:s')).')');
+        })"
+atomic,06_emploi_entreprise,Geniuspace\Hiring::change,components/com_joomcck/site/library/php/geniuspace/Hiring.php,26,False,"$s->atomic(function()use($id,$state,$identity,$s){
+            $s->rows('SELECT id FROM #__js_res_record WHERE id='.$id.' FOR UPDATE',1);$a=self::application($id);
+            if(!$identity->id||$identity->block||!CompanyTeam::allows($a['job'],'recruit'))throw new \DomainException('Pipeline réservé au propriétaire de l’offre.',403);
+            $prior=$s->rows('SELECT state FROM #__gp_social_hiring_states WHERE application_id='.$id.' FOR UPDATE',1)[0]['state']??'applied';
+            $transitions=['applied'=>['review','rejected'],'review'=>['interview','rejected'],'interview'=>['hired','rejected'],'hired'=>[],'rejected'=>[]];
+            if(!in_array($state,$transitions[$prior]??[],true))throw new \DomainException('Transition de candidature interdite.',409);
+            if($state!=='rejected'){
+                $q=new Quiz($s,ComponentRuntime::configuration(),new Repository($s->db,ComponentRuntime::configuration(),(new \Joomla\CMS\User\User())->getAuthorisedViewLevels()),$a['company'],(int)$a['record']['user_id'],(new \Joomla\CMS\User\User())->getAuthorisedViewLevels());
+                QuizBridge::guardRecord($q,$a['gate'],$a['record']);
+            }
+            self::saved($id);$s->run('UPDATE #__gp_social_hiring_states SET state='.$s->q($state).',actor_id='.(int)$identity->id.',mtime='.$s->q(gmdate('Y-m-d H:i:s'"
+insert,06_emploi_entreprise,Geniuspace\Hiring::change,components/com_joomcck/site/library/php/geniuspace/Hiring.php,37,False,"$s->insert('hiring_events',['application_id'=>$id,'actor_id'=>(int)$identity->id,'old_state'=>$prior,'new_state'=>$state,'ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,11_metiers,Geniuspace\HubOpportunity::join,components/com_joomcck/site/library/php/geniuspace/HubOpportunity.php,25,False,"$s->atomic(function()use($s,$record,$field,$user,$data,$join){
+            $s->rows('SELECT id FROM #__js_res_record WHERE id='.$record.' FOR UPDATE',1);$where='record_id='.$record.' AND field_id='.$field.' AND user_id='.$user;
+            if(!$join){$s->run('DELETE FROM #__gp_social_hub_participations WHERE '.$where);return;}
+            if($s->rows('SELECT user_id FROM #__gp_social_hub_participations WHERE '.$where,1))return;
+            if(self::count($record,$field)>=$data['capacity'])throw new \DomainException('Toutes les places sont prises.',409);
+            $s->insert('hub_participations',['record_id'=>$record,'field_id'=>$field,'user_id'=>$user,'ctime'=>gmdate('Y-m-d H:i:s')]);
+        })"
+insert,11_metiers,Geniuspace\HubOpportunity::join,components/com_joomcck/site/library/php/geniuspace/HubOpportunity.php,30,False,"$s->insert('hub_participations',['record_id'=>$record,'field_id'=>$field,'user_id'=>$user,'ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,07_academie_parcours,Geniuspace\LearningPath::complete,components/com_joomcck/site/library/php/geniuspace/LearningPath.php,39,False,"store->atomic(function () use ($record, $field, $key): void {
+            $this->quiz->authenticated(true); $s = $this->state($record, $field); $step = null;
+            foreach ($s['data']['steps'] as $v) if ($v['key'] === $key) $step = $v;
+            if (!$step) throw new \DomainException('Étape introuvable.', 404);
+            foreach ($step['requires'] ?? [] as $pre) if (empty($s['valid'][$pre])) throw new \DomainException('Validez les prérequis de cette étape.', 403);
+            $this->quiz->requirePass($step['quiz']['record_id'], $step['quiz']['field_id']);
+            if (isset($s['saved'][$key])) return;
+            $this->quiz->store->insert('progress', ['scope' => $this->quiz->company['slug'], 'user_id' => $this->quiz->user, 'record_id' => $record, 'field_id' => $field, 'revision' => $s['revision'], 'step_key' => $key, 'ctime' => gmdate('Y-m-d H:i:s', $this->now())]);
+        })"
+insert,07_academie_parcours,Geniuspace\LearningPath::complete,components/com_joomcck/site/library/php/geniuspace/LearningPath.php,46,False,"store->insert('progress', ['scope' => $this->quiz->company['slug'], 'user_id' => $this->quiz->user, 'record_id' => $record, 'field_id' => $field, 'revision' => $s['revision'], 'step_key' => $key, 'ctime' => gmdate('Y-m-d H:i:s', $this->now())])"
+atomic,08_seo_recherche,Geniuspace\LinkIndex::record,components/com_joomcck/site/library/php/geniuspace/LinkIndex.php,11,False,"$store->atomic(function () use ($store, $row, $id): void {
+            $store->run('DELETE FROM #__gp_social_links WHERE source_id=' . $id);
+            if (!$row) return;
+            $values = json_decode($row['fields'] ?: '{}', true) ?: [];
+            foreach ($store->rows(""SELECT field_id,field_value AS target FROM #__js_res_record_values WHERE record_id="".$id."" AND field_type='child'"",1000) as $edge) { $target=(int)$edge['target'];if($target>0&&$target!==$id)$store->insert('links',['source_id'=>$id,'field_id'=>(int)$edge['field_id'],'target_id'=>$target,'kind'=>'child']); }
+            foreach ($store->rows(""SELECT v.record_id AS target,f.id AS field_id FROM #__js_res_record_values v INNER JOIN #__js_res_fields f ON f.field_type='parent' AND f.published=1 AND f.type_id="".(int)$row['type_id']."" AND CAST(JSON_UNQUOTE(JSON_EXTRACT(f.params,'$.params.child_field')) AS UNSIGNED)=v.field_id WHERE v.field_type='child' AND v.field_value="".$store->q((string)$id),1000) as $edge) { $target=(int)$edge['target'];if($target>0&&$target!==$id)$store->insert('links',['source_id'=>$id,'field_id'=>(int)$edge['field_id'],'target_id'=>$target,'kind'=>'parent']); }
+            foreach ($store->rows('SELECT id,field_type,params FROM #__js_res_fields WHERE type_id=' . (int) $row['type_id'] . "" AND field_type IN ('gprelation','gpproof') AND published=1"", 1000) as $f) {
+                $kind = $f['field_type'] === 'gprelation' ? 'relation' : 'proof';
+                try { $d = FieldEngine::parse($kind, is_string"
+insert,08_seo_recherche,Geniuspace\LinkIndex::record,components/com_joomcck/site/library/php/geniuspace/LinkIndex.php,15,False,"$store->insert('links',['source_id'=>$id,'field_id'=>(int)$edge['field_id'],'target_id'=>$target,'kind'=>'child'])"
+insert,08_seo_recherche,Geniuspace\LinkIndex::record,components/com_joomcck/site/library/php/geniuspace/LinkIndex.php,16,False,"$store->insert('links',['source_id'=>$id,'field_id'=>(int)$edge['field_id'],'target_id'=>$target,'kind'=>'parent'])"
+insert,08_seo_recherche,Geniuspace\LinkIndex::record,components/com_joomcck/site/library/php/geniuspace/LinkIndex.php,21,False,"$store->insert('links', ['source_id' => $id, 'field_id' => (int) $f['id'], 'target_id' => $target, 'kind' => $kind])"
+insert,03_publication_forum,Geniuspace\ModerationBot::audit,components/com_joomcck/site/library/php/geniuspace/ModerationBot.php,193,False,"self::insert(['record_id'=>$record,'comment_id'=>$comment,'owner_id'=>$owner,'actor_id'=>(int)ProductAccess::user()->id,'action'=>$decision['action'],'rules'=>Seo::json($decision['rules']),
+            'prior_published'=>$pending['prior'],'result_published'=>(int)$saved['published'],'snapshot_hash'=>$hash,'status'=>'active','ctime'=>gmdate('Y-m-d H:i:s'),'decision_by'=>0,'decision_at'=>''])"
+atomic,03_publication_forum,Geniuspace\ModerationBot::handle,components/com_joomcck/site/library/php/geniuspace/ModerationBot.php,208,False,"$s->atomic(function()use($s,$id,$action){$event=$s->rows('SELECT * FROM #__gp_social_moderation_events WHERE id='.$id.' FOR UPDATE',1)[0]??null;
+            if(!$event)throw new \DomainException('Décision introuvable.',404);if($event['status']!=='active')return['message'=>'Cette décision a déjà été traitée.','status'=>$event['status']];
+            $comment=(int)$event['comment_id'];$record=(int)$event['record_id'];$current=$comment?($s->rows('SELECT * FROM #__js_res_comments WHERE id='.$comment.' AND record_id='.$record.' FOR UPDATE',1)[0]??null):($s->rows('SELECT * FROM #__js_res_record WHERE id='.$record.' FOR UPDATE',1)[0]??null);
+            if(!$current)throw new \DomainException('Contenu introuvable.',404);if(!hash_equals($event['snapshot_hash'],self::snapshot($current,$comment)))throw new \DomainException('Le contenu a changé depuis ce signalement. Relisez sa nouvelle version avant toute décision.',409);
+            $state=$action==='moderation.release'?1:($action==='moderation.keep'?0:max(0,(int)$event['prior_published']));
+            $table=\Joomla\CMS\Table\Table::getInstance($comment?'Cobcomments':'Record','JoomcckTable');if(!$table->load($comment?:$record))throw new \DomainException('Contenu inaccessible.',404);
+            $table->published=$state;if(!$table->store())throw new \RuntimeException('La décision n’a pas pu être sauvegardée.');
+            $status=$action==='moderation.release'?'released':($action==='moderation.keep'?'kept':'restored');$now=gmdate"
+atomic,03_publication_forum,Geniuspace\ModerationBot::configure,components/com_joomcck/site/library/php/geniuspace/ModerationBot.php,224,False,"$s->atomic(function()use($s,$config){$r=$s->rows(""SELECT extension_id,params FROM #__extensions WHERE element='com_joomcck' AND type='component' FOR UPDATE"",1)[0]??null;if(!$r)throw new \RuntimeException('Configuration du composant introuvable.');$p=json_decode($r['params']?:'{}',true,32,JSON_THROW_ON_ERROR);$p['geniuspace_moderation']=$config;$s->run('UPDATE #__extensions SET params='.$s->q(Seo::json($p)).' WHERE extension_id='.(int)$r['extension_id']);})"
+atomic,11_metiers,Geniuspace\MultiverseMechanisms::lock,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,39,False,)->atomic($call)
+insert,11_metiers,Geniuspace\MultiverseMechanisms::crystalPropose,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,81,False,"self::insert('multiverse_crystals',['record_id'=>$record,'comment_id'=>(int)$comment['id'],'contributor_id'=>(int)$comment['user_id'],'field_id'=>$field,'share_bps'=>$bps,'source_hash'=>hash('sha256',(string)$comment['comment']),'state'=>'proposed','proposer_id'=>ProductAccess::authenticated(),'ctime'=>self::now(),'mtime'=>self::now()])"
+atomic,11_metiers,Geniuspace\MultiverseMechanisms::crystalApply,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,113,False,"$s->atomic(function()use($s,$record,$id){$s->run(""UPDATE #__gp_social_multiverse_crystals SET state='applied',mtime="".$s->q(self::now()).' WHERE id='.$id."" AND state='consented'"");self::event($record,'crystal.applied',['id'=>$id]);})"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::predictionSeal,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,132,False,"self::insert('multiverse_predictions',$row)"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::predictionVote,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,142,False,"self::insert('multiverse_prediction_votes',['prediction_id'=>$id,'user_id'=>$actor,'side'=>$side,'ctime'=>self::now()],true)"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::predictionResolve,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,152,False,"self::insert('multiverse_prediction_outcomes',['prediction_id'=>$id,'outcome'=>$outcome,'source_url'=>$source,'note'=>$note,'resolver_id'=>ProductAccess::authenticated(),'ctime'=>self::now()])"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::contactRequest,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,184,False,"self::insert('multiverse_contact_requests',['record_id'=>$record,'company_id'=>$companyId,'sender_id'=>$actor,'recipient_id'=>$recipient,'subject'=>$subject,'body'=>$body,'response'=>'','amount_minor'=>$amount,'recipient_minor'=>intdiv($amount*80,100),'platform_minor'=>$amount-intdiv($amount*80,100),'currency'=>$pref['currency'],'state'=>'requested_unfunded','request_key'=>$key,'payload_hash'=>$fingerprint,'ctime'=>self::now(),'mtime'=>self::now(),'expires_at'=>gmdate('Y-m-d H:i:s',time()+7*86400)])"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::spawn,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,221,False,"self::insert('multiverse_spawns',['source_record'=>$record,'user_id'=>$actor,'kind'=>$kind]+$target+['title'=>$title,'roles'=>$roles,'electorate'=>Seo::json($electorate),'token_hash'=>$tokenHash,'payload_hash'=>$hash,'state'=>'prepared','result_id'=>0,'ctime'=>self::now(),'expires_at'=>gmdate('Y-m-d H:i:s',time()+86400)])"
+atomic,11_metiers,Geniuspace\MultiverseMechanisms::afterSave,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,286,False,"$s->atomic(function()use($s,$id,$r){$s->run(""UPDATE #__gp_social_multiverse_spawns SET state='spawned',result_id="".$id.' WHERE id='.(int)$r['id'].' AND result_id=0');
+                if($r['kind']==='project')self::insert('multiverse_members',['project_record'=>$id,'user_id'=>(int)$r['user_id'],'state'=>'active','ctime'=>self::now()],true);
+                self::event((int)$r['source_record'],'spawn.completed',['id'=>$id,'kind'=>$r['kind']]);})"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::afterSave,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,287,False,"self::insert('multiverse_members',['project_record'=>$id,'user_id'=>(int)$r['user_id'],'state'=>'active','ctime'=>self::now()],true)"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::projectJoin,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,296,False,"self::insert('multiverse_members',['project_record'=>$record,'user_id'=>$actor,'state'=>'requested','ctime'=>self::now()],true)"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::milestoneVote,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,305,False,"self::insert('multiverse_milestone_votes',['milestone_record'=>$record,'user_id'=>$actor,'side'=>$side,'ctime'=>self::now()],true)"
+insert,11_metiers,Geniuspace\MultiverseMechanisms::opportunityChanged,components/com_joomcck/site/library/php/geniuspace/MultiverseMechanisms.php,312,False,"self::insert('multiverse_thresholds',['record_id'=>$record,'field_id'=>$field,'threshold_count'=>100,'ctime'=>self::now()])"
+store_value,01_socle_acces,Geniuspace\NativeMutation::lockedReplace,components/com_joomcck/site/library/php/geniuspace/NativeMutation.php,55,False,"$row->store_value($v,$key,$table,$native)"
+delete,01_socle_acces,Geniuspace\NativeSecurity::deleteUpload,components/com_joomcck/site/library/php/geniuspace/NativeSecurity.php,89,False,\Joomla\Filesystem\File::delete($path)
+delete,01_socle_acces,Geniuspace\NativeSecurity::imageStore,components/com_joomcck/site/library/php/geniuspace/NativeSecurity.php,141,False,$table->delete()
+delete,01_socle_acces,Geniuspace\NativeSecurity::imageStore,components/com_joomcck/site/library/php/geniuspace/NativeSecurity.php,150,False,$table->delete()
+delete,01_socle_acces,Geniuspace\NativeTemplates::uninstall,components/com_joomcck/site/library/php/geniuspace/NativeTemplates.php,72,False,\Joomla\Filesystem\Folder::delete($path)
+delete,01_socle_acces,Geniuspace\NativeTemplates::uninstall,components/com_joomcck/site/library/php/geniuspace/NativeTemplates.php,72,False,\Joomla\Filesystem\File::delete($path)
+atomic,01_socle_acces,Geniuspace\NativeTransactions::run,components/com_joomcck/site/library/php/geniuspace/NativeTransactions.php,10,False,)->atomic($operation)
+atomic,09_ia,Geniuspace\NeuralStore::publish,components/com_joomcck/site/library/php/geniuspace/NeuralStore.php,85,False,"$store->atomic(function()use($store,$field,$m,$payload,$metrics,$current){
+            $latest=$store->rows('SELECT revision FROM #__gp_social_learning_models WHERE field_id='.$field.' ORDER BY revision DESC'.($store->db->getServerType()==='mysql'?' FOR UPDATE':''),1)[0]['revision']??0;
+            if((int)$latest!==($current['revision']??0))throw new \DomainException('Un autre entraînement a été partagé. Rechargez sa version.',409);
+            $next=(int)$latest+1;$store->insert('learning_models',['field_id'=>$field,'revision'=>$next,'payload'=>Seo::json($m),'sources'=>Seo::json($payload['sources']),'metrics'=>Seo::json($metrics),'ctime'=>gmdate('c')]);return $next;
+        })"
+insert,09_ia,Geniuspace\NeuralStore::publish,components/com_joomcck/site/library/php/geniuspace/NeuralStore.php,88,False,"$store->insert('learning_models',['field_id'=>$field,'revision'=>$next,'payload'=>Seo::json($m),'sources'=>Seo::json($payload['sources']),'metrics'=>Seo::json($metrics),'ctime'=>gmdate('c')])"
+atomic,08_seo_recherche,Geniuspace\NexusKnowledge::indexRecord,components/com_joomcck/site/library/php/geniuspace/NexusKnowledge.php,45,False,"$s->atomic(function()use($s,$p,$passages,$record){$s->run('DELETE FROM #__gp_social_knowledge_chunks WHERE record_id='.$record);
+            foreach($passages as$chunk)$s->insert('knowledge_chunks',['record_id'=>$record,'field_id'=>$chunk['field'],'chunk_no'=>$chunk['chunk'],
+                'source_hash'=>$chunk['hash'],'title'=>mb_substr($p['record']['title'],0,250),'label'=>mb_substr($chunk['label'],0,180),
+                'body'=>$chunk['body'],'terms'=>Seo::json(self::words($p['record']['title'].' '.$chunk['body'])),
+                'language'=>$p['record']['language']??'*','mtime'=>gmdate('Y-m-d H:i:s')]);return count($passages);})"
+insert,08_seo_recherche,Geniuspace\NexusKnowledge::indexRecord,components/com_joomcck/site/library/php/geniuspace/NexusKnowledge.php,46,False,"$s->insert('knowledge_chunks',['record_id'=>$record,'field_id'=>$chunk['field'],'chunk_no'=>$chunk['chunk'],
+                'source_hash'=>$chunk['hash'],'title'=>mb_substr($p['record']['title'],0,250),'label'=>mb_substr($chunk['label'],0,180),
+                'body'=>$chunk['body'],'terms'=>Seo::json(self::words($p['record']['title'].' '.$chunk['body'])),
+                'language'=>$p['record']['language']??'*','mtime'=>gmdate('Y-m-d H:i:s')])"
+insert,08_seo_recherche,Geniuspace\NexusKnowledge::tick,components/com_joomcck/site/library/php/geniuspace/NexusKnowledge.php,57,False,"$s->insert('knowledge_cursor',['name'=>$name,'cursor_id'=>0,'cycles'=>0,'mtime'=>gmdate('Y-m-d H:i:s')])"
+insertObject,03_publication_forum,NexusParticipation::upload,components/com_joomcck/site/library/php/geniuspace/NexusParticipation.php,209,False,"$db->insertObject('#__js_res_files', $row, 'id')"
+atomic,06_emploi_entreprise,Geniuspace\OfferVault::upload,components/com_joomcck/site/library/php/geniuspace/OfferVault.php,33,False,"$s->atomic(function()use($s,$user,$record,$field,$meta,$bytes,$declaration,$analysis){
+            $s->rows('SELECT id FROM #__users WHERE id='.(int)$user->id.' FOR UPDATE',1);
+            $used=$s->rows('SELECT COUNT(*) AS n,COALESCE(SUM(bytes),0) AS bytes FROM #__gp_social_verified_offers WHERE user_id='.(int)$user->id,1)[0];
+            $total=(int)($s->rows('SELECT COALESCE(SUM(bytes),0) AS n FROM #__gp_social_verified_offers',1)[0]['n']??0);
+            if((int)$used['n']>=20||$total+$meta['bytes']>100*1024*1024)throw new \DomainException('Quota documentaire atteint.',413);
+            return $s->insert('verified_offers',['record_id'=>$record,'field_id'=>$field,'user_id'=>(int)$user->id,'filename'=>$meta['filename'],'bytes'=>$meta['bytes'],'checksum'=>$meta['checksum'],'payload'=>$bytes,'declaration'=>Seo::json($declaration),'analysis'=>Seo::json($analysis),'state'=>'pending','reviewer_id'=>0,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s')]);
+        })"
+insert,06_emploi_entreprise,Geniuspace\OfferVault::upload,components/com_joomcck/site/library/php/geniuspace/OfferVault.php,38,False,"$s->insert('verified_offers',['record_id'=>$record,'field_id'=>$field,'user_id'=>(int)$user->id,'filename'=>$meta['filename'],'bytes'=>$meta['bytes'],'checksum'=>$meta['checksum'],'payload'=>$bytes,'declaration'=>Seo::json($declaration),'analysis'=>Seo::json($analysis),'state'=>'pending','reviewer_id'=>0,'ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s')])"
+atomic,09_ia,Geniuspace\Omega::configure,components/com_joomcck/site/library/php/geniuspace/Omega.php,12,False,"$store->atomic(function()use($store,$field,$record,$section,$owner,$enabled,$minutes){
+            $row=$store->rows('SELECT field_id FROM #__gp_social_omega_missions WHERE field_id='.$field.' FOR UPDATE',1);
+            if(!$row)$store->insert('omega_missions',['field_id'=>$field,'record_id'=>$record,'section_id'=>$section,'owner_id'=>$owner,'enabled'=>0,'interval_minutes'=>$minutes,'next_epoch'=>0,'lease_until'=>0,'lease_token'=>'','state'=>'{}']);
+            $store->run('UPDATE #__gp_social_omega_missions SET owner_id='.$owner.',record_id='.$record.',section_id='.$section.',enabled='.($enabled?1:0).',interval_minutes='.$minutes.',next_epoch=0 WHERE field_id='.$field);
+            if($field===0&&OmegaMemory::ready())OmegaMemory::saveState('control_fence',['nonce'=>bin2hex(random_bytes(16))]);
+        })"
+insert,09_ia,Geniuspace\Omega::configure,components/com_joomcck/site/library/php/geniuspace/Omega.php,14,False,"$store->insert('omega_missions',['field_id'=>$field,'record_id'=>$record,'section_id'=>$section,'owner_id'=>$owner,'enabled'=>0,'interval_minutes'=>$minutes,'next_epoch'=>0,'lease_until'=>0,'lease_token'=>'','state'=>'{}'])"
+atomic,09_ia,Geniuspace\Omega::event,components/com_joomcck/site/library/php/geniuspace/Omega.php,28,False,"$store->atomic(function()use($store,$field,$kind,$data){
+            $store->rows('SELECT field_id FROM #__gp_social_omega_missions WHERE field_id='.$field.' FOR UPDATE',1);
+            $previous=$store->rows('SELECT event_hash FROM #__gp_social_omega_events WHERE field_id='.$field.' ORDER BY id DESC',1)[0]['event_hash']??'';
+            $time=gmdate('c');$payload=Seo::json($data);$hash=hash('sha256',$previous.$kind.$time.$payload);
+            $store->insert('omega_events',['field_id'=>$field,'kind'=>$kind,'payload'=>$payload,'ctime'=>$time,'previous_hash'=>$previous,'event_hash'=>$hash]);
+        })"
+insert,09_ia,Geniuspace\Omega::event,components/com_joomcck/site/library/php/geniuspace/Omega.php,32,False,"$store->insert('omega_events',['field_id'=>$field,'kind'=>$kind,'payload'=>$payload,'ctime'=>$time,'previous_hash'=>$previous,'event_hash'=>$hash])"
+atomic,09_ia,Geniuspace\Omega::tick,components/com_joomcck/site/library/php/geniuspace/Omega.php,42,False,"$store->atomic(function()use($store,$field,$token){$row=$store->rows('SELECT enabled,lease_until,next_epoch FROM #__gp_social_omega_missions WHERE field_id='.$field.' FOR UPDATE',1)[0];if(!$row['enabled']||(int)$row['lease_until']>=time()||(int)$row['next_epoch']>time())return false;$store->run('UPDATE #__gp_social_omega_missions SET lease_until='.(time()+120).',lease_token='.$store->q($token).' WHERE field_id='.$field);return true;})"
+insert,09_ia,Geniuspace\Omega::tick,components/com_joomcck/site/library/php/geniuspace/Omega.php,56,False,"$store->insert('omega_memory',['field_id'=>$field,'record_id'=>$doc['id'],'revision'=>$doc['revision'],'payload'=>Seo::json($doc),'mtime'=>time()])"
+atomic,09_ia,Geniuspace\OmegaAdaptation::tick,components/com_joomcck/site/library/php/geniuspace/OmegaAdaptation.php,50,False,"$s->atomic(function()use($s,$folder,$encoded,$fence,$settingsRevision){
+                    $mission=$s->rows('SELECT enabled FROM #__gp_social_omega_missions WHERE field_id=0 FOR UPDATE',1)[0]??null;
+                    $s->rows('SELECT payload FROM #__gp_social_omega_learning_state WHERE name IN (\'control_fence\',\'settings\') FOR UPDATE',2);
+                    if(empty($mission['enabled'])||$fence!==OmegaMemory::state('control_fence')||$settingsRevision!==(OmegaMemory::settings()['revision']??0))return false;
+                    $tmp=$folder.'/.promote-'.bin2hex(random_bytes(8));if(file_put_contents($tmp,$encoded)!==strlen($encoded))throw new \RuntimeException('Promotion incomplète.');chmod($tmp,0600);if(!rename($tmp,$folder.'/active.json'))throw new \RuntimeException('Promotion impossible.');return true;
+                })"
+insert,09_ia,Geniuspace\OmegaMemory::log,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,34,False,"self::insert('omega_learning_runs',['kind'=>$kind,'payload'=>mb_substr(Seo::json($data),0,60000),'ctime'=>time()])"
+atomic,09_ia,Geniuspace\OmegaMemory::remember,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,39,False,"$s->atomic(function()use($s,$key,$origin,$record,$field,$source,$title,$url,$kind,$input,$revision){
+            $row=$s->rows('SELECT id,revision,state FROM #__gp_social_omega_corpus WHERE resource_key='.$s->q($key).' FOR UPDATE',1)[0]??null;
+            if($row&&$row['state']!=='withdrawn'&&hash_equals($row['revision'],$revision))return (int)$row['id'];
+            $data=['resource_key'=>$key,'origin'=>$origin,'record_id'=>$record,'field_id'=>$field,'source_id'=>$source,'title'=>mb_substr(Text::plain($title),0,250),'url'=>mb_substr($url,0,2048),'kind'=>$kind,'revision'=>$revision,'input'=>Seo::json($input),'progress'=>'{}','state'=>'queued','method'=>'','error'=>'','passages'=>0,'attempts'=>0,'lease_until'=>0,'lease_token'=>'','available_at'=>0,'mtime'=>time()];
+            if(!$row)return self::insert('omega_corpus',$data);
+            $id=(int)$row['id'];$sets=[];foreach($data as$column=>$value)$sets[]=$column.'='.(is_int($value)?$value:$s->q($value));
+            $s->run('UPDATE #__gp_social_omega_corpus SET '.implode(',',$sets).' WHERE id='.$id);$s->run('DELETE FROM #__gp_social_omega_passages WHERE resource_id='.$id);
+            return $id;
+        })"
+insert,09_ia,Geniuspace\OmegaMemory::remember,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,43,False,"self::insert('omega_corpus',$data)"
+atomic,09_ia,Geniuspace\OmegaMemory::withdraw,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,110,False,"$s->atomic(function()use($s,$id,$revision){$row=$s->rows('SELECT revision FROM #__gp_social_omega_corpus WHERE id='.$id.' FOR UPDATE',1)[0]??null;if(!$row||$revision!==null&&$row['revision']!==$revision)return;
+            $s->run('UPDATE #__gp_social_omega_corpus SET state=\'withdrawn\',input=\'{}\',progress=\'{}\',passages=0,lease_until=0,lease_token=\'\',mtime='.time().' WHERE id='.$id);$s->run('DELETE FROM #__gp_social_omega_passages WHERE resource_id='.$id);$s->run('DELETE FROM #__gp_social_omega_learning_feedback WHERE resource_id='.$id);})"
+atomic,09_ia,Geniuspace\OmegaMemory::process,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,196,False,"$s->atomic(function()use($s,$id,$token,&$r){$row=$s->rows('SELECT * FROM #__gp_social_omega_corpus WHERE id='.$id.' FOR UPDATE',1)[0]??null;
+            if(!$row||(int)$row['lease_until']>=time()||!in_array($row['state'],['queued','processing','missing_tool','error'],true))return false;
+            $r=$row;$s->run('UPDATE #__gp_social_omega_corpus SET state=\'processing\',lease_token='.$s->q($token).',lease_until='.(time()+max(120,OmegaRuntime::config()['tool_seconds']*5)).' WHERE id='.$id);return true;})"
+atomic,09_ia,Geniuspace\OmegaMemory::process,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,204,False,"$s->atomic(function()use($s,$r,$id,$token,$batch){
+                $fresh=$s->rows('SELECT revision,lease_token,passages FROM #__gp_social_omega_corpus WHERE id='.$id.' FOR UPDATE',1)[0]??null;
+                if(!$fresh||!hash_equals($token,$fresh['lease_token'])||$fresh['revision']!==$r['revision'])return ['resource'=>$id,'superseded'=>true];
+                $ordinal=(int)$fresh['passages'];foreach($batch['passages']as$chunk)self::insert('omega_passages',['resource_id'=>$id,'ordinal'=>$ordinal++,'revision'=>$r['revision'],'title'=>$r['title'],'body'=>$chunk['body'],'metadata'=>Seo::json($chunk['meta']),'ctime'=>time()]);
+                $state=$batch['done']?'ready':'queued';$s->run('UPDATE #__gp_social_omega_corpus SET progress='.$s->q(Seo::json($batch['cursor'])).',state='.$s->q($state).',method='.$s->q($batch['method']).',error=\'\',passages='.$ordinal.',attempts=0,lease_until=0,lease_token=\'\',available_at='.($batch['done']?0:time()).',mtime='.time().' WHERE id='.$id);
+                return ['resource'=>$id,'state'=>$state,'passages'=>$ordinal,'method'=>$batch['method']];
+            })"
+insert,09_ia,Geniuspace\OmegaMemory::process,components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php,207,False,"self::insert('omega_passages',['resource_id'=>$id,'ordinal'=>$ordinal++,'revision'=>$r['revision'],'title'=>$r['title'],'body'=>$chunk['body'],'metadata'=>Seo::json($chunk['meta']),'ctime'=>time()])"
+atomic,09_ia,Geniuspace\OmegaRanker::train,components/com_joomcck/site/library/php/geniuspace/OmegaRanker.php,67,False,"$s->atomic(function()use($s,$accepted,$best,$metrics){if($accepted)$s->run(""UPDATE #__gp_social_omega_learning_versions SET state='previous' WHERE state='active'"");OmegaMemory::insert('omega_learning_versions',['weights'=>Seo::json($best),'metrics'=>Seo::json($metrics),'state'=>$accepted?'active':'rejected','ctime'=>time()]);})"
+insert,09_ia,Geniuspace\OmegaRanker::train,components/com_joomcck/site/library/php/geniuspace/OmegaRanker.php,67,False,"OmegaMemory::insert('omega_learning_versions',['weights'=>Seo::json($best),'metrics'=>Seo::json($metrics),'state'=>$accepted?'active':'rejected','ctime'=>time()])"
+atomic,09_ia,Geniuspace\OmegaRanker::rollback,components/com_joomcck/site/library/php/geniuspace/OmegaRanker.php,72,False,"$s->atomic(function()use($s,$id){$row=$s->rows('SELECT id FROM #__gp_social_omega_learning_versions WHERE id='.$id.' AND state IN (\'active\',\'previous\') FOR UPDATE',1)[0]??null;if(!$row)throw new \DomainException('Version validée introuvable.',404);$s->run(""UPDATE #__gp_social_omega_learning_versions SET state='previous' WHERE state='active'"");$s->run(""UPDATE #__gp_social_omega_learning_versions SET state='active' WHERE id="".$id);})"
+insert,09_ia,Geniuspace\OmegaWeb::configure,components/com_joomcck/site/library/php/geniuspace/OmegaWeb.php,30,False,"$store->insert('omega_web_sources',['owner_id'=>$owner,'url'=>$url,'kind'=>$data['kind'],'enabled'=>$data['enabled']?1:0,'next_epoch'=>0,'lease_until'=>0,'last_epoch'=>0,'state'=>'{}'])"
+atomic,09_ia,Geniuspace\OmegaWeb::collect,components/com_joomcck/site/library/php/geniuspace/OmegaWeb.php,83,False,"$store->atomic(function()use($store,$id){$s=$store->rows('SELECT enabled,lease_until,next_epoch FROM #__gp_social_omega_web_sources WHERE id='.$id.' FOR UPDATE',1)[0];if(!$s['enabled']||(int)$s['lease_until']>=time()||(int)$s['next_epoch']>time())return false;$store->run('UPDATE #__gp_social_omega_web_sources SET lease_until='.(time()+30).' WHERE id='.$id);return true;})"
+insert,09_ia,Geniuspace\OmegaWeb::collect,components/com_joomcck/site/library/php/geniuspace/OmegaWeb.php,92,False,"$store->insert('omega_web_documents',['source_id'=>$id,'url_hash'=>$hash]+$doc)"
+insert,03_publication_forum,Geniuspace\OpenProjects::submit,components/com_joomcck/site/library/php/geniuspace/OpenProjects.php,15,False,"$s->insert('open_project_submissions',['record_id'=>$r,'field_id'=>$f,'user_id'=>$u,'source_hash'=>ProductAccess::valueHash($p['value']),'response'=>$response,'proof_record'=>$proof,'status'=>'submitted','reviewer_id'=>0,'feedback'=>'','ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Outbox::enqueue,components/com_joomcck/site/library/php/geniuspace/Outbox.php,14,False,"store->insert('outbox',['scope'=>$scope,'connector'=>$name,'event_key'=>$checksum,'payload'=>Seo::json(['event'=>$event,'scope'=>$scope,'data'=>$publicPayload]),'state'=>'pending','attempts'=>0,'available_at'=>gmdate('Y-m-d H:i:s'),'lease'=>'','ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,11_metiers,Geniuspace\Outbox::work,components/com_joomcck/site/library/php/geniuspace/Outbox.php,20,False,"store->atomic(function()use($candidate){$lock=$this->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';$r=$this->store->rows('SELECT * FROM #__gp_social_outbox WHERE id='.(int)$candidate['id'].$lock,1)[0]??null;if(!$r||!in_array($r['state'],['pending','sending'],true)||$r['available_at']>gmdate('Y-m-d H:i:s'))return null;$r['lease']=bin2hex(random_bytes(24));$this->store->run(""UPDATE #__gp_social_outbox SET state='sending',lease="".$this->store->q($r['lease']).',attempts=attempts+1,available_at='.$this->store->q(gmdate('Y-m-d H:i:s',time()+60)).' WHERE id='.(int)$r['id']);return $r;})"
+atomic,07_academie_parcours,Geniuspace\PersonalPaths::action,components/com_joomcck/site/library/php/geniuspace/PersonalPaths.php,29,False,"$s->atomic(function()use($action,$d,$u,$s):array{
+            $s->run('INSERT IGNORE INTO #__gp_social_path_preferences (user_id,theme,intent,mtime) VALUES ('.$u."", 'explore', '', "".$s->q(self::now()).')');
+            $s->rows('SELECT user_id FROM #__gp_social_path_preferences WHERE user_id='.$u.' FOR UPDATE',1);
+            if($action==='intent'){
+                $theme=self::theme($d['theme']??'explore');$intent=ProductData::text($d['intent']??'',180);
+                $s->run('UPDATE #__gp_social_path_preferences SET theme='.$s->q($theme).',intent='.$s->q($intent).',mtime='.$s->q(self::now()).' WHERE user_id='.$u);
+                return ['message'=>'Objectif enregistré. Vous pouvez le modifier à tout moment.'];
+            }
+            if($action==='position'){
+                $record=self::number($d['record']??0);ProductAccess::visible($record);
+                $season=self::number($d['season']??0,999);$episode=self::number($d['episode']??0,9999);$seconds=self::number($d['seconds']??0,604800);$label=ProductData::text($d['label']??'',180);
+                $s->run('INSERT INTO #__gp_social_path_positions (user_id,record_id,season,episode,seconds,label,mtime) VALUES ('.$u.','.$record.','.$season.','.$episode.','.$seconds.','.$s->q($label).','.$s->q(self::now()).') ON DUPLICATE KEY UPDATE season=VALUES(season),episode=VALUES(episode),seconds=VALUES(seconds),label=VALUES(label),mtime=VALUES(mtime)');
+                $old=$s->rows('SELECT record_id FROM #__gp_social_path_positions WHERE user_id='."
+atomic,11_metiers,Geniuspace\Poll::vote,components/com_joomcck/site/library/php/geniuspace/Poll.php,22,False,"store->atomic(function()use($s,$d,$record,$field,$choice){$lock=property_exists($s->store->db,'pdo')?'':' FOR UPDATE';$s->store->rows('SELECT id FROM #__users WHERE id='.$s->user.$lock,1);$where='scope='.$s->store->q($s->company['slug']).' AND user_id='.$s->user.' AND record_id='.$record.' AND field_id='.$field.' AND revision='.$s->store->q($d['revision']);if($s->store->rows('SELECT user_id FROM #__gp_social_poll_votes WHERE '.$where,1))throw new \DomainException('Vous avez déjà participé à cette version.',409);$s->store->insert('poll_votes',['scope'=>$s->company['slug'],'user_id'=>$s->user,'record_id'=>$record,'field_id'=>$field,'revision'=>$d['revision'],'choice_key'=>$choice,'ctime'=>gmdate('Y-m-d H:i:s')]);})"
+insert,11_metiers,Geniuspace\Poll::vote,components/com_joomcck/site/library/php/geniuspace/Poll.php,22,False,"store->insert('poll_votes',['scope'=>$s->company['slug'],'user_id'=>$s->user,'record_id'=>$record,'field_id'=>$field,'revision'=>$d['revision'],'choice_key'=>$choice,'ctime'=>gmdate('Y-m-d H:i:s')])"
+insert,01_socle_acces,Geniuspace\ProductAccess::event,components/com_joomcck/site/library/php/geniuspace/ProductAccess.php,62,False,")->insert('record_events',['record_id'=>$record,'actor_id'=>(int)self::user()->id,'kind'=>$kind,
+            'payload'=>Seo::json($payload),'ctime'=>gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\ProductNotifications::invite,components/com_joomcck/site/library/php/geniuspace/ProductNotifications.php,10,False,"$s->insert('notifications',['scope'=>'multivers','user_id'=>$user,'actor'=>$actor,
+            'kind'=>'team_invite','target_id'=>$company,'seen'=>0,'ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,07_academie_parcours,Geniuspace\Quiz::start,components/com_joomcck/site/library/php/geniuspace/Quiz.php,91,False,"store->atomic(function () use ($record, $field): string {
+            $this->authenticated(true); $d = $this->definition($record, $field); $this->quota($d);
+            $existing = $this->store->rows('SELECT token FROM #__gp_social_quiz_sessions WHERE ' . $this->where($record, $field) . ' AND revision=' . $this->q($d['revision']) . ' AND consumed=0 AND expires_at>' . $this->q($this->date($this->now())) . ' ORDER BY ctime DESC', 1);
+            if ($existing) return $existing[0]['token'];
+            $plan = [];
+            foreach ($d['quiz']['questions'] as $q) { $ids = array_column($q['options'], 'id'); if ($d['settings']['shuffle']) shuffle($ids); $plan[] = ['question' => $q['id'], 'options' => $ids]; }
+            if ($d['settings']['shuffle']) shuffle($plan);
+            $token = bin2hex(random_bytes(24));
+            $this->store->insert('quiz_sessions', ['token' => $token, 'scope' => $this->company['slug'], 'user_id' => $this->user, 'record_id' => $record,"
+insert,07_academie_parcours,Geniuspace\Quiz::start,components/com_joomcck/site/library/php/geniuspace/Quiz.php,99,False,"store->insert('quiz_sessions', ['token' => $token, 'scope' => $this->company['slug'], 'user_id' => $this->user, 'record_id' => $record, 'field_id' => $field, 'revision' => $d['revision'], 'plan' => Seo::json($plan), 'expires_at' => $this->date($this->now() + 60 * $d['settings']['duration_minutes']), 'ctime' => $this->date($this->now())])"
+atomic,07_academie_parcours,Geniuspace\Quiz::finish,components/com_joomcck/site/library/php/geniuspace/Quiz.php,142,False,"store->atomic(function () use ($record, $field, $token, $answers): int {
+            $this->authenticated(true); $s = $this->session($record, $field, $token); $d = $this->definition($record, $field); $this->quota($d);
+            if ($s['revision'] !== $d['revision']) throw new \DomainException('Le quiz a changé. Les réponses de cette tentative ne peuvent plus être utilisées.', 409);
+            $score = self::grade($d['quiz'], $answers, $d['settings']['pass_percent']);
+            $this->store->run('UPDATE #__gp_social_quiz_sessions SET consumed=1 WHERE token=' . $this->q($token));
+            return $this->store->insert('quiz_attempts', ['scope' => $this->company['slug'], 'user_id' => $this->user, 'record_id' => $record, 'field_id' => $field, 'revision' => $d['revision'], 'correct' => $score['correct'], 'total' => $score['total'], 'threshold' => $score['threshold'], 'passed' => $score['passed'], 'topics' => Seo::json($score['topics']), 'answers' => Seo::json($score['answers']), 'ctime' => $this->date($this->now()), 'valid_until' => $this->date("
+insert,07_academie_parcours,Geniuspace\Quiz::finish,components/com_joomcck/site/library/php/geniuspace/Quiz.php,147,False,"store->insert('quiz_attempts', ['scope' => $this->company['slug'], 'user_id' => $this->user, 'record_id' => $record, 'field_id' => $field, 'revision' => $d['revision'], 'correct' => $score['correct'], 'total' => $score['total'], 'threshold' => $score['threshold'], 'passed' => $score['passed'], 'topics' => Seo::json($score['topics']), 'answers' => Seo::json($score['answers']), 'ctime' => $this->date($this->now()), 'valid_until' => $this->date($this->now() + 86400 * $d['settings']['valid_days'])])"
+atomic,03_publication_forum,Geniuspace\RecordCommunity::action,components/com_joomcck/site/library/php/geniuspace/RecordCommunity.php,26,False,"$store->atomic(function()use($store,$record,$field,$d,$actor,$action,$data){
+            $where='record_id='.$record.' AND field_id='.$field.' AND user_id='.$actor;
+            if($action==='follow'){$store->run('INSERT IGNORE INTO #__gp_social_record_followers (record_id,field_id,user_id,ctime) VALUES ('.$record.','.$field.','.$actor.','.$store->q(gmdate('Y-m-d H:i:s')).')');}
+            elseif($action==='unfollow')$store->run('DELETE FROM #__gp_social_record_followers WHERE '.$where);
+            elseif($action==='gift'){
+                $gift=$data['gift']??'';if(!is_string($gift)||!in_array($gift,array_column($d['gifts'],'id'),true))throw new \InvalidArgumentException('Reconnaissance inconnue.');
+                // A recognition is free and unique per user/catalogue item. No monetary or credit transfer.
+                $store->run('INSERT IGNORE INTO #__gp_social_record_gifts (record_id,field_id,user_id,gift,ctime) VALUES ('.$record.','.$field.','.$actor.','.$store->q($gift).','.$store->q(gmdate('Y-m-d H:i:s')).')');
+            }else throw new \InvalidArgumentException('Action inconnue.');
+        })"
+atomic,08_seo_recherche,Geniuspace\Relationships::assign,components/com_joomcck/site/library/php/geniuspace/Relationships.php,18,False,"store->atomic(function()use($s,$key,$source,$items,$expected){$d=$this->definition($key,true);$prior=$this->read($key,$source,true);if($prior['revision']!==$expected)throw new \DomainException('Relation modifiée : recharger sa version.',409);if($d['cardinality']==='1:1'&&count($items)>1)throw new \DomainException('Une seule cible autorisée.',409);$ids=[];$values=[];
+            foreach($items as $edge){$id=$edge['id']??null;if(!is_int($id)||$id<1||$id===$source||isset($ids[$id]))throw new \InvalidArgumentException('Cible invalide ou dupliquée.');$target=$s->repository->record($s->company,$id);if(!$target||!in_array($target['type_id'],$d['target_type_ids'],true))throw new \DomainException('Cible inaccessible.',404);$ids[$id]=true;
+                if($d['cardinality']!=='n:n'&&$s->store->rows('SELECT source_id FROM #__gp_social_typed_relations WHERE '.$this->where($key).' AND target_id='.$id.' AND source_id<>'.$source,1))throw new \DomainException('Cette cible appartient déjà à une autre source.',409);
+                $meta=$edge['metadata']??[];if(!is_array($meta))throw new \InvalidArgumentException('Métadonnées invalides.');if(isset($d['metadata'])){$schema=DynamicForm::schema(Seo::json($d"
+insert,08_seo_recherche,Geniuspace\Relationships::assign,components/com_joomcck/site/library/php/geniuspace/Relationships.php,25,False,"store->insert('typed_relations',$edge)"
+insert,08_seo_recherche,Geniuspace\Relationships::assign,components/com_joomcck/site/library/php/geniuspace/Relationships.php,25,False,"store->insert('relation_states',['scope'=>$s->company['slug'],'relation_name'=>$key,'source_id'=>$source,'revision'=>$expected+1])"
+insert,11_metiers,Geniuspace\RemoteData::items,components/com_joomcck/site/library/php/geniuspace/RemoteData.php,25,False,"store->insert('cache',['cache_key'=>$cache,'payload'=>Seo::json($result),'expires_at'=>gmdate('Y-m-d H:i:s',time()+$ttl)])"
+transactionStart,02_shell_navigation,Geniuspace\ShellBindings::save,components/com_joomcck/site/library/php/geniuspace/ShellBindings.php,42,False,$db->transactionStart()
+transactionCommit,02_shell_navigation,Geniuspace\ShellBindings::save,components/com_joomcck/site/library/php/geniuspace/ShellBindings.php,43,False,$db->transactionCommit()
+transactionRollback,02_shell_navigation,Geniuspace\ShellBindings::save,components/com_joomcck/site/library/php/geniuspace/ShellBindings.php,43,False,$db->transactionRollback()
+insert,07_academie_parcours,Geniuspace\Simulation::submit,components/com_joomcck/site/library/php/geniuspace/Simulation.php,15,False,"$s->insert('simulation_submissions',['record_id'=>$record,'field_id'=>$field,'user_id'=>$user,'source_hash'=>hash('sha256',Seo::json($d)),
+            'response'=>$response,'state'=>'submitted','feedback'=>'','ctime'=>gmdate('Y-m-d H:i:s'),'mtime'=>gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Social::notice,components/com_joomcck/site/library/php/geniuspace/Social.php,143,False,"store->insert('notifications', ['scope' => $this->company['slug'], 'user_id' => $user, 'actor' => $this->user, 'kind' => $kind, 'target_id' => $target, 'ctime' => gmdate('Y-m-d H:i:s')])"
+atomic,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,148,False,"store->atomic(function () use ($action, $data): int {
+            // Row lock serializes an actor's writes and prevents concurrent rate-limit bypass.
+            $prefs = $this->store->rows('SELECT user_id FROM #__gp_social_prefs WHERE ' . $this->where() . ' AND user_id=' . $this->user, 1);
+            if (!$prefs) { $this->store->insert('prefs', ['scope' => $this->company['slug'], 'user_id' => $this->user]); }
+            $this->store->run('UPDATE #__gp_social_prefs SET user_id=user_id WHERE ' . $this->where() . ' AND user_id=' . $this->user);
+            $count = (int) ($this->store->rows('SELECT COUNT(*) AS total FROM #__gp_social_audit WHERE ' . $this->where() . ' AND actor=' . $this->user . ' AND ctime>' . $this->store->q(gmdate('Y-m-d H:i:s', time() - 3600)), 1)[0]['total'] ?? 0);
+            if ($count >= 120) { throw new \DomainException('Limite de 120 actions par heure atteinte.', 429); }
+            $target = self::id($data, 'target'); $result = $target;
+            switch ($action) {
+                case 'post': case 'comment':
+                    $body = $this->text($data, 'body', 5000); $parent = $action === 'comment' ?"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,151,False,"store->insert('prefs', ['scope' => $this->company['slug'], 'user_id' => $this->user])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,167,False,"store->insert('posts', ['scope' => $this->company['slug'], 'user_id' => $this->user, 'group_id' => $group, 'parent_id' => $parent ? $target : 0,
+                        'record_id' => $record, 'body' => $body, 'visibility' => $visibility, 'state' => $this->company['social']['moderate_posts'] && !$this->moderator ? 'pending' : 'published',
+                        'ctime' => gmdate('Y-m-d H:i:s'), 'mtime' => gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,179,False,"store->insert('reactions', ['scope' => $this->company['slug'], 'post_id' => $target, 'user_id' => $this->user, 'kind' => 'like'])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,195,False,"store->insert('edges', ['scope' => $this->company['slug'], 'actor' => $this->user, 'target' => $target, 'kind' => $kind, 'state' => $kind === 'friend' ? 'pending' : 'accepted', 'ctime' => gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,206,False,"store->insert('members', ['scope' => $this->company['slug'], 'group_id' => $target, 'user_id' => $uid, 'state' => $this->owner($target) === $uid ? 'accepted' : 'pending', 'role' => 'member'])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,211,False,"store->insert('messages', ['scope' => $this->company['slug'], 'sender' => $this->user, 'recipient' => $target, 'body' => $this->text($data, 'body', 10000), 'ctime' => gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,233,False,"store->insert('reports', ['scope' => $this->company['slug'], 'user_id' => $this->user, 'target_kind' => $kind, 'target_id' => $target,
+                        'reason' => $this->text($data, 'reason', 1200), 'state' => 'open', 'ctime' => gmdate('Y-m-d H:i:s')])"
+insert,11_metiers,Geniuspace\Social::action,components/com_joomcck/site/library/php/geniuspace/Social.php,247,False,"store->insert('audit', ['scope' => $this->company['slug'], 'actor' => $this->user, 'action' => $action, 'target_id' => $result, 'ctime' => gmdate('Y-m-d H:i:s')])"
+transactionStart,01_socle_acces,Geniuspace\Store::atomic,components/com_joomcck/site/library/php/geniuspace/Store.php,39,False,db->transactionStart()
+transactionRollback,01_socle_acces,Geniuspace\Store::atomic,components/com_joomcck/site/library/php/geniuspace/Store.php,43,False,db->transactionRollback()
+transactionCommit,01_socle_acces,Geniuspace\Store::atomic,components/com_joomcck/site/library/php/geniuspace/Store.php,43,False,db->transactionCommit()
+transactionRollback,01_socle_acces,Geniuspace\Store::atomic,components/com_joomcck/site/library/php/geniuspace/Store.php,45,False,db->transactionRollback()
+transactionRollback,01_socle_acces,Geniuspace\Store::commitBeforeClose,components/com_joomcck/site/library/php/geniuspace/Store.php,54,False,$db->transactionRollback()
+transactionCommit,01_socle_acces,Geniuspace\Store::commitBeforeClose,components/com_joomcck/site/library/php/geniuspace/Store.php,55,False,$db->transactionCommit()
+atomic,04_design_widgets,Geniuspace\Studio::saveDefinition,components/com_joomcck/site/library/php/geniuspace/Studio.php,42,False,"store->atomic(function()use($kind,$name,$data,$expected){
+            $lock=$this->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';
+            $this->store->rows('SELECT id FROM #__users WHERE id='.$this->user.$lock,1);
+            $r=$this->store->rows('SELECT id,revision FROM #__gp_social_definitions WHERE '.$this->scope().' AND kind='.$this->store->q($kind).' AND name='.$this->store->q($name).$lock,1)[0]??null;
+            if((int)($r['revision']??0)!==$expected)throw new \DomainException('La définition a changé. Rechargez avant de modifier.',409);
+            $revision=$expected+1;
+            if($r){$id=(int)$r['id'];$this->store->run('UPDATE #__gp_social_definitions SET data='.$this->store->q(Seo::json($data)).',revision='.$revision.' WHERE '.$this->scope().' AND id='.$id);}
+            else $id=$this->store->insert('definitions',['scope'=>$this->company['slug'],'kind'=>$kind,'name'=>$name,'data'=>Seo::json($data),'revision'=>$revision]);
+            return ['id'=>$id,'kind'=>$kind,'name'=>$name,'data'=>$data,'revision'=>$revision];
+        })"
+insert,04_design_widgets,Geniuspace\Studio::saveDefinition,components/com_joomcck/site/library/php/geniuspace/Studio.php,49,False,"store->insert('definitions',['scope'=>$this->company['slug'],'kind'=>$kind,'name'=>$name,'data'=>Seo::json($data),'revision'=>$revision])"
+atomic,04_design_widgets,Geniuspace\Studio::saveContent,components/com_joomcck/site/library/php/geniuspace/Studio.php,74,False,"store->atomic(function()use($type,$title,$values,$id,$expected){
+            $lock=$this->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';
+            $this->store->rows('SELECT id FROM #__users WHERE id='.$this->user.$lock,1);
+            $r=$id?$this->store->rows('SELECT * FROM #__gp_social_content WHERE '.$this->scope().' AND id='.$id.$lock,1)[0]??null:null;
+            if($id&&(!$r||!$this->admin&&(int)$r['user_id']!==$this->user))throw new \DomainException('Contenu inaccessible.',404);
+            if((int)($r['revision']??0)!==$expected||$r&&$r['content_type']!==$type)throw new \DomainException('Version ou type de contenu en conflit.',409);
+            $now=gmdate('Y-m-d H:i:s');$revision=$expected+1;
+            if($r)$this->store->run('UPDATE #__gp_social_content SET title='.$this->store->q($title).',data='.$this->store->q(Seo::json($values)).',mtime='.$this->store->q($now).',revision='.$revision.($this->admin?'':',published=0').' WHERE '.$this->scope().' AND id='.$id);
+            else $id=$this->store->insert('content',['scope'=>$this->company['slug'],'content_type'=>$type,'user_id'=>$this->user,'title'=>$title,'data'=>Seo::json($values),'published'=>0,'access'=>1"
+insert,04_design_widgets,Geniuspace\Studio::saveContent,components/com_joomcck/site/library/php/geniuspace/Studio.php,82,False,"store->insert('content',['scope'=>$this->company['slug'],'content_type'=>$type,'user_id'=>$this->user,'title'=>$title,'data'=>Seo::json($values),'published'=>0,'access'=>1,'revision'=>1,'ctime'=>$now,'mtime'=>$now])"
+atomic,04_design_widgets,Geniuspace\Studio::moderate,components/com_joomcck/site/library/php/geniuspace/Studio.php,88,False,"store->atomic(function()use($id,$expected,$published){$this->lockContent($id);$r=$this->content($id,true);if(!$r)throw new \DomainException('Contenu introuvable.',404);if((int)$r['revision']!==$expected)throw new \DomainException('Version de contenu en conflit.',409);
+            $this->store->run('UPDATE #__gp_social_content SET published='.(int)$published.',revision=revision+1 WHERE '.$this->scope().' AND id='.$id);return $this->content($id,true);
+        })"
+atomic,04_design_widgets,Geniuspace\Studio::deleteContent,components/com_joomcck/site/library/php/geniuspace/Studio.php,96,False,"store->atomic(function()use($id,$expected){$this->lockContent($id);$r=$this->content($id,true);if(!$r)throw new \DomainException('Contenu introuvable.',404);if((int)$r['revision']!==$expected)throw new \DomainException('Version en conflit.',409);
+        // Preserve the historical content; DELETE removes public visibility and API listing.
+        $this->store->run('UPDATE #__gp_social_content SET published=0,access=0,revision=revision+1 WHERE '.$this->scope().' AND id='.$id.' AND revision='.$expected);
+        })"
+atomic,04_design_widgets,Geniuspace\Studio::collection,components/com_joomcck/site/library/php/geniuspace/Studio.php,105,False,"store->atomic(function()use($record,$where,$add,$key){$lock=$this->store->db instanceof \Joomla\Database\DatabaseDriver?' FOR UPDATE':'';$this->store->rows('SELECT id FROM #__users WHERE id='.$this->user.$lock,1);if(!$this->repository->record($this->company,$record))throw new \DomainException('Fiche inaccessible.',404);$this->store->run('DELETE FROM #__gp_social_collections WHERE '.$where.' AND record_id='.$record);if($add)$this->store->insert('collections',['scope'=>$this->company['slug'],'user_id'=>$this->user,'collection_key'=>$key,'record_id'=>$record,'ctime'=>gmdate('Y-m-d H:i:s')]);})"
+insert,04_design_widgets,Geniuspace\Studio::collection,components/com_joomcck/site/library/php/geniuspace/Studio.php,105,False,"store->insert('collections',['scope'=>$this->company['slug'],'user_id'=>$this->user,'collection_key'=>$key,'record_id'=>$record,'ctime'=>gmdate('Y-m-d H:i:s')])"
+atomic,06_emploi_entreprise,Geniuspace\TalentMarket::action,components/com_joomcck/site/library/php/geniuspace/TalentMarket.php,32,False,"$s->atomic(function()use($s,$id,$fid,$data,$actor){$s->rows('SELECT id FROM #__js_res_record WHERE id='.$id.' FOR UPDATE',1);$d=self::definition($id,$fid);$action=$data['action']??'';$where='record_id='.$id.' AND field_id='.$fid;
+            if($action==='accept'){
+                if($d['mode']!=='auction'||(int)$d['record']['raw']['user_id']!==$actor)throw new \DomainException('Acceptation réservée au propriétaire du talent.',403);
+                if(strtotime($d['data']['ends_at'])>time())throw new \DomainException('Attendez la clôture pour accepter une offre.',409);
+                $company=Social::id($data,'company');$top=$s->rows('SELECT company_id FROM #__gp_social_talent_bids WHERE '.$where.' ORDER BY salary DESC,bonus DESC,ctime ASC',3);
+                if(!in_array($company,array_map('intval',array_column($top,'company_id')),true))throw new \DomainException('Seules les trois premières propositions peuvent être acceptées.',409);
+                $s->run('UPDATE #__gp_social_talent_bids SET accepted=1 WHERE '.$where.' AND company_id='.$company);return;
+            }
+            $company=Social::id($data,'company');self::company($company,$d,$actor);if((int)$d['record']['raw']['user_id']===$actor)throw new \DomainException('Une entreprise ne peut réserver son propre talent.',403);
+            if($d['mode']==='auction'&&$action==='bid'){
+                if(strtotime($d['data']['ends_at'])<=time())throw new \DomainException('Cette session est clôturée.'"
+insert,03_publication_forum,Geniuspace\WriterDrafts::save,components/com_joomcck/site/library/php/geniuspace/WriterDrafts.php,11,False,"$s->insert('writer_drafts',['record_id'=>(int)$r['id'],'user_id'=>$u,'section_id'=>(int)$r['section_id'],'type_id'=>(int)$r['type_id'],'token'=>$token,'title'=>ProductData::text($d['title']??$r['title'],250),'fields'=>Seo::json($fields),'expires_at'=>gmdate('Y-m-d H:i:s',time()+7*86400)])"
+insert,11_metiers,Geniuspace\ProjectBoards::event,components/com_joomcck/site/library/php/geniuspace/ProjectBoards.php,39,False,"$s->insert('project_events',['board_id'=>(int)$b['id'],'actor_id'=>ProductAccess::authenticated(),'revision'=>(int)$b['revision'],'kind'=>$kind,'payload'=>Seo::json(['title'=>$b['title'],'goal'=>$b['goal'],'steps'=>json_decode($b['steps'],true)?:[]]),'ctime'=>self::now()])"
+atomic,11_metiers,Geniuspace\ProjectBoards::action,components/com_joomcck/site/library/php/geniuspace/ProjectBoards.php,44,False,"$s->atomic(function()use($action,$d,$u,$s){
+            if($action==='create'){
+                // Serialize idempotency and quota by the native user row, not a process-local flag.
+                $s->rows('SELECT id FROM #__users WHERE id='.$u.' FOR UPDATE',1);$request=ProductData::text($d['request_id']??'',64);if(!preg_match('/^[a-zA-Z0-9-]{16,64}$/D',$request))throw new \InvalidArgumentException('Identifiant de création invalide.');
+                if($existing=$s->rows('SELECT id FROM #__gp_social_project_boards WHERE owner_id='.$u.' AND request_key='.$s->q($request),1))return ['id'=>(int)$existing[0]['id'],'message'=>'Dossier déjà créé.'];
+                if((int)($s->rows('SELECT COUNT(*) AS n FROM #__gp_social_project_boards WHERE owner_id='.$u,1)[0]['n']??0)>=100)throw new \DomainException('Cent dossiers actifs sont déjà présents.',429);
+                $title=ProductData::text($d['title']??'',180);if(!$title)throw new \InvalidArgumentException('Donnez un nom à votre mission.');$record=self::id($d['record']??0);if($record)ProductAccess::visible($record);
+                $steps=self::steps($d['steps']??[]);$b=['owner_id'=>$u,'record_id'=>$record,'request_key'=>$request,'title'=>$title,'goal'=>ProductData::text($d['goal']??'',2000),'steps'=>Seo::json($steps),'revision'=>1,'ctime'=>self::now(),'mtime'=>self::now()];$b['id']=$s->insert"
+insert,11_metiers,Geniuspace\ProjectBoards::action,components/com_joomcck/site/library/php/geniuspace/ProjectBoards.php,51,False,"$s->insert('project_boards',$b)"
+atomic,04_design_widgets,Geniuspace\DesignPermissions::delegate,components/com_joomcck/site/library/php/geniuspace/DesignPermissions.php,43,False,"$s->atomic(function()use($s,$before,$group,$value){
+            $row=$s->rows('SELECT rules FROM #__assets WHERE id='.$before['asset'].' FOR UPDATE',1)[0];$rules=json_decode($row['rules'],true)?:[];
+            if($value==='inherit')unset($rules[self::ACTION][$group]);else $rules[self::ACTION][$group]=$value==='allow';
+            $s->run('UPDATE #__assets SET rules='.$s->q(Seo::json($rules)).' WHERE id='.$before['asset']);
+        })"
+insertObject,03_publication_forum,Geniuspace\LegacyMembers::schema,components/com_joomcck/site/library/php/geniuspace/LegacyMembers.php,73,False,"db->insertObject('#__user_profiles',$metadata)"
+insertObject,03_publication_forum,Geniuspace\LegacyMembers::batch,components/com_joomcck/site/library/php/geniuspace/LegacyMembers.php,100,False,"$db->insertObject('#__user_profiles',$metadata)"
+delete,03_publication_forum,Geniuspace\LegacyMembers::batch,components/com_joomcck/site/library/php/geniuspace/LegacyMembers.php,103,False,$record->delete((int)$record->id)
+delete,03_publication_forum,Geniuspace\LegacyMembers::batch,components/com_joomcck/site/library/php/geniuspace/LegacyMembers.php,104,False,$user->delete((int)$user->id)
+atomic,10_facturation,Geniuspace\SubscriptionEntitlements::run,components/com_joomcck/site/library/php/geniuspace/SubscriptionEntitlements.php,49,False,)->atomic($operation)
+insertObject,05_medias,Geniuspace\AllVideoBridge::syncRecord,components/com_joomcck/site/library/php/geniuspace/AllVideoBridge.php,32,False,"db->insertObject('#__allvideoshare_categories',$cat,'id')"
+atomic,05_medias,Geniuspace\AllVideoBridge::syncRecord,components/com_joomcck/site/library/php/geniuspace/AllVideoBridge.php,34,False,"$s->atomic(function()use($s,$old,$row,$record,$field,$file,$r){if($old){$row->id=(int)$old['video_id'];$curated=$s->rows('SELECT catid,catids,access FROM #__allvideoshare_videos WHERE id='.$row->id,1)[0]??[];foreach(['catid','catids','access']as$key)if(array_key_exists($key,$curated))$row->$key=$curated[$key];$s->db->updateObject('#__allvideoshare_videos',$row,'id');$id=$row->id;}else{$row->created_date=$r['ctime']?:gmdate('Y-m-d H:i:s');$s->db->insertObject('#__allvideoshare_videos',$row,'id');$id=(int)$row->id;}$s->run('INSERT INTO #__gp_social_video_links(record_id,field_id,file_id,video_id,mtime) VALUES('.$record.','.$field.','.(int)$file['id'].','.$id.','.$s->q(gmdate('Y-m-d H:i:s')).') ON DUPLICATE KEY UPDATE file_id=VALUES(file_id),video_id=VALUES(video_id),mtime=VALUES(mtime)');})"
+updateObject,05_medias,Geniuspace\AllVideoBridge::syncRecord,components/com_joomcck/site/library/php/geniuspace/AllVideoBridge.php,34,False,"db->updateObject('#__allvideoshare_videos',$row,'id')"
+insertObject,05_medias,Geniuspace\AllVideoBridge::syncRecord,components/com_joomcck/site/library/php/geniuspace/AllVideoBridge.php,34,False,"db->insertObject('#__allvideoshare_videos',$row,'id')"
+atomic,10_facturation,Geniuspace\SubscriptionCheckout::create,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,22,False,"store->atomic(function()use($p,$record,$provider,$buyer,$seller,$chain){$actor=$this->actor(true);SubscriptionPlans::target($p,$record,$this->user);$snapshot=Seo::json(['plan'=>$p,'seller'=>$seller,'buyer'=>$buyer,'email'=>$actor['email'],'live'=>$this->gateway->live()]);
+            foreach($this->store->rows(""SELECT * FROM #__gp_social_billing_orders WHERE user_id="".$this->user."" AND state='pending' AND ctime>"".$this->q($this->date($this->now()-3600)).' ORDER BY id DESC',25)as$r)if((int)$r['plan_id']===$p['id']&&(int)$r['record_id']===$record&&$r['provider']===$provider&&$r['asset']===$chain['asset']&&$r['network']===$chain['network']&&hash_equals(hash('sha256',$r['snapshot']),hash('sha256',$snapshot)))return$r;
+            $pending=(int)$this->store->rows(""SELECT COUNT(*) AS n FROM #__gp_social_billing_orders WHERE user_id="".$this->user.' AND ctime>'.$this->q($this->date($this->now()-3600)),1)[0]['n'];if($pending>=20)throw new \DomainException('Trop de commandes récentes. Reprenez une commande existante.',429);
+            $token=bin2hex(random_bytes(24));$date=$this->date();$sub=$this->insert('joomsubscription_subscriptions',['user_id'=>$this->user,'plan_id'=>$p['id'],'published'=>0,'activated'=>"
+insert,10_facturation,Geniuspace\SubscriptionCheckout::create,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,25,False,"$this->insert('joomsubscription_subscriptions',['user_id'=>$this->user,'plan_id'=>$p['id'],'published'=>0,'activated'=>0,'ctime'=>$date,'created'=>$date,'purchased'=>$date,'extime'=>$date,'gateway'=>'geniuspace_'.$provider,'gateway_id'=>$token,'price'=>number_format($p['amount']/100,2,'.',''),'fields'=>Seo::json(['geniuspace_record'=>$record]),'params'=>Seo::json(['geniuspace_billing'=>$token,'currency'=>$p['currency'],'geniuspace'=>$p['settings']])])"
+insert,10_facturation,Geniuspace\SubscriptionCheckout::create,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,26,False,"$this->insert('gp_social_billing_orders',['token'=>$token,'user_id'=>$this->user,'plan_id'=>$p['id'],'subscription_id'=>$sub,'record_id'=>$record,'provider'=>$provider,'asset'=>$chain['asset'],'network'=>$chain['network'],'provider_currency'=>$chain['code'],'amount'=>$p['amount'],'currency'=>$p['currency'],'state'=>'pending','snapshot'=>$snapshot,'ctime'=>$date])"
+atomic,10_facturation,Geniuspace\SubscriptionCheckout::checkout,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,41,False,"store->atomic(function()use($token,$session){$o=$this->order($token,true);if($o['state']!=='pending')throw new \DomainException('Commande déjà réglée.',409);if($o['checkout_id']!==''&&$o['checkout_id']!==$session['id'])throw new \DomainException('Session de paiement incohérente.',409);$snap=json_decode($o['snapshot'],true);$snap['checkout_url']=$session['url'];$this->store->run('UPDATE #__gp_social_billing_orders SET checkout_id='.$this->q($session['id']).',snapshot='.$this->q(Seo::json($snap)).' WHERE id='.(int)$o['id']);})"
+atomic,10_facturation,Geniuspace\SubscriptionCheckout::apply,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,60,False,"store->atomic(function()use($provider,$p,$checksum){$prior=$this->store->rows('SELECT checksum FROM #__gp_social_billing_events WHERE provider='.$this->q($provider).' AND event_id='.$this->q($p['event']),1)[0]??null;if($prior){if(!hash_equals($prior['checksum'],$checksum))throw new \DomainException('Notification répétée et modifiée.',409);return;}
+            $o=$this->store->rows('SELECT * FROM #__gp_social_billing_orders WHERE token='.$this->q($p['token']).' FOR UPDATE',1)[0]??null;if(!$o)throw new \DomainException('Commande indisponible, notification à réessayer.',503);$again=$this->store->rows('SELECT checksum FROM #__gp_social_billing_events WHERE provider='.$this->q($provider).' AND event_id='.$this->q($p['event']),1)[0]??null;if($again){if(!hash_equals($again['checksum'],$checksum))throw new \DomainException('Notification répétée et modifiée.',409);return;}
+            if($o['provider']!==$provider||$o['currency']!==($p['currency']??''))throw new \DomainException('Prestataire ou devise incohérent.',400);$s=json_decode($o['snapshot'],true);if(($s['live']??false)!==($p['live']??null))throw new \DomainException('Mode de paiement incohérent.',400);$phase=$p['phase']??'';
+            if($phase==='paid'){
+                if(($provider==='stripe'&&"
+insert,10_facturation,Geniuspace\SubscriptionCheckout::apply,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,73,False,"$this->insert('gp_social_billing_promotions',['order_id'=>(int)$o['id'],'subscription_id'=>(int)$o['subscription_id'],'user_id'=>(int)$o['user_id'],'record_id'=>(int)$o['record_id'],'kind'=>$kind,'placement'=>$s['plan']['settings']['placement'],'color'=>$s['plan']['settings']['color'],'starts_at'=>$this->date($start),'expires_at'=>$this->date($end)])"
+insert,10_facturation,Geniuspace\SubscriptionCheckout::apply,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,84,False,"$this->insert('gp_social_billing_events',['provider'=>$provider,'event_id'=>$p['event'],'checksum'=>$checksum,'order_id'=>(int)$o['id'],'ctime'=>$this->date()])"
+insert,10_facturation,Geniuspace\SubscriptionCheckout::invoice,components/com_joomcck/site/library/php/geniuspace/SubscriptionCheckout.php,90,False,"$this->insert('gp_social_billing_invoices',['order_id'=>(int)$o['id'],'event_id'=>$event,'number'=>$number,'kind'=>$kind,'amount'=>$amount,'snapshot'=>Seo::json($s),'ctime'=>$this->date()])"
+atomic,04_design_widgets,Geniuspace\DesignLayouts::write,components/com_joomcck/site/library/php/geniuspace/DesignLayouts.php,60,False,"$s->atomic(function()use($s,$key,$scope,$c,$expected,$action,$data,$now,$actor,$incoming){
+            $default=$s->q(Seo::json(DesignDocument::defaults($scope)));$s->run('INSERT IGNORE INTO #__gp_social_design_layouts (layout_key,scope,target_id,section_id,revision,published_revision,draft,published,actor_id,mtime) VALUES ('.$key.','.$s->q($scope).','.$c['target'].','.$c['section'].',0,0,'.$default."",'',"".$actor.','.$now.')');
+            $r=$s->rows('SELECT * FROM #__gp_social_design_layouts WHERE layout_key='.$key.' FOR UPDATE',1)[0];if((int)$r['revision']!==$expected)throw new \DomainException('Cette composition a été modifiée ailleurs. Rechargez avant de remplacer votre travail.',409);
+            $doc=$incoming??json_decode($r['draft'],true,40,JSON_THROW_ON_ERROR);
+            if($action==='restore'){$rev=(int)DesignDocument::number($data['restore_revision']??0,1,2147483647);$old=$s->rows('SELECT payload FROM #__gp_social_design_revisions WHERE layout_key='.$key.' AND revision='.$rev,1)[0]??null;if(!$old)throw new \DomainException('Version introuvable.',404);$doc=DesignDocument::clean(json_decode($old['payload'],true,40,JSON_THROW_ON_ERROR),$scope);}
+            $json=Seo::json($doc);$revision=$expected+1;$pub=$action==='publish'?$revision:($action==='unpublish'?0:(int)$r['published_revision']);$published=$action==='publish'?$json:($action==='unpublish'?'__native__':$r['published']);
+            "
+store_value,08_seo_recherche,Geniuspace\EditorialRevision::apply,components/com_joomcck/site/library/php/geniuspace/EditorialRevision.php,43,False,"$row->store_value($value,$index,$record,$f)"
+insertObject,08_seo_recherche,Geniuspace\EditorialRevision::apply,components/com_joomcck/site/library/php/geniuspace/EditorialRevision.php,50,False,"$db->insertObject('#__js_res_record_values',$obj)"
+atomic,02_shell_navigation,Geniuspace\UniverseAnnouncements::action,components/com_joomcck/site/library/php/geniuspace/UniverseAnnouncements.php,20,False,"$s->atomic(function()use($s,$section,$scope){$prior=$s->rows('SELECT record_id FROM #__gp_social_universe_announcements WHERE enabled=1 AND section_id='.$section.' AND category_id='.$scope.' FOR UPDATE',1)[0]??null;$s->run('UPDATE #__gp_social_universe_announcements SET enabled=0 WHERE section_id='.$section.' AND category_id='.$scope);if($prior)ProductAccess::event((int)$prior['record_id'],'universe.announcement_removed',['section'=>$section,'category'=>$scope]);})"
+atomic,02_shell_navigation,Geniuspace\UniverseAnnouncements::action,components/com_joomcck/site/library/php/geniuspace/UniverseAnnouncements.php,26,False,"$s->atomic(function()use($s,$record,$section,$scope,$user,$now,$expiry){$s->run('INSERT INTO #__gp_social_universe_announcements (section_id,category_id,record_id,actor_id,enabled,expires_at,ctime) VALUES ('.$section.','.$scope.','.$record.','.$user.',1,'.$s->q($expiry).','.$s->q($now).') ON DUPLICATE KEY UPDATE record_id=VALUES(record_id),actor_id=VALUES(actor_id),enabled=1,expires_at=VALUES(expires_at),ctime=VALUES(ctime)');ProductAccess::event($record,'universe.announcement',['section'=>$section,'category'=>$scope,'expires'=>$expiry]);})"
+updateObject,10_facturation,Geniuspace\SubscriptionAdmin::render,components/com_joomcck/site/library/php/geniuspace/SubscriptionAdmin.php,20,False,"$db->updateObject('#__joomsubscription_plans',$row,'id')"
+insertObject,10_facturation,Geniuspace\SubscriptionAdmin::render,components/com_joomcck/site/library/php/geniuspace/SubscriptionAdmin.php,20,False,"$db->insertObject('#__joomsubscription_plans',$row)"
+delete,12_legacy_native,CSubscriptionsHelper::unsubscribe_record,components/com_joomcck/site/library/php/helpers/helper.php,129,False,$table->delete()
+delete,12_legacy_native,packInstallerScript::_end,components/com_joomcck/site/library/php/pack/install.php,239,False,\Joomla\Filesystem\Folder::delete(JPATH_ADMINISTRATOR . DIRECTORY_SEPARATOR . 'components/com_joomcck/packs' . DIRECTORY_SEPARATOR . $this->key)
+delete,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/delfiles/exec.php,186,False,\Joomla\Filesystem\File::delete($filepath)
+transactionStart,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/delfiles/exec.php,194,False,$db->transactionStart()
+transactionCommit,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/delfiles/exec.php,204,False,$db->transactionCommit()
+transactionRollback,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/delfiles/exec.php,206,False,$db->transactionRollback()
+transactionStart,12_legacy_native,_updateFileSavedStatus,components/com_joomcck/site/library/php/tools/delfiles/exec.php,292,False,$db->transactionStart()
+transactionCommit,12_legacy_native,_updateFileSavedStatus,components/com_joomcck/site/library/php/tools/delfiles/exec.php,310,False,$db->transactionCommit()
+transactionRollback,12_legacy_native,_updateFileSavedStatus,components/com_joomcck/site/library/php/tools/delfiles/exec.php,312,False,$db->transactionRollback()
+delete,12_legacy_native,_deleteFiles,components/com_joomcck/site/library/php/tools/delfiles/exec.php,340,False,\Joomla\Filesystem\File::delete($file_path)
+transactionStart,12_legacy_native,_deleteFiles,components/com_joomcck/site/library/php/tools/delfiles/exec.php,356,False,$db->transactionStart()
+transactionCommit,12_legacy_native,_deleteFiles,components/com_joomcck/site/library/php/tools/delfiles/exec.php,360,False,$db->transactionCommit()
+transactionRollback,12_legacy_native,_deleteFiles,components/com_joomcck/site/library/php/tools/delfiles/exec.php,362,False,$db->transactionRollback()
+store_value,12_legacy_native,Kunena2Joomcck::saveFields,components/com_joomcck/site/library/php/tools/kunena/exec.php,223,False,"values->store_value($value, $key, $this->record, $obj)"
+store_value,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/price/exec.php,98,False,"$table_value->store_value($prices[$fields[$params->get('field_id_article')]], 0, $record, $field)"
+store_value,12_legacy_native,SMF2Joomcck::saveFields,components/com_joomcck/site/library/php/tools/smf/exec.php,220,False,"values->store_value($value, $key, $this->record, $obj)"
+delete,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/thumbs/exec.php,9,False,\Joomla\Filesystem\Folder::delete($folder)
+delete,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/thumbs/exec.php,20,False,\Joomla\Filesystem\Folder::delete($folder)
+updateObject,12_legacy_native,TOPLEVEL,components/com_joomcck/site/library/php/tools/typemove/exec.php,32,False,")->updateObject('#__js_res_record', $updateRecord, 'id')"
+delete,12_legacy_native,METoolSetUserHelper::cleanFiles,components/com_joomcck/site/library/php/tools/useridreplace/lib.php,96,False,\Joomla\Filesystem\File::delete($filetodel)
+delete,12_legacy_native,JoomcckModelPack::delete,components/com_joomcck/site/models/pack.php,87,False,parent::delete($pks)
+delete,12_legacy_native,JoomcckModelPack::delete,components/com_joomcck/site/models/pack.php,93,False,")
+                ->delete($db->quoteName('#__js_res_packs_sections'))"
+delete,12_legacy_native,JoomcckModelPack::build,components/com_joomcck/site/models/pack.php,140,False,\Joomla\Filesystem\Folder::delete(PACK_ROOT)
+delete,12_legacy_native,JoomcckModelPack::build,components/com_joomcck/site/models/pack.php,375,False,\Joomla\Filesystem\Folder::delete(PACK_ROOT)
+delete,12_legacy_native,ZipRemover::deleteZip,components/com_joomcck/site/models/pack.php,784,False,\Joomla\Filesystem\File::delete($filename)
+delete,12_legacy_native,JoomcckTableCobCategory::delete,components/com_joomcck/site/tables/cobcategory.php,347,False,parent::delete($pk)
+delete,12_legacy_native,JoomcckTableCobcomments::delete,components/com_joomcck/site/tables/cobcomments.php,156,False,"parent::delete($pk,$children)"
+atomic,12_legacy_native,JoomcckTableCobcomments::store,components/com_joomcck/site/tables/cobcomments.php,167,False,")->atomic(function()use($updateNulls){\Geniuspace\ProductAccess::store()->rows('SELECT id FROM #__js_res_record WHERE id='.(int)$this->record_id.' FOR UPDATE',1);return $this->store($updateNulls);})"
+updateObject,12_legacy_native,JoomcckTableCobcomments::store,components/com_joomcck/site/tables/cobcomments.php,181,False,"$db->updateObject('#__js_res_comments',$thread,'id')"
+delete,12_legacy_native,JoomcckTableField::delete,components/com_joomcck/site/tables/field.php,50,False,parent::delete($pk)
+updateObject,12_legacy_native,JoomcckTableFiles::markSaved,components/com_joomcck/site/tables/files.php,103,False,"_db->updateObject('#__js_res_files',$updateFile,'filename')"
+delete,12_legacy_native,JoomcckTableGroup::delete,components/com_joomcck/site/tables/group.php,31,False,parent::delete($pk)
+delete,12_legacy_native,JoomcckTableMultilevel::delete,components/com_joomcck/site/tables/multilevel.php,25,False,parent::delete($pk)
+delete,12_legacy_native,JoomcckTableRecord_values::clean,components/com_joomcck/site/tables/record_values.php,64,False,$query->delete()
+delete,12_legacy_native,JoomcckTableSection::delete,components/com_joomcck/site/tables/section.php,118,False,parent::delete($pk)
+delete,12_legacy_native,JoomcckTableSection::delete,components/com_joomcck/site/tables/section.php,131,False,$cat_table->delete($catid->id)
+delete,12_legacy_native,JoomcckTableType::delete,components/com_joomcck/site/tables/type.php,125,False,\Joomla\Filesystem\File::delete($dest)
+delete,12_legacy_native,JoomcckTableType::delete,components/com_joomcck/site/tables/type.php,136,False,parent::delete($pk)
+delete,13_allvideoshare,Com_AllVideoShareInstallerScript::migrateFromJoomla3,components/com_allvideoshare/script.allvideoshare.php,447,False,\AllVideoShareFolder::delete( $path )
+delete,13_allvideoshare,Com_AllVideoShareInstallerScript::migrateFromJoomla3,components/com_allvideoshare/script.allvideoshare.php,461,False,\AllVideoShareFile::delete( $path )
+delete,13_allvideoshare,Com_AllVideoShareInstallerScript::migrateFromJoomla3,components/com_allvideoshare/script.allvideoshare.php,477,False,\AllVideoShareFolder::delete( $path )
+delete,13_allvideoshare,Com_AllVideoShareInstallerScript::migrateFromJoomla3,components/com_allvideoshare/script.allvideoshare.php,492,False,\AllVideoShareFile::delete( $path )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Categories\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Categories/HtmlView.php,110,False,$toolbar->delete( 'categories.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Categories\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Categories/HtmlView.php,128,False,$toolbar->delete( 'categories.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Ratings\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Ratings/HtmlView.php,87,False,$toolbar->delete( 'ratings.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Likes\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Likes/HtmlView.php,87,False,$toolbar->delete( 'likes.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Advertisements\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Advertisements/HtmlView.php,111,False,$toolbar->delete( 'advertisements.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Advertisements\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Advertisements/HtmlView.php,129,False,$toolbar->delete( 'advertisements.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Videos\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Videos/HtmlView.php,137,False,$toolbar->delete( 'videos.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Videos\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Videos/HtmlView.php,155,False,$toolbar->delete( 'videos.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Users\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Users/HtmlView.php,103,False,$toolbar->delete( 'users.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\View\Users\HtmlView::addToolbar,components/com_allvideoshare/admin/src/View/Users/HtmlView.php,121,False,$toolbar->delete( 'users.delete' )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\CategoryTable::delete,components/com_allvideoshare/admin/src/Table/CategoryTable.php,253,False,parent::delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\CategoryTable::delete,components/com_allvideoshare/admin/src/Table/CategoryTable.php,266,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\CategoryTable::delete,components/com_allvideoshare/admin/src/Table/CategoryTable.php,274,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\CategoryTable::unlink,components/com_allvideoshare/admin/src/Table/CategoryTable.php,325,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,574,False,parent::delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,589,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,597,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,612,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,620,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,638,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,646,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,662,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::delete,components/com_allvideoshare/admin/src/Table/VideoTable.php,670,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\VideoTable::unlink,components/com_allvideoshare/admin/src/Table/VideoTable.php,731,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\RatingTable::delete,components/com_allvideoshare/admin/src/Table/RatingTable.php,73,False,parent::delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\LikeTable::delete,components/com_allvideoshare/admin/src/Table/LikeTable.php,73,False,parent::delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\AdvertisementTable::delete,components/com_allvideoshare/admin/src/Table/AdvertisementTable.php,243,False,parent::delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\AdvertisementTable::delete,components/com_allvideoshare/admin/src/Table/AdvertisementTable.php,256,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\AdvertisementTable::delete,components/com_allvideoshare/admin/src/Table/AdvertisementTable.php,264,False,\AllVideoShareFolder::delete( $directory )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Administrator\Table\AdvertisementTable::unlink,components/com_allvideoshare/admin/src/Table/AdvertisementTable.php,290,False,\AllVideoShareFile::delete( $file )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Model\VideoformModel::delete,components/com_allvideoshare/site/src/Model/VideoformModel.php,325,False,$table->delete( $pk )
+delete,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Controller\VideoformController::remove,components/com_allvideoshare/site/src/Controller/VideoformController.php,327,False,$model->delete( $pk )
+insertObject,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Controller\VideoController::ratings,components/com_allvideoshare/site/src/Controller/VideoController.php,107,False,"$db->insertObject( '#__allvideoshare_ratings', $row )"
+insertObject,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Controller\VideoController::likes,components/com_allvideoshare/site/src/Controller/VideoController.php,168,False,"$db->insertObject( '#__allvideoshare_likes', $row )"
+insertObject,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Helper\AllVideoShareYouTubeApi::requestApi,components/com_allvideoshare/site/src/Helper/AllVideoShareYouTubeApi.php,682,False,"$db->insertObject( '#__allvideoshare_cache', $row )"
+insertObject,13_allvideoshare,MrVinoth\Component\AllVideoShare\Site\Helper\AllVideoShareYouTubeApi::updateOption,components/com_allvideoshare/site/src/Helper/AllVideoShareYouTubeApi.php,886,False,"$db->insertObject( '#__allvideoshare_options', $row )"
+atomic,14_joomsubscription,JoomsubscriptionApi::hasSubscription,components/com_joomsubscription/site/api.php,14,False,"$s->atomic(function()use($s,$ids,$user_id,$count,$apply_count){$now=gmdate('Y-m-d H:i:s');$rows=$s->rows('SELECT s.id,s.access_count,s.access_limit FROM #__joomsubscription_subscriptions s JOIN #__users u ON u.id=s.user_id JOIN #__joomsubscription_plans p ON p.id=s.plan_id WHERE s.user_id='.$user_id.' AND u.block=0 AND s.plan_id IN('.implode(',',$ids).') AND s.published=1 AND s.activated=1 AND (s.access_limit=0 OR s.access_count<s.access_limit) AND s.ctime<='.$s->q($now).' AND s.extime>'.$s->q($now).' ORDER BY s.extime,s.id FOR UPDATE',100);foreach($rows as$r){if((int)$r['access_limit']>0&&(int)$r['access_count']>=(int)$r['access_limit'])continue;if($count&&$apply_count)$s->run('UPDATE #__joomsubscription_subscriptions SET access_count=access_count+1 WHERE id='.(int)$r['id']);return true;}return false;})"
+delete,12_legacy_native,MControllerAdmin::delete,libraries/mint/mvc/controller/admin.php,130,False,$model->delete($cid)
+delete,12_legacy_native,MModelAdmin::delete,libraries/mint/mvc/model/admin.php,757,False,$table->delete($pk)
+delete,12_legacy_native,plgFinderJoomcckInstallerScript::removeObsoleteFiles,plugins/plg_finder_joomcck/script.php,91,False,File::delete($path)
+delete,12_legacy_native,plgFinderJoomcckInstallerScript::removeObsoleteFolders,plugins/plg_finder_joomcck/script.php,109,False,Folder::delete($path)
+delete,12_legacy_native,plgSystemJoomcck::onRecordDelete,plugins/plg_system_joomcck/joomcck.php,161,False,)->delete()

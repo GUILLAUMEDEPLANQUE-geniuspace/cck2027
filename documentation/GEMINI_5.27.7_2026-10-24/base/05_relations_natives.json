@@ -1,0 +1,602 @@
+[
+  {
+    "field_id": 3776,
+    "source_type": 163,
+    "direction": "child",
+    "target_type": 167,
+    "settings": {
+      "parent_type": 167,
+      "parent_section": 167,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 3836,
+    "source_type": 165,
+    "direction": "child",
+    "target_type": 167,
+    "settings": {
+      "parent_type": 167,
+      "parent_section": 167,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 3877,
+    "source_type": 167,
+    "direction": "parent",
+    "target_type": 163,
+    "settings": {
+      "child_field": 3776,
+      "child_section": 163
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 3878,
+    "source_type": 167,
+    "direction": "parent",
+    "target_type": 165,
+    "settings": {
+      "child_field": 3836,
+      "child_section": 165
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 3932,
+    "source_type": 171,
+    "direction": "child",
+    "target_type": 175,
+    "settings": {
+      "parent_type": 175,
+      "parent_section": 175,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 3992,
+    "source_type": 173,
+    "direction": "child",
+    "target_type": 175,
+    "settings": {
+      "parent_type": 175,
+      "parent_section": 175,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4033,
+    "source_type": 175,
+    "direction": "parent",
+    "target_type": 171,
+    "settings": {
+      "child_field": 3932,
+      "child_section": 171
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4034,
+    "source_type": 175,
+    "direction": "parent",
+    "target_type": 173,
+    "settings": {
+      "child_field": 3992,
+      "child_section": 173
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4136,
+    "source_type": 179,
+    "direction": "child",
+    "target_type": 183,
+    "settings": {
+      "parent_type": 183,
+      "parent_section": 183,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4209,
+    "source_type": 181,
+    "direction": "child",
+    "target_type": 183,
+    "settings": {
+      "parent_type": 183,
+      "parent_section": 183,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4251,
+    "source_type": 183,
+    "direction": "parent",
+    "target_type": 179,
+    "settings": {
+      "child_field": 4136,
+      "child_section": 179
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4252,
+    "source_type": 183,
+    "direction": "parent",
+    "target_type": 181,
+    "settings": {
+      "child_field": 4209,
+      "child_section": 181
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4502,
+    "source_type": 203,
+    "direction": "child",
+    "target_type": 207,
+    "settings": {
+      "parent_type": 207,
+      "parent_section": 207,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4575,
+    "source_type": 205,
+    "direction": "child",
+    "target_type": 207,
+    "settings": {
+      "parent_type": 207,
+      "parent_section": 207,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4617,
+    "source_type": 207,
+    "direction": "parent",
+    "target_type": 203,
+    "settings": {
+      "child_field": 4502,
+      "child_section": 203
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4618,
+    "source_type": 207,
+    "direction": "parent",
+    "target_type": 205,
+    "settings": {
+      "child_field": 4575,
+      "child_section": 205
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4689,
+    "source_type": 215,
+    "direction": "child",
+    "target_type": 219,
+    "settings": {
+      "parent_type": 219,
+      "parent_section": 219,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4763,
+    "source_type": 217,
+    "direction": "child",
+    "target_type": 219,
+    "settings": {
+      "parent_type": 219,
+      "parent_section": 219,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4805,
+    "source_type": 219,
+    "direction": "parent",
+    "target_type": 215,
+    "settings": {
+      "child_field": 4689,
+      "child_section": 215
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4806,
+    "source_type": 219,
+    "direction": "parent",
+    "target_type": 217,
+    "settings": {
+      "child_field": 4763,
+      "child_section": 217
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4877,
+    "source_type": 227,
+    "direction": "child",
+    "target_type": 231,
+    "settings": {
+      "parent_type": 231,
+      "parent_section": 231,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4951,
+    "source_type": 229,
+    "direction": "child",
+    "target_type": 231,
+    "settings": {
+      "parent_type": 231,
+      "parent_section": 231,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4993,
+    "source_type": 231,
+    "direction": "parent",
+    "target_type": 227,
+    "settings": {
+      "child_field": 4877,
+      "child_section": 227
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4994,
+    "source_type": 231,
+    "direction": "parent",
+    "target_type": 229,
+    "settings": {
+      "child_field": 4951,
+      "child_section": 229
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 4996,
+    "source_type": 231,
+    "direction": "parent",
+    "target_type": 239,
+    "settings": {
+      "child_field": 5041,
+      "child_section": 239
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5041,
+    "source_type": 239,
+    "direction": "child",
+    "target_type": 231,
+    "settings": {
+      "parent_type": 231,
+      "parent_section": 231,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5072,
+    "source_type": 240,
+    "direction": "child",
+    "target_type": 244,
+    "settings": {
+      "parent_type": 244,
+      "parent_section": 244,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5146,
+    "source_type": 242,
+    "direction": "child",
+    "target_type": 244,
+    "settings": {
+      "parent_type": 244,
+      "parent_section": 244,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5188,
+    "source_type": 244,
+    "direction": "parent",
+    "target_type": 240,
+    "settings": {
+      "child_field": 5072,
+      "child_section": 240
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5189,
+    "source_type": 244,
+    "direction": "parent",
+    "target_type": 242,
+    "settings": {
+      "child_field": 5146,
+      "child_section": 242
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5191,
+    "source_type": 244,
+    "direction": "parent",
+    "target_type": 252,
+    "settings": {
+      "child_field": 5236,
+      "child_section": 252
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5236,
+    "source_type": 252,
+    "direction": "child",
+    "target_type": 244,
+    "settings": {
+      "parent_type": 244,
+      "parent_section": 244,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5703,
+    "source_type": 279,
+    "direction": "child",
+    "target_type": 283,
+    "settings": {
+      "parent_type": 283,
+      "parent_section": 283,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6039,
+    "source_type": 279,
+    "direction": "parent",
+    "target_type": 296,
+    "settings": {
+      "child_field": 6038,
+      "child_section": 296
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5782,
+    "source_type": 281,
+    "direction": "child",
+    "target_type": 283,
+    "settings": {
+      "parent_type": 283,
+      "parent_section": 283,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6041,
+    "source_type": 281,
+    "direction": "parent",
+    "target_type": 296,
+    "settings": {
+      "child_field": 6040,
+      "child_section": 296
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5827,
+    "source_type": 283,
+    "direction": "parent",
+    "target_type": 279,
+    "settings": {
+      "child_field": 5703,
+      "child_section": 279
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5828,
+    "source_type": 283,
+    "direction": "parent",
+    "target_type": 281,
+    "settings": {
+      "child_field": 5782,
+      "child_section": 281
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5830,
+    "source_type": 283,
+    "direction": "parent",
+    "target_type": 291,
+    "settings": {
+      "child_field": 5890,
+      "child_section": 291
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6037,
+    "source_type": 283,
+    "direction": "parent",
+    "target_type": 296,
+    "settings": {
+      "child_field": 6036,
+      "child_section": 296
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 5890,
+    "source_type": 291,
+    "direction": "child",
+    "target_type": 283,
+    "settings": {
+      "parent_type": 283,
+      "parent_section": 283,
+      "multi_parent": 0
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6032,
+    "source_type": 296,
+    "direction": "child",
+    "target_type": 296,
+    "settings": {
+      "parent_type": 296,
+      "parent_section": 296,
+      "multi_parent": 1
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6033,
+    "source_type": 296,
+    "direction": "child",
+    "target_type": 296,
+    "settings": {
+      "parent_type": 296,
+      "parent_section": 296,
+      "multi_parent": 1
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6034,
+    "source_type": 296,
+    "direction": "parent",
+    "target_type": 296,
+    "settings": {
+      "child_field": 6033,
+      "child_section": 296
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6035,
+    "source_type": 296,
+    "direction": "parent",
+    "target_type": 296,
+    "settings": {
+      "child_field": 6032,
+      "child_section": 296
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6036,
+    "source_type": 296,
+    "direction": "child",
+    "target_type": 283,
+    "settings": {
+      "parent_type": 283,
+      "parent_section": 283,
+      "multi_parent": 1
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6038,
+    "source_type": 296,
+    "direction": "child",
+    "target_type": 279,
+    "settings": {
+      "parent_type": 279,
+      "parent_section": 279,
+      "multi_parent": 1
+    },
+    "published": 1,
+    "access": 1
+  },
+  {
+    "field_id": 6040,
+    "source_type": 296,
+    "direction": "child",
+    "target_type": 281,
+    "settings": {
+      "parent_type": 281,
+      "parent_section": 281,
+      "multi_parent": 1
+    },
+    "published": 1,
+    "access": 1
+  }
+]

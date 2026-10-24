@@ -1,0 +1,2492 @@
+﻿table,column,type
+#__action_logs,id,int unsigned
+#__action_logs,message_language_key,varchar
+#__action_logs,message,text
+#__action_logs,log_date,datetime
+#__action_logs,extension,varchar
+#__action_logs,user_id,int
+#__action_logs,item_id,int
+#__action_logs,ip_address,varchar
+#__action_logs_extensions,id,int unsigned
+#__action_logs_extensions,extension,varchar
+#__action_logs_users,user_id,int unsigned
+#__action_logs_users,notify,tinyint unsigned
+#__action_logs_users,extensions,text
+#__action_log_config,id,int unsigned
+#__action_log_config,type_title,varchar
+#__action_log_config,type_alias,varchar
+#__action_log_config,id_holder,varchar
+#__action_log_config,title_holder,varchar
+#__action_log_config,table_name,varchar
+#__action_log_config,text_prefix,varchar
+#__allvideoshare_adverts,id,int unsigned
+#__allvideoshare_adverts,title,varchar
+#__allvideoshare_adverts,type,varchar
+#__allvideoshare_adverts,video,varchar
+#__allvideoshare_adverts,link,varchar
+#__allvideoshare_adverts,impressions,int
+#__allvideoshare_adverts,clicks,int
+#__allvideoshare_adverts,state,tinyint
+#__allvideoshare_adverts,ordering,int
+#__allvideoshare_adverts,checked_out,int unsigned
+#__allvideoshare_adverts,checked_out_time,datetime
+#__allvideoshare_adverts,created_by,int
+#__allvideoshare_adverts,modified_by,int
+#__allvideoshare_cache,id,int unsigned
+#__allvideoshare_cache,name,varchar
+#__allvideoshare_cache,value,mediumtext
+#__allvideoshare_cache,expiry_date,datetime
+#__allvideoshare_categories,id,int unsigned
+#__allvideoshare_categories,name,varchar
+#__allvideoshare_categories,slug,varchar
+#__allvideoshare_categories,parent,int
+#__allvideoshare_categories,thumb,varchar
+#__allvideoshare_categories,description,text
+#__allvideoshare_categories,access,varchar
+#__allvideoshare_categories,metakeywords,text
+#__allvideoshare_categories,metadescription,text
+#__allvideoshare_categories,state,tinyint
+#__allvideoshare_categories,ordering,int
+#__allvideoshare_categories,checked_out,int unsigned
+#__allvideoshare_categories,checked_out_time,datetime
+#__allvideoshare_categories,created_by,int
+#__allvideoshare_categories,modified_by,int
+#__allvideoshare_likes,id,int unsigned
+#__allvideoshare_likes,videoid,int
+#__allvideoshare_likes,likes,int
+#__allvideoshare_likes,dislikes,int
+#__allvideoshare_likes,userid,int
+#__allvideoshare_likes,sessionid,varchar
+#__allvideoshare_likes,created_date,datetime
+#__allvideoshare_likes,updated_date,datetime
+#__allvideoshare_ratings,id,int unsigned
+#__allvideoshare_ratings,videoid,int
+#__allvideoshare_ratings,ratings,"decimal,"
+#__allvideoshare_ratings,userid,int
+#__allvideoshare_ratings,sessionid,varchar
+#__allvideoshare_ratings,created_date,datetime
+#__allvideoshare_ratings,updated_date,datetime
+#__allvideoshare_videos,id,int unsigned
+#__allvideoshare_videos,title,varchar
+#__allvideoshare_videos,slug,varchar
+#__allvideoshare_videos,catid,int unsigned
+#__allvideoshare_videos,catids,text
+#__allvideoshare_videos,type,varchar
+#__allvideoshare_videos,video,varchar
+#__allvideoshare_videos,hd,varchar
+#__allvideoshare_videos,youtube,varchar
+#__allvideoshare_videos,vimeo,varchar
+#__allvideoshare_videos,hls,varchar
+#__allvideoshare_videos,thirdparty,text
+#__allvideoshare_videos,captions,text
+#__allvideoshare_videos,thumb,varchar
+#__allvideoshare_videos,description,text
+#__allvideoshare_videos,access,varchar
+#__allvideoshare_videos,featured,tinyint
+#__allvideoshare_videos,views,int
+#__allvideoshare_videos,ratings,"decimal,"
+#__allvideoshare_videos,likes,int
+#__allvideoshare_videos,dislikes,int
+#__allvideoshare_videos,user,varchar
+#__allvideoshare_videos,tags,text
+#__allvideoshare_videos,metadescription,text
+#__allvideoshare_videos,state,tinyint
+#__allvideoshare_videos,ordering,int
+#__allvideoshare_videos,checked_out,int unsigned
+#__allvideoshare_videos,checked_out_time,datetime
+#__allvideoshare_videos,created_by,int
+#__allvideoshare_videos,modified_by,int
+#__allvideoshare_videos,created_date,datetime
+#__allvideoshare_videos,updated_date,datetime
+#__assets,id,int unsigned
+#__assets,parent_id,int
+#__assets,lft,int
+#__assets,rgt,int
+#__assets,level,int unsigned
+#__assets,name,varchar
+#__assets,title,varchar
+#__assets,rules,varchar
+#__associations,id,int
+#__associations,context,varchar
+#__associations,key,char
+#__banners,id,int
+#__banners,cid,int
+#__banners,type,int
+#__banners,name,varchar
+#__banners,alias,varchar
+#__banners,imptotal,int
+#__banners,impmade,int
+#__banners,clicks,int
+#__banners,clickurl,varchar
+#__banners,state,tinyint
+#__banners,catid,int unsigned
+#__banners,description,text
+#__banners,custombannercode,varchar
+#__banners,sticky,tinyint unsigned
+#__banners,ordering,int
+#__banners,metakey,text
+#__banners,params,text
+#__banners,own_prefix,tinyint
+#__banners,metakey_prefix,varchar
+#__banners,purchase_type,tinyint
+#__banners,track_clicks,tinyint
+#__banners,track_impressions,tinyint
+#__banners,checked_out,int unsigned
+#__banners,checked_out_time,datetime
+#__banners,publish_up,datetime
+#__banners,publish_down,datetime
+#__banners,reset,datetime
+#__banners,created,datetime
+#__banners,language,char
+#__banners,created_by,int unsigned
+#__banners,created_by_alias,varchar
+#__banners,modified,datetime
+#__banners,modified_by,int unsigned
+#__banners,version,int unsigned
+#__banner_clients,id,int
+#__banner_clients,name,varchar
+#__banner_clients,contact,varchar
+#__banner_clients,email,varchar
+#__banner_clients,extrainfo,text
+#__banner_clients,state,tinyint
+#__banner_clients,checked_out,int unsigned
+#__banner_clients,checked_out_time,datetime
+#__banner_clients,metakey,text
+#__banner_clients,own_prefix,tinyint
+#__banner_clients,metakey_prefix,varchar
+#__banner_clients,purchase_type,tinyint
+#__banner_clients,track_clicks,tinyint
+#__banner_clients,track_impressions,tinyint
+#__banner_tracks,track_date,datetime
+#__banner_tracks,track_type,int unsigned
+#__banner_tracks,banner_id,int unsigned
+#__banner_tracks,count,int unsigned
+#__categories,id,int
+#__categories,asset_id,int unsigned
+#__categories,parent_id,int unsigned
+#__categories,lft,int
+#__categories,rgt,int
+#__categories,level,int unsigned
+#__categories,path,varchar
+#__categories,extension,varchar
+#__categories,title,varchar
+#__categories,alias,varchar
+#__categories,note,varchar
+#__categories,description,mediumtext
+#__categories,published,tinyint
+#__categories,checked_out,int unsigned
+#__categories,checked_out_time,datetime
+#__categories,access,int unsigned
+#__categories,params,text
+#__categories,metadesc,varchar
+#__categories,metakey,varchar
+#__categories,metadata,varchar
+#__categories,created_user_id,int unsigned
+#__categories,created_time,datetime
+#__categories,modified_user_id,int unsigned
+#__categories,modified_time,datetime
+#__categories,hits,int unsigned
+#__categories,language,char
+#__categories,version,int unsigned
+#__contact_details,id,int
+#__contact_details,name,varchar
+#__contact_details,alias,varchar
+#__contact_details,con_position,varchar
+#__contact_details,address,text
+#__contact_details,suburb,varchar
+#__contact_details,state,varchar
+#__contact_details,country,varchar
+#__contact_details,postcode,varchar
+#__contact_details,telephone,varchar
+#__contact_details,fax,varchar
+#__contact_details,misc,mediumtext
+#__contact_details,image,varchar
+#__contact_details,email_to,varchar
+#__contact_details,default_con,tinyint unsigned
+#__contact_details,published,tinyint
+#__contact_details,checked_out,int unsigned
+#__contact_details,checked_out_time,datetime
+#__contact_details,ordering,int
+#__contact_details,params,text
+#__contact_details,user_id,int
+#__contact_details,catid,int
+#__contact_details,access,int unsigned
+#__contact_details,mobile,varchar
+#__contact_details,webpage,varchar
+#__contact_details,sortname1,varchar
+#__contact_details,sortname2,varchar
+#__contact_details,sortname3,varchar
+#__contact_details,language,varchar
+#__contact_details,created,datetime
+#__contact_details,created_by,int unsigned
+#__contact_details,created_by_alias,varchar
+#__contact_details,modified,datetime
+#__contact_details,modified_by,int unsigned
+#__contact_details,metakey,text
+#__contact_details,metadesc,text
+#__contact_details,metadata,text
+#__contact_details,featured,tinyint unsigned
+#__contact_details,publish_up,datetime
+#__contact_details,publish_down,datetime
+#__contact_details,version,int unsigned
+#__contact_details,hits,int unsigned
+#__content,id,int unsigned
+#__content,asset_id,int unsigned
+#__content,title,varchar
+#__content,alias,varchar
+#__content,introtext,mediumtext
+#__content,fulltext,mediumtext
+#__content,state,tinyint
+#__content,catid,int unsigned
+#__content,created,datetime
+#__content,created_by,int unsigned
+#__content,created_by_alias,varchar
+#__content,modified,datetime
+#__content,modified_by,int unsigned
+#__content,checked_out,int unsigned
+#__content,checked_out_time,datetime
+#__content,publish_up,datetime
+#__content,publish_down,datetime
+#__content,images,text
+#__content,urls,text
+#__content,attribs,varchar
+#__content,version,int unsigned
+#__content,ordering,int
+#__content,metakey,text
+#__content,metadesc,text
+#__content,access,int unsigned
+#__content,hits,int unsigned
+#__content,metadata,text
+#__content,featured,tinyint unsigned
+#__content,language,char
+#__content,note,varchar
+#__contentitem_tag_map,type_alias,varchar
+#__contentitem_tag_map,core_content_id,int unsigned
+#__contentitem_tag_map,content_item_id,int
+#__contentitem_tag_map,tag_id,int unsigned
+#__contentitem_tag_map,tag_date,timestamp
+#__contentitem_tag_map,type_id,mediumint
+#__content_frontpage,content_id,int
+#__content_frontpage,ordering,int
+#__content_frontpage,featured_up,datetime
+#__content_frontpage,featured_down,datetime
+#__content_rating,content_id,int
+#__content_rating,rating_sum,int unsigned
+#__content_rating,rating_count,int unsigned
+#__content_rating,lastip,varchar
+#__content_types,type_id,int unsigned
+#__content_types,type_title,varchar
+#__content_types,type_alias,varchar
+#__content_types,table,varchar
+#__content_types,rules,text
+#__content_types,field_mappings,text
+#__content_types,router,varchar
+#__content_types,content_history_options,varchar
+#__extensions,extension_id,int
+#__extensions,package_id,int
+#__extensions,name,varchar
+#__extensions,type,varchar
+#__extensions,element,varchar
+#__extensions,changelogurl,text
+#__extensions,folder,varchar
+#__extensions,client_id,tinyint
+#__extensions,enabled,tinyint
+#__extensions,access,int unsigned
+#__extensions,protected,tinyint
+#__extensions,locked,tinyint
+#__extensions,manifest_cache,text
+#__extensions,params,text
+#__extensions,custom_data,text
+#__extensions,checked_out,int unsigned
+#__extensions,checked_out_time,datetime
+#__extensions,ordering,int
+#__extensions,state,int
+#__extensions,note,varchar
+#__fields,id,int unsigned
+#__fields,asset_id,int unsigned
+#__fields,context,varchar
+#__fields,group_id,int unsigned
+#__fields,title,varchar
+#__fields,name,varchar
+#__fields,label,varchar
+#__fields,default_value,text
+#__fields,type,varchar
+#__fields,note,varchar
+#__fields,description,text
+#__fields,state,tinyint
+#__fields,required,tinyint
+#__fields,only_use_in_subform,tinyint
+#__fields,checked_out,int unsigned
+#__fields,checked_out_time,datetime
+#__fields,ordering,int
+#__fields,params,text
+#__fields,fieldparams,mediumtext
+#__fields,language,char
+#__fields,created_time,datetime
+#__fields,created_user_id,int unsigned
+#__fields,modified_time,datetime
+#__fields,modified_by,int unsigned
+#__fields,access,int
+#__fields_categories,field_id,int
+#__fields_categories,category_id,int
+#__fields_groups,id,int unsigned
+#__fields_groups,asset_id,int unsigned
+#__fields_groups,context,varchar
+#__fields_groups,title,varchar
+#__fields_groups,note,varchar
+#__fields_groups,description,text
+#__fields_groups,state,tinyint
+#__fields_groups,checked_out,int unsigned
+#__fields_groups,checked_out_time,datetime
+#__fields_groups,ordering,int
+#__fields_groups,params,text
+#__fields_groups,language,char
+#__fields_groups,created,datetime
+#__fields_groups,created_by,int unsigned
+#__fields_groups,modified,datetime
+#__fields_groups,modified_by,int unsigned
+#__fields_groups,access,int
+#__fields_values,field_id,int unsigned
+#__fields_values,item_id,varchar
+#__fields_values,value,mediumtext
+#__finder_filters,filter_id,int unsigned
+#__finder_filters,title,varchar
+#__finder_filters,alias,varchar
+#__finder_filters,state,tinyint
+#__finder_filters,created,datetime
+#__finder_filters,created_by,int unsigned
+#__finder_filters,created_by_alias,varchar
+#__finder_filters,modified,datetime
+#__finder_filters,modified_by,int unsigned
+#__finder_filters,checked_out,int unsigned
+#__finder_filters,checked_out_time,datetime
+#__finder_filters,map_count,int unsigned
+#__finder_filters,data,text
+#__finder_filters,params,mediumtext
+#__finder_links,link_id,int unsigned
+#__finder_links,url,varchar
+#__finder_links,route,varchar
+#__finder_links,title,varchar
+#__finder_links,description,text
+#__finder_links,indexdate,datetime
+#__finder_links,md5sum,varchar
+#__finder_links,published,tinyint
+#__finder_links,state,int
+#__finder_links,access,int
+#__finder_links,language,char
+#__finder_links,publish_start_date,datetime
+#__finder_links,publish_end_date,datetime
+#__finder_links,start_date,datetime
+#__finder_links,end_date,datetime
+#__finder_links,list_price,double unsigned
+#__finder_links,sale_price,double unsigned
+#__finder_links,type_id,int
+#__finder_links,object,mediumblob
+#__finder_links_terms,link_id,int unsigned
+#__finder_links_terms,term_id,int unsigned
+#__finder_links_terms,weight,float unsigned
+#__finder_logging,searchterm,varchar
+#__finder_logging,md5sum,varchar
+#__finder_logging,query,blob
+#__finder_logging,hits,int
+#__finder_logging,results,int
+#__finder_taxonomy,id,int unsigned
+#__finder_taxonomy,parent_id,int unsigned
+#__finder_taxonomy,lft,int
+#__finder_taxonomy,rgt,int
+#__finder_taxonomy,level,int unsigned
+#__finder_taxonomy,path,varchar
+#__finder_taxonomy,title,varchar
+#__finder_taxonomy,alias,varchar
+#__finder_taxonomy,state,tinyint unsigned
+#__finder_taxonomy,access,tinyint unsigned
+#__finder_taxonomy,language,char
+#__finder_taxonomy_map,link_id,int unsigned
+#__finder_taxonomy_map,node_id,int unsigned
+#__finder_terms,term_id,int unsigned
+#__finder_terms,term,varchar
+#__finder_terms,stem,varchar
+#__finder_terms,common,tinyint unsigned
+#__finder_terms,phrase,tinyint unsigned
+#__finder_terms,weight,float unsigned
+#__finder_terms,soundex,varchar
+#__finder_terms,links,int
+#__finder_terms,language,char
+#__finder_terms_common,term,varchar
+#__finder_terms_common,language,char
+#__finder_terms_common,custom,int
+#__finder_tokens,term,varchar
+#__finder_tokens,stem,varchar
+#__finder_tokens,common,tinyint unsigned
+#__finder_tokens,phrase,tinyint unsigned
+#__finder_tokens,weight,float unsigned
+#__finder_tokens,context,tinyint unsigned
+#__finder_tokens,language,char
+#__finder_tokens_aggregate,term_id,int unsigned
+#__finder_tokens_aggregate,term,varchar
+#__finder_tokens_aggregate,stem,varchar
+#__finder_tokens_aggregate,common,tinyint unsigned
+#__finder_tokens_aggregate,phrase,tinyint unsigned
+#__finder_tokens_aggregate,term_weight,float unsigned
+#__finder_tokens_aggregate,context,tinyint unsigned
+#__finder_tokens_aggregate,context_weight,float unsigned
+#__finder_tokens_aggregate,total_weight,float unsigned
+#__finder_tokens_aggregate,language,char
+#__finder_types,id,int unsigned
+#__finder_types,title,varchar
+#__finder_types,mime,varchar
+#__gp_social_audio_assets,id,bigint unsigned
+#__gp_social_audio_assets,record_id,bigint
+#__gp_social_audio_assets,field_id,bigint
+#__gp_social_audio_assets,user_id,bigint
+#__gp_social_audio_assets,mime,varchar
+#__gp_social_audio_assets,bytes,int
+#__gp_social_audio_assets,checksum,varchar
+#__gp_social_audio_assets,payload,mediumblob
+#__gp_social_audio_assets,ctime,varchar
+#__gp_social_audio_feedback,record_id,bigint
+#__gp_social_audio_feedback,field_id,bigint
+#__gp_social_audio_feedback,user_id,bigint
+#__gp_social_audio_feedback,source_hash,varchar
+#__gp_social_audio_feedback,scores,text
+#__gp_social_audio_feedback,feedback,text
+#__gp_social_audio_feedback,ctime,varchar
+#__gp_social_audit,id,bigint unsigned
+#__gp_social_audit,scope,varchar
+#__gp_social_audit,actor,bigint
+#__gp_social_audit,action,varchar
+#__gp_social_audit,target_id,bigint
+#__gp_social_audit,ctime,varchar
+#__gp_social_billing_events,provider,varchar
+#__gp_social_billing_events,event_id,varchar
+#__gp_social_billing_events,checksum,char
+#__gp_social_billing_events,order_id,bigint
+#__gp_social_billing_events,ctime,datetime
+#__gp_social_billing_invoices,id,bigint unsigned
+#__gp_social_billing_invoices,order_id,bigint
+#__gp_social_billing_invoices,event_id,varchar
+#__gp_social_billing_invoices,number,varchar
+#__gp_social_billing_invoices,kind,varchar
+#__gp_social_billing_invoices,amount,bigint
+#__gp_social_billing_invoices,snapshot,mediumtext
+#__gp_social_billing_invoices,ctime,datetime
+#__gp_social_billing_orders,id,bigint unsigned
+#__gp_social_billing_orders,token,char
+#__gp_social_billing_orders,user_id,bigint
+#__gp_social_billing_orders,plan_id,bigint
+#__gp_social_billing_orders,subscription_id,bigint
+#__gp_social_billing_orders,record_id,bigint
+#__gp_social_billing_orders,provider,varchar
+#__gp_social_billing_orders,asset,varchar
+#__gp_social_billing_orders,network,varchar
+#__gp_social_billing_orders,provider_currency,varchar
+#__gp_social_billing_orders,checkout_id,varchar
+#__gp_social_billing_orders,provider_ref,varchar
+#__gp_social_billing_orders,amount,bigint
+#__gp_social_billing_orders,currency,char
+#__gp_social_billing_orders,state,varchar
+#__gp_social_billing_orders,refunded,bigint
+#__gp_social_billing_orders,snapshot,mediumtext
+#__gp_social_billing_orders,ctime,datetime
+#__gp_social_billing_orders,paid_at,datetime
+#__gp_social_billing_orders,expires_at,datetime
+#__gp_social_billing_promotions,id,bigint unsigned
+#__gp_social_billing_promotions,order_id,bigint
+#__gp_social_billing_promotions,subscription_id,bigint
+#__gp_social_billing_promotions,user_id,bigint
+#__gp_social_billing_promotions,record_id,bigint
+#__gp_social_billing_promotions,kind,varchar
+#__gp_social_billing_promotions,placement,varchar
+#__gp_social_billing_promotions,color,char
+#__gp_social_billing_promotions,starts_at,datetime
+#__gp_social_billing_promotions,expires_at,datetime
+#__gp_social_billing_promotions,revoked,tinyint
+#__gp_social_billing_sequences,period,char
+#__gp_social_billing_sequences,serial,bigint
+#__gp_social_billing_uses,id,bigint unsigned
+#__gp_social_billing_uses,subscription_id,bigint
+#__gp_social_billing_uses,record_id,bigint
+#__gp_social_billing_uses,user_id,bigint
+#__gp_social_billing_uses,ctime,datetime
+#__gp_social_billing_uses,expires_at,datetime
+#__gp_social_cache,cache_key,varchar
+#__gp_social_cache,payload,mediumtext
+#__gp_social_cache,expires_at,varchar
+#__gp_social_cohort_members,record_id,bigint
+#__gp_social_cohort_members,field_id,bigint
+#__gp_social_cohort_members,user_id,bigint
+#__gp_social_cohort_members,ctime,varchar
+#__gp_social_collections,scope,varchar
+#__gp_social_collections,user_id,bigint
+#__gp_social_collections,collection_key,varchar
+#__gp_social_collections,record_id,bigint
+#__gp_social_collections,ctime,varchar
+#__gp_social_company_team,company_id,bigint
+#__gp_social_company_team,user_id,bigint
+#__gp_social_company_team,role,varchar
+#__gp_social_company_team,state,varchar
+#__gp_social_company_team,inviter_id,bigint
+#__gp_social_company_team,mtime,varchar
+#__gp_social_content,id,bigint unsigned
+#__gp_social_content,scope,varchar
+#__gp_social_content,content_type,varchar
+#__gp_social_content,user_id,bigint
+#__gp_social_content,title,varchar
+#__gp_social_content,data,text
+#__gp_social_content,published,int
+#__gp_social_content,access,int
+#__gp_social_content,revision,int
+#__gp_social_content,ctime,varchar
+#__gp_social_content,mtime,varchar
+#__gp_social_creator_revenue,application_id,bigint
+#__gp_social_creator_revenue,job_id,bigint
+#__gp_social_creator_revenue,creator_id,bigint
+#__gp_social_creator_revenue,course_id,bigint
+#__gp_social_creator_revenue,amount_minor,bigint
+#__gp_social_creator_revenue,currency,varchar
+#__gp_social_creator_revenue,state,varchar
+#__gp_social_creator_revenue,actor_id,bigint
+#__gp_social_creator_revenue,reference,varchar
+#__gp_social_creator_revenue,ctime,varchar
+#__gp_social_creator_revenue,mtime,varchar
+#__gp_social_definitions,id,bigint unsigned
+#__gp_social_definitions,scope,varchar
+#__gp_social_definitions,kind,varchar
+#__gp_social_definitions,name,varchar
+#__gp_social_definitions,data,text
+#__gp_social_definitions,revision,int
+#__gp_social_demo_manifests,prefix,varchar
+#__gp_social_demo_manifests,payload,mediumtext
+#__gp_social_demo_manifests,ctime,varchar
+#__gp_social_design_layouts,layout_key,varchar
+#__gp_social_design_layouts,scope,varchar
+#__gp_social_design_layouts,target_id,bigint
+#__gp_social_design_layouts,section_id,bigint
+#__gp_social_design_layouts,revision,int
+#__gp_social_design_layouts,published_revision,int
+#__gp_social_design_layouts,draft,mediumtext
+#__gp_social_design_layouts,published,mediumtext
+#__gp_social_design_layouts,actor_id,bigint
+#__gp_social_design_layouts,mtime,varchar
+#__gp_social_design_libraries,library_key,varchar
+#__gp_social_design_libraries,manifest,mediumtext
+#__gp_social_design_libraries,enabled,int
+#__gp_social_design_libraries,actor_id,bigint
+#__gp_social_design_libraries,mtime,varchar
+#__gp_social_design_revisions,id,bigint unsigned
+#__gp_social_design_revisions,layout_key,varchar
+#__gp_social_design_revisions,revision,int
+#__gp_social_design_revisions,actor_id,bigint
+#__gp_social_design_revisions,state,varchar
+#__gp_social_design_revisions,payload,mediumtext
+#__gp_social_design_revisions,checksum,varchar
+#__gp_social_design_revisions,ctime,varchar
+#__gp_social_documents,id,bigint unsigned
+#__gp_social_documents,scope,varchar
+#__gp_social_documents,user_id,bigint
+#__gp_social_documents,record_id,bigint
+#__gp_social_documents,field_id,bigint
+#__gp_social_documents,document_key,varchar
+#__gp_social_documents,filename,varchar
+#__gp_social_documents,title,varchar
+#__gp_social_documents,description,text
+#__gp_social_documents,revision,int
+#__gp_social_documents,mime,varchar
+#__gp_social_documents,bytes,int
+#__gp_social_documents,checksum,varchar
+#__gp_social_documents,license,varchar
+#__gp_social_documents,expires_at,varchar
+#__gp_social_documents,visibility,varchar
+#__gp_social_documents,state,varchar
+#__gp_social_documents,payload,mediumblob
+#__gp_social_documents,ctime,varchar
+#__gp_social_edges,scope,varchar
+#__gp_social_edges,actor,bigint
+#__gp_social_edges,target,bigint
+#__gp_social_edges,kind,varchar
+#__gp_social_edges,state,varchar
+#__gp_social_edges,ctime,varchar
+#__gp_social_editorial_reviews,record_id,bigint
+#__gp_social_editorial_reviews,field_id,bigint
+#__gp_social_editorial_reviews,reviewer_id,bigint
+#__gp_social_editorial_reviews,source_hash,varchar
+#__gp_social_editorial_reviews,status,varchar
+#__gp_social_editorial_reviews,note,text
+#__gp_social_editorial_reviews,ctime,varchar
+#__gp_social_experience_goals,user_id,bigint
+#__gp_social_experience_goals,goal,varchar
+#__gp_social_experience_goals,skills,text
+#__gp_social_experience_goals,mtime,varchar
+#__gp_social_experience_metrics,id,bigint unsigned
+#__gp_social_experience_metrics,user_id,bigint
+#__gp_social_experience_metrics,record_id,bigint
+#__gp_social_experience_metrics,kind,varchar
+#__gp_social_experience_metrics,campaign,varchar
+#__gp_social_experience_metrics,day,varchar
+#__gp_social_experience_metrics,ctime,varchar
+#__gp_social_experience_notifications,id,bigint unsigned
+#__gp_social_experience_notifications,user_id,bigint
+#__gp_social_experience_notifications,record_id,bigint
+#__gp_social_experience_notifications,kind,varchar
+#__gp_social_experience_notifications,source_hash,varchar
+#__gp_social_experience_notifications,seen,int
+#__gp_social_experience_notifications,ctime,varchar
+#__gp_social_experience_preferences,user_id,bigint
+#__gp_social_experience_preferences,metrics,int
+#__gp_social_experience_preferences,frequency,varchar
+#__gp_social_experience_preferences,mtime,varchar
+#__gp_social_extended_events,event_id,varchar
+#__gp_social_extended_events,order_id,bigint
+#__gp_social_extended_events,checksum,varchar
+#__gp_social_extended_events,ctime,varchar
+#__gp_social_extended_orders,id,bigint unsigned
+#__gp_social_extended_orders,token,varchar
+#__gp_social_extended_orders,user_id,bigint
+#__gp_social_extended_orders,record_id,bigint
+#__gp_social_extended_orders,field_id,bigint
+#__gp_social_extended_orders,amount,int
+#__gp_social_extended_orders,currency,varchar
+#__gp_social_extended_orders,checkout_id,varchar
+#__gp_social_extended_orders,intent_id,varchar
+#__gp_social_extended_orders,state,varchar
+#__gp_social_extended_orders,snapshot,text
+#__gp_social_extended_orders,ctime,varchar
+#__gp_social_extended_vouchers,record_id,bigint
+#__gp_social_extended_vouchers,field_id,bigint
+#__gp_social_extended_vouchers,code_hash,varchar
+#__gp_social_extended_vouchers,order_id,bigint
+#__gp_social_extended_vouchers,code,text
+#__gp_social_field_alerts,fingerprint,varchar
+#__gp_social_field_alerts,record_id,bigint
+#__gp_social_field_alerts,source_id,bigint
+#__gp_social_field_alerts,field_id,bigint
+#__gp_social_field_alerts,state,varchar
+#__gp_social_field_alerts,ctime,varchar
+#__gp_social_field_corrections,id,bigint unsigned
+#__gp_social_field_corrections,record_id,bigint
+#__gp_social_field_corrections,field_id,bigint
+#__gp_social_field_corrections,topic_id,bigint
+#__gp_social_field_corrections,comment_id,bigint
+#__gp_social_field_corrections,author_id,bigint
+#__gp_social_field_corrections,expected_hash,varchar
+#__gp_social_field_corrections,proposed,mediumtext
+#__gp_social_field_corrections,source_url,varchar
+#__gp_social_field_corrections,reason,text
+#__gp_social_field_corrections,state,varchar
+#__gp_social_field_corrections,reviewer_id,bigint
+#__gp_social_field_corrections,ctime,varchar
+#__gp_social_field_corrections,mtime,varchar
+#__gp_social_file_metadata,record_id,bigint
+#__gp_social_file_metadata,field_id,bigint
+#__gp_social_file_metadata,file_id,bigint
+#__gp_social_file_metadata,revision,int
+#__gp_social_file_metadata,data,text
+#__gp_social_file_metadata,mtime,varchar
+#__gp_social_forum_presence,record_id,bigint
+#__gp_social_forum_presence,user_id,bigint
+#__gp_social_forum_presence,typing,int
+#__gp_social_forum_presence,expires_at,bigint
+#__gp_social_forum_reactions,record_id,bigint
+#__gp_social_forum_reactions,user_id,bigint
+#__gp_social_forum_reactions,kind,varchar
+#__gp_social_forum_reactions,ctime,varchar
+#__gp_social_forum_readers,record_id,bigint
+#__gp_social_forum_readers,user_id,bigint
+#__gp_social_forum_readers,role,varchar
+#__gp_social_forum_readers,expires_at,bigint
+#__gp_social_forum_reviews,record_id,bigint
+#__gp_social_forum_reviews,field_id,bigint
+#__gp_social_forum_reviews,user_id,bigint
+#__gp_social_forum_reviews,comment_id,bigint
+#__gp_social_forum_reviews,score,"decimal,"
+#__gp_social_forum_reviews,scores,text
+#__gp_social_forum_reviews,mtime,varchar
+#__gp_social_forum_review_details,comment_id,bigint
+#__gp_social_forum_review_details,pros,text
+#__gp_social_forum_review_details,cons,text
+#__gp_social_forum_states,record_id,bigint
+#__gp_social_forum_states,state,varchar
+#__gp_social_forum_states,accepted_comment,bigint
+#__gp_social_forum_states,summary_record,bigint
+#__gp_social_forum_states,actor_id,bigint
+#__gp_social_forum_states,revision,int
+#__gp_social_forum_states,mtime,varchar
+#__gp_social_fractional_contracts,record_id,bigint
+#__gp_social_fractional_contracts,field_id,bigint
+#__gp_social_fractional_contracts,company_id,bigint
+#__gp_social_fractional_contracts,user_id,bigint
+#__gp_social_fractional_contracts,days,"decimal,"
+#__gp_social_fractional_contracts,ctime,varchar
+#__gp_social_hiring_events,id,bigint unsigned
+#__gp_social_hiring_events,application_id,bigint
+#__gp_social_hiring_events,actor_id,bigint
+#__gp_social_hiring_events,old_state,varchar
+#__gp_social_hiring_events,new_state,varchar
+#__gp_social_hiring_events,ctime,varchar
+#__gp_social_hiring_states,application_id,bigint
+#__gp_social_hiring_states,job_id,bigint
+#__gp_social_hiring_states,state,varchar
+#__gp_social_hiring_states,actor_id,bigint
+#__gp_social_hiring_states,mtime,varchar
+#__gp_social_hub_participations,record_id,bigint
+#__gp_social_hub_participations,field_id,bigint
+#__gp_social_hub_participations,user_id,bigint
+#__gp_social_hub_participations,ctime,varchar
+#__gp_social_hub_proposals,id,bigint unsigned
+#__gp_social_hub_proposals,record_id,bigint
+#__gp_social_hub_proposals,field_id,bigint
+#__gp_social_hub_proposals,user_id,bigint
+#__gp_social_hub_proposals,body,text
+#__gp_social_hub_proposals,amount,"decimal,"
+#__gp_social_hub_proposals,currency,varchar
+#__gp_social_hub_proposals,state,varchar
+#__gp_social_hub_proposals,ctime,varchar
+#__gp_social_hub_proposals,mtime,varchar
+#__gp_social_invoices,id,bigint unsigned
+#__gp_social_invoices,order_id,bigint
+#__gp_social_invoices,number,varchar
+#__gp_social_invoices,kind,varchar
+#__gp_social_invoices,amount,int
+#__gp_social_invoices,snapshot,text
+#__gp_social_invoices,ctime,varchar
+#__gp_social_jmap_identity,record_id,bigint
+#__gp_social_jmap_identity,url_hash,varchar
+#__gp_social_jmap_identity,canonical,varchar
+#__gp_social_jmap_identity,mtime,varchar
+#__gp_social_knowledge_chunks,id,bigint unsigned
+#__gp_social_knowledge_chunks,record_id,bigint
+#__gp_social_knowledge_chunks,field_id,bigint
+#__gp_social_knowledge_chunks,chunk_no,int
+#__gp_social_knowledge_chunks,source_hash,varchar
+#__gp_social_knowledge_chunks,title,varchar
+#__gp_social_knowledge_chunks,label,varchar
+#__gp_social_knowledge_chunks,body,text
+#__gp_social_knowledge_chunks,terms,text
+#__gp_social_knowledge_chunks,language,varchar
+#__gp_social_knowledge_chunks,mtime,varchar
+#__gp_social_knowledge_cursor,name,varchar
+#__gp_social_knowledge_cursor,cursor_id,bigint
+#__gp_social_knowledge_cursor,cycles,bigint
+#__gp_social_knowledge_cursor,mtime,varchar
+#__gp_social_learning_models,id,bigint unsigned
+#__gp_social_learning_models,field_id,bigint
+#__gp_social_learning_models,revision,int
+#__gp_social_learning_models,payload,mediumtext
+#__gp_social_learning_models,sources,text
+#__gp_social_learning_models,metrics,text
+#__gp_social_learning_models,ctime,varchar
+#__gp_social_links,source_id,bigint
+#__gp_social_links,field_id,bigint
+#__gp_social_links,target_id,bigint
+#__gp_social_links,kind,varchar
+#__gp_social_members,scope,varchar
+#__gp_social_members,group_id,bigint
+#__gp_social_members,user_id,bigint
+#__gp_social_members,state,varchar
+#__gp_social_members,role,varchar
+#__gp_social_messages,id,bigint unsigned
+#__gp_social_messages,scope,varchar
+#__gp_social_messages,sender,bigint
+#__gp_social_messages,recipient,bigint
+#__gp_social_messages,body,text
+#__gp_social_messages,ctime,varchar
+#__gp_social_messages,seen,int
+#__gp_social_messages,deleted_sender,int
+#__gp_social_messages,deleted_recipient,int
+#__gp_social_moderation_events,id,bigint unsigned
+#__gp_social_moderation_events,record_id,bigint
+#__gp_social_moderation_events,comment_id,bigint
+#__gp_social_moderation_events,owner_id,bigint
+#__gp_social_moderation_events,actor_id,bigint
+#__gp_social_moderation_events,action,varchar
+#__gp_social_moderation_events,rules,text
+#__gp_social_moderation_events,prior_published,int
+#__gp_social_moderation_events,result_published,int
+#__gp_social_moderation_events,snapshot_hash,char
+#__gp_social_moderation_events,status,varchar
+#__gp_social_moderation_events,ctime,varchar
+#__gp_social_moderation_events,decision_by,bigint
+#__gp_social_moderation_events,decision_at,varchar
+#__gp_social_multiverse_contact_preferences,user_id,bigint
+#__gp_social_multiverse_contact_preferences,enabled,int
+#__gp_social_multiverse_contact_preferences,amount_minor,int
+#__gp_social_multiverse_contact_preferences,currency,varchar
+#__gp_social_multiverse_contact_preferences,mtime,varchar
+#__gp_social_multiverse_contact_requests,id,bigint unsigned
+#__gp_social_multiverse_contact_requests,record_id,bigint
+#__gp_social_multiverse_contact_requests,company_id,bigint
+#__gp_social_multiverse_contact_requests,sender_id,bigint
+#__gp_social_multiverse_contact_requests,recipient_id,bigint
+#__gp_social_multiverse_contact_requests,subject,varchar
+#__gp_social_multiverse_contact_requests,body,text
+#__gp_social_multiverse_contact_requests,response,text
+#__gp_social_multiverse_contact_requests,amount_minor,int
+#__gp_social_multiverse_contact_requests,recipient_minor,int
+#__gp_social_multiverse_contact_requests,platform_minor,int
+#__gp_social_multiverse_contact_requests,currency,varchar
+#__gp_social_multiverse_contact_requests,state,varchar
+#__gp_social_multiverse_contact_requests,request_key,varchar
+#__gp_social_multiverse_contact_requests,payload_hash,varchar
+#__gp_social_multiverse_contact_requests,ctime,varchar
+#__gp_social_multiverse_contact_requests,mtime,varchar
+#__gp_social_multiverse_contact_requests,expires_at,varchar
+#__gp_social_multiverse_crystals,id,bigint unsigned
+#__gp_social_multiverse_crystals,record_id,bigint
+#__gp_social_multiverse_crystals,comment_id,bigint
+#__gp_social_multiverse_crystals,contributor_id,bigint
+#__gp_social_multiverse_crystals,field_id,bigint
+#__gp_social_multiverse_crystals,share_bps,int
+#__gp_social_multiverse_crystals,source_hash,varchar
+#__gp_social_multiverse_crystals,state,varchar
+#__gp_social_multiverse_crystals,proposer_id,bigint
+#__gp_social_multiverse_crystals,ctime,varchar
+#__gp_social_multiverse_crystals,mtime,varchar
+#__gp_social_multiverse_intents,record_id,bigint
+#__gp_social_multiverse_intents,user_id,bigint
+#__gp_social_multiverse_intents,topic,varchar
+#__gp_social_multiverse_intents,horizon,varchar
+#__gp_social_multiverse_intents,ctime,varchar
+#__gp_social_multiverse_intents,expires_at,varchar
+#__gp_social_multiverse_members,project_record,bigint
+#__gp_social_multiverse_members,user_id,bigint
+#__gp_social_multiverse_members,state,varchar
+#__gp_social_multiverse_members,ctime,varchar
+#__gp_social_multiverse_milestone_votes,milestone_record,bigint
+#__gp_social_multiverse_milestone_votes,user_id,bigint
+#__gp_social_multiverse_milestone_votes,side,varchar
+#__gp_social_multiverse_milestone_votes,ctime,varchar
+#__gp_social_multiverse_predictions,id,bigint unsigned
+#__gp_social_multiverse_predictions,record_id,bigint
+#__gp_social_multiverse_predictions,comment_id,bigint
+#__gp_social_multiverse_predictions,author_id,bigint
+#__gp_social_multiverse_predictions,statement,text
+#__gp_social_multiverse_predictions,criteria,text
+#__gp_social_multiverse_predictions,resolve_at,varchar
+#__gp_social_multiverse_predictions,ctime,varchar
+#__gp_social_multiverse_predictions,seal_hash,varchar
+#__gp_social_multiverse_prediction_outcomes,prediction_id,bigint
+#__gp_social_multiverse_prediction_outcomes,outcome,varchar
+#__gp_social_multiverse_prediction_outcomes,source_url,varchar
+#__gp_social_multiverse_prediction_outcomes,note,text
+#__gp_social_multiverse_prediction_outcomes,resolver_id,bigint
+#__gp_social_multiverse_prediction_outcomes,ctime,varchar
+#__gp_social_multiverse_prediction_votes,prediction_id,bigint
+#__gp_social_multiverse_prediction_votes,user_id,bigint
+#__gp_social_multiverse_prediction_votes,side,varchar
+#__gp_social_multiverse_prediction_votes,ctime,varchar
+#__gp_social_multiverse_spawns,id,bigint unsigned
+#__gp_social_multiverse_spawns,source_record,bigint
+#__gp_social_multiverse_spawns,user_id,bigint
+#__gp_social_multiverse_spawns,kind,varchar
+#__gp_social_multiverse_spawns,parent_field,bigint
+#__gp_social_multiverse_spawns,child_field,bigint
+#__gp_social_multiverse_spawns,type_id,bigint
+#__gp_social_multiverse_spawns,section_id,bigint
+#__gp_social_multiverse_spawns,title,varchar
+#__gp_social_multiverse_spawns,roles,text
+#__gp_social_multiverse_spawns,electorate,mediumtext
+#__gp_social_multiverse_spawns,token_hash,varchar
+#__gp_social_multiverse_spawns,payload_hash,varchar
+#__gp_social_multiverse_spawns,state,varchar
+#__gp_social_multiverse_spawns,result_id,bigint
+#__gp_social_multiverse_spawns,ctime,varchar
+#__gp_social_multiverse_spawns,expires_at,varchar
+#__gp_social_multiverse_spawns,save_started,varchar
+#__gp_social_multiverse_spawns,save_title,varchar
+#__gp_social_multiverse_thresholds,record_id,bigint
+#__gp_social_multiverse_thresholds,field_id,bigint
+#__gp_social_multiverse_thresholds,threshold_count,int
+#__gp_social_multiverse_thresholds,ctime,varchar
+#__gp_social_native_url_history,url_hash,varchar
+#__gp_social_native_url_history,record_id,bigint
+#__gp_social_native_url_history,old_url,varchar
+#__gp_social_native_url_history,current_url,varchar
+#__gp_social_native_url_history,ctime,varchar
+#__gp_social_native_url_identity,record_id,bigint
+#__gp_social_native_url_identity,canonical,varchar
+#__gp_social_native_url_identity,url_hash,varchar
+#__gp_social_native_url_identity,mtime,varchar
+#__gp_social_notifications,id,bigint unsigned
+#__gp_social_notifications,scope,varchar
+#__gp_social_notifications,user_id,bigint
+#__gp_social_notifications,actor,bigint
+#__gp_social_notifications,kind,varchar
+#__gp_social_notifications,target_id,bigint
+#__gp_social_notifications,seen,int
+#__gp_social_notifications,ctime,varchar
+#__gp_social_omega_corpus,id,bigint unsigned
+#__gp_social_omega_corpus,resource_key,varchar
+#__gp_social_omega_corpus,origin,varchar
+#__gp_social_omega_corpus,record_id,bigint
+#__gp_social_omega_corpus,field_id,bigint
+#__gp_social_omega_corpus,source_id,bigint
+#__gp_social_omega_corpus,title,varchar
+#__gp_social_omega_corpus,url,varchar
+#__gp_social_omega_corpus,kind,varchar
+#__gp_social_omega_corpus,revision,varchar
+#__gp_social_omega_corpus,input,mediumtext
+#__gp_social_omega_corpus,progress,text
+#__gp_social_omega_corpus,state,varchar
+#__gp_social_omega_corpus,method,varchar
+#__gp_social_omega_corpus,error,varchar
+#__gp_social_omega_corpus,passages,bigint
+#__gp_social_omega_corpus,attempts,int
+#__gp_social_omega_corpus,lease_until,bigint
+#__gp_social_omega_corpus,lease_token,varchar
+#__gp_social_omega_corpus,available_at,bigint
+#__gp_social_omega_corpus,mtime,bigint
+#__gp_social_omega_events,id,bigint unsigned
+#__gp_social_omega_events,field_id,bigint
+#__gp_social_omega_events,kind,varchar
+#__gp_social_omega_events,payload,text
+#__gp_social_omega_events,ctime,varchar
+#__gp_social_omega_events,previous_hash,varchar
+#__gp_social_omega_events,event_hash,varchar
+#__gp_social_omega_frontier,id,bigint unsigned
+#__gp_social_omega_frontier,source_id,bigint
+#__gp_social_omega_frontier,url,varchar
+#__gp_social_omega_frontier,url_hash,varchar
+#__gp_social_omega_frontier,depth,int
+#__gp_social_omega_frontier,next_epoch,bigint
+#__gp_social_omega_frontier,attempts,int
+#__gp_social_omega_learning_feedback,id,bigint unsigned
+#__gp_social_omega_learning_feedback,user_id,bigint
+#__gp_social_omega_learning_feedback,query_hash,varchar
+#__gp_social_omega_learning_feedback,resource_id,bigint
+#__gp_social_omega_learning_feedback,revision,varchar
+#__gp_social_omega_learning_feedback,label,int
+#__gp_social_omega_learning_feedback,features,text
+#__gp_social_omega_learning_feedback,holdout,int
+#__gp_social_omega_learning_feedback,ctime,bigint
+#__gp_social_omega_learning_runs,id,bigint unsigned
+#__gp_social_omega_learning_runs,kind,varchar
+#__gp_social_omega_learning_runs,payload,text
+#__gp_social_omega_learning_runs,ctime,bigint
+#__gp_social_omega_learning_state,name,varchar
+#__gp_social_omega_learning_state,payload,mediumtext
+#__gp_social_omega_learning_state,mtime,bigint
+#__gp_social_omega_learning_versions,id,bigint unsigned
+#__gp_social_omega_learning_versions,weights,text
+#__gp_social_omega_learning_versions,metrics,text
+#__gp_social_omega_learning_versions,state,varchar
+#__gp_social_omega_learning_versions,ctime,bigint
+#__gp_social_omega_memory,field_id,bigint
+#__gp_social_omega_memory,record_id,bigint
+#__gp_social_omega_memory,revision,varchar
+#__gp_social_omega_memory,payload,mediumtext
+#__gp_social_omega_memory,mtime,bigint
+#__gp_social_omega_missions,field_id,bigint
+#__gp_social_omega_missions,record_id,bigint
+#__gp_social_omega_missions,section_id,bigint
+#__gp_social_omega_missions,owner_id,bigint
+#__gp_social_omega_missions,enabled,int
+#__gp_social_omega_missions,interval_minutes,int
+#__gp_social_omega_missions,next_epoch,bigint
+#__gp_social_omega_missions,lease_until,bigint
+#__gp_social_omega_missions,lease_token,varchar
+#__gp_social_omega_missions,state,mediumtext
+#__gp_social_omega_passages,id,bigint unsigned
+#__gp_social_omega_passages,resource_id,bigint
+#__gp_social_omega_passages,ordinal,bigint
+#__gp_social_omega_passages,revision,varchar
+#__gp_social_omega_passages,title,varchar
+#__gp_social_omega_passages,body,text
+#__gp_social_omega_passages,metadata,text
+#__gp_social_omega_passages,ctime,bigint
+#__gp_social_omega_web_documents,id,bigint unsigned
+#__gp_social_omega_web_documents,source_id,bigint
+#__gp_social_omega_web_documents,url,varchar
+#__gp_social_omega_web_documents,url_hash,varchar
+#__gp_social_omega_web_documents,title,varchar
+#__gp_social_omega_web_documents,excerpt,text
+#__gp_social_omega_web_documents,checksum,varchar
+#__gp_social_omega_web_documents,ctime,varchar
+#__gp_social_omega_web_sources,id,bigint unsigned
+#__gp_social_omega_web_sources,owner_id,bigint
+#__gp_social_omega_web_sources,url,varchar
+#__gp_social_omega_web_sources,kind,varchar
+#__gp_social_omega_web_sources,enabled,int
+#__gp_social_omega_web_sources,next_epoch,bigint
+#__gp_social_omega_web_sources,lease_until,bigint
+#__gp_social_omega_web_sources,last_epoch,bigint
+#__gp_social_omega_web_sources,state,text
+#__gp_social_open_project_submissions,id,bigint unsigned
+#__gp_social_open_project_submissions,record_id,bigint
+#__gp_social_open_project_submissions,field_id,bigint
+#__gp_social_open_project_submissions,user_id,bigint
+#__gp_social_open_project_submissions,source_hash,varchar
+#__gp_social_open_project_submissions,response,mediumtext
+#__gp_social_open_project_submissions,proof_record,bigint
+#__gp_social_open_project_submissions,status,varchar
+#__gp_social_open_project_submissions,reviewer_id,bigint
+#__gp_social_open_project_submissions,feedback,text
+#__gp_social_open_project_submissions,ctime,varchar
+#__gp_social_open_project_submissions,mtime,varchar
+#__gp_social_orders,id,bigint unsigned
+#__gp_social_orders,token,varchar
+#__gp_social_orders,scope,varchar
+#__gp_social_orders,user_id,bigint
+#__gp_social_orders,record_id,bigint
+#__gp_social_orders,plan_id,bigint
+#__gp_social_orders,subscription_id,bigint
+#__gp_social_orders,days,int
+#__gp_social_orders,amount,int
+#__gp_social_orders,currency,varchar
+#__gp_social_orders,state,varchar
+#__gp_social_orders,checkout_id,varchar
+#__gp_social_orders,intent_id,varchar
+#__gp_social_orders,refunded,int
+#__gp_social_orders,snapshot,text
+#__gp_social_orders,ctime,varchar
+#__gp_social_orders,paid_at,varchar
+#__gp_social_orders,expires_at,varchar
+#__gp_social_outbox,id,bigint unsigned
+#__gp_social_outbox,scope,varchar
+#__gp_social_outbox,connector,varchar
+#__gp_social_outbox,event_key,varchar
+#__gp_social_outbox,payload,mediumtext
+#__gp_social_outbox,state,varchar
+#__gp_social_outbox,attempts,int
+#__gp_social_outbox,available_at,varchar
+#__gp_social_outbox,lease,varchar
+#__gp_social_outbox,ctime,varchar
+#__gp_social_passport_grants,record_id,bigint
+#__gp_social_passport_grants,user_id,bigint
+#__gp_social_passport_grants,owner_id,bigint
+#__gp_social_passport_grants,expires_at,varchar
+#__gp_social_passport_grants,ctime,varchar
+#__gp_social_path_entries,notebook_id,bigint
+#__gp_social_path_entries,user_id,bigint
+#__gp_social_path_entries,record_id,bigint
+#__gp_social_path_entries,note,text
+#__gp_social_path_entries,seconds,int
+#__gp_social_path_entries,ctime,varchar
+#__gp_social_path_notebooks,id,bigint unsigned
+#__gp_social_path_notebooks,user_id,bigint
+#__gp_social_path_notebooks,request_key,varchar
+#__gp_social_path_notebooks,title,varchar
+#__gp_social_path_notebooks,theme,varchar
+#__gp_social_path_notebooks,goal,text
+#__gp_social_path_notebooks,notes,text
+#__gp_social_path_notebooks,steps,text
+#__gp_social_path_notebooks,budget,varchar
+#__gp_social_path_notebooks,currency,varchar
+#__gp_social_path_notebooks,due_at,varchar
+#__gp_social_path_notebooks,revision,int
+#__gp_social_path_notebooks,ctime,varchar
+#__gp_social_path_notebooks,mtime,varchar
+#__gp_social_path_positions,user_id,bigint
+#__gp_social_path_positions,record_id,bigint
+#__gp_social_path_positions,season,int
+#__gp_social_path_positions,episode,int
+#__gp_social_path_positions,seconds,int
+#__gp_social_path_positions,label,varchar
+#__gp_social_path_positions,mtime,varchar
+#__gp_social_path_preferences,user_id,bigint
+#__gp_social_path_preferences,theme,varchar
+#__gp_social_path_preferences,intent,varchar
+#__gp_social_path_preferences,mtime,varchar
+#__gp_social_poll_votes,scope,varchar
+#__gp_social_poll_votes,user_id,bigint
+#__gp_social_poll_votes,record_id,bigint
+#__gp_social_poll_votes,field_id,bigint
+#__gp_social_poll_votes,revision,varchar
+#__gp_social_poll_votes,choice_key,varchar
+#__gp_social_poll_votes,ctime,varchar
+#__gp_social_posts,id,bigint unsigned
+#__gp_social_posts,scope,varchar
+#__gp_social_posts,user_id,bigint
+#__gp_social_posts,group_id,bigint
+#__gp_social_posts,parent_id,bigint
+#__gp_social_posts,record_id,bigint
+#__gp_social_posts,body,text
+#__gp_social_posts,visibility,varchar
+#__gp_social_posts,state,varchar
+#__gp_social_posts,ctime,varchar
+#__gp_social_posts,mtime,varchar
+#__gp_social_prefs,scope,varchar
+#__gp_social_prefs,user_id,bigint
+#__gp_social_prefs,visibility,varchar
+#__gp_social_prefs,avatar_url,varchar
+#__gp_social_prefs,allow_messages,int
+#__gp_social_prefs,contact,int
+#__gp_social_progress,scope,varchar
+#__gp_social_progress,user_id,bigint
+#__gp_social_progress,record_id,bigint
+#__gp_social_progress,field_id,bigint
+#__gp_social_progress,revision,varchar
+#__gp_social_progress,step_key,varchar
+#__gp_social_progress,ctime,varchar
+#__gp_social_project_boards,id,bigint
+#__gp_social_project_boards,owner_id,bigint
+#__gp_social_project_boards,record_id,bigint
+#__gp_social_project_boards,request_key,varchar
+#__gp_social_project_boards,title,varchar
+#__gp_social_project_boards,goal,text
+#__gp_social_project_boards,steps,mediumtext
+#__gp_social_project_boards,revision,bigint
+#__gp_social_project_boards,ctime,varchar
+#__gp_social_project_boards,mtime,varchar
+#__gp_social_project_events,id,bigint
+#__gp_social_project_events,board_id,bigint
+#__gp_social_project_events,actor_id,bigint
+#__gp_social_project_events,revision,bigint
+#__gp_social_project_events,kind,varchar
+#__gp_social_project_events,payload,mediumtext
+#__gp_social_project_events,ctime,varchar
+#__gp_social_project_members,board_id,bigint
+#__gp_social_project_members,user_id,bigint
+#__gp_social_project_members,role,varchar
+#__gp_social_project_members,state,varchar
+#__gp_social_project_members,inviter_id,bigint
+#__gp_social_project_members,ctime,varchar
+#__gp_social_proof_reviews,record_id,bigint
+#__gp_social_proof_reviews,field_id,bigint
+#__gp_social_proof_reviews,reviewer_id,bigint
+#__gp_social_proof_reviews,source_hash,varchar
+#__gp_social_proof_reviews,skill_code,varchar
+#__gp_social_proof_reviews,level,int
+#__gp_social_proof_reviews,method,varchar
+#__gp_social_proof_reviews,note,text
+#__gp_social_proof_reviews,expires_at,varchar
+#__gp_social_proof_reviews,ctime,varchar
+#__gp_social_quiz_attempts,id,bigint unsigned
+#__gp_social_quiz_attempts,scope,varchar
+#__gp_social_quiz_attempts,user_id,bigint
+#__gp_social_quiz_attempts,record_id,bigint
+#__gp_social_quiz_attempts,field_id,bigint
+#__gp_social_quiz_attempts,revision,varchar
+#__gp_social_quiz_attempts,correct,int
+#__gp_social_quiz_attempts,total,int
+#__gp_social_quiz_attempts,threshold,int
+#__gp_social_quiz_attempts,passed,int
+#__gp_social_quiz_attempts,answers,text
+#__gp_social_quiz_attempts,topics,text
+#__gp_social_quiz_attempts,valid_until,varchar
+#__gp_social_quiz_attempts,ctime,varchar
+#__gp_social_quiz_sessions,token,varchar
+#__gp_social_quiz_sessions,scope,varchar
+#__gp_social_quiz_sessions,user_id,bigint
+#__gp_social_quiz_sessions,record_id,bigint
+#__gp_social_quiz_sessions,field_id,bigint
+#__gp_social_quiz_sessions,revision,varchar
+#__gp_social_quiz_sessions,plan,text
+#__gp_social_quiz_sessions,expires_at,varchar
+#__gp_social_quiz_sessions,consumed,int
+#__gp_social_quiz_sessions,ctime,varchar
+#__gp_social_reactions,scope,varchar
+#__gp_social_reactions,post_id,bigint
+#__gp_social_reactions,user_id,bigint
+#__gp_social_reactions,kind,varchar
+#__gp_social_record_events,id,bigint unsigned
+#__gp_social_record_events,record_id,bigint
+#__gp_social_record_events,actor_id,bigint
+#__gp_social_record_events,kind,varchar
+#__gp_social_record_events,payload,mediumtext
+#__gp_social_record_events,ctime,varchar
+#__gp_social_record_followers,record_id,bigint
+#__gp_social_record_followers,field_id,bigint
+#__gp_social_record_followers,user_id,bigint
+#__gp_social_record_followers,ctime,varchar
+#__gp_social_record_gifts,record_id,bigint
+#__gp_social_record_gifts,field_id,bigint
+#__gp_social_record_gifts,user_id,bigint
+#__gp_social_record_gifts,gift,varchar
+#__gp_social_record_gifts,ctime,varchar
+#__gp_social_record_versions,id,bigint unsigned
+#__gp_social_record_versions,record_id,bigint
+#__gp_social_record_versions,source_hash,varchar
+#__gp_social_record_versions,public_hash,varchar
+#__gp_social_record_versions,payload,mediumtext
+#__gp_social_record_versions,actor_id,bigint
+#__gp_social_record_versions,ctime,varchar
+#__gp_social_record_watches,user_id,bigint
+#__gp_social_record_watches,record_id,bigint
+#__gp_social_record_watches,last_hash,varchar
+#__gp_social_record_watches,active,int
+#__gp_social_record_watches,ctime,varchar
+#__gp_social_relation_states,scope,varchar
+#__gp_social_relation_states,relation_name,varchar
+#__gp_social_relation_states,source_id,bigint
+#__gp_social_relation_states,revision,int
+#__gp_social_reports,id,bigint unsigned
+#__gp_social_reports,scope,varchar
+#__gp_social_reports,user_id,bigint
+#__gp_social_reports,target_kind,varchar
+#__gp_social_reports,target_id,bigint
+#__gp_social_reports,reason,text
+#__gp_social_reports,state,varchar
+#__gp_social_reports,ctime,varchar
+#__gp_social_reservations,id,bigint unsigned
+#__gp_social_reservations,scope,varchar
+#__gp_social_reservations,booking_name,varchar
+#__gp_social_reservations,user_id,bigint
+#__gp_social_reservations,slot_key,varchar
+#__gp_social_reservations,starts_at,varchar
+#__gp_social_reservations,ends_at,varchar
+#__gp_social_reservations,quantity,int
+#__gp_social_reservations,revision,int
+#__gp_social_reservations,state,varchar
+#__gp_social_reservations,ctime,varchar
+#__gp_social_resume_items,user_id,bigint
+#__gp_social_resume_items,record_id,bigint
+#__gp_social_resume_items,kind,varchar
+#__gp_social_resume_items,position,int
+#__gp_social_resume_items,revision,varchar
+#__gp_social_resume_items,mtime,varchar
+#__gp_social_room_sessions,record_id,bigint
+#__gp_social_room_sessions,field_id,bigint
+#__gp_social_room_sessions,user_id,bigint
+#__gp_social_room_sessions,role,varchar
+#__gp_social_room_sessions,session_token,varchar
+#__gp_social_room_sessions,expires_at,varchar
+#__gp_social_room_signals,id,bigint unsigned
+#__gp_social_room_signals,record_id,bigint
+#__gp_social_room_signals,field_id,bigint
+#__gp_social_room_signals,sender_id,bigint
+#__gp_social_room_signals,recipient_id,bigint
+#__gp_social_room_signals,kind,varchar
+#__gp_social_room_signals,payload,text
+#__gp_social_room_signals,ctime,varchar
+#__gp_social_simulation_submissions,id,bigint unsigned
+#__gp_social_simulation_submissions,record_id,bigint
+#__gp_social_simulation_submissions,field_id,bigint
+#__gp_social_simulation_submissions,user_id,bigint
+#__gp_social_simulation_submissions,source_hash,varchar
+#__gp_social_simulation_submissions,response,mediumtext
+#__gp_social_simulation_submissions,state,varchar
+#__gp_social_simulation_submissions,reviewer_id,bigint
+#__gp_social_simulation_submissions,feedback,text
+#__gp_social_simulation_submissions,ctime,varchar
+#__gp_social_simulation_submissions,mtime,varchar
+#__gp_social_stripe_adjustments,intent_id,varchar
+#__gp_social_stripe_adjustments,amount,int
+#__gp_social_stripe_adjustments,refunded,int
+#__gp_social_stripe_adjustments,currency,varchar
+#__gp_social_stripe_adjustments,disputed,int
+#__gp_social_stripe_adjustments,ctime,varchar
+#__gp_social_stripe_events,event_id,varchar
+#__gp_social_stripe_events,order_id,bigint
+#__gp_social_stripe_events,kind,varchar
+#__gp_social_stripe_events,checksum,varchar
+#__gp_social_stripe_events,ctime,varchar
+#__gp_social_talent_bids,record_id,bigint
+#__gp_social_talent_bids,field_id,bigint
+#__gp_social_talent_bids,company_id,bigint
+#__gp_social_talent_bids,user_id,bigint
+#__gp_social_talent_bids,salary,"decimal,"
+#__gp_social_talent_bids,bonus,"decimal,"
+#__gp_social_talent_bids,remote_days,"decimal,"
+#__gp_social_talent_bids,accepted,int
+#__gp_social_talent_bids,ctime,varchar
+#__gp_social_typed_relations,scope,varchar
+#__gp_social_typed_relations,relation_name,varchar
+#__gp_social_typed_relations,source_id,bigint
+#__gp_social_typed_relations,target_id,bigint
+#__gp_social_typed_relations,metadata,text
+#__gp_social_universe_announcements,id,bigint unsigned
+#__gp_social_universe_announcements,section_id,int unsigned
+#__gp_social_universe_announcements,category_id,int unsigned
+#__gp_social_universe_announcements,record_id,int unsigned
+#__gp_social_universe_announcements,actor_id,int unsigned
+#__gp_social_universe_announcements,enabled,tinyint
+#__gp_social_universe_announcements,expires_at,datetime
+#__gp_social_universe_announcements,ctime,datetime
+#__gp_social_verified_offers,id,bigint unsigned
+#__gp_social_verified_offers,record_id,bigint
+#__gp_social_verified_offers,field_id,bigint
+#__gp_social_verified_offers,user_id,bigint
+#__gp_social_verified_offers,filename,varchar
+#__gp_social_verified_offers,bytes,bigint
+#__gp_social_verified_offers,checksum,varchar
+#__gp_social_verified_offers,payload,mediumblob
+#__gp_social_verified_offers,declaration,text
+#__gp_social_verified_offers,analysis,text
+#__gp_social_verified_offers,state,varchar
+#__gp_social_verified_offers,reviewer_id,bigint
+#__gp_social_verified_offers,ctime,varchar
+#__gp_social_verified_offers,mtime,varchar
+#__gp_social_video_links,record_id,bigint
+#__gp_social_video_links,field_id,bigint
+#__gp_social_video_links,file_id,bigint
+#__gp_social_video_links,video_id,bigint
+#__gp_social_video_links,mtime,varchar
+#__gp_social_workstyle,record_id,bigint
+#__gp_social_workstyle,field_id,bigint
+#__gp_social_workstyle,user_id,bigint
+#__gp_social_workstyle,revision,varchar
+#__gp_social_workstyle,result,text
+#__gp_social_workstyle,ctime,varchar
+#__gp_social_writer_drafts,id,bigint unsigned
+#__gp_social_writer_drafts,record_id,bigint
+#__gp_social_writer_drafts,user_id,bigint
+#__gp_social_writer_drafts,section_id,bigint
+#__gp_social_writer_drafts,type_id,bigint
+#__gp_social_writer_drafts,token,varchar
+#__gp_social_writer_drafts,title,varchar
+#__gp_social_writer_drafts,fields,mediumtext
+#__gp_social_writer_drafts,expires_at,varchar
+#__guidedtours,id,int
+#__guidedtours,title,varchar
+#__guidedtours,uid,varchar
+#__guidedtours,description,text
+#__guidedtours,ordering,int
+#__guidedtours,extensions,text
+#__guidedtours,url,varchar
+#__guidedtours,created,datetime
+#__guidedtours,created_by,int
+#__guidedtours,modified,datetime
+#__guidedtours,modified_by,int
+#__guidedtours,checked_out_time,datetime
+#__guidedtours,checked_out,int unsigned
+#__guidedtours,published,tinyint
+#__guidedtours,language,varchar
+#__guidedtours,note,varchar
+#__guidedtours,access,int unsigned
+#__guidedtours,autostart,int
+#__guidedtour_steps,id,int
+#__guidedtour_steps,tour_id,int
+#__guidedtour_steps,title,varchar
+#__guidedtour_steps,published,tinyint
+#__guidedtour_steps,description,text
+#__guidedtour_steps,ordering,int
+#__guidedtour_steps,position,varchar
+#__guidedtour_steps,target,varchar
+#__guidedtour_steps,type,int
+#__guidedtour_steps,interactive_type,int
+#__guidedtour_steps,url,varchar
+#__guidedtour_steps,created,datetime
+#__guidedtour_steps,created_by,int unsigned
+#__guidedtour_steps,modified,datetime
+#__guidedtour_steps,modified_by,int unsigned
+#__guidedtour_steps,checked_out_time,datetime
+#__guidedtour_steps,checked_out,int unsigned
+#__guidedtour_steps,language,varchar
+#__guidedtour_steps,note,varchar
+#__guidedtour_steps,params,text
+#__history,version_id,int unsigned
+#__history,item_id,varchar
+#__history,version_note,varchar
+#__history,save_date,datetime
+#__history,editor_user_id,int unsigned
+#__history,character_count,int unsigned
+#__history,sha1_hash,varchar
+#__history,version_data,mediumtext
+#__history,keep_forever,tinyint
+#__history,is_current,tinyint
+#__history,is_legacy,tinyint
+#__jmap,id,int unsigned
+#__jmap,type,varchar
+#__jmap,name,text
+#__jmap,description,text
+#__jmap,checked_out,int unsigned
+#__jmap,checked_out_time,datetime
+#__jmap,published,tinyint
+#__jmap,ordering,int
+#__jmap,sqlquery,text
+#__jmap,sqlquery_managed,text
+#__jmap,params,text
+#__jmap_aigenerator,id,int
+#__jmap_aigenerator,keywords_phrase,varchar
+#__jmap_aigenerator,contents,mediumtext
+#__jmap_aigenerator,api,varchar
+#__jmap_aigenerator,maxresults,int
+#__jmap_aigenerator,language,char
+#__jmap_aigenerator,removeimgs,tinyint
+#__jmap_aigenerator,temperature,varchar
+#__jmap_aigenerator,checked_out,int
+#__jmap_aigenerator,checked_out_time,datetime
+#__jmap_canonicals,id,int unsigned
+#__jmap_canonicals,linkurl,varchar
+#__jmap_canonicals,canonical,varchar
+#__jmap_cats_priorities,id,int
+#__jmap_cats_priorities,priority,char
+#__jmap_datasets,id,int unsigned
+#__jmap_datasets,name,text
+#__jmap_datasets,description,text
+#__jmap_datasets,checked_out,int
+#__jmap_datasets,checked_out_time,datetime
+#__jmap_datasets,published,tinyint
+#__jmap_datasets,sources,text
+#__jmap_dss_relations,datasetid,int
+#__jmap_dss_relations,datasourceid,int
+#__jmap_google,id,int
+#__jmap_google,token,text
+#__jmap_headings,id,int unsigned
+#__jmap_headings,linkurl,varchar
+#__jmap_headings,h1,text
+#__jmap_headings,h2,text
+#__jmap_headings,h3,text
+#__jmap_menu_priorities,id,int
+#__jmap_menu_priorities,priority,char
+#__jmap_metainfo,id,int unsigned
+#__jmap_metainfo,linkurl,varchar
+#__jmap_metainfo,meta_title,text
+#__jmap_metainfo,meta_desc,text
+#__jmap_metainfo,meta_image,varchar
+#__jmap_metainfo,robots,varchar
+#__jmap_metainfo,published,tinyint
+#__jmap_metainfo,excluded,tinyint
+#__jmap_pingomatic,id,int
+#__jmap_pingomatic,title,varchar
+#__jmap_pingomatic,blogurl,varchar
+#__jmap_pingomatic,rssurl,varchar
+#__jmap_pingomatic,services,text
+#__jmap_pingomatic,lastping,datetime
+#__jmap_pingomatic,checked_out,int
+#__jmap_pingomatic,checked_out_time,datetime
+#__jmap_text_replacements,id,int unsigned
+#__jmap_text_replacements,original_text,varchar
+#__jmap_text_replacements,target_text,varchar
+#__jmap_text_replacements,original_text_regex,varchar
+#__jmap_text_replacements,target_text_regex,varchar
+#__jmap_text_replacements,checked_out,int unsigned
+#__jmap_text_replacements,checked_out_time,datetime
+#__jmap_text_replacements,published,tinyint
+#__joomsubscription_country,id,char
+#__joomsubscription_country,name,varchar
+#__joomsubscription_coupons,id,int
+#__joomsubscription_coupons,value,varchar
+#__joomsubscription_coupons,discount,"double,"
+#__joomsubscription_coupons,discount_type,"set'PROCENT','SUM','FIXED'"
+#__joomsubscription_coupons,user_ids,text
+#__joomsubscription_coupons,strict,tinyint
+#__joomsubscription_coupons,ctime,datetime
+#__joomsubscription_coupons,extime,datetime
+#__joomsubscription_coupons,use_num,int
+#__joomsubscription_coupons,used_num,int
+#__joomsubscription_coupons,trash,tinyint
+#__joomsubscription_coupons,checked_out,int
+#__joomsubscription_coupons,checked_out_time,datetime
+#__joomsubscription_coupons,published,tinyint
+#__joomsubscription_coupons,plan_ids,text
+#__joomsubscription_coupons,use_user,int
+#__joomsubscription_coupons_history,id,int
+#__joomsubscription_coupons_history,user_id,int
+#__joomsubscription_coupons_history,coupon_id,int
+#__joomsubscription_coupons_history,plan_id,int
+#__joomsubscription_coupons_history,subscription_id,int
+#__joomsubscription_coupons_history,price,"float,"
+#__joomsubscription_coupons_history,discount,"float,"
+#__joomsubscription_coupons_history,discount_type,varchar
+#__joomsubscription_coupons_history,ctime,datetime
+#__joomsubscription_exp_alerts,id,int
+#__joomsubscription_exp_alerts,user_subscription_id,int
+#__joomsubscription_exp_alerts,user_id,int
+#__joomsubscription_exp_alerts,stime,datetime
+#__joomsubscription_exp_alerts,sent,int
+#__joomsubscription_fields,id,int
+#__joomsubscription_fields,name,varchar
+#__joomsubscription_fields,type,varchar
+#__joomsubscription_fields,params,text
+#__joomsubscription_fields,access,tinyint
+#__joomsubscription_fields,published,tinyint
+#__joomsubscription_fields,required,tinyint
+#__joomsubscription_fields,ctime,datetime
+#__joomsubscription_fields,ordering,tinyint
+#__joomsubscription_fields,description,varchar
+#__joomsubscription_fields,checked_out,int
+#__joomsubscription_fields,checked_out_time,datetime
+#__joomsubscription_hikashop_orders,order_id,int
+#__joomsubscription_hikashop_orders,subscriptions,varchar
+#__joomsubscription_hikashop_orders,ctime,timestamp
+#__joomsubscription_invoice_to,id,int
+#__joomsubscription_invoice_to,user_id,int
+#__joomsubscription_invoice_to,fields,text
+#__joomsubscription_invoice_to,ip,varchar
+#__joomsubscription_plans,id,int
+#__joomsubscription_plans,name,varchar
+#__joomsubscription_plans,group_id,int
+#__joomsubscription_plans,published,tinyint
+#__joomsubscription_plans,ctime,datetime
+#__joomsubscription_plans,mtime,datetime
+#__joomsubscription_plans,synctime,datetime
+#__joomsubscription_plans,ordering,tinyint
+#__joomsubscription_plans,access,int
+#__joomsubscription_plans,checked_out,int
+#__joomsubscription_plans,checked_out_time,datetime
+#__joomsubscription_plans,params,text
+#__joomsubscription_plans,grant_reg,tinyint
+#__joomsubscription_plans,grant_new,tinyint
+#__joomsubscription_plans,invisible,tinyint
+#__joomsubscription_plans,invisible_in_history,tinyint
+#__joomsubscription_plans,access_pay,tinyint
+#__joomsubscription_plans_actions,id,int
+#__joomsubscription_plans_actions,action,text
+#__joomsubscription_plans_actions,plan_id,int
+#__joomsubscription_plans_actions,type,varchar
+#__joomsubscription_plans_actions,hits,int
+#__joomsubscription_plans_groups,id,int
+#__joomsubscription_plans_groups,name,varchar
+#__joomsubscription_plans_groups,description,text
+#__joomsubscription_plans_groups,image,varchar
+#__joomsubscription_plans_groups,ctime,datetime
+#__joomsubscription_plans_groups,published,tinyint
+#__joomsubscription_plans_groups,checked_out,int
+#__joomsubscription_plans_groups,checked_out_time,datetime
+#__joomsubscription_plans_groups,access,tinyint
+#__joomsubscription_plans_groups,params,text
+#__joomsubscription_plans_groups,language,char
+#__joomsubscription_plans_groups,ordering,int
+#__joomsubscription_plans_rules,id,int
+#__joomsubscription_plans_rules,rule,text
+#__joomsubscription_plans_rules,plan_id,int
+#__joomsubscription_plans_rules,option,varchar
+#__joomsubscription_plans_rules,controller,varchar
+#__joomsubscription_plans_rules,name,varchar
+#__joomsubscription_plans_rules,hits,int
+#__joomsubscription_serial,id,int
+#__joomsubscription_serial,user_id,int
+#__joomsubscription_serial,subscription_id,int
+#__joomsubscription_serial,field_id,int
+#__joomsubscription_serial,serial,text
+#__joomsubscription_serial,active,tinyint
+#__joomsubscription_states,id,int
+#__joomsubscription_states,country,char
+#__joomsubscription_states,state,varchar
+#__joomsubscription_states,label,varchar
+#__joomsubscription_subscriptions,id,int
+#__joomsubscription_subscriptions,user_id,int
+#__joomsubscription_subscriptions,plan_id,int
+#__joomsubscription_subscriptions,invoice_id,int
+#__joomsubscription_subscriptions,published,tinyint
+#__joomsubscription_subscriptions,ctime,datetime
+#__joomsubscription_subscriptions,extime,datetime
+#__joomsubscription_subscriptions,created,datetime
+#__joomsubscription_subscriptions,purchased,datetime
+#__joomsubscription_subscriptions,lastsent,datetime
+#__joomsubscription_subscriptions,price,"float,"
+#__joomsubscription_subscriptions,discount,"float,"
+#__joomsubscription_subscriptions,discount_type,varchar
+#__joomsubscription_subscriptions,access_count,int
+#__joomsubscription_subscriptions,access_count_mode,tinyint
+#__joomsubscription_subscriptions,access_limit,int
+#__joomsubscription_subscriptions,gateway,varchar
+#__joomsubscription_subscriptions,gateway_id,varchar
+#__joomsubscription_subscriptions,parent,int
+#__joomsubscription_subscriptions,track_active,tinyint
+#__joomsubscription_subscriptions,track_disactive,tinyint
+#__joomsubscription_subscriptions,activated,tinyint
+#__joomsubscription_subscriptions,checked_out,int
+#__joomsubscription_subscriptions,checked_out_time,datetime
+#__joomsubscription_subscriptions,note,text
+#__joomsubscription_subscriptions,invoice_num,int
+#__joomsubscription_subscriptions,fields,text
+#__joomsubscription_subscriptions,params,text
+#__joomsubscription_subscriptions,upgrade_from,int
+#__joomsubscription_subscriptions,comment,text
+#__joomsubscription_taxes,id,int
+#__joomsubscription_taxes,country_id,char
+#__joomsubscription_taxes,state_id,int
+#__joomsubscription_taxes,tax,"float,"
+#__joomsubscription_taxes,tax_name,varchar
+#__joomsubscription_taxes,vies,tinyint
+#__joomsubscription_url_history,id,int
+#__joomsubscription_url_history,user_id,int
+#__joomsubscription_url_history,url,text
+#__joomsubscription_url_history,ctime,datetime
+#__joomsubscription_url_history,subscription_id,int
+#__js_ip_2_country,ip_from,int unsigned
+#__js_ip_2_country,ip_to,int unsigned
+#__js_ip_2_country,short_code,varchar
+#__js_ip_2_country,code,varchar
+#__js_ip_2_country,country,varchar
+#__js_res_audit_log,id,int unsigned
+#__js_res_audit_log,user_id,int
+#__js_res_audit_log,record_id,int
+#__js_res_audit_log,section_id,int
+#__js_res_audit_log,type_id,int
+#__js_res_audit_log,comment_id,int
+#__js_res_audit_log,field_id,int
+#__js_res_audit_log,event,tinyint
+#__js_res_audit_log,ctime,datetime
+#__js_res_audit_log,ip,varchar
+#__js_res_audit_log,params,text
+#__js_res_audit_restore,id,int unsigned
+#__js_res_audit_restore,record_id,int
+#__js_res_audit_restore,dtime,datetime
+#__js_res_audit_restore,comments,longtext
+#__js_res_audit_restore,favorites,text
+#__js_res_audit_restore,files,text
+#__js_res_audit_restore,hits,text
+#__js_res_audit_restore,subscriptions,text
+#__js_res_audit_restore,votes,text
+#__js_res_audit_restore,notifications,text
+#__js_res_audit_restore,type_id,int
+#__js_res_audit_versions,id,int unsigned
+#__js_res_audit_versions,user_id,int
+#__js_res_audit_versions,record_id,int
+#__js_res_audit_versions,type_id,int
+#__js_res_audit_versions,username,varchar
+#__js_res_audit_versions,ctime,datetime
+#__js_res_audit_versions,version,int
+#__js_res_audit_versions,record_serial,longtext
+#__js_res_audit_versions,values_serial,longtext
+#__js_res_audit_versions,category_serial,longtext
+#__js_res_audit_versions,tags_serial,longtext
+#__js_res_audit_versions,ip,varchar
+#__js_res_categories,id,int unsigned
+#__js_res_categories,asset_id,int
+#__js_res_categories,parent_id,int
+#__js_res_categories,lft,int
+#__js_res_categories,rgt,int
+#__js_res_categories,level,int
+#__js_res_categories,path,varchar
+#__js_res_categories,section_id,int
+#__js_res_categories,title,varchar
+#__js_res_categories,alias,varchar
+#__js_res_categories,note,varchar
+#__js_res_categories,description,varchar
+#__js_res_categories,image,varchar
+#__js_res_categories,published,tinyint
+#__js_res_categories,checked_out,int
+#__js_res_categories,checked_out_time,datetime
+#__js_res_categories,access,tinyint
+#__js_res_categories,params,text
+#__js_res_categories,metadesc,varchar
+#__js_res_categories,metakey,varchar
+#__js_res_categories,metadata,varchar
+#__js_res_categories,created_user_id,int
+#__js_res_categories,created_time,datetime
+#__js_res_categories,modified_user_id,int
+#__js_res_categories,modified_time,datetime
+#__js_res_categories,hits,int
+#__js_res_categories,language,char
+#__js_res_categories,num_current,int
+#__js_res_categories,num_all,int
+#__js_res_categories,relative_cats,text
+#__js_res_category_filters,id,int unsigned
+#__js_res_category_filters,field_id,int
+#__js_res_category_filters,category_id,int
+#__js_res_category_filters,record_id,int
+#__js_res_category_user,id,int unsigned
+#__js_res_category_user,user_id,int
+#__js_res_category_user,section_id,int
+#__js_res_category_user,ctime,datetime
+#__js_res_category_user,params,text
+#__js_res_category_user,name,varchar
+#__js_res_category_user,ordering,int
+#__js_res_category_user,published,tinyint
+#__js_res_category_user,access,tinyint
+#__js_res_category_user,description,text
+#__js_res_category_user,checked_out,int
+#__js_res_category_user,checked_out_time,datetime
+#__js_res_category_user,hits,int
+#__js_res_category_user,rate,int
+#__js_res_category_user,rate_count,int
+#__js_res_category_user,icon,varchar
+#__js_res_category_user,mtime,datetime
+#__js_res_category_user,alias,varchar
+#__js_res_category_user,client_id,int
+#__js_res_category_user,client,varchar
+#__js_res_comments,id,int unsigned
+#__js_res_comments,record_id,int
+#__js_res_comments,user_id,int
+#__js_res_comments,comment,text
+#__js_res_comments,ctime,datetime
+#__js_res_comments,published,tinyint
+#__js_res_comments,email,varchar
+#__js_res_comments,name,varchar
+#__js_res_comments,langs,varchar
+#__js_res_comments,access,tinyint
+#__js_res_comments,rate,int
+#__js_res_comments,parent_id,int
+#__js_res_comments,root_id,int
+#__js_res_comments,level,tinyint
+#__js_res_comments,hide,tinyint
+#__js_res_comments,params,text
+#__js_res_comments,attachment,text
+#__js_res_comments,attach_hit,int
+#__js_res_comments,ip,varchar
+#__js_res_comments,lft,int
+#__js_res_comments,rgt,int
+#__js_res_comments,section_id,int
+#__js_res_comments,private,tinyint
+#__js_res_comments,rate_num,int
+#__js_res_comments,type_id,int
+#__js_res_country,id,varchar
+#__js_res_country,name,varchar
+#__js_res_favorite,id,int unsigned
+#__js_res_favorite,user_id,int
+#__js_res_favorite,record_id,int
+#__js_res_favorite,ctime,datetime
+#__js_res_favorite,section_id,int
+#__js_res_favorite,type_id,int
+#__js_res_fields,id,int unsigned
+#__js_res_fields,key,varchar
+#__js_res_fields,label,varchar
+#__js_res_fields,alias,varchar
+#__js_res_fields,type_id,int
+#__js_res_fields,field_type,varchar
+#__js_res_fields,params,longtext
+#__js_res_fields,checked_out,int
+#__js_res_fields,checked_out_time,datetime
+#__js_res_fields,published,tinyint
+#__js_res_fields,ordering,tinyint
+#__js_res_fields,access,tinyint
+#__js_res_fields,group_id,int
+#__js_res_fields,asset_id,int
+#__js_res_fields,filter,tinyint
+#__js_res_fields,user_id,int
+#__js_res_fields_group,id,int unsigned
+#__js_res_fields_group,title,varchar
+#__js_res_fields_group,type_id,int
+#__js_res_fields_group,ordering,int
+#__js_res_fields_group,description,text
+#__js_res_fields_group,checked_out,int
+#__js_res_fields_group,checked_out_time,datetime
+#__js_res_fields_group,icon,varchar
+#__js_res_field_geo,id,int unsigned
+#__js_res_field_geo,country,char
+#__js_res_field_geo,state,varchar
+#__js_res_field_geo,city,varchar
+#__js_res_field_geo,zip,varchar
+#__js_res_field_geo,lat,"float,"
+#__js_res_field_geo,lng,"float,"
+#__js_res_field_geo,state_trans,varchar
+#__js_res_field_geo,city_trans,varchar
+#__js_res_field_geo,section_id,int
+#__js_res_field_geo,field_id,int
+#__js_res_field_geo,field_key,varchar
+#__js_res_field_geo,record_id,int
+#__js_res_field_geo,user_id,int
+#__js_res_field_multilevelselect,id,int unsigned
+#__js_res_field_multilevelselect,name,varchar
+#__js_res_field_multilevelselect,field_id,int
+#__js_res_field_multilevelselect,parent_id,int
+#__js_res_field_multilevelselect,level,int
+#__js_res_field_multilevelselect,lft,int
+#__js_res_field_multilevelselect,rgt,int
+#__js_res_field_stepaccess,id,int unsigned
+#__js_res_field_stepaccess,user_id,int
+#__js_res_field_stepaccess,record_id,int
+#__js_res_field_stepaccess,field_id,int
+#__js_res_field_stepaccess,ctime,datetime
+#__js_res_field_telephone,id,int unsigned
+#__js_res_field_telephone,name,varchar
+#__js_res_field_telephone,code2,varchar
+#__js_res_field_telephone,code3,varchar
+#__js_res_field_telephone,phone_code,varchar
+#__js_res_files,id,int unsigned
+#__js_res_files,filename,varchar
+#__js_res_files,realname,varchar
+#__js_res_files,ctime,datetime
+#__js_res_files,saved,tinyint
+#__js_res_files,params,text
+#__js_res_files,section_id,int
+#__js_res_files,record_id,int
+#__js_res_files,type_id,int
+#__js_res_files,field_id,int
+#__js_res_files,user_id,int
+#__js_res_files,ext,varchar
+#__js_res_files,fullpath,text
+#__js_res_files,hits,int
+#__js_res_files,size,int
+#__js_res_files,ip,varchar
+#__js_res_files,width,int
+#__js_res_files,height,int
+#__js_res_files,rating,double
+#__js_res_files,rating_nums,int
+#__js_res_files,comments,text
+#__js_res_files,comment_num,int
+#__js_res_files,title,text
+#__js_res_files,description,text
+#__js_res_files,views,int
+#__js_res_files,default,tinyint
+#__js_res_files,deleted_at,datetime
+#__js_res_files,deleted_by,int
+#__js_res_hits,id,int unsigned
+#__js_res_hits,record_id,int
+#__js_res_hits,ctime,datetime
+#__js_res_hits,user_id,int
+#__js_res_hits,ip,varchar
+#__js_res_hits,section_id,int
+#__js_res_import,id,int unsigned
+#__js_res_import,name,varchar
+#__js_res_import,params,text
+#__js_res_import,user_id,int
+#__js_res_import,crossids,text
+#__js_res_import,section_id,int
+#__js_res_import,ctime,datetime
+#__js_res_import_rows,id,int unsigned
+#__js_res_import_rows,import,int
+#__js_res_import_rows,text,text
+#__js_res_import_rows,ctime,datetime
+#__js_res_moderators,id,int unsigned
+#__js_res_moderators,user_id,int
+#__js_res_moderators,section_id,int
+#__js_res_moderators,description,text
+#__js_res_moderators,params,text
+#__js_res_moderators,ctime,datetime
+#__js_res_moderators,published,tinyint
+#__js_res_moderators,checked_out,int
+#__js_res_moderators,checked_out_time,datetime
+#__js_res_moderators,icon,varchar
+#__js_res_moderators,is_moderator,tinyint
+#__js_res_notifications,id,int unsigned
+#__js_res_notifications,option,varchar
+#__js_res_notifications,type,varchar
+#__js_res_notifications,ctime,datetime
+#__js_res_notifications,notified,tinyint
+#__js_res_notifications,alerted,tinyint
+#__js_res_notifications,params,text
+#__js_res_notifications,user_id,int
+#__js_res_notifications,ref_1,int
+#__js_res_notifications,ref_2,int
+#__js_res_notifications,ref_3,int
+#__js_res_notifications,ref_4,int
+#__js_res_notifications,ref_5,int
+#__js_res_notifications,html,text
+#__js_res_notifications,num,int
+#__js_res_notifications,state_new,tinyint
+#__js_res_notifications,eventer,int
+#__js_res_packs,id,int unsigned
+#__js_res_packs,name,varchar
+#__js_res_packs,description,text
+#__js_res_packs,key,char
+#__js_res_packs,addkey,tinyint
+#__js_res_packs,add_files,text
+#__js_res_packs,ctime,datetime
+#__js_res_packs,mtime,datetime
+#__js_res_packs,btime,datetime
+#__js_res_packs,version,varchar
+#__js_res_packs,checked_out,int
+#__js_res_packs,checked_out_time,datetime
+#__js_res_packs,users,tinyint
+#__js_res_packs,user_id,int
+#__js_res_packs,author_name,text
+#__js_res_packs,author_email,text
+#__js_res_packs,author_url,text
+#__js_res_packs,demo,tinyint
+#__js_res_packs,copyright,varchar
+#__js_res_packs,user,tinyint
+#__js_res_packs_sections,id,int unsigned
+#__js_res_packs_sections,pack_id,int
+#__js_res_packs_sections,section_id,int
+#__js_res_packs_sections,params,text
+#__js_res_polls,id,int unsigned
+#__js_res_polls,question,varchar
+#__js_res_polls,answer,varchar
+#__js_res_polls,ctime,datetime
+#__js_res_polls,user_id,int
+#__js_res_polls,record_id,int
+#__js_res_record,id,int unsigned
+#__js_res_record,title,varchar
+#__js_res_record,published,tinyint
+#__js_res_record,access,int
+#__js_res_record,params,text
+#__js_res_record,user_id,int
+#__js_res_record,section_id,int
+#__js_res_record,checked_out,int
+#__js_res_record,checked_out_time,datetime
+#__js_res_record,ctime,datetime
+#__js_res_record,extime,datetime
+#__js_res_record,mtime,datetime
+#__js_res_record,inittime,datetime
+#__js_res_record,ftime,datetime
+#__js_res_record,pubtime,datetime
+#__js_res_record,type_id,int
+#__js_res_record,hits,int
+#__js_res_record,ordering,int
+#__js_res_record,meta_descr,varchar
+#__js_res_record,meta_key,varchar
+#__js_res_record,meta_index,varchar
+#__js_res_record,alias,varchar
+#__js_res_record,featured,tinyint
+#__js_res_record,archive,tinyint
+#__js_res_record,ucatid,int
+#__js_res_record,ucatname,varchar
+#__js_res_record,langs,varchar
+#__js_res_record,asset_id,int
+#__js_res_record,ip,varchar
+#__js_res_record,votes,int
+#__js_res_record,favorite_num,int
+#__js_res_record,hidden,tinyint
+#__js_res_record,votes_result,int
+#__js_res_record,exalert,tinyint
+#__js_res_record,access_key,varchar
+#__js_res_record,categories,mediumtext
+#__js_res_record,fieldsdata,longtext
+#__js_res_record,fields,longtext
+#__js_res_record,comments,int
+#__js_res_record,tags,text
+#__js_res_record,multirating,text
+#__js_res_record,subscriptions_num,int
+#__js_res_record,version,int
+#__js_res_record,parent_id,int
+#__js_res_record,parent,varchar
+#__js_res_record,whorepost,tinyint
+#__js_res_record,repostedby,text
+#__js_res_record,newTags,varchar
+#__js_res_record_category,id,int unsigned
+#__js_res_record_category,catid,int
+#__js_res_record_category,record_id,int
+#__js_res_record_category,ordering,int
+#__js_res_record_category,otime,datetime
+#__js_res_record_category,section_id,int
+#__js_res_record_category,published,tinyint
+#__js_res_record_category,access,tinyint
+#__js_res_record_repost,id,int unsigned
+#__js_res_record_repost,host_id,int
+#__js_res_record_repost,record_id,int
+#__js_res_record_repost,ctime,datetime
+#__js_res_record_repost,is_reposted,tinyint
+#__js_res_record_repost,category,varchar
+#__js_res_record_values,id,int unsigned
+#__js_res_record_values,field_id,int
+#__js_res_record_values,field_key,varchar
+#__js_res_record_values,field_type,varchar
+#__js_res_record_values,field_label,varchar
+#__js_res_record_values,field_value,longtext
+#__js_res_record_values,record_id,int
+#__js_res_record_values,user_id,int
+#__js_res_record_values,type_id,int
+#__js_res_record_values,section_id,int
+#__js_res_record_values,params,text
+#__js_res_record_values,ip,varchar
+#__js_res_record_values,ctime,datetime
+#__js_res_record_values,value_index,varchar
+#__js_res_record_values,value_num,int
+#__js_res_sales,id,int unsigned
+#__js_res_sales,user_id,int
+#__js_res_sales,saler_id,int
+#__js_res_sales,record_id,int
+#__js_res_sales,section_id,int
+#__js_res_sales,field_id,int
+#__js_res_sales,type_id,int
+#__js_res_sales,num,int
+#__js_res_sales,params,text
+#__js_res_sales,status,tinyint
+#__js_res_sales,comment,varchar
+#__js_res_sales,name,varchar
+#__js_res_sales,amount,float
+#__js_res_sales,gateway_id,varchar
+#__js_res_sales,gateway,varchar
+#__js_res_sales,ctime,datetime
+#__js_res_sales,mtime,datetime
+#__js_res_sales,currency,varchar
+#__js_res_sections,id,int unsigned
+#__js_res_sections,asset_id,int
+#__js_res_sections,name,varchar
+#__js_res_sections,title,varchar
+#__js_res_sections,alias,varchar
+#__js_res_sections,description,text
+#__js_res_sections,published,tinyint
+#__js_res_sections,ordering,int
+#__js_res_sections,image,varchar
+#__js_res_sections,image_position,varchar
+#__js_res_sections,params,text
+#__js_res_sections,checked_out,int
+#__js_res_sections,checked_out_time,datetime
+#__js_res_sections,access,int
+#__js_res_sections,categories,int
+#__js_res_sections,language,char
+#__js_res_subscribe,id,int unsigned
+#__js_res_subscribe,user_id,int
+#__js_res_subscribe,ref_id,int
+#__js_res_subscribe,ctime,datetime
+#__js_res_subscribe,type,varchar
+#__js_res_subscribe,params,text
+#__js_res_subscribe,section_id,int
+#__js_res_subscribe_cat,id,int unsigned
+#__js_res_subscribe_cat,cat_id,int
+#__js_res_subscribe_cat,section_id,int
+#__js_res_subscribe_cat,user_id,int
+#__js_res_subscribe_cat,exclude,tinyint
+#__js_res_subscribe_cat,ctime,datetime
+#__js_res_subscribe_user,id,int unsigned
+#__js_res_subscribe_user,u_id,int
+#__js_res_subscribe_user,section_id,int
+#__js_res_subscribe_user,user_id,int
+#__js_res_subscribe_user,exclude,tinyint
+#__js_res_subscribe_user,ctime,datetime
+#__js_res_tags,id,int unsigned
+#__js_res_tags,tag,varchar
+#__js_res_tags,ctime,datetime
+#__js_res_tags,slug,varchar
+#__js_res_tags,language,varchar
+#__js_res_tags_history,id,int unsigned
+#__js_res_tags_history,record_id,int
+#__js_res_tags_history,tag_id,int
+#__js_res_tags_history,user_id,int
+#__js_res_tags_history,ctime,datetime
+#__js_res_tags_history,section_id,int
+#__js_res_tags_history,hits,int
+#__js_res_types,id,int unsigned
+#__js_res_types,name,varchar
+#__js_res_types,params,text
+#__js_res_types,checked_out,int
+#__js_res_types,checked_out_time,datetime
+#__js_res_types,published,tinyint
+#__js_res_types,description,varchar
+#__js_res_types,form,text
+#__js_res_types,user_id,int
+#__js_res_types,asset_id,int
+#__js_res_types,language,char
+#__js_res_user_options,id,int unsigned
+#__js_res_user_options,user_id,int
+#__js_res_user_options,params,text
+#__js_res_user_options,lastsend,datetime
+#__js_res_user_options,schedule,tinyint
+#__js_res_user_options_autofollow,id,int unsigned
+#__js_res_user_options_autofollow,user_id,int
+#__js_res_user_options_autofollow,section_id,int
+#__js_res_user_post_map,id,int unsigned
+#__js_res_user_post_map,user_id,int
+#__js_res_user_post_map,section_id,int
+#__js_res_user_post_map,whopost,tinyint
+#__js_res_vote,id,int unsigned
+#__js_res_vote,user_id,int
+#__js_res_vote,ref_id,int
+#__js_res_vote,vote,int
+#__js_res_vote,ctime,datetime
+#__js_res_vote,ip,varchar
+#__js_res_vote,ref_type,varchar
+#__js_res_vote,section_id,int
+#__js_res_vote,idx,int
+#__languages,lang_id,int unsigned
+#__languages,asset_id,int unsigned
+#__languages,lang_code,char
+#__languages,title,varchar
+#__languages,title_native,varchar
+#__languages,sef,varchar
+#__languages,image,varchar
+#__languages,description,varchar
+#__languages,metakey,text
+#__languages,metadesc,text
+#__languages,sitename,varchar
+#__languages,published,int
+#__languages,access,int unsigned
+#__languages,ordering,int
+#__mail_templates,template_id,varchar
+#__mail_templates,extension,varchar
+#__mail_templates,language,char
+#__mail_templates,subject,varchar
+#__mail_templates,body,text
+#__mail_templates,htmlbody,mediumtext
+#__mail_templates,attachments,text
+#__mail_templates,params,text
+#__menu,id,int
+#__menu,menutype,varchar
+#__menu,title,varchar
+#__menu,alias,varchar
+#__menu,note,varchar
+#__menu,path,varchar
+#__menu,link,varchar
+#__menu,type,varchar
+#__menu,published,tinyint
+#__menu,parent_id,int unsigned
+#__menu,level,int unsigned
+#__menu,component_id,int unsigned
+#__menu,checked_out,int unsigned
+#__menu,checked_out_time,datetime
+#__menu,browserNav,tinyint
+#__menu,access,int unsigned
+#__menu,img,varchar
+#__menu,template_style_id,int unsigned
+#__menu,params,text
+#__menu,lft,int
+#__menu,rgt,int
+#__menu,home,tinyint unsigned
+#__menu,language,char
+#__menu,client_id,tinyint
+#__menu,publish_up,datetime
+#__menu,publish_down,datetime
+#__menu_types,id,int unsigned
+#__menu_types,asset_id,int unsigned
+#__menu_types,menutype,varchar
+#__menu_types,title,varchar
+#__menu_types,description,varchar
+#__menu_types,client_id,int
+#__menu_types,ordering,int
+#__messages,message_id,int unsigned
+#__messages,user_id_from,int unsigned
+#__messages,user_id_to,int unsigned
+#__messages,folder_id,tinyint unsigned
+#__messages,date_time,datetime
+#__messages,state,tinyint
+#__messages,priority,tinyint unsigned
+#__messages,subject,varchar
+#__messages,message,text
+#__messages_cfg,user_id,int unsigned
+#__messages_cfg,cfg_name,varchar
+#__messages_cfg,cfg_value,varchar
+#__modules,id,int
+#__modules,asset_id,int unsigned
+#__modules,title,varchar
+#__modules,note,varchar
+#__modules,content,text
+#__modules,ordering,int
+#__modules,position,varchar
+#__modules,checked_out,int unsigned
+#__modules,checked_out_time,datetime
+#__modules,publish_up,datetime
+#__modules,publish_down,datetime
+#__modules,published,tinyint
+#__modules,module,varchar
+#__modules,access,int unsigned
+#__modules,showtitle,tinyint unsigned
+#__modules,params,text
+#__modules,client_id,tinyint
+#__modules,language,char
+#__modules_menu,moduleid,int
+#__modules_menu,menuid,int
+#__newsfeeds,catid,int
+#__newsfeeds,id,int unsigned
+#__newsfeeds,name,varchar
+#__newsfeeds,alias,varchar
+#__newsfeeds,link,varchar
+#__newsfeeds,published,tinyint
+#__newsfeeds,numarticles,int unsigned
+#__newsfeeds,cache_time,int unsigned
+#__newsfeeds,checked_out,int unsigned
+#__newsfeeds,checked_out_time,datetime
+#__newsfeeds,ordering,int
+#__newsfeeds,rtl,tinyint
+#__newsfeeds,access,int unsigned
+#__newsfeeds,language,char
+#__newsfeeds,params,text
+#__newsfeeds,created,datetime
+#__newsfeeds,created_by,int unsigned
+#__newsfeeds,created_by_alias,varchar
+#__newsfeeds,modified,datetime
+#__newsfeeds,modified_by,int unsigned
+#__newsfeeds,metakey,text
+#__newsfeeds,metadesc,text
+#__newsfeeds,metadata,text
+#__newsfeeds,publish_up,datetime
+#__newsfeeds,publish_down,datetime
+#__newsfeeds,description,text
+#__newsfeeds,version,int unsigned
+#__newsfeeds,hits,int unsigned
+#__newsfeeds,images,text
+#__overrider,id,int
+#__overrider,constant,varchar
+#__overrider,string,text
+#__overrider,file,varchar
+#__postinstall_messages,postinstall_message_id,bigint unsigned
+#__postinstall_messages,extension_id,bigint
+#__postinstall_messages,title_key,varchar
+#__postinstall_messages,description_key,varchar
+#__postinstall_messages,action_key,varchar
+#__postinstall_messages,language_extension,varchar
+#__postinstall_messages,language_client_id,tinyint
+#__postinstall_messages,type,varchar
+#__postinstall_messages,action_file,varchar
+#__postinstall_messages,action,varchar
+#__postinstall_messages,condition_file,varchar
+#__postinstall_messages,condition_method,varchar
+#__postinstall_messages,version_introduced,varchar
+#__postinstall_messages,enabled,tinyint
+#__privacy_consents,id,int unsigned
+#__privacy_consents,user_id,int unsigned
+#__privacy_consents,state,int
+#__privacy_consents,created,datetime
+#__privacy_consents,subject,varchar
+#__privacy_consents,body,text
+#__privacy_consents,remind,tinyint
+#__privacy_consents,token,varchar
+#__privacy_requests,id,int unsigned
+#__privacy_requests,email,varchar
+#__privacy_requests,requested_at,datetime
+#__privacy_requests,status,tinyint
+#__privacy_requests,request_type,varchar
+#__privacy_requests,confirm_token,varchar
+#__privacy_requests,confirm_token_created_at,datetime
+#__redirect_links,id,int unsigned
+#__redirect_links,old_url,varchar
+#__redirect_links,new_url,varchar
+#__redirect_links,referer,varchar
+#__redirect_links,comment,varchar
+#__redirect_links,hits,int unsigned
+#__redirect_links,published,tinyint
+#__redirect_links,created_date,datetime
+#__redirect_links,modified_date,datetime
+#__redirect_links,header,smallint
+#__scheduler_logs,id,int unsigned
+#__scheduler_logs,taskname,varchar
+#__scheduler_logs,tasktype,varchar
+#__scheduler_logs,duration,"decimal,"
+#__scheduler_logs,jobid,int unsigned
+#__scheduler_logs,taskid,int unsigned
+#__scheduler_logs,exitcode,int
+#__scheduler_logs,lastdate,datetime
+#__scheduler_logs,nextdate,datetime
+#__scheduler_tasks,id,int unsigned
+#__scheduler_tasks,asset_id,int unsigned
+#__scheduler_tasks,title,varchar
+#__scheduler_tasks,type,varchar
+#__scheduler_tasks,execution_rules,text
+#__scheduler_tasks,cron_rules,text
+#__scheduler_tasks,state,tinyint
+#__scheduler_tasks,last_exit_code,int
+#__scheduler_tasks,last_execution,datetime
+#__scheduler_tasks,next_execution,datetime
+#__scheduler_tasks,times_executed,int
+#__scheduler_tasks,times_failed,int
+#__scheduler_tasks,locked,datetime
+#__scheduler_tasks,priority,smallint
+#__scheduler_tasks,ordering,int
+#__scheduler_tasks,cli_exclusive,smallint
+#__scheduler_tasks,params,text
+#__scheduler_tasks,note,text
+#__scheduler_tasks,created,datetime
+#__scheduler_tasks,created_by,int unsigned
+#__scheduler_tasks,checked_out,int unsigned
+#__scheduler_tasks,checked_out_time,datetime
+#__schemaorg,id,int unsigned
+#__schemaorg,itemId,int unsigned
+#__schemaorg,context,varchar
+#__schemaorg,schemaType,varchar
+#__schemaorg,schema,text
+#__schemas,extension_id,int
+#__schemas,version_id,varchar
+#__session,session_id,varbinary
+#__session,client_id,tinyint unsigned
+#__session,guest,tinyint unsigned
+#__session,time,int
+#__session,data,mediumtext
+#__session,userid,int
+#__session,username,varchar
+#__tags,id,int unsigned
+#__tags,parent_id,int unsigned
+#__tags,lft,int
+#__tags,rgt,int
+#__tags,level,int unsigned
+#__tags,path,varchar
+#__tags,title,varchar
+#__tags,alias,varchar
+#__tags,note,varchar
+#__tags,description,mediumtext
+#__tags,published,tinyint
+#__tags,checked_out,int unsigned
+#__tags,checked_out_time,datetime
+#__tags,access,int unsigned
+#__tags,params,text
+#__tags,metadesc,varchar
+#__tags,metakey,varchar
+#__tags,metadata,varchar
+#__tags,created_user_id,int unsigned
+#__tags,created_time,datetime
+#__tags,created_by_alias,varchar
+#__tags,modified_user_id,int unsigned
+#__tags,modified_time,datetime
+#__tags,images,text
+#__tags,urls,text
+#__tags,hits,int unsigned
+#__tags,language,char
+#__tags,version,int unsigned
+#__tags,publish_up,datetime
+#__tags,publish_down,datetime
+#__template_overrides,id,int unsigned
+#__template_overrides,template,varchar
+#__template_overrides,hash_id,varchar
+#__template_overrides,extension_id,int
+#__template_overrides,state,tinyint
+#__template_overrides,action,varchar
+#__template_overrides,client_id,tinyint unsigned
+#__template_overrides,created_date,datetime
+#__template_overrides,modified_date,datetime
+#__template_styles,id,int unsigned
+#__template_styles,template,varchar
+#__template_styles,client_id,tinyint unsigned
+#__template_styles,home,char
+#__template_styles,title,varchar
+#__template_styles,inheritable,tinyint
+#__template_styles,parent,varchar
+#__template_styles,params,text
+#__tuf_metadata,id,int
+#__tuf_metadata,update_site_id,int
+#__tuf_metadata,root,text
+#__tuf_metadata,targets,text
+#__tuf_metadata,snapshot,text
+#__tuf_metadata,timestamp,text
+#__tuf_metadata,mirrors,text
+#__ucm_base,ucm_id,int unsigned
+#__ucm_base,ucm_item_id,int
+#__ucm_base,ucm_type_id,int
+#__ucm_base,ucm_language_id,int
+#__ucm_content,core_content_id,int unsigned
+#__ucm_content,core_type_alias,varchar
+#__ucm_content,core_title,varchar
+#__ucm_content,core_alias,varchar
+#__ucm_content,core_body,mediumtext
+#__ucm_content,core_state,tinyint
+#__ucm_content,core_checked_out_time,datetime
+#__ucm_content,core_checked_out_user_id,int unsigned
+#__ucm_content,core_access,int unsigned
+#__ucm_content,core_params,text
+#__ucm_content,core_featured,tinyint unsigned
+#__ucm_content,core_metadata,varchar
+#__ucm_content,core_created_user_id,int unsigned
+#__ucm_content,core_created_by_alias,varchar
+#__ucm_content,core_created_time,datetime
+#__ucm_content,core_modified_user_id,int unsigned
+#__ucm_content,core_modified_time,datetime
+#__ucm_content,core_language,char
+#__ucm_content,core_publish_up,datetime
+#__ucm_content,core_publish_down,datetime
+#__ucm_content,core_content_item_id,int unsigned
+#__ucm_content,asset_id,int unsigned
+#__ucm_content,core_images,text
+#__ucm_content,core_urls,text
+#__ucm_content,core_hits,int unsigned
+#__ucm_content,core_version,int unsigned
+#__ucm_content,core_ordering,int
+#__ucm_content,core_metakey,text
+#__ucm_content,core_metadesc,text
+#__ucm_content,core_catid,int unsigned
+#__ucm_content,core_type_id,int unsigned
+#__updates,update_id,int
+#__updates,update_site_id,int
+#__updates,extension_id,int
+#__updates,name,varchar
+#__updates,description,text
+#__updates,element,varchar
+#__updates,type,varchar
+#__updates,folder,varchar
+#__updates,client_id,tinyint
+#__updates,version,varchar
+#__updates,data,text
+#__updates,detailsurl,text
+#__updates,infourl,text
+#__updates,changelogurl,text
+#__updates,extra_query,varchar
+#__updates,security,tinyint
+#__update_sites,update_site_id,int
+#__update_sites,name,varchar
+#__update_sites,type,varchar
+#__update_sites,location,text
+#__update_sites,enabled,int
+#__update_sites,last_check_timestamp,bigint
+#__update_sites,extra_query,varchar
+#__update_sites,checked_out,int unsigned
+#__update_sites,checked_out_time,datetime
+#__update_sites_extensions,update_site_id,int
+#__update_sites_extensions,extension_id,int
+#__usergroups,id,int unsigned
+#__usergroups,parent_id,int unsigned
+#__usergroups,lft,int
+#__usergroups,rgt,int
+#__usergroups,title,varchar
+#__users,id,int
+#__users,name,varchar
+#__users,username,varchar
+#__users,email,varchar
+#__users,password,varchar
+#__users,block,tinyint
+#__users,sendEmail,tinyint
+#__users,registerDate,datetime
+#__users,lastvisitDate,datetime
+#__users,activation,varchar
+#__users,params,text
+#__users,lastResetTime,datetime
+#__users,resetCount,int
+#__users,otpKey,varchar
+#__users,otep,varchar
+#__users,requireReset,tinyint
+#__users,authProvider,varchar
+#__user_keys,id,int unsigned
+#__user_keys,user_id,varchar
+#__user_keys,token,varchar
+#__user_keys,series,varchar
+#__user_keys,time,varchar
+#__user_keys,uastring,varchar
+#__user_mfa,id,int
+#__user_mfa,user_id,int unsigned
+#__user_mfa,title,varchar
+#__user_mfa,method,varchar
+#__user_mfa,default,tinyint
+#__user_mfa,options,mediumtext
+#__user_mfa,created_on,datetime
+#__user_mfa,last_used,datetime
+#__user_mfa,tries,int
+#__user_mfa,last_try,datetime
+#__user_notes,id,int unsigned
+#__user_notes,user_id,int unsigned
+#__user_notes,catid,int unsigned
+#__user_notes,subject,varchar
+#__user_notes,body,text
+#__user_notes,state,tinyint
+#__user_notes,checked_out,int unsigned
+#__user_notes,checked_out_time,datetime
+#__user_notes,created_user_id,int unsigned
+#__user_notes,created_time,datetime
+#__user_notes,modified_user_id,int unsigned
+#__user_notes,modified_time,datetime
+#__user_notes,review_time,datetime
+#__user_notes,publish_up,datetime
+#__user_notes,publish_down,datetime
+#__user_profiles,user_id,int
+#__user_profiles,profile_key,varchar
+#__user_profiles,profile_value,text
+#__user_profiles,ordering,int
+#__user_usergroup_map,user_id,int unsigned
+#__user_usergroup_map,group_id,int unsigned
+#__viewlevels,id,int unsigned
+#__viewlevels,title,varchar
+#__viewlevels,ordering,int
+#__viewlevels,rules,varchar
+#__webauthn_credentials,id,varchar
+#__webauthn_credentials,user_id,varchar
+#__webauthn_credentials,label,varchar
+#__webauthn_credentials,credential,mediumtext
+#__wf_profiles,id,int
+#__wf_profiles,name,varchar
+#__wf_profiles,description,text
+#__wf_profiles,users,text
+#__wf_profiles,types,text
+#__wf_profiles,components,text
+#__wf_profiles,area,tinyint
+#__wf_profiles,device,varchar
+#__wf_profiles,rows,text
+#__wf_profiles,plugins,text
+#__wf_profiles,published,tinyint
+#__wf_profiles,ordering,int
+#__wf_profiles,checked_out,int unsigned
+#__wf_profiles,checked_out_time,datetime
+#__wf_profiles,created,datetime
+#__wf_profiles,created_by,int unsigned
+#__wf_profiles,modified,datetime
+#__wf_profiles,modified_by,int unsigned
+#__wf_profiles,params,text
+#__workflows,id,int
+#__workflows,asset_id,int
+#__workflows,published,tinyint
+#__workflows,title,varchar
+#__workflows,description,text
+#__workflows,extension,varchar
+#__workflows,default,tinyint
+#__workflows,ordering,int
+#__workflows,created,datetime
+#__workflows,created_by,int
+#__workflows,modified,datetime
+#__workflows,modified_by,int
+#__workflows,checked_out_time,datetime
+#__workflows,checked_out,int unsigned
+#__workflow_associations,item_id,int
+#__workflow_associations,stage_id,int
+#__workflow_associations,extension,varchar
+#__workflow_stages,id,int
+#__workflow_stages,asset_id,int
+#__workflow_stages,ordering,int
+#__workflow_stages,workflow_id,int
+#__workflow_stages,published,tinyint
+#__workflow_stages,title,varchar
+#__workflow_stages,description,text
+#__workflow_stages,default,tinyint
+#__workflow_stages,position,text
+#__workflow_stages,checked_out_time,datetime
+#__workflow_stages,checked_out,int unsigned
+#__workflow_transitions,id,int
+#__workflow_transitions,asset_id,int
+#__workflow_transitions,ordering,int
+#__workflow_transitions,workflow_id,int
+#__workflow_transitions,published,tinyint
+#__workflow_transitions,title,varchar
+#__workflow_transitions,description,text
+#__workflow_transitions,from_stage_id,int
+#__workflow_transitions,to_stage_id,int
+#__workflow_transitions,options,text
+#__workflow_transitions,checked_out_time,datetime
+#__workflow_transitions,checked_out,int unsigned

@@ -1,0 +1,1800 @@
+[
+  {
+    "id": 1,
+    "name": "Strict.Jobs",
+    "alias": "nexus-1",
+    "published": 1,
+    "access": 1,
+    "types": [
+      1
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.lab",
+    "list_templates": [
+      "nexus_strict_jobs.lab"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Architecture & innovation",
+    "alias": "nexus-2",
+    "published": 1,
+    "access": 1,
+    "types": [
+      2
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_crystal.lab",
+    "list_templates": [
+      "nexus_crystal.lab"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Académie Innovation",
+    "alias": "nexus-3",
+    "published": 1,
+    "access": 1,
+    "types": [
+      3
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.lab",
+    "list_templates": [
+      "nexus_academy.lab"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Leçons",
+    "alias": "nexus-4",
+    "published": 1,
+    "access": 1,
+    "types": [
+      4
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.lab",
+    "list_templates": [
+      "nexus_academy.lab"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Entreprises",
+    "alias": "nexus-5",
+    "published": 1,
+    "access": 1,
+    "types": [
+      5
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.lab",
+    "list_templates": [
+      "nexus_academy.lab"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Candidatures",
+    "alias": "nexus-6",
+    "published": 1,
+    "access": 1,
+    "types": [
+      6
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.lab",
+    "list_templates": [
+      "nexus_academy.lab"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "provisionqa · Offres d’emploi",
+    "alias": "provisionqa-jobs",
+    "published": 0,
+    "access": 1,
+    "types": [
+      7
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.provisionqa_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.provisionqa_jobs"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "provisionqa · Forum",
+    "alias": "provisionqa-forum",
+    "published": 0,
+    "access": 1,
+    "types": [
+      8
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_crystal.provisionqa_forum",
+    "list_templates": [
+      "nexus_crystal.provisionqa_forum"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "provisionqa · Académie Innovation",
+    "alias": "provisionqa-courses",
+    "published": 0,
+    "access": 1,
+    "types": [
+      9
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.provisionqa_courses",
+    "list_templates": [
+      "nexus_academy.provisionqa_courses"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "provisionqa · Leçons",
+    "alias": "provisionqa-lessons",
+    "published": 0,
+    "access": 1,
+    "types": [
+      10
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.provisionqa_lessons",
+    "list_templates": [
+      "nexus_editorial.provisionqa_lessons"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "provisionqa · Entreprises",
+    "alias": "provisionqa-companies",
+    "published": 0,
+    "access": 1,
+    "types": [
+      11
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.provisionqa_companies",
+    "list_templates": [
+      "nexus_editorial.provisionqa_companies"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "provisionqa · Candidatures",
+    "alias": "provisionqa-applications",
+    "published": 0,
+    "access": 1,
+    "types": [
+      12
+    ],
+    "forum_shell": false,
+    "markup_template": "default.provisionqa_applications",
+    "list_templates": [
+      "default.provisionqa_applications"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "provisionqa · Publications",
+    "alias": "provisionqa-blog",
+    "published": 0,
+    "access": 1,
+    "types": [
+      13
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.provisionqa_blog",
+    "list_templates": [
+      "nexus_editorial.provisionqa_blog"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "nexusqa2 · Offres d’emploi",
+    "alias": "nexusqa2-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      14
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusqa2_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusqa2_jobs"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "nexusqa2 · Forum",
+    "alias": "nexusqa2-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      15
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_crystal.nexusqa2_forum",
+    "list_templates": [
+      "nexus_crystal.nexusqa2_forum"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "nexusqa2 · Académie Innovation",
+    "alias": "nexusqa2-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      16
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusqa2_courses",
+    "list_templates": [
+      "nexus_academy.nexusqa2_courses"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "nexusqa2 · Leçons",
+    "alias": "nexusqa2-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      17
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa2_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusqa2_lessons"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "nexusqa2 · Entreprises",
+    "alias": "nexusqa2-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      18
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa2_companies",
+    "list_templates": [
+      "nexus_editorial.nexusqa2_companies"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "nexusqa2 · Candidatures",
+    "alias": "nexusqa2-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      19
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusqa2_applications",
+    "list_templates": [
+      "default.nexusqa2_applications"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "nexusqa2 · Publications",
+    "alias": "nexusqa2-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      20
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa2_blog",
+    "list_templates": [
+      "nexus_editorial.nexusqa2_blog"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "nexusqa51 · Offres d’emploi",
+    "alias": "nexusqa51-jobs",
+    "published": 0,
+    "access": 1,
+    "types": [
+      21
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusqa51_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusqa51_jobs"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "nexusqa51 · Forum",
+    "alias": "nexusqa51-forum",
+    "published": 0,
+    "access": 1,
+    "types": [
+      22
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_crystal.nexusqa51_forum",
+    "list_templates": [
+      "nexus_crystal.nexusqa51_forum"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "nexusqa51 · Académie Innovation",
+    "alias": "nexusqa51-courses",
+    "published": 0,
+    "access": 1,
+    "types": [
+      23
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusqa51_courses",
+    "list_templates": [
+      "nexus_academy.nexusqa51_courses"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "nexusqa51 · Leçons",
+    "alias": "nexusqa51-lessons",
+    "published": 0,
+    "access": 1,
+    "types": [
+      24
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa51_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusqa51_lessons"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "nexusqa51 · Entreprises",
+    "alias": "nexusqa51-companies",
+    "published": 0,
+    "access": 1,
+    "types": [
+      25
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa51_companies",
+    "list_templates": [
+      "nexus_editorial.nexusqa51_companies"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "nexusqa51 · Candidatures",
+    "alias": "nexusqa51-applications",
+    "published": 0,
+    "access": 1,
+    "types": [
+      26
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusqa51_applications",
+    "list_templates": [
+      "default.nexusqa51_applications"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "nexusqa51 · Publications",
+    "alias": "nexusqa51-blog",
+    "published": 0,
+    "access": 1,
+    "types": [
+      27
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusqa51_blog",
+    "list_templates": [
+      "nexus_editorial.nexusqa51_blog"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "nexusdemo · Offres d’emploi",
+    "alias": "nexusdemo-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      163
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo_jobs"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "nexusdemo · Forum",
+    "alias": "nexusdemo-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      164
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo_forum",
+    "list_templates": [
+      "nexus_connect.nexusdemo_forum"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "nexusdemo · Académie Innovation",
+    "alias": "nexusdemo-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      165
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo_courses"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "nexusdemo · Leçons",
+    "alias": "nexusdemo-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      166
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo_lessons"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "nexusdemo · Entreprises",
+    "alias": "nexusdemo-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      167
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo_companies"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "nexusdemo · Candidatures",
+    "alias": "nexusdemo-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      168
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo_applications",
+    "list_templates": [
+      "default.nexusdemo_applications"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "nexusdemo · Publications",
+    "alias": "nexusdemo-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      169
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo_blog"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "nexusdemo · Ressources & Produits",
+    "alias": "nexusdemo-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      170
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo_resources"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "nexusdemo561 · Offres d’emploi",
+    "alias": "nexusdemo561-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      171
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo561_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo561_jobs"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "nexusdemo561 · Forum",
+    "alias": "nexusdemo561-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      172
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo561_forum",
+    "list_templates": [
+      "nexus_connect.nexusdemo561_forum"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "nexusdemo561 · Académie Innovation",
+    "alias": "nexusdemo561-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      173
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo561_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo561_courses"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "nexusdemo561 · Leçons",
+    "alias": "nexusdemo561-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      174
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo561_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo561_lessons"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "nexusdemo561 · Entreprises",
+    "alias": "nexusdemo561-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      175
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo561_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo561_companies"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "nexusdemo561 · Candidatures",
+    "alias": "nexusdemo561-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      176
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo561_applications",
+    "list_templates": [
+      "default.nexusdemo561_applications"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "nexusdemo561 · Publications",
+    "alias": "nexusdemo561-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      177
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo561_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo561_blog"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "nexusdemo561 · Ressources & Produits",
+    "alias": "nexusdemo561-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      178
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo561_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo561_resources"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "nexusdemo57 · Offres d’emploi",
+    "alias": "nexusdemo57-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      179
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo57_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo57_jobs"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "nexusdemo57 · Forum",
+    "alias": "nexusdemo57-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      180
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo57_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo57_forum"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "nexusdemo57 · Académie Innovation",
+    "alias": "nexusdemo57-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      181
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo57_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo57_courses"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "nexusdemo57 · Leçons",
+    "alias": "nexusdemo57-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      182
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_lessons"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "nexusdemo57 · Entreprises",
+    "alias": "nexusdemo57-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      183
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_companies"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "nexusdemo57 · Candidatures",
+    "alias": "nexusdemo57-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      184
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo57_applications",
+    "list_templates": [
+      "default.nexusdemo57_applications"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "nexusdemo57 · Publications",
+    "alias": "nexusdemo57-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      185
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo57_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo57_blog"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "nexusdemo57 · Ressources & Produits",
+    "alias": "nexusdemo57-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      186
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_resources"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "nexusdemo57 · Catalogue des compétences",
+    "alias": "nexusdemo57-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      187
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_skills"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "nexusdemo57 · Passeports privés",
+    "alias": "nexusdemo57-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      188
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_passports"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "nexusdemo57 · Espaces & guildes",
+    "alias": "nexusdemo57-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      189
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_hubs"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "nexusdemo57 · Mises en situation",
+    "alias": "nexusdemo57-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      190
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57_simulations"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "nexusdemo57b · Offres d’emploi",
+    "alias": "nexusdemo57b-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      203
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo57b_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo57b_jobs"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "nexusdemo57b · Forum",
+    "alias": "nexusdemo57b-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      204
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo57b_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo57b_forum"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "nexusdemo57b · Académie Innovation",
+    "alias": "nexusdemo57b-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      205
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo57b_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo57b_courses"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "nexusdemo57b · Leçons",
+    "alias": "nexusdemo57b-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      206
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_lessons"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "nexusdemo57b · Entreprises",
+    "alias": "nexusdemo57b-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      207
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_companies"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "nexusdemo57b · Candidatures",
+    "alias": "nexusdemo57b-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      208
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo57b_applications",
+    "list_templates": [
+      "default.nexusdemo57b_applications"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "nexusdemo57b · Publications",
+    "alias": "nexusdemo57b-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      209
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo57b_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo57b_blog"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "nexusdemo57b · Ressources & Produits",
+    "alias": "nexusdemo57b-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      210
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_resources"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "nexusdemo57b · Catalogue des compétences",
+    "alias": "nexusdemo57b-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      211
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_skills"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "nexusdemo57b · Passeports privés",
+    "alias": "nexusdemo57b-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      212
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_passports"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "nexusdemo57b · Espaces & guildes",
+    "alias": "nexusdemo57b-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      213
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_hubs"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "nexusdemo57b · Mises en situation",
+    "alias": "nexusdemo57b-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      214
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57b_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57b_simulations"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "nexusdemo57final · Offres d’emploi",
+    "alias": "nexusdemo57final-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      215
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo57final_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo57final_jobs"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "nexusdemo57final · Forum",
+    "alias": "nexusdemo57final-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      216
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo57final_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo57final_forum"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "nexusdemo57final · Académie Innovation",
+    "alias": "nexusdemo57final-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      217
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo57final_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo57final_courses"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "nexusdemo57final · Leçons",
+    "alias": "nexusdemo57final-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      218
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_lessons"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "nexusdemo57final · Entreprises",
+    "alias": "nexusdemo57final-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      219
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_companies"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "nexusdemo57final · Candidatures",
+    "alias": "nexusdemo57final-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      220
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo57final_applications",
+    "list_templates": [
+      "default.nexusdemo57final_applications"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "nexusdemo57final · Publications",
+    "alias": "nexusdemo57final-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      221
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo57final_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo57final_blog"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "nexusdemo57final · Ressources & Produits",
+    "alias": "nexusdemo57final-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      222
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_resources"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "nexusdemo57final · Catalogue des compétences",
+    "alias": "nexusdemo57final-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      223
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_skills"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "nexusdemo57final · Passeports privés",
+    "alias": "nexusdemo57final-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      224
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_passports"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "nexusdemo57final · Espaces & guildes",
+    "alias": "nexusdemo57final-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      225
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_hubs"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "nexusdemo57final · Mises en situation",
+    "alias": "nexusdemo57final-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      226
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57final_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57final_simulations"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "nexusdemo57release · Offres d’emploi",
+    "alias": "nexusdemo57release-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      227
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo57release_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo57release_jobs"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "nexusdemo57release · Forum",
+    "alias": "nexusdemo57release-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      228
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo57release_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo57release_forum"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "nexusdemo57release · Académie Innovation",
+    "alias": "nexusdemo57release-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      229
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo57release_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo57release_courses"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "nexusdemo57release · Leçons",
+    "alias": "nexusdemo57release-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      230
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_lessons"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "nexusdemo57release · Entreprises",
+    "alias": "nexusdemo57release-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      231
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_companies"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "nexusdemo57release · Candidatures",
+    "alias": "nexusdemo57release-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      232
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo57release_applications",
+    "list_templates": [
+      "default.nexusdemo57release_applications"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "nexusdemo57release · Publications",
+    "alias": "nexusdemo57release-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      233
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo57release_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo57release_blog"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "nexusdemo57release · Ressources & Produits",
+    "alias": "nexusdemo57release-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      234
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_resources"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "nexusdemo57release · Catalogue des compétences",
+    "alias": "nexusdemo57release-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      235
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_skills"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "nexusdemo57release · Passeports privés",
+    "alias": "nexusdemo57release-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      236
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_passports"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "nexusdemo57release · Espaces & guildes",
+    "alias": "nexusdemo57release-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      237
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_hubs"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "nexusdemo57release · Mises en situation",
+    "alias": "nexusdemo57release-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      238
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_simulations"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "nexusdemo57release · Projets & preuves",
+    "alias": "nexusdemo57release-proofs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      239
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57release_proofs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57release_proofs"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "nexusdemo57pack · Offres d’emploi",
+    "alias": "nexusdemo57pack-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      240
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo57pack_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo57pack_jobs"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "nexusdemo57pack · Forum",
+    "alias": "nexusdemo57pack-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      241
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo57pack_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo57pack_forum"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "nexusdemo57pack · Académie Innovation",
+    "alias": "nexusdemo57pack-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      242
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo57pack_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo57pack_courses"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "nexusdemo57pack · Leçons",
+    "alias": "nexusdemo57pack-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      243
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_lessons"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "nexusdemo57pack · Entreprises",
+    "alias": "nexusdemo57pack-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      244
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_companies"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "nexusdemo57pack · Candidatures",
+    "alias": "nexusdemo57pack-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      245
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo57pack_applications",
+    "list_templates": [
+      "default.nexusdemo57pack_applications"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "nexusdemo57pack · Publications",
+    "alias": "nexusdemo57pack-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      246
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo57pack_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo57pack_blog"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "nexusdemo57pack · Ressources & Produits",
+    "alias": "nexusdemo57pack-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      247
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_resources"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "nexusdemo57pack · Catalogue des compétences",
+    "alias": "nexusdemo57pack-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      248
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_skills"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "nexusdemo57pack · Passeports privés",
+    "alias": "nexusdemo57pack-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      249
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_passports"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "nexusdemo57pack · Espaces & guildes",
+    "alias": "nexusdemo57pack-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      250
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_hubs"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "nexusdemo57pack · Mises en situation",
+    "alias": "nexusdemo57pack-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      251
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_simulations"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "nexusdemo57pack · Projets & preuves",
+    "alias": "nexusdemo57pack-proofs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      252
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo57pack_proofs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo57pack_proofs"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "nexusdemo58pack · Offres d’emploi",
+    "alias": "nexusdemo58pack-jobs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      279
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_strict_jobs.nexusdemo58pack_jobs",
+    "list_templates": [
+      "nexus_strict_jobs.nexusdemo58pack_jobs"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "nexusdemo58pack · Forum",
+    "alias": "nexusdemo58pack-forum",
+    "published": 1,
+    "access": 1,
+    "types": [
+      280
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_multivers.nexusdemo58pack_forum",
+    "list_templates": [
+      "nexus_multivers.nexusdemo58pack_forum"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "nexusdemo58pack · Académie Innovation",
+    "alias": "nexusdemo58pack-courses",
+    "published": 1,
+    "access": 1,
+    "types": [
+      281
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_academy.nexusdemo58pack_courses",
+    "list_templates": [
+      "nexus_academy.nexusdemo58pack_courses"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "nexusdemo58pack · Leçons",
+    "alias": "nexusdemo58pack-lessons",
+    "published": 1,
+    "access": 1,
+    "types": [
+      282
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_lessons",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_lessons"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "nexusdemo58pack · Entreprises",
+    "alias": "nexusdemo58pack-companies",
+    "published": 1,
+    "access": 1,
+    "types": [
+      283
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_companies",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_companies"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "nexusdemo58pack · Candidatures",
+    "alias": "nexusdemo58pack-applications",
+    "published": 1,
+    "access": 1,
+    "types": [
+      284
+    ],
+    "forum_shell": false,
+    "markup_template": "default.nexusdemo58pack_applications",
+    "list_templates": [
+      "default.nexusdemo58pack_applications"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "nexusdemo58pack · Publications",
+    "alias": "nexusdemo58pack-blog",
+    "published": 1,
+    "access": 1,
+    "types": [
+      285
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_connect.nexusdemo58pack_blog",
+    "list_templates": [
+      "nexus_connect.nexusdemo58pack_blog"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "nexusdemo58pack · Ressources & Produits",
+    "alias": "nexusdemo58pack-resources",
+    "published": 1,
+    "access": 1,
+    "types": [
+      286
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_resources",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_resources"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "nexusdemo58pack · Catalogue des compétences",
+    "alias": "nexusdemo58pack-skills",
+    "published": 1,
+    "access": 1,
+    "types": [
+      287
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_skills",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_skills"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "nexusdemo58pack · Passeports privés",
+    "alias": "nexusdemo58pack-passports",
+    "published": 1,
+    "access": 1,
+    "types": [
+      288
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_passports",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_passports"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "nexusdemo58pack · Espaces & guildes",
+    "alias": "nexusdemo58pack-hubs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      289
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_hubs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_hubs"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "nexusdemo58pack · Mises en situation",
+    "alias": "nexusdemo58pack-simulations",
+    "published": 1,
+    "access": 1,
+    "types": [
+      290
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_simulations",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_simulations"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "nexusdemo58pack · Projets & preuves",
+    "alias": "nexusdemo58pack-proofs",
+    "published": 1,
+    "access": 1,
+    "types": [
+      291
+    ],
+    "forum_shell": false,
+    "markup_template": "nexus_editorial.nexusdemo58pack_proofs",
+    "list_templates": [
+      "nexus_editorial.nexusdemo58pack_proofs"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Méta-Hub Geniuspace",
+    "alias": "geniuspace-forum7",
+    "published": 1,
+    "access": 1,
+    "types": [
+      296
+    ],
+    "forum_shell": true,
+    "markup_template": "nexus_forum7.forum7",
+    "list_templates": [
+      "nexus_forum7.forum7"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Membres historiques · migration privée",
+    "alias": "geniuspace-membres-historiques-prives",
+    "published": 1,
+    "access": 3,
+    "types": [
+      305
+    ],
+    "forum_shell": false,
+    "markup_template": "default",
+    "list_templates": "default"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "family": "components",
+    "name": "All Video Share",
+    "version": "4.5.0",
+    "type": "component",
+    "file": "components/com_allvideoshare/allvideoshare.xml"
+  },
+  {
+    "family": "components",
+    "name": "JMap",
+    "version": "4.30",
+    "type": "component",
+    "file": "components/com_jmap/jmap.xml"
+  },
+  {
+    "family": "components",
+    "name": "JSitemap",
+    "version": "4.30",
+    "type": "module",
+    "file": "components/com_jmap/modules/admin/mod_jmapquickicon.xml"
+  },
+  {
+    "family": "components",
+    "name": "JSitemap module",
+    "version": "4.30",
+    "type": "module",
+    "file": "components/com_jmap/modules/site/mod_jmap.xml"
+  },
+  {
+    "family": "components",
+    "name": "System - JSitemap utilities",
+    "version": "4.30",
+    "type": "plugin",
+    "file": "components/com_jmap/plugin/jmap.xml"
+  },
+  {
+    "family": "components",
+    "name": "Content - JSitemap Pingomatic",
+    "version": "4.30",
+    "type": "plugin",
+    "file": "components/com_jmap/pluginping/pingomatic.xml"
+  },
+  {
+    "family": "components",
+    "name": "com_joomcck",
+    "version": "6.4.2.199",
+    "type": "component",
+    "file": "components/com_joomcck/joomcck.xml"
+  },
+  {
+    "family": "components",
+    "name": "com_joomsubscription",
+    "version": "6.0.0.1",
+    "type": "component",
+    "file": "components/com_joomsubscription/joomsubscription.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideosharecarousel",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideosharecarousel/mod_allvideosharecarousel.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideosharegallery",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideosharegallery/mod_allvideosharegallery.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideoshareplayer",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideoshareplayer/mod_allvideoshareplayer.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideoshareplaylist",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideoshareplaylist/mod_allvideoshareplaylist.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideosharesearch",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideosharesearch/mod_allvideosharesearch.xml"
+  },
+  {
+    "family": "modules",
+    "name": "mod_allvideoshareyoutube",
+    "version": "4.5.0",
+    "type": "module",
+    "file": "modules/mod_allvideoshareyoutube/mod_allvideoshareyoutube.xml"
+  },
+  {
+    "family": "modules",
+    "name": "Joomcck - Module - Categories",
+    "version": "6.4.2",
+    "type": "module",
+    "file": "modules/mod_joomcck_category/mod_joomcck_category.xml"
+  },
+  {
+    "family": "modules",
+    "name": "Joomcck - Module - Filters",
+    "version": "6.4.2",
+    "type": "module",
+    "file": "modules/mod_joomcck_filters/mod_joomcck_filters.xml"
+  },
+  {
+    "family": "modules",
+    "name": "Joomcck - Module - Records",
+    "version": "6.4.2",
+    "type": "module",
+    "file": "modules/mod_joomcck_records/mod_joomcck_records.xml"
+  },
+  {
+    "family": "modules",
+    "name": "Joomcck - Module - Submit Button",
+    "version": "6.4.2",
+    "type": "module",
+    "file": "modules/mod_joomcck_submitbutton/mod_joomcck_submitbutton.xml"
+  },
+  {
+    "family": "modules",
+    "name": "Joomcck - Module - Tag Cloud",
+    "version": "6.4.2",
+    "type": "module",
+    "file": "modules/mod_joomcck_tagcloud/mod_joomcck_tagcloud.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "plg_content_allvideoshareyoutube",
+    "version": "4.5.0",
+    "type": "plugin",
+    "file": "plugins/plg_allvideoshareyoutube/allvideoshareyoutube.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "plg_editors-xtd_allvideoshareyoutube",
+    "version": "4.5.0",
+    "type": "plugin",
+    "file": "plugins/plg_allvideoshareyoutube_xtd/allvideoshareyoutube.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "plg_content_allvideoshareplayer",
+    "version": "4.5.0",
+    "type": "plugin",
+    "file": "plugins/plg_content_allvideoshareplayer/allvideoshareplayer.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "Content - JoomCCK Glossary",
+    "version": "6.4.2",
+    "type": "plugin",
+    "file": "plugins/plg_content_glossary/glossary.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "Content - Plugin - Review/Discuss with Joomcck 8",
+    "version": "6.4.2",
+    "type": "plugin",
+    "file": "plugins/plg_content_joomcck/joomcck.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "plg_finder_allvideoshare",
+    "version": "4.5.0",
+    "type": "plugin",
+    "file": "plugins/plg_finder_allvideoshare/allvideoshare.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "plg_finder_joomcck",
+    "version": "6.4.2",
+    "type": "plugin",
+    "file": "plugins/plg_finder_joomcck/joomcck.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "Search - Joomcck",
+    "version": "6.4.2",
+    "type": "plugin",
+    "file": "plugins/plg_search_joomcck/joomcck.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "System - Joomcck",
+    "version": "6.4.2",
+    "type": "plugin",
+    "file": "plugins/plg_system_joomcck/joomcck.xml"
+  },
+  {
+    "family": "plugins",
+    "name": "User - Geniuspace native account identity",
+    "version": "1.0.0",
+    "type": "plugin",
+    "file": "plugins/user/geniuspaceidentity/geniuspaceidentity.xml"
+  },
+  {
+    "family": "templates",
+    "name": "geniuspace",
+    "version": "1.1.1",
+    "type": "template",
+    "file": "templates/geniuspace/templateDetails.xml"
+  },
+  {
+    "family": "templates",
+    "name": "nexus_canvas",
+    "version": "5.0.0",
+    "type": "template",
+    "file": "templates/nexus_canvas/templateDetails.xml"
+  }
+]

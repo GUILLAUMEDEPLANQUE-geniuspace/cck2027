@@ -1,0 +1,118 @@
+{
+  "api_version": "1.1",
+  "document_version": 1,
+  "scopes": [
+    "universe",
+    "company",
+    "record",
+    "form"
+  ],
+  "features": {
+    "same_page_editor": true,
+    "lazy_author_assets": true,
+    "native_module_discovery": "modules",
+    "responsive_draft_preview": true,
+    "optional_native_removal": true,
+    "native_menu_overrides": true,
+    "video_field": "gpavsvideo",
+    "video_modules": [
+      "mod_allvideosharecarousel",
+      "mod_allvideosharegallery",
+      "mod_allvideoshareplayer",
+      "mod_allvideoshareplaylist",
+      "mod_allvideosharesearch",
+      "mod_allvideoshareyoutube"
+    ],
+    "native_discovery_slots": [
+      "universe-heading",
+      "universe-announcements",
+      "universe-featured",
+      "universe-stage",
+      "universe-tools"
+    ],
+    "native_sidebar_slots": [
+      "sidebar-featured",
+      "sidebar-assistant",
+      "sidebar-compass",
+      "sidebar-business",
+      "sidebar-connections",
+      "sidebar-more",
+      "sidebar-other"
+    ],
+    "native_slot_groups": {
+      "discovery": [
+        "universe-heading",
+        "universe-announcements",
+        "universe-featured",
+        "universe-stage",
+        "universe-tools"
+      ],
+      "sidebar": [
+        "sidebar-featured",
+        "sidebar-assistant",
+        "sidebar-compass",
+        "sidebar-business",
+        "sidebar-connections",
+        "sidebar-more",
+        "sidebar-other"
+      ]
+    },
+    "native_detached_slots": [
+      "community-highlights",
+      "community-related"
+    ],
+    "native_editorial_content": true
+  },
+  "regions": [
+    "header",
+    "left",
+    "main",
+    "right",
+    "footer"
+  ],
+  "sources": [
+    "current",
+    "record",
+    "category",
+    "parents",
+    "children",
+    "relations",
+    "universe"
+  ],
+  "writes": [
+    "save",
+    "publish",
+    "restore",
+    "unpublish",
+    "preview",
+    "composition.append",
+    "library.import",
+    "form.repeat.create"
+  ],
+  "authentication": "Native Joomla session; POST requires X-Geniuspace-CSRF and same-origin request. Authorizations are rechecked on every operation.",
+  "libraries": {
+    "format": "JSON v1",
+    "renderers": "Vetted native bases; parameter defaults and typed bindings. Import does not execute PHP or JavaScript.",
+    "trusted_plugins": "Installed Joomla plugins may register a namespaced provider through Geniuspace\\DesignLibrary::register."
+  },
+  "forms": {
+    "fields": "Native field IDs, once each; omitted layout fields remain in the original native form.",
+    "repeat": "Native gpsubform schema and server validation; complex media/relations retain their own native controls.",
+    "submission": "Original form.save/record model, native ACL, validators, editors, files and CSRF."
+  },
+  "seo": {
+    "server_html": true,
+    "native_canonical": true,
+    "native_parent_child_links": true,
+    "sponsored_link_relation": true,
+    "private_field_projection": false
+  },
+  "limits": {
+    "blocks": 240,
+    "document_bytes": 500000,
+    "menu_depth": 3,
+    "repeat_rows": 100,
+    "repeat_schema_fields": 100
+  },
+  "guidance": "Inspect capabilities, read the authorized document and revision, generate typed changes, preview, then save or publish. Never overwrite a stale revision or fabricate activity, reviews or financial results."
+}

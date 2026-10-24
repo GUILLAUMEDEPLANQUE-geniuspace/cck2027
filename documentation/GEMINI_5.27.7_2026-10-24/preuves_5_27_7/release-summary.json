@@ -1,0 +1,101 @@
+{
+  "version": "5.27.7",
+  "native": {
+    "passed": 2817,
+    "articles": 240,
+    "topics": 180,
+    "members": 450
+  },
+  "http": {
+    "native_pages": 24,
+    "sitemap_editorial_pages_and_covers": 420,
+    "passed": 737
+  },
+  "browser": {
+    "passed": 147,
+    "errors": [],
+    "universes": 12,
+    "desktop_mobile": true,
+    "mode_switch_navigation_requests": 0,
+    "mode_switch_median_ms": 181.5
+  },
+  "installation": {
+    "passed": 340,
+    "failures": [],
+    "sha256": "7307646a5bac5e405b53b82fd0aad2757499a1e1dcf31e2e6a725fbc50ac6e66"
+  },
+  "members": {
+    "accounts": 450,
+    "profiles": 450,
+    "native_fields": 27,
+    "unique_generated_password_hashes": 450,
+    "blocked": 450,
+    "require_reset": 450,
+    "registered_only": true,
+    "existing_users_and_groups_unchanged": true,
+    "public_profiles": 0,
+    "verified_claims": 0,
+    "mail_sent": 0
+  },
+  "ancestor_security": {
+    "passed": 5,
+    "checks": [
+      "Published child below an unpublished parent is excluded from the guest projection, including for an administrator",
+      "Restoring the native parent publication restores public visibility",
+      "A private ancestor hides an otherwise public child and record from public exports",
+      "CLI mutations bypass request memoization",
+      "Mutation reads remain fresh"
+    ]
+  },
+  "privacy": {
+    "source_matches_built_manifest": true,
+    "imported_emails_or_shared_password_in_package": false,
+    "import_files_bundled": false,
+    "private_jobs_bundled": false,
+    "runtime_profiler_removed": true
+  },
+  "performance": {
+    "blog": {
+      "queries": 1335,
+      "sql_seconds": 0.882,
+      "peak_memory_MiB": 64,
+      "unprofiled_seconds": [
+        3.443,
+        3.091,
+        2.497
+      ],
+      "median_seconds": 3.091,
+      "response_bytes": 545468
+    },
+    "forum": {
+      "queries": 1728,
+      "sql_seconds": 0.705,
+      "peak_memory_MiB": 68,
+      "unprofiled_seconds": [
+        3.964,
+        4.165,
+        4.076
+      ],
+      "median_seconds": 4.076,
+      "response_bytes": 601209
+    }
+  },
+  "production_modified": false,
+  "topic_resume": {
+    "passed": 5,
+    "checks": [
+      "Pending import reuses all fifteen native topic identities",
+      "Pending body and relations complete before publication",
+      "Completed native values remain byte-identical",
+      "Resume does not expand or rewrite native field dictionaries",
+      "A completed topic unpublished by the owner stays unpublished on reimport"
+    ]
+  },
+  "public_check": {
+    "tested_historical_photo_http": 200,
+    "tested_collection_photo_http": 404,
+    "sitemap_get": "timeout",
+    "sitemap_head_retry": "timeout",
+    "production_modified": false
+  }
+}

@@ -1,3 +1,7 @@
+## Dossier technique pour Gemini · 24 octobre 2026
+
+[TXT autonome à transmettre à Gemini](GENIUSPACE_A_TRANSMETTRE_A_GEMINI_5.27.7.txt) · [Dossier complet ZIP](GENIUSPACE_DOSSIER_GEMINI_5.27.7_2026-10-24.zip) · [Plan technique et cartes](documentation/GEMINI_5.27.7_2026-10-24/00_LISEZ_MOI.md). Documentation de la version 5.27.7, avec cartes de fonctions, expressions SQL, API, schéma structurel et extraits critiques. Données des membres et secrets exclus.
+
 ## Version 5.27.7
 
 [ZIP complet 5.27.7](NEXUS_5.27.7.zip) · [Installation, images et migration des membres](README-5.27.7.md). Les deux packs d’images 5.27.6 restent nécessaires s’ils ne sont pas déjà installés. Aucun fichier d’import de membres ni donnée personnelle n’est distribué.

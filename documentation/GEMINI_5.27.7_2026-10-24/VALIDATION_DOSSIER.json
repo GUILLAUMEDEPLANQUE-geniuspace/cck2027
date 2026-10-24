@@ -1,0 +1,12 @@
+{
+  "checks_passed": 36253,
+  "source_matches_release_all_files": true,
+  "source_files_checked": 8987,
+  "functions_anchors_checked": 9197,
+  "private_import_emails_and_passwords_present": false,
+  "actual_user_or_record_rows_exported": false,
+  "site_source_modified": false,
+  "production_accessed_for_this_documentation": false,
+  "validation": "Artifact consistency and privacy checks, not a new site functional/security audit",
+  "source_tree_sha256": "3f06452a16e1bb724b174e41f86eef4a53aa5807bff836c8f40403bae377aafd"
+}

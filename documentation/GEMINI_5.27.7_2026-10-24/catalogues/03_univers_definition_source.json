@@ -1,0 +1,1495 @@
+{
+  "jeux_video": {
+    "key": "jeux_video",
+    "shortName": "1. Jeux Vidéo",
+    "layoutName": "🏆 Modèle : JeuxVideo.com + IGN + Metacritic + Steam",
+    "icon": "fa-gamepad",
+    "color": "#FF5500",
+    "sefPath": "/hub/jeux-video",
+    "aiAgent": {
+      "name": "Agent Télémétrie Steam/PSN & Benchmark FPS",
+      "role": "Vérifie >15h de jeu réel via API Steam/PSN avant de valider une note /20 et calcule les FPS par GPU."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+    "title": "Jeux Vidéo, Consoles & PC : Grands Tests (/20), Guides, Soluces & Forums par Console",
+    "level2Categories": [
+      {
+        "name": "Consoles de Salon & Portables",
+        "icon": "fa-tv",
+        "slug": "consoles",
+        "subcategories": [
+          {
+            "name": "PlayStation 5 & PS5 Pro",
+            "icon": "fa-brands fa-playstation"
+          },
+          {
+            "name": "Nintendo Switch & Switch 2",
+            "icon": "fa-gamepad"
+          },
+          {
+            "name": "Xbox Series X|S & Game Pass",
+            "icon": "fa-brands fa-xbox"
+          },
+          {
+            "name": "Steam Deck OLED & ROG Ally",
+            "icon": "fa-tablet-screen-button"
+          },
+          {
+            "name": "Rétrogaming & Bornes Arcade",
+            "icon": "fa-ghost"
+          }
+        ]
+      },
+      {
+        "name": "PC Gaming, GPU & Écrans",
+        "icon": "fa-microchip",
+        "slug": "pc-hardware",
+        "subcategories": [
+          {
+            "name": "Cartes Graphiques RTX & Radeon",
+            "icon": "fa-memory"
+          },
+          {
+            "name": "Écrans OLED 240Hz / 360Hz",
+            "icon": "fa-desktop"
+          },
+          {
+            "name": "Claviers Custom & Souris Esport",
+            "icon": "fa-keyboard"
+          },
+          {
+            "name": "Optimisation FPS, Mods & Shaders",
+            "icon": "fa-gauge-high"
+          }
+        ]
+      },
+      {
+        "name": "Genres de Jeux & Esport",
+        "icon": "fa-dragon",
+        "slug": "genres",
+        "subcategories": [
+          {
+            "name": "RPG, JRPG & Action-RPG (Elden Ring, GTA VI)",
+            "icon": "fa-wand-sparkles"
+          },
+          {
+            "name": "FPS & Shooters Compétitifs (CS2, Valorant)",
+            "icon": "fa-crosshairs"
+          },
+          {
+            "name": "MMORPG, MOBA & Versus Fighting",
+            "icon": "fa-shield-halved"
+          },
+          {
+            "name": "Raids Playtests Rémunérés (15€/h)",
+            "icon": "fa-coins"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "jeux_video-1",
+        "title": "Simulateur « Can My PC/Console Run It »",
+        "icon": "fa-gauge-high",
+        "badge": "Outil #1 • Benchmark FPS",
+        "description": "Testez votre console ou GPU sur Elden Ring & GTA VI :",
+        "kind": "jeux_video-1",
+        "desc": "Vérifiez vos FPS réels mesurés avant d’acheter un jeu :",
+        "badgeClass": "bg-orange-100 text-orange-800",
+        "iconColor": "text-orange-600 bg-orange-50"
+      },
+      {
+        "id": "jeux_video-2",
+        "title": "Voter pour la Note Joueurs (/20)",
+        "icon": "fa-star",
+        "badge": "Outil #2 • Note Certifiée",
+        "description": "Exige >15h de jeu réel vérifié pour noter sur 20 :",
+        "kind": "jeux_video-2",
+        "desc": "Temps de jeu vérifié via Steam/PSN (>15h requises) :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "jeux_video-3",
+        "title": "Trouver une Escouade Vocale Ce Soir",
+        "icon": "fa-headset",
+        "badge": "Outil #3 • Coéquipiers LFG",
+        "description": "Rejoignez un groupe vocal PS5, Switch 2 ou PC :",
+        "kind": "jeux_video-3",
+        "desc": "Joueurs en ligne par console, jeu et niveau :",
+        "badgeClass": "bg-indigo-100 text-indigo-800",
+        "iconColor": "text-indigo-600 bg-indigo-50"
+      },
+      {
+        "id": "jeux_video-4",
+        "title": "Inscriptions aux Playtests Avant-Première",
+        "icon": "fa-gamepad",
+        "badge": "Outil #4 • Playtests Studios",
+        "description": "Testez un serveur 45 min ce soir à 21h :",
+        "kind": "jeux_video-4",
+        "desc": "Testez les prochains jeux des studios pendant 45 min :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Optimiser sa configuration à 120 FPS et rejoindre les Playtests Studios",
+        "steps": [
+          "1. Tester sa config dans le simulateur FPS",
+          "2. Consulter le guide d’optimisation écran/GPU",
+          "3. S’inscrire au Playtest de la semaine"
+        ]
+      }
+    ],
+    "intentGraph": "Croise les joueurs passionnés (heures Steam/PSN prouvées) avec leur pouvoir d’achat certifié pour les studios et marques RTX/OLED.",
+    "primary_formats": [
+      "review",
+      "video",
+      "gaming",
+      "playtest"
+    ],
+    "legacy_aliases": [
+      "loisirs-gaming-guildes"
+    ],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "emploi": {
+    "key": "emploi",
+    "shortName": "2. Emploi & Carrières",
+    "layoutName": "🏆 Modèle : Welcome to the Jungle + Levels.fyi + Malt",
+    "icon": "fa-briefcase",
+    "color": "#4F46E5",
+    "sefPath": "/hub/emploi-carrieres",
+    "aiAgent": {
+      "name": "Agent Transparence Salariale OCR & Anti-Ghosting 48h",
+      "role": "Caviarde les fiches de paie PDF en local, convertit CDI ↔ TJM et garantit une réponse RH sous 48h."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+    "title": "Emploi, Salaires Vérifiés & Carrières : Offres Immersives (WTTJ), Switch CDI ↔ TJM & Tests 5 min",
+    "level2Categories": [
+      {
+        "name": "Offres d’Emploi par Métier",
+        "icon": "fa-file-signature",
+        "slug": "offres",
+        "subcategories": [
+          {
+            "name": "Tech, Backend Go/Rust, IA & Cyber",
+            "icon": "fa-code"
+          },
+          {
+            "name": "Commerce B2B, Account Executive & Produit",
+            "icon": "fa-handshake"
+          },
+          {
+            "name": "Artisanat, BTP, Énergie & Industrie",
+            "icon": "fa-helmet-safety"
+          },
+          {
+            "name": "Santé, Médical, Finance & Juridique",
+            "icon": "fa-user-doctor"
+          }
+        ]
+      },
+      {
+        "name": "Fiches Entreprises & Open Office",
+        "icon": "fa-building",
+        "slug": "entreprises",
+        "subcategories": [
+          {
+            "name": "Photos des Bureaux & Vidéos d’Équipe",
+            "icon": "fa-camera"
+          },
+          {
+            "name": "Café Virtuel 15 min avec un Pair (Sans RH)",
+            "icon": "fa-mug-hot"
+          },
+          {
+            "name": "Avis Vérifiés & Alertes Faux Remote",
+            "icon": "fa-triangle-exclamation"
+          }
+        ]
+      },
+      {
+        "name": "Salaires OCR & Académie 5 min",
+        "icon": "fa-sack-dollar",
+        "slug": "salaires",
+        "subcategories": [
+          {
+            "name": "Grilles Salariales Vérifiées OCR (Levels.fyi)",
+            "icon": "fa-chart-line"
+          },
+          {
+            "name": "Convertisseur Instantané CDI ↔ TJM",
+            "icon": "fa-repeat"
+          },
+          {
+            "name": "Académie : Débloquer un Entretien sans CV",
+            "icon": "fa-graduation-cap"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "emploi-1",
+        "title": "Convertisseur Instantané CDI ↔ TJM Freelance",
+        "icon": "fa-repeat",
+        "badge": "Outil #1 • CDI ↔ Freelance",
+        "description": "Convertissez un package annuel en tarif journalier HT :",
+        "kind": "emploi-1",
+        "desc": "Affichez toutes les offres en salaire annuel ou en tarif/jour :",
+        "badgeClass": "bg-indigo-100 text-indigo-800",
+        "iconColor": "text-indigo-600 bg-indigo-50"
+      },
+      {
+        "id": "emploi-2",
+        "title": "Comparateur de Salaire Anonymisé",
+        "icon": "fa-chart-simple",
+        "badge": "Outil #2 • Baromètre Salarial",
+        "description": "Caviardage local sans fuite de nom :",
+        "kind": "emploi-2",
+        "desc": "Situez votre rémunération par rapport aux contrats vérifiés :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "emploi-3",
+        "title": "Réserver un « Café Virtuel 15 min » avec l’Équipe",
+        "icon": "fa-mug-hot",
+        "badge": "Outil #3 • Sans Filtre RH",
+        "description": "Zéro filtre RH, parlez directement à l’équipe :",
+        "kind": "emploi-3",
+        "desc": "Échangez directement avec un futur collègue avant de postuler :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "emploi-4",
+        "title": "Test Pratique Académie 5 min",
+        "icon": "fa-graduation-cap",
+        "badge": "Outil #4 • Zéro CV",
+        "description": "Validez un cas pratique métier de 5 minutes :",
+        "kind": "emploi-4",
+        "desc": "Prouvez votre compétence métier et accédez directement à l’entretien :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Décrocher un poste Senior ou une mission TJM sans tri de CV",
+        "steps": [
+          "1. Simuler son salaire ou TJM sur l’offre",
+          "2. Réserver 15 min de Café Virtuel avec l’équipe",
+          "3. Valider le test pratique de 5 min"
+        ]
+      }
+    ],
+    "intentGraph": "Met en relation directe les talents ayant validé un badge de l’Académie avec les entreprises engagées sur une réponse en 48h.",
+    "primary_formats": [
+      "discussion",
+      "finance",
+      "review",
+      "expert"
+    ],
+    "legacy_aliases": [
+      "emploi-metiers"
+    ],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "pays_expat": {
+    "key": "pays_expat",
+    "shortName": "3. Pays & Immobilier",
+    "layoutName": "🏆 Modèle : NomadList + Airbnb + Idealista / AkiyaMart",
+    "icon": "fa-earth-asia",
+    "color": "#10B981",
+    "sefPath": "/hub/pays-expatriation",
+    "aiAgent": {
+      "name": "Agent Coût de la Vie, Visas & Résidents ZK-GPS",
+      "role": "Certifie que les avis proviennent de vrais résidents (>180j GPS) et chiffre les travaux d’Akiyas."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+    "title": "Pays, Expatriation & Immobilier : Comparateur de Villes (NomadList) & Maisons Akiyas à 42 000 €",
+    "level2Categories": [
+      {
+        "name": "Asie de l’Est & Pacifique",
+        "icon": "fa-torii-gate",
+        "slug": "asie",
+        "subcategories": [
+          {
+            "name": "Japon (Kyoto, Tokyo, Osaka, Kamakura)",
+            "icon": "fa-yen-sign"
+          },
+          {
+            "name": "Chine (Shenzhen, Shanghai, Yiwu) & Corée",
+            "icon": "fa-city"
+          },
+          {
+            "name": "Thaïlande (Bangkok, Chiang Mai) & Bali",
+            "icon": "fa-umbrella-beach"
+          }
+        ]
+      },
+      {
+        "name": "Europe, Moyen-Orient & Amériques",
+        "icon": "fa-landmark-dome",
+        "slug": "europe",
+        "subcategories": [
+          {
+            "name": "Espagne (Valence, Madrid & Loi Beckham 24%)",
+            "icon": "fa-sun"
+          },
+          {
+            "name": "Portugal (Lisbonne, Madère) & Suisse",
+            "icon": "fa-water"
+          },
+          {
+            "name": "Émirats (Dubaï), USA & Canada",
+            "icon": "fa-building-columns"
+          }
+        ]
+      },
+      {
+        "name": "Maisons Akiyas, Visas & Coalitions",
+        "icon": "fa-house-chimney-window",
+        "slug": "akiyas-visas",
+        "subcategories": [
+          {
+            "name": "Maisons Traditionnelles Akiyas à vendre (Japon)",
+            "icon": "fa-key"
+          },
+          {
+            "name": "Visas Digital Nomad & Fiscalité Internationale",
+            "icon": "fa-passport"
+          },
+          {
+            "name": "Coalitions Vols & Hôtels Groupés (-35%)",
+            "icon": "fa-plane-departure"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "pays_expat-1",
+        "title": "Comparateur Coût de la Vie (Ville A vs Ville B)",
+        "icon": "fa-scale-balanced",
+        "badge": "Outil #1 • NomadList Live",
+        "description": "Kyoto (1 890€/mois) vs Paris (+32% grâce au Yen) :",
+        "kind": "pays_expat-1",
+        "desc": "Kyoto (1 890 €/mois) vs Paris (+28% de pouvoir d’achat) :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "pays_expat-2",
+        "title": "Simulateur Clé-en-Main Maison Akiya (Achat + Travaux)",
+        "icon": "fa-house-chimney",
+        "badge": "Outil #2 • Budget Akiya",
+        "description": "42k€ achat + 14k€ rénovation - 5k€ subvention = 51k€ :",
+        "kind": "pays_expat-2",
+        "desc": "42 000 € achat + 14 000 € rénovation - 5 000 € aide locale :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "pays_expat-3",
+        "title": "Appel Vidéo 15 min avec un Expatrié sur Place",
+        "icon": "fa-video",
+        "badge": "Outil #3 • Résidents Vérifiés",
+        "description": "64 résidents vérifiés par preuve GPS à Tokyo/Kyoto :",
+        "kind": "pays_expat-3",
+        "desc": "Posez vos questions à un résident installé depuis >6 mois :",
+        "badgeClass": "bg-blue-100 text-blue-800",
+        "iconColor": "text-blue-600 bg-blue-50"
+      },
+      {
+        "id": "pays_expat-4",
+        "title": "Groupement d’Achat Vols & Ryokans (-35%)",
+        "icon": "fa-plane-departure",
+        "badge": "Outil #4 • Voyage Groupé",
+        "description": "Enchères inversées sur les vols et Ryokans :",
+        "kind": "pays_expat-4",
+        "desc": "184 voyageurs inscrits pour négocier les tarifs :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Préparer son expatriation ou son achat de maison Akiya au Japon",
+        "steps": [
+          "1. Lire le dossier complet #104 en Mode Lecture",
+          "2. Échanger 15 min en visio avec un résident sur place",
+          "3. Rejoindre le groupement d’achat voyage/immo"
+        ]
+      }
+    ],
+    "intentGraph": "Croise les expatriés et acheteurs d’Akiyas (pouvoir d’achat certifié) avec les compagnies aériennes, banques multi-devises et architectes.",
+    "primary_formats": [
+      "country-guide",
+      "article",
+      "buying-pool",
+      "expert"
+    ],
+    "legacy_aliases": [
+      "remote-life-immo-expatriation"
+    ],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "artisanat": {
+    "key": "artisanat",
+    "shortName": "4. Boutique Japon",
+    "layoutName": "🏆 Modèle : UniversDuJapon.com + Etsy + Drop (Group-Buy)",
+    "icon": "fa-torii-gate",
+    "color": "#DC2626",
+    "sefPath": "/hub/boutiques-artisanat-japon",
+    "aiAgent": {
+      "name": "Agent Poinçon de Forge Seki & Zéro-Dropshipping",
+      "role": "Authentifie les poinçons des forgerons de Seki/Sakai et céramistes de Mino, et garantit le prix direct atelier."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=1200&q=80",
+    "title": "Boutique & Artisanat du Japon : Couteaux de Seki, Kimonos Haori, Théières Fonte & Vaisselle Mino",
+    "level2Categories": [
+      {
+        "name": "Vêtements Traditionnels & Mode",
+        "icon": "fa-shirt",
+        "slug": "mode-kimonos",
+        "subcategories": [
+          {
+            "name": "Kimonos Homme & Femme, Yukata & Jinbei",
+            "icon": "fa-vest"
+          },
+          {
+            "name": "Vestes Haori, Happi & Cardigans Brodés",
+            "icon": "fa-fire"
+          },
+          {
+            "name": "Sandales Geta, Zori, Tabi & Ceintures Obi",
+            "icon": "fa-socks"
+          }
+        ]
+      },
+      {
+        "name": "Coutellerie de Seki & Art de la Table",
+        "icon": "fa-kitchen-set",
+        "slug": "coutellerie-table",
+        "subcategories": [
+          {
+            "name": "Couteaux Forgés à Seki (Santoku, Gyuto, Damas VG10)",
+            "icon": "fa-utensils"
+          },
+          {
+            "name": "Bols à Ramen, Vaisselle Mino-Yaki & Baguettes",
+            "icon": "fa-bowl-rice"
+          },
+          {
+            "name": "Boîtes Bento Bois Wappa & Services à Saké",
+            "icon": "fa-box"
+          }
+        ]
+      },
+      {
+        "name": "Art du Thé, Déco Noren & Porte-Bonheur",
+        "icon": "fa-mug-saucer",
+        "slug": "the-deco",
+        "subcategories": [
+          {
+            "name": "Thé Matcha Cérémoniel d’Uji & Théières Fonte Tetsubin",
+            "icon": "fa-leaf"
+          },
+          {
+            "name": "Rideaux Noren, Poupées Kokeshi & Lanternes",
+            "icon": "fa-fan"
+          },
+          {
+            "name": "Daruma, Amulettes Omamori & Encens Kyoto",
+            "icon": "fa-clover"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "artisanat-1",
+        "title": "Vérificateur d’Origine & Poinçon de Forge",
+        "icon": "fa-certificate",
+        "badge": "Outil #1 • Authenticité",
+        "description": "Certifie l’atelier japonais et l’acier HRC réel :",
+        "kind": "artisanat-1",
+        "desc": "Certifie la fabrication réelle à Seki, Sakai, Mino ou Kyoto :",
+        "badgeClass": "bg-red-100 text-red-800",
+        "iconColor": "text-red-600 bg-red-50"
+      },
+      {
+        "id": "artisanat-2",
+        "title": "Configurateur de Box Japon Sur-Mesure (-40%)",
+        "icon": "fa-gift",
+        "badge": "Outil #2 • Coffret Cadeau",
+        "description": "1 Santoku + 2 Bols Ramen + Matcha Uji :",
+        "kind": "artisanat-2",
+        "desc": "1 Santoku + 2 Bols Ramen + Matcha d’Uji + Omamori :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "artisanat-3",
+        "title": "Jauge de l’Expédition Groupée Kyoto ➔ France",
+        "icon": "fa-truck-fast",
+        "badge": "Outil #3 • Suivi Groupé",
+        "description": "88% rempli (214 membres • Douane incluse) :",
+        "kind": "artisanat-3",
+        "desc": "88% rempli • Livraison offerte dès 60 € d’achat :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "artisanat-4",
+        "title": "Guide d’Acier (HRC) & Entretien Pierre à Eau 15°",
+        "icon": "fa-kitchen-set",
+        "badge": "Outil #4 • Guide Acier",
+        "description": "Angle d’affûtage japonais à 15° sur pierre à eau :",
+        "kind": "artisanat-4",
+        "desc": "Comparez VG-10, SG2 et Carbone Aogami Super :",
+        "badgeClass": "bg-slate-200 text-slate-800",
+        "iconColor": "text-slate-700 bg-slate-100"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Équiper sa cuisine et son intérieur en véritable artisanat japonais (-40%)",
+        "steps": [
+          "1. Choisir ses pièces dans la grille Direct Atelier",
+          "2. Vérifier le certificat d’origine de la manufacture",
+          "3. Profiter de l’expédition groupée sans frais de douane"
+        ]
+      }
+    ],
+    "intentGraph": "Connecte les acheteurs d’artisanat japonais directement aux manufactures de Seki, Kyoto, Iwate et Uji.",
+    "primary_formats": [
+      "buying-pool",
+      "review",
+      "video",
+      "partner"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "business": {
+    "key": "business",
+    "shortName": "5. Business & Statuts",
+    "layoutName": "🏆 Modèle : Dougs / Indy + Stripe Atlas + Acquire.com",
+    "icon": "fa-chart-pie",
+    "color": "#0EA5E9",
+    "sefPath": "/hub/business-entreprise",
+    "aiAgent": {
+      "name": "Agent CFO (SASU/EURL/Holding) & Arbitre Deal Room B2B",
+      "role": "Simule l’optimisation fiscale Mère-Fille (95% exonéré) et sécurise les commissions d’apporteurs d’affaires."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+    "title": "Business, Statuts Juridiques (SASU / Holding), Comptabilité & Opportunités B2B",
+    "level2Categories": [
+      {
+        "name": "Statuts Juridiques, Holding & Fiscalité",
+        "icon": "fa-scale-balanced",
+        "slug": "statuts-holding",
+        "subcategories": [
+          {
+            "name": "Holding Patrimoniale (Mère-Fille & Apport-Cession)",
+            "icon": "fa-sitemap"
+          },
+          {
+            "name": "Comparatif Micro-Entreprise vs EURL vs SASU",
+            "icon": "fa-calculator"
+          },
+          {
+            "name": "Bilans, Trésorerie, TVA & Optimisation URSSAF",
+            "icon": "fa-file-invoice-dollar"
+          },
+          {
+            "name": "Sociétés Internationales (LLC US, Estonie, Dubaï)",
+            "icon": "fa-globe"
+          }
+        ]
+      },
+      {
+        "name": "Vente B2B, Prospection & Deal Room",
+        "icon": "fa-bullseye",
+        "slug": "vente-b2b",
+        "subcategories": [
+          {
+            "name": "Prospection Cold Call, Cold Email & Closing B2B",
+            "icon": "fa-phone-volume"
+          },
+          {
+            "name": "Deal Room : Primes Apporteurs d’Affaires (Escrow)",
+            "icon": "fa-handshake-simple"
+          },
+          {
+            "name": "Création SaaS, E-Commerce D2C & Levée VC",
+            "icon": "fa-rocket"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "business-1",
+        "title": "Simulateur Net en Poche : EURL vs SASU vs Holding",
+        "icon": "fa-calculator",
+        "badge": "Outil #1 • Simulateur Net",
+        "description": "140 000 € CA ➔ +11 420 €/an via Holding Mère-Fille :",
+        "kind": "business-1",
+        "desc": "Calculez vos charges URSSAF, votre IS et votre trésorerie nette :",
+        "badgeClass": "bg-sky-100 text-sky-800",
+        "iconColor": "text-sky-600 bg-sky-50"
+      },
+      {
+        "id": "business-2",
+        "title": "Espace Apporteurs d’Affaires & Partenariats B2B",
+        "icon": "fa-handshake",
+        "badge": "Outil #2 • Réseau B2B",
+        "description": "38 primes actives (1 500 € moyens par intro qualifiée) :",
+        "kind": "business-2",
+        "desc": "38 opportunités de mise en relation commerciale actives :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "business-3",
+        "title": "Bibliothèque de Contrats & Tableaux Financiers (78/22)",
+        "icon": "fa-file-contract",
+        "badge": "Outil #3 • Modèles Pro",
+        "description": "Prouvez votre tranche de CA (>250k€) sans révéler votre Siren :",
+        "kind": "business-3",
+        "desc": "Statuts, conventions mère-fille et prévisionnels Excel :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "business-4",
+        "title": "Auditeur IA de Proposition Commerciale & Cold Email",
+        "icon": "fa-microphone-lines",
+        "badge": "Outil #4 • Coach Pitch IA",
+        "description": "Testez votre script face à notre acheteur B2B IA :",
+        "kind": "business-4",
+        "desc": "Améliorez votre taux de signature B2B en 30 secondes :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Structurer sa société (SASU / Holding) et développer ses ventes B2B",
+        "steps": [
+          "1. Comparer EURL, SASU et Holding sur son CA",
+          "2. Télécharger les modèles de statuts et conventions",
+          "3. Publier ses offres ou ressources sur GeniusDrive (78/22)"
+        ]
+      }
+    ],
+    "intentGraph": "Cible les dirigeants et solopreneurs au CA certifié par OCR pour les banques pro, experts-comptables et éditeurs SaaS.",
+    "primary_formats": [
+      "business",
+      "finance",
+      "partner",
+      "expert"
+    ],
+    "legacy_aliases": [
+      "business-vente-gestion"
+    ],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "investissement": {
+    "key": "investissement",
+    "shortName": "6. Investissement",
+    "layoutName": "🏆 Modèle : Finary + JustETF + Avenue des Investisseurs",
+    "icon": "fa-chart-line",
+    "color": "#8B5CF6",
+    "sefPath": "/hub/investissement-patrimoine",
+    "aiAgent": {
+      "name": "Agent Preuve ZK Portefeuille & Calculateur TRI Net",
+      "role": "Vérifie en Read-Only que l’auteur détient réellement l’actif recommandé et calcule le TRI net après impôts."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    "title": "Investissement & Patrimoine : Bourse (PEA / ETF), Immobilier Locatif (LMNP), SCPI & Intérêts Composés",
+    "level2Categories": [
+      {
+        "name": "Bourse, PEA, ETF & Cryptomonnaies",
+        "icon": "fa-coins",
+        "slug": "bourse-crypto",
+        "subcategories": [
+          {
+            "name": "PEA & ETF (MSCI World, S&P 500, Stratégie DCA)",
+            "icon": "fa-globe"
+          },
+          {
+            "name": "Bitcoin, Ethereum, DeFi & Rendement USDC",
+            "icon": "fa-brands fa-ethereum"
+          },
+          {
+            "name": "Sécurité Cold Wallet (Ledger) & Fiscalité Flat-Tax",
+            "icon": "fa-shield-halved"
+          }
+        ]
+      },
+      {
+        "name": "Immobilier Locatif & Club-Deals Multi-Sig",
+        "icon": "fa-building-circle-check",
+        "slug": "immo-clubdeals",
+        "subcategories": [
+          {
+            "name": "Colocation LMNP au Réel & Immeubles de Rapport",
+            "icon": "fa-bed"
+          },
+          {
+            "name": "SCPI Européennes & Crédit Bancaire",
+            "icon": "fa-landmark"
+          },
+          {
+            "name": "Club-Deals Private Equity Fractionnés (dès 2 500€)",
+            "icon": "fa-users-viewfinder"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "investissement-1",
+        "title": "Calculateur d’Intérêts Composés & TRI Net",
+        "icon": "fa-chart-line",
+        "badge": "Outil #1 • Intérêts Composés",
+        "description": "Prouvez que vous détenez l’actif sans révéler votre solde :",
+        "kind": "investissement-1",
+        "desc": "500 €/mois à 8%/an sur PEA = 294 500 € en 20 ans :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      },
+      {
+        "id": "investissement-2",
+        "title": "Simulateur de Rendement Locatif (LMNP / Colocation)",
+        "icon": "fa-house-laptop",
+        "badge": "Outil #2 • Cashflow Immo",
+        "description": "Rendement net après fiscalité sur 10 ans :",
+        "kind": "investissement-2",
+        "desc": "Calculez votre mensualité, l’amortissement et le cashflow :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "investissement-3",
+        "title": "Scanner de Frais d’Assurance-Vie & Banques",
+        "icon": "fa-magnifying-glass-dollar",
+        "badge": "Outil #3 • Frais Cachés",
+        "description": "64 investisseurs mutualisent 320k€ / 400k€ :",
+        "kind": "investissement-3",
+        "desc": "Repérez les frais de gestion qui amputent votre performance :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "investissement-4",
+        "title": "Allocateur Patrimonial selon votre Profil",
+        "icon": "fa-Compass",
+        "badge": "Outil #4 • Portefeuille Type",
+        "description": "Bâtissez votre réputation d’analyste vérifié :",
+        "kind": "investissement-4",
+        "desc": "Prudent, Équilibré ou Dynamique :",
+        "badgeClass": "bg-indigo-100 text-indigo-800",
+        "iconColor": "text-indigo-600 bg-indigo-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Construire un portefeuille diversifié et performant sans frais abusifs",
+        "steps": [
+          "1. Simuler son plan d’épargne mensuel (DCA)",
+          "2. Comparer PEA ETF et Immobilier LMNP",
+          "3. Éliminer les frais bancaires superflus"
+        ]
+      }
+    ],
+    "intentGraph": "Cible les investisseurs disposant de >50k€ à >500k€ d’actifs vérifiés par preuve ZK pour les CGP, courtiers et promoteurs.",
+    "primary_formats": [
+      "finance",
+      "article",
+      "discussion",
+      "buying-pool"
+    ],
+    "legacy_aliases": [
+      "investissement-patrimoine"
+    ],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "traditions": {
+    "key": "traditions",
+    "shortName": "7. Herbier & Traditions",
+    "layoutName": "🏆 Modèle : Herboristerie du Palais Royal + Atlas Obscura",
+    "icon": "fa-leaf",
+    "color": "#7C3AED",
+    "sefPath": "/hub/traditions-herboristerie",
+    "aiAgent": {
+      "name": "Agent Sécurité Botanique, Gemmologie Optique & NASA JPL",
+      "role": "Détecte les faux cristaux en verre teinté, vérifie les contre-indications des plantes et calcule les transits NASA."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "title": "Herboristerie Officinale (Validée Pharmacien), Minéraux Naturels, Encens de Kyoto & Traditions",
+    "level2Categories": [
+      {
+        "name": "Herboristerie Officinale, Grimoires & Encens",
+        "icon": "fa-mortar-pestle",
+        "slug": "herboristerie",
+        "subcategories": [
+          {
+            "name": "Plantes Médicinales du Sommeil (Validé Pharmacien)",
+            "icon": "fa-seedling"
+          },
+          {
+            "name": "Grimoires Historiques, Alchimie & Folklore",
+            "icon": "fa-book-journal-whills"
+          },
+          {
+            "name": "Encens Naturels de Kyoto (Koh-Do : Jinkoh, Santal)",
+            "icon": "fa-fire-flame-simple"
+          }
+        ]
+      },
+      {
+        "name": "Lithothérapie, Cristaux & Éphémérides NASA",
+        "icon": "fa-gem",
+        "slug": "mineraux-astro",
+        "subcategories": [
+          {
+            "name": "Géodes d’Améthyste, Cristaux Bruts & Spectrométrie",
+            "icon": "fa-microscope"
+          },
+          {
+            "name": "Éphémérides Astronomiques NASA JPL & Cycles Lunaires",
+            "icon": "fa-moon"
+          },
+          {
+            "name": "Tarot, Astrologie Sidérale & Oracles Scellés SHA-256",
+            "icon": "fa-star-and-crescent"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "traditions-1",
+        "title": "Vérificateur d’Interactions & Précautions Botaniques",
+        "icon": "fa-mortar-pestle",
+        "badge": "Outil #1 • Sécurité Labo",
+        "description": "Spectrométrie et biréfringence des minéraux :",
+        "kind": "traditions-1",
+        "desc": "Contrôlé par Docteur en Pharmacie :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "traditions-2",
+        "title": "Guide d’Authenticité des Pierres & Minéraux",
+        "icon": "fa-gem",
+        "badge": "Outil #2 • Gemmologie",
+        "description": "Contrôlé par Docteur en Pharmacie :",
+        "kind": "traditions-2",
+        "desc": "Distinguez les minéraux naturels des verres teintés :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      },
+      {
+        "id": "traditions-3",
+        "title": "Éphéméride Astronomique & Phase Lunaire du Jour",
+        "icon": "fa-moon",
+        "badge": "Outil #3 • NASA En Direct",
+        "description": "Phase lunaire exacte et indice géomagnétique K :",
+        "kind": "traditions-3",
+        "desc": "Calculé en temps réel sur les données astronomiques :",
+        "badgeClass": "bg-indigo-100 text-indigo-800",
+        "iconColor": "text-indigo-600 bg-indigo-50"
+      },
+      {
+        "id": "traditions-4",
+        "title": "Coffret Découverte Tisanes Bio & Encens Kyoto",
+        "icon": "fa-box-open",
+        "badge": "Outil #4 • Coffret Herboristerie",
+        "description": "Plantes entières bio non broyées + Livret dosages :",
+        "kind": "traditions-4",
+        "desc": "Plantes entières non broyées + livret de préparation :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Créer sa routine du soir naturelle avec l’herboristerie officinale",
+        "steps": [
+          "1. Vérifier les plantes adaptées à son profil",
+          "2. Respecter la température d’infusion (85°C)",
+          "3. Commander en direct herboristerie bio"
+        ]
+      }
+    ],
+    "intentGraph": "Connecte les passionnés d’herboristerie, de minéralogie et d’encens japonais aux herboristeries officinales certifiées.",
+    "primary_formats": [
+      "article",
+      "review",
+      "expert",
+      "images"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "paranormal": {
+    "key": "paranormal",
+    "shortName": "8. Enquêtes & UAP",
+    "layoutName": "🏆 Modèle : Bellingcat (OSINT) + FlightRadar24 + GEIPAN",
+    "icon": "fa-satellite-dish",
+    "color": "#06B6D4",
+    "sefPath": "/hub/paranormal-osint",
+    "aiAgent": {
+      "name": "Agent Forensique C2PA (0% IA) & Corrélation Ciel ADS-B/Starlink",
+      "role": "Rejette tout montage Midjourney/Sora et croise l’heure/GPS de la vidéo avec les radars aériens et Starlink."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+    "title": "Enquêtes OSINT, Observations Aériennes (UAP) & Mystères : Vérification Optique (0% IA) & Radars",
+    "level2Categories": [
+      {
+        "name": "Observations UAP & Preuve Matérielle C2PA",
+        "icon": "fa-video",
+        "slug": "uap",
+        "subcategories": [
+          {
+            "name": "Vidéos Brutes Capteur Optique C2PA (0% IA)",
+            "icon": "fa-camera-rotate"
+          },
+          {
+            "name": "Croisement Radars ADS-B & Satellites Starlink",
+            "icon": "fa-satellite"
+          },
+          {
+            "name": "Rapports Officiels Déclassifiés (GEIPAN, Pentagone)",
+            "icon": "fa-folder-open"
+          }
+        ]
+      },
+      {
+        "name": "Enquêtes OSINT, Urbex & Micro-Coops",
+        "icon": "fa-user-secret",
+        "slug": "osint",
+        "subcategories": [
+          {
+            "name": "Micro-Coops de Fact-Checking (Coffre 200€)",
+            "icon": "fa-users-gear"
+          },
+          {
+            "name": "Lieux Hantés, Urbex & Spectre Audio/EMF",
+            "icon": "fa-dungeon"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "paranormal-1",
+        "title": "Analyseur de Métadonnées Photo/Vidéo (Sans IA)",
+        "icon": "fa-shield-halved",
+        "badge": "Outil #1 • Anti-Montage IA",
+        "description": "Vérifie la signature matérielle du capteur Sony/Apple :",
+        "kind": "paranormal-1",
+        "desc": "Vérifie l’authenticité du capteur optique (Sony/Apple) :",
+        "badgeClass": "bg-cyan-100 text-cyan-900",
+        "iconColor": "text-cyan-600 bg-cyan-50"
+      },
+      {
+        "id": "paranormal-2",
+        "title": "Corrélateur Ciel (Avions ADS-B + Starlink)",
+        "icon": "fa-satellite",
+        "badge": "Outil #2 • Radar Ciel",
+        "description": "Élimine 92% des méprises célestes en 1 clic :",
+        "kind": "paranormal-2",
+        "desc": "Écarte 92% des méprises célestes selon l’heure et le lieu :",
+        "badgeClass": "bg-emerald-100 text-emerald-900",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "paranormal-3",
+        "title": "Rejoindre le Groupe d’Analyse Collaborative",
+        "icon": "fa-users-gear",
+        "badge": "Outil #3 • Équipe OSINT",
+        "description": "4/5 analystes réunis (Optique, Radar, Audio, Météo) :",
+        "kind": "paranormal-3",
+        "desc": "Optique, Radar, Météo et Acoustique :",
+        "badgeClass": "bg-amber-100 text-amber-900",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "paranormal-4",
+        "title": "Annotateur Vidéo à la Seconde Près",
+        "icon": "fa-stopwatch",
+        "badge": "Outil #4 • Timecode",
+        "description": "Ancrez vos preuves sur le timestamp exact :",
+        "kind": "paranormal-4",
+        "desc": "Commentez une image précise de la séquence :",
+        "badgeClass": "bg-purple-100 text-purple-900",
+        "iconColor": "text-purple-600 bg-purple-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Vérifier méthodiquement une observation aérienne en 3 étapes",
+        "steps": [
+          "1. Contrôler le fichier brut avec le détecteur Anti-IA",
+          "2. Vérifier les passages d’avions ADS-B et Starlink",
+          "3. Publier ses conclusions horodatées"
+        ]
+      }
+    ],
+    "intentGraph": "Croise les passionnés d’OSINT, d’astronomie et d’optique nocturne avec les marques d’équipement spécialisé.",
+    "primary_formats": [
+      "fact-check",
+      "video",
+      "images",
+      "discussion"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "manga": {
+    "key": "manga",
+    "shortName": "9. Manga & Pop Culture",
+    "layoutName": "🏆 Modèle : MyAnimeList + AniList + Cardmarket",
+    "icon": "fa-book-open-reader",
+    "color": "#EC4899",
+    "sefPath": "/hub/manga-pop-culture",
+    "aiAgent": {
+      "name": "Agent Spoiler-Shield Chrono-Sync & Machine à Oracles",
+      "role": "Floute automatiquement tout post supérieur à votre chapitre actuel et horodate vos théories en SHA-256."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+    "title": "Manga, Anime & Pop Culture : Curseur Anti-Spoiler par Chapitre, Théories Horodatées & Cartes TCG",
+    "level2Categories": [
+      {
+        "name": "Manga, Manhwa & Théories Oracles",
+        "icon": "fa-mask",
+        "slug": "manga",
+        "subcategories": [
+          {
+            "name": "Shonen (One Piece, JJK, Chainsaw Man)",
+            "icon": "fa-bolt"
+          },
+          {
+            "name": "Seinen (Berserk, Kingdom, Vinland Saga)",
+            "icon": "fa-skull"
+          },
+          {
+            "name": "Théories Scellées SHA-256 & Spoiler-Shield",
+            "icon": "fa-wand-magic-sparkles"
+          }
+        ]
+      },
+      {
+        "name": "Cartes TCG, Figurines & Studios Anime",
+        "icon": "fa-clone",
+        "slug": "tcg",
+        "subcategories": [
+          {
+            "name": "One Piece Card Game & Pokémon PSA 10",
+            "icon": "fa-award"
+          },
+          {
+            "name": "Figurines Résine Collector & Studios Animation",
+            "icon": "fa-film"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "manga-1",
+        "title": "Curseur Personnel « Bouclier Anti-Spoiler »",
+        "icon": "fa-shield-halved",
+        "badge": "Outil #1 • Zéro Spoiler",
+        "description": "Floute tout chapitre supérieur à votre progression :",
+        "kind": "manga-1",
+        "desc": "Masque tout contenu supérieur à votre chapitre actuel :",
+        "badgeClass": "bg-pink-100 text-pink-800",
+        "iconColor": "text-pink-600 bg-pink-50"
+      },
+      {
+        "id": "manga-2",
+        "title": "Boîte à Théories Horodatées (« Je l’avais prédit »)",
+        "icon": "fa-wand-magic-sparkles",
+        "badge": "Outil #2 • Théories",
+        "description": "Prouvez votre prédiction avant la sortie officielle :",
+        "kind": "manga-2",
+        "desc": "Enregistrez votre théorie avant la sortie officielle du chapitre :",
+        "badgeClass": "bg-purple-100 text-purple-800",
+        "iconColor": "text-purple-600 bg-purple-50"
+      },
+      {
+        "id": "manga-3",
+        "title": "Argus & Cote des Cartes TCG (One Piece / Pokémon)",
+        "icon": "fa-clone",
+        "badge": "Outil #3 • Argus Cartes",
+        "description": "Dernières ventes certifiées sans contrefaçon :",
+        "kind": "manga-3",
+        "desc": "Prix moyens constatés sur les ventes réelles :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "manga-4",
+        "title": "Guide d’Identification des Vraies Figurines & Cartes",
+        "icon": "fa-magnifying-glass",
+        "badge": "Outil #4 • Anti-Contrefaçon",
+        "description": "Enrichissez les fiches de chapitres :",
+        "kind": "manga-4",
+        "desc": "Repérez les contrefaçons (bootlegs) avant d’acheter :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Suivre ses œuvres préférées sans spoiler et collectionner au juste prix",
+        "steps": [
+          "1. Régler son curseur Anti-Spoiler",
+          "2. Partager ses théories horodatées",
+          "3. Vérifier la cote officielle avant tout achat TCG"
+        ]
+      }
+    ],
+    "intentGraph": "Croise les collectionneurs de Mangas, Cartes TCG et Figurines avec les boutiques d’import japonais.",
+    "primary_formats": [
+      "discussion",
+      "review",
+      "video",
+      "article"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "gastronomie": {
+    "key": "gastronomie",
+    "shortName": "10. Gastro & Couteaux",
+    "layoutName": "🏆 Modèle : Knifewear + ChefSteps + Le Fooding / Michelin",
+    "icon": "fa-bowl-food",
+    "color": "#B45309",
+    "sefPath": "/hub/gastronomie-cuisine",
+    "aiAgent": {
+      "name": "Agent Sommelier, Métallurgie HRC & Addition OCR",
+      "role": "Vérifie les tickets de restaurant par OCR (zéro faux avis) et guide l’affûtage japonais à 15°."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1200&q=80",
+    "title": "Gastronomie, Coutellerie Japonaise, Art du Thé & Critiques Restaurants Certifiées par Addition",
+    "level2Categories": [
+      {
+        "name": "Coutellerie Japonaise & Techniques Culinaires",
+        "icon": "fa-utensils",
+        "slug": "coutellerie-cuisine",
+        "subcategories": [
+          {
+            "name": "Aciers Japonais (VG10, SG2, Aogami) & Pierres à Eau 15°",
+            "icon": "fa-gem"
+          },
+          {
+            "name": "Bouillons Ramen, Dashi, Fermentation & Levain",
+            "icon": "fa-fire-burner"
+          }
+        ]
+      },
+      {
+        "name": "Restaurants Certifiés OCR & Thés Grands Crus",
+        "icon": "fa-receipt",
+        "slug": "restaurants-the",
+        "subcategories": [
+          {
+            "name": "Critiques Restaurants 100% Certifiées par Addition OCR",
+            "icon": "fa-check-double"
+          },
+          {
+            "name": "Matcha d’Uji, Café de Spécialité, Saké & Whisky Japonais",
+            "icon": "fa-wine-glass"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "gastronomie-1",
+        "title": "Vérificateur d’Addition de Restaurant",
+        "icon": "fa-receipt",
+        "badge": "Outil #1 • Zéro Faux Avis",
+        "description": "Seuls les vrais clients avec ticket peuvent noter :",
+        "kind": "gastronomie-1",
+        "desc": "Seuls les vrais clients ayant photographié leur ticket peuvent noter :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-700 bg-amber-50"
+      },
+      {
+        "id": "gastronomie-2",
+        "title": "Sélecteur de Grain de Pierre à Eau & Acier HRC",
+        "icon": "fa-kitchen-set",
+        "badge": "Outil #2 • Affûtage 15°",
+        "description": "Aogami Super (64 HRC) ➔ Pierre #1000 + #5000 :",
+        "kind": "gastronomie-2",
+        "desc": "Entretien quotidien (#1000) et finition miroir (#5000) :",
+        "badgeClass": "bg-slate-200 text-slate-800",
+        "iconColor": "text-slate-700 bg-slate-100"
+      },
+      {
+        "id": "gastronomie-3",
+        "title": "Achat Groupé Matcha d’Uji & Café de Spécialité",
+        "icon": "fa-mug-hot",
+        "badge": "Outil #3 • Récolte Fraîche",
+        "description": "Import direct des plantations d’Uji (Kyoto) :",
+        "kind": "gastronomie-3",
+        "desc": "Import direct des plantations japonaises :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      },
+      {
+        "id": "gastronomie-4",
+        "title": "Calculateur de Ratios Culinaires (Levain & Ramen)",
+        "icon": "fa-scale-unbalanced",
+        "badge": "Outil #4 • Ratios Chef",
+        "description": "Précision au gramme près :",
+        "kind": "gastronomie-4",
+        "desc": "Hydratation, sel et fermentation au gramme près :",
+        "badgeClass": "bg-orange-100 text-orange-800",
+        "iconColor": "text-orange-600 bg-orange-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Choisir son premier vrai couteau japonais et maîtriser son affûtage",
+        "steps": [
+          "1. Sélectionner sa forme de lame (Santoku 180mm)",
+          "2. Apprendre le maintien de l’angle à 15°",
+          "3. Commander en direct des forges de Seki"
+        ]
+      }
+    ],
+    "intentGraph": "Relie les passionnés de gastronomie et de coutellerie aux forges japonaises, importateurs de thé et tables étoilées.",
+    "primary_formats": [
+      "review",
+      "article",
+      "buying-pool",
+      "video"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "sports": {
+    "key": "sports",
+    "shortName": "11. Sports & Arts Martiaux",
+    "layoutName": "🏆 Modèle : Strava + RunRepeat + Kodokan Judo",
+    "icon": "fa-medal",
+    "color": "#EA580C",
+    "sefPath": "/hub/sports-performance",
+    "aiAgent": {
+      "name": "Agent Biomécanique Vidéo IA & Télémétrie Strava/Garmin",
+      "role": "Calcule le coût réel au km des chaussures sur Strava et vérifie les défis sportifs par montre GPS."
+    },
+    "heroImg": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80",
+    "title": "Sports, Arts Martiaux Japonais (Judo, Karaté, Kendo, JJB) & Running : Tests Matériel & Biomécanique",
+    "level2Categories": [
+      {
+        "name": "Arts Martiaux Japonais & Sports de Combat",
+        "icon": "fa-hand-fist",
+        "slug": "arts-martiaux",
+        "subcategories": [
+          {
+            "name": "Judo, Karaté, Kendo, Aïkido, JJB & MMA",
+            "icon": "fa-yin-yang"
+          },
+          {
+            "name": "Kimonos Keikogi / Judogi, Hakama & Gants",
+            "icon": "fa-shirt"
+          }
+        ]
+      },
+      {
+        "name": "Running, Trail, Vélo & Sports Collectifs",
+        "icon": "fa-person-running",
+        "slug": "running-collectifs",
+        "subcategories": [
+          {
+            "name": "Marathon, Trail & Chronos Certifiés Strava/Garmin",
+            "icon": "fa-stopwatch"
+          },
+          {
+            "name": "Football Data xG, Tennis, Padel & Musculation",
+            "icon": "fa-futbol"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "id": "sports-1",
+        "title": "Comparateur de Coût Réel au Km des Chaussures",
+        "icon": "fa-shoe-prints",
+        "badge": "Outil #1 • Durabilité Réelle",
+        "description": "Basé sur 1 420 capteurs de coureurs vérifiés :",
+        "kind": "sports-1",
+        "desc": "Basé sur la longévité réelle constatée par les coureurs :",
+        "badgeClass": "bg-orange-100 text-orange-800",
+        "iconColor": "text-orange-600 bg-orange-50"
+      },
+      {
+        "id": "sports-2",
+        "title": "Trouver un Partenaire d’Entraînement ou Sparring",
+        "icon": "fa-location-dot",
+        "badge": "Outil #2 • Partenaires 5 km",
+        "description": "Même allure min/km ou même grade martial :",
+        "kind": "sports-2",
+        "desc": "Par allure de course (min/km) ou discipline martiale :",
+        "badgeClass": "bg-indigo-100 text-indigo-800",
+        "iconColor": "text-indigo-600 bg-indigo-50"
+      },
+      {
+        "id": "sports-3",
+        "title": "Défi de Régularité Hebdomadaire (3 séances/semaine)",
+        "icon": "fa-trophy",
+        "badge": "Outil #3 • Défi Régularité",
+        "description": "Gagnez la mise de ceux qui abandonnent (Garmin Sync) :",
+        "kind": "sports-3",
+        "desc": "Rejoignez le groupe de motivation mutuelle :",
+        "badgeClass": "bg-amber-100 text-amber-800",
+        "iconColor": "text-amber-600 bg-amber-50"
+      },
+      {
+        "id": "sports-4",
+        "title": "Analyse Vidéo de Foulée & Posture",
+        "icon": "fa-video",
+        "badge": "Outil #4 • Biomécanique",
+        "description": "Angles articulaires et prévention blessures :",
+        "kind": "sports-4",
+        "desc": "Conseils biomécaniques pour protéger vos articulations :",
+        "badgeClass": "bg-emerald-100 text-emerald-800",
+        "iconColor": "text-emerald-600 bg-emerald-50"
+      }
+    ],
+    "parcours": [
+      {
+        "title": "Préparer un Marathon ou un passage de grade Ceinture Noire sans blessure",
+        "steps": [
+          "1. Choisir son équipement selon sa durabilité réelle",
+          "2. Trouver un partenaire d’entraînement régulier",
+          "3. Suivre le protocole de renforcement sur 8 semaines"
+        ]
+      }
+    ],
+    "intentGraph": "Cible les sportifs assidus (preuves Strava/Garmin) pour les équipementiers, dojos et marques de nutrition.",
+    "primary_formats": [
+      "gaming",
+      "video",
+      "discussion",
+      "playtest"
+    ],
+    "legacy_aliases": [],
+    "source_line": "V23, maquette jointe le 18 octobre 2026"
+  },
+  "tech": {
+    "key": "tech",
+    "shortName": "12. IA, Tech & Sciences",
+    "icon": "fa-microchip",
+    "color": "#0891B2",
+    "sefPath": "/hub/ia-tech-sciences",
+    "layoutName": "Terminal scientifique, code et expériences reproductibles",
+    "title": "IA, Tech, Code & Sciences",
+    "heroImg": "",
+    "legacy_aliases": [],
+    "primary_formats": [
+      "code",
+      "article",
+      "business",
+      "fact-check"
+    ],
+    "level2Categories": [
+      {
+        "name": "Intelligence artificielle & Code",
+        "slug": "ia-code",
+        "icon": "fa-code",
+        "subcategories": [
+          {
+            "name": "Modèles locaux & apprentissage",
+            "icon": "fa-brain"
+          },
+          {
+            "name": "Développement & outils ouverts",
+            "icon": "fa-terminal"
+          }
+        ]
+      },
+      {
+        "name": "Sciences & Expériences",
+        "slug": "sciences",
+        "icon": "fa-flask",
+        "subcategories": [
+          {
+            "name": "Mesures & protocoles reproductibles",
+            "icon": "fa-microscope"
+          },
+          {
+            "name": "Publications & sources scientifiques",
+            "icon": "fa-book"
+          }
+        ]
+      }
+    ],
+    "centralWidgets": [
+      {
+        "title": "Rechercher dans la mémoire commune",
+        "icon": "fa-brain",
+        "id": "tech-1",
+        "kind": "tech-1",
+        "badge": "Widget #1",
+        "description": "Utilisez les ressources et les outils locaux."
+      },
+      {
+        "title": "Sandbox de code",
+        "icon": "fa-code",
+        "id": "tech-2",
+        "kind": "tech-2",
+        "badge": "Widget #2",
+        "description": "Utilisez les ressources et les outils locaux."
+      },
+      {
+        "title": "Benchmarks reproductibles",
+        "icon": "fa-gauge-high",
+        "id": "tech-3",
+        "kind": "tech-3",
+        "badge": "Widget #3",
+        "description": "Utilisez les ressources et les outils locaux."
+      },
+      {
+        "title": "Enquête et sources documentées",
+        "icon": "fa-microscope",
+        "id": "tech-4",
+        "kind": "tech-4",
+        "badge": "Widget #4",
+        "description": "Utilisez les ressources et les outils locaux."
+      }
+    ],
+    "parcours": [
+      {
+        "title": "De la source à une expérience reproductible",
+        "steps": [
+          "1. Choisir une source",
+          "2. Exécuter un protocole",
+          "3. Publier les résultats"
+        ]
+      }
+    ],
+    "aiAgent": {
+      "name": "Assistant local & sources",
+      "role": "Retrouvez les sources accessibles et les résultats évalués dans le cockpit IA."
+    },
+    "intentGraph": "Connecte les auteurs de ressources et les équipes qui souhaitent les étudier."
+  }
+}

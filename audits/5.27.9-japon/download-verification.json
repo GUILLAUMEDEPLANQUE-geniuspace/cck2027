@@ -1,0 +1,20 @@
+{
+  "artifact_commit": "48e69cc",
+  "checks": [
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_JAPON_PUBLICATION_SEO_5.27.9.zip",
+      "status": 200,
+      "bytes": 10477772,
+      "explicit_authentication": false,
+      "sha256": "ffcfe9f5c6d59847dc15a4565a61212eb842727626985b6cf29c031df8681e33",
+      "zip_crc_valid": true
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/README-5.27.9-JAPON.md",
+      "status": 200,
+      "bytes": 242236,
+      "explicit_authentication": false
+    }
+  ],
+  "production_installation": false
+}

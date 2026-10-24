@@ -1,0 +1,28 @@
+{
+  "passed": 15,
+  "checks": [
+    "Page title is thematic and branded",
+    "Visible H1 has the universe keywords",
+    "One active H1",
+    "Real Japanese article cards appear in the magazine",
+    "Magazine is centered with symmetric gutters on a large screen",
+    "Large desktop view uses a three-column article grid",
+    "Original native Japanese illustration decodes",
+    "Collection schema matches the native Japanese cards",
+    "No global horizontal overflow on mobile",
+    "Actual native discussions are present after switching 0",
+    "SEO title follows the mode switch 0",
+    "Actual native discussions are present after switching 1",
+    "SEO title follows the mode switch 1",
+    "Create-topic link retains the exact native Japanese category",
+    "No JavaScript page exceptions"
+  ],
+  "metrics": [
+    {
+      "width": 1600,
+      "left": 269,
+      "right": 269
+    }
+  ],
+  "errors": []
+}

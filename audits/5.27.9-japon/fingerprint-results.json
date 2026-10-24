@@ -1,0 +1,8 @@
+{
+    "passed": 3,
+    "checks": [
+        "Custom source is rejected by the real Joomla installer before publication",
+        "Custom file bytes are preserved",
+        "A rejected update creates no native publication"
+    ]
+}

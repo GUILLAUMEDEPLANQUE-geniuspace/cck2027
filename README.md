@@ -1,3 +1,9 @@
+## Correctif ciblé 5.27.9 — Boutique Japon et Multi-Blog
+
+[Télécharger le ZIP installable 5.27.9](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_JAPON_PUBLICATION_SEO_5.27.9.zip) · [Guide et statut de production](README-5.27.9-JAPON.md) · [Delta technique](TECHNICAL-DELTA-5.27.9-JAPON.md)
+
+Sur la base 5.27.8, ce correctif publie à l’installation les vingt articles et quinze topics Japon manquants, fournit leurs illustrations, centre le magazine et adapte son titre, son H1 et sa description à la catégorie. Testé dans la copie locale. La connexion Joomla configurée étant refusée, aucune installation en production par l’assistant n’est annoncée.
+
 ## Geniuspace 5.27.8 — publications et récupération de l’import SQL
 
 [Télécharger NEXUS_5.27.8.zip](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.8.zip) · [Installation et récupération des 450 comptes SQL / 45 topics](README-5.27.8.md) · [Delta technique pour le développeur](TECHNICAL-DELTA-5.27.8.md)

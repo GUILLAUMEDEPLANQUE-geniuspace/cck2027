@@ -1,0 +1,11 @@
+{
+  "passed": 4,
+  "files": [
+    "script.php",
+    "NexusBlogIndex.php",
+    "UniverseBlueprint.php",
+    "default_list_nexus_forum7.php"
+  ],
+  "result": "PHP syntax valid",
+  "scope": "Targeted correction"
+}

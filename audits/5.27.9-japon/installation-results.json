@@ -1,0 +1,22 @@
+{
+    "passed": 10,
+    "checks": [
+        "Twenty article and fifteen topic targets",
+        "Existing local Japanese collection located for a reversible publication test",
+        "Targeted file extension unpacks",
+        "Actual Joomla installation publishes the native Japanese content",
+        "The installer creates 35 real native records when they are absent",
+        "All new records pass the public native ACL gate",
+        "All unrelated native records remain byte-preserved",
+        "Every topic has a native child relation to its guide",
+        "Reinstallation succeeds with the already-present collection",
+        "Reinstallation does not duplicate topics or articles"
+    ],
+    "messages": [
+        {
+            "message": "Boutique Japon : 20 articles et 15 topics publics vérifiés. Magazine centré et titres SEO contextualisés. Les contenus et réglages personnalisés antérieurs sont conservés.",
+            "type": "info"
+        }
+    ],
+    "scope": "Local real Joomla\/MariaDB installation with actual native publication, followed by cleanup of temporary records"
+}

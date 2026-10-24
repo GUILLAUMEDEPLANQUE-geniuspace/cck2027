@@ -1,0 +1,19 @@
+{
+  "passed": 12,
+  "checks": [
+    "Archive CRC is valid",
+    "Exactly five runtime paths and one hundred images",
+    "Every payload hash matches manifest",
+    "Runtime payload matches final source",
+    "Expected base hashes match frozen 5.27.8",
+    "No path traversal in archive",
+    "No SQL, CSV, credential, cookie or environment file in delivery",
+    "Joomla manifest and native category form are valid XML",
+    "Existing methods preserved: NexusBlogIndex.php",
+    "Existing methods preserved: UniverseBlueprint.php",
+    "Existing methods preserved: default_list_nexus_forum7.php",
+    "Package has only intended files"
+  ],
+  "archive_sha256": "ffcfe9f5c6d59847dc15a4565a61212eb842727626985b6cf29c031df8681e33",
+  "scope": "Targeted artifact verification; no production modification"
+}

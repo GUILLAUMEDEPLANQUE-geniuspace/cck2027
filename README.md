@@ -1,3 +1,9 @@
+## Geniuspace 5.27.8 — publications et récupération de l’import SQL
+
+[Télécharger NEXUS_5.27.8.zip](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/NEXUS_5.27.8.zip) · [Installation et récupération des 450 comptes SQL / 45 topics](README-5.27.8.md) · [Delta technique pour le développeur](TECHNICAL-DELTA-5.27.8.md)
+
+Le correctif est testé localement. Il intègre le renfort IA fourni, corrige le périmètre du Multi-Blog et l’espace des topics, et ajoute la récupération ciblée de l’import SQL. **Aucune suppression de comptes n’a été exécutée sur le site public.**
+
 ## Dossier technique pour Gemini · 24 octobre 2026
 
 [TXT autonome à transmettre à Gemini](GENIUSPACE_A_TRANSMETTRE_A_GEMINI_5.27.7.txt) · [Dossier complet ZIP](GENIUSPACE_DOSSIER_GEMINI_5.27.7_2026-10-24.zip) · [Plan technique et cartes](documentation/GEMINI_5.27.7_2026-10-24/00_LISEZ_MOI.md). Documentation de la version 5.27.7, avec cartes de fonctions, expressions SQL, API, schéma structurel et extraits critiques. Données des membres et secrets exclus.

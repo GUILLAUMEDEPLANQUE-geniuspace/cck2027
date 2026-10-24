@@ -1,0 +1,13 @@
+{
+  "passed": 7,
+  "checks": [
+    "Native super-admin recovery page opens",
+    "Image-pack readiness enables the resumable editorial restore",
+    "Real multipart SQL diagnosis succeeds after the lab import has been removed",
+    "Integrated AI component opens in the real Joomla administrator",
+    "AI administrator API returns a real protected JSON response",
+    "Existing AI status action works through the new component",
+    "No page exceptions in recovery and administrator AI surfaces"
+  ],
+  "errors": []
+}

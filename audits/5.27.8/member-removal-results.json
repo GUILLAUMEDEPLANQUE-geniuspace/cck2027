@@ -1,0 +1,21 @@
+{
+    "scope": "local Joomla lab; production not mutated",
+    "passed": 11,
+    "checks": [
+        "Exactly 450 imported users selected by provenance",
+        "Exactly 450 private imported profiles selected",
+        "Count mismatch refuses removal",
+        "Activated imported account refuses removal",
+        "Any additional authored record is preserved and blocks bulk deletion",
+        "All 450 authorized imported users and profiles removed",
+        "No marked imported account remains",
+        "Private imported field indexes removed",
+        "All unrelated accounts, rights and native records byte-preserved",
+        "Repeated deletion is idempotent",
+        "A private rollback backup exists outside the web root"
+    ],
+    "deleted_accounts": 450,
+    "deleted_profiles": 450,
+    "unrelated_data_preserved": true,
+    "private_backup": true
+}

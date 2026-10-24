@@ -1,0 +1,22 @@
+{
+    "passed": 17,
+    "checks": [
+        "Company-leaf magazine defaults to its employment universe",
+        "Magazine canonical follows the actual universe scope",
+        "All-blogs link clears the leaf scope",
+        "An explicitly selected empty exact leaf remains exact",
+        "Empty company rubric exposes labeled employment discussions",
+        "Company discussion suggestions never cross into gaming",
+        "Guest cannot diagnose private import metadata",
+        "Guest cannot remove imported accounts",
+        "Real native topic fixture exists",
+        "More than 200 newer discussions cannot hide older article cards",
+        "Both original editorial-image packs are present",
+        "Removed local legacy accounts are not recreated by installation",
+        "Employment repair is idempotent for already imported articles and topics",
+        "Repair creates no duplicates",
+        "Attached AI community and model-free services load in real Joomla",
+        "Documentary answer retains numeric evidence without a model",
+        "New autonomous community remains disabled until configured"
+    ]
+}

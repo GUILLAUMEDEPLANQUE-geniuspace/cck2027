@@ -1,0 +1,33 @@
+{
+  "passed": 4,
+  "checks": [
+    {
+      "task": "option=com_joomcck&task=geniuspace.repairPublications",
+      "method": "GET",
+      "status": 403,
+      "no_store": true,
+      "json_error": true
+    },
+    {
+      "task": "option=com_joomcck&task=geniuspace.repairPublications",
+      "method": "POST",
+      "status": 403,
+      "no_store": true,
+      "json_error": true
+    },
+    {
+      "task": "option=com_joomcck&task=geniuspace.repairPublications",
+      "method": "POST",
+      "status": 403,
+      "no_store": true,
+      "json_error": true
+    },
+    {
+      "task": "option=com_nexusomega&task=assistant.reply",
+      "method": "POST",
+      "status": 403,
+      "no_store": true,
+      "json_error": true
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "version": "5.27.8",
+  "component_version": "6.4.2.200",
+  "baseline": "5.27.7",
+  "archives": [
+    {
+      "archive": "NEXUS_V5_JOOMCCK_INSTALLABLE_5.27.8.zip",
+      "bytes": 61535060,
+      "sha256": "c529356d66bdf4225682b918da552965d817ded3ba095e7854d3ce0ece216844",
+      "entries": 7886
+    },
+    {
+      "archive": "GENIUSPACE_IMAGES_5.27.6_A.zip",
+      "bytes": 55819288,
+      "sha256": "3049363062596070a52e081d7d31343ad3757428f1598637b38d291da8ced067",
+      "unchanged": true
+    },
+    {
+      "archive": "GENIUSPACE_IMAGES_5.27.6_B.zip",
+      "bytes": 56315261,
+      "sha256": "64c9bce7d0d4178ba7af4057588415da6df9026d002c7c4d8a2c27920bfdab24",
+      "unchanged": true
+    }
+  ],
+  "source_files": 9086,
+  "existing_files_removed": [],
+  "existing_files_modified": [
+    "components/com_joomcck/admin/views/omega/tmpl/default.php",
+    "components/com_joomcck/joomcck.xml",
+    "components/com_joomcck/media/nexus/absolu.css",
+    "components/com_joomcck/site/controllers/geniuspace.php",
+    "components/com_joomcck/site/library/php/geniuspace/AuthorAssist.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusAbsolu.php",
+    "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAdaptation.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaCockpit.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaGeneration.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaRuntime.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaWeb.php",
+    "components/com_joomcck/site/library/php/geniuspace/ai/local-model.py",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/INTEGRITY.json",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/brain-ui.js",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/brain-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/omega-cockpit.js",
+    "components/com_joomcck/site/library/php/geniuspace/media/omega-cockpit.mjs",
+    "components/com_joomcck/site/omega-export.php",
+    "components/com_joomcck/site/omega.php",
+    "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+    "components/com_joomcck/site/views/records/tmpl/default_list_nexus_forum7.php",
+    "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+    "pkg_JoomCCK.xml"
+  ],
+  "added_files": [
+    "components/com_joomcck/media/nexus/publication-recovery.js",
+    "components/com_joomcck/site/library/php/geniuspace/LegacyMemberRemoval.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAcademy.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAgent.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAgentAssets.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAgentBridge.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAgentKnowledge.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAgentTools.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaAutonomy.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaBrowserTraining.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaCommunity.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaCompute.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaConversation.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaEvidence.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaEvolution.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaExperiments.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaLanguageModel.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaLanguagePatch.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaMachines.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaMobile.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaModelFree.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaModelLibrary.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaPersonalModel.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaProgress.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaProgressData.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaProgressJudge.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaRulesPlanner.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaServing.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaTeacherLibrary.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaTemporal.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaUnavailable.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaVault.php",
+    "components/com_joomcck/site/library/php/geniuspace/OmegaWebResearch.php",
+    "components/com_joomcck/site/library/php/geniuspace/PublicationRecovery.php",
+    "components/com_joomcck/site/library/php/geniuspace/SqlImportRecovery.php",
+    "components/com_joomcck/site/library/php/geniuspace/ai/house-model.py",
+    "components/com_joomcck/site/library/php/geniuspace/ai/model_evaluation.py",
+    "components/com_joomcck/site/library/php/geniuspace/ai/personal_model.py",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/academy-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/agent-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/assistant-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/capture-coach.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/clowreed-algorithms.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/clowreed-cognition.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/community-live.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/community-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/device-plan.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/evolution-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-core.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-curriculum.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-patch.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-runtime-LICENSES.txt",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-runtime.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/language-worker.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/machine-profiles.json",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/machines.html",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/machines.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/memory-vault.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-assistant.html",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-embed.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-journal.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-page.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-session.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile.css",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/model-free-core.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/model-library.html",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/model-library.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/multimodal-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/nexus-machine-kit.zip",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/personal-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/progress-ui.mjs",
+    "components/com_joomcck/site/library/php/geniuspace/media/ai/temporal-ui.mjs",
+    "components/com_joomcck/site/omega-diagnose.php",
+    "components/com_joomcck/site/views/tools/tmpl/nexusrepair.php",
+    "components/com_nexusomega/administrator/access.xml",
+    "components/com_nexusomega/administrator/config.xml",
+    "components/com_nexusomega/administrator/services/provider.php",
+    "components/com_nexusomega/administrator/src/Controller/ApiController.php",
+    "components/com_nexusomega/administrator/src/Controller/DisplayController.php",
+    "components/com_nexusomega/administrator/tmpl/default.php",
+    "components/com_nexusomega/media/admin.mjs",
+    "components/com_nexusomega/media/agent-ui.mjs",
+    "components/com_nexusomega/media/assistant-ui.mjs",
+    "components/com_nexusomega/media/community-live.mjs",
+    "components/com_nexusomega/media/community-ui.mjs",
+    "components/com_nexusomega/media/model-free-core.mjs",
+    "components/com_nexusomega/media/nexus.css",
+    "components/com_nexusomega/media/site.mjs",
+    "components/com_nexusomega/nexusomega.xml",
+    "components/com_nexusomega/script.php",
+    "components/com_nexusomega/site/src/Controller/AssistantController.php",
+    "components/com_nexusomega/site/src/Controller/CommunityController.php",
+    "components/com_nexusomega/site/src/Controller/DisplayController.php",
+    "components/com_nexusomega/site/tmpl/assistant/default.php",
+    "components/com_nexusomega/site/tmpl/assistant/default.xml",
+    "components/com_nexusomega/site/tmpl/community/default.php",
+    "components/com_nexusomega/site/tmpl/community/default.xml"
+  ],
+  "unchanged_prior_field_files": 899,
+  "unchanged_native_avs_files": 278,
+  "changes": [
+    {
+      "path": "components/com_joomcck/admin/views/omega/tmpl/default.php",
+      "before": "720bc17ac432b37c10bfb752654658ed5349794baa417f1036c0504791f1c2df",
+      "after": "4ed678a5dabdf079a8a770ff54a3d8400f1e540310eac569b92ab6e33ba1285f"
+    },
+    {
+      "path": "components/com_joomcck/joomcck.xml",
+      "before": "28aa7f27213feee6f07331feb91f32ee3abd40bec02b6eeadd3c94a4d0cd8010",
+      "after": "494ebb8c7513e65ab4a414e2bf1d73393e0d5492ad1cc3dd38173da067e64597"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/absolu.css",
+      "before": "bab24043586a1913e7b6734a8879cb52a75cb478d143be15156982c205617503",
+      "after": "06fd4eab054bcc1c428be13c56a05f8d391194370ac66b26f11584731e2d2274"
+    },
+    {
+      "path": "components/com_joomcck/media/nexus/publication-recovery.js",
+      "before": null,
+      "after": "6e7a34f9d86633dd0bb24c9c4f09f9641bebb8ffd2f80c57f2e95dc6a64d6abe"
+    },
+    {
+      "path": "components/com_joomcck/site/controllers/geniuspace.php",
+      "before": "0fb73a6f191cbf802915a8b25d5109816eead7ae710e9e0bd9258668ff6565f8",
+      "after": "2cd2817c007dcb4b3aec052e09bfef25bc5177fdf0213f08db4a9f4d3203984b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/AuthorAssist.php",
+      "before": "3e32c7519fc3ff61cfda40f04dff906cf8134fc088ba93ee87f732e824e220ce",
+      "after": "91431a566b9bb7ecd8925315a97ccd2866eb1c86cc1763a3a0e18fc86f01df1f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/LegacyMemberRemoval.php",
+      "before": null,
+      "after": "8a4bf4fa3eb9fee6f133f4b2428c96d80877f27bf8629f4f79cc1dda8fb6769a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusAbsolu.php",
+      "before": "35cc8cbdce16ab1ec780779605e1aa898fcc7b0c70e19be11e171c82d6fcfab4",
+      "after": "5c7721b19bdb0503f6de48dbe1e27acc10f2ab08acf94326fbdffbb79ceccfa1"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/NexusBlogIndex.php",
+      "before": "e6beca7009c928a1d25989dc44f5360cbb30ac7160d0a120f556cfc6ee4ea228",
+      "after": "53185d93e8a1f546b0e2496a16eb74e3957d4b9cd748f58e2e07fee3c6a96bdc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAcademy.php",
+      "before": null,
+      "after": "02e9496e27810dd89db2408846c5a5ad70915a7f0d2c74ac18fd208d1d161c14"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAdaptation.php",
+      "before": "0554628e0d1c03c546c3cad05bf8c7550005f7073113c2ec0b9eba7ffac642ff",
+      "after": "3c0e75c307e307dad5a383fdb0b6d89db7be895c3e68da56e9956348a2cbe318"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAgent.php",
+      "before": null,
+      "after": "f212352cb056cc6c4bc883f9f7afbdc679bc7c902687710372fffb6de01b6dfa"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAgentAssets.php",
+      "before": null,
+      "after": "a47519f36cb27d79c736345695b4e1176c3dc778bb57be66eba0192318a40213"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAgentBridge.php",
+      "before": null,
+      "after": "c21587344e68b813126fdb1d802ac1e6e4cd0a59c58cd971365399d610d9ed33"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAgentKnowledge.php",
+      "before": null,
+      "after": "f88dbef8c381c5079c778fa7eef93d289e892327ccc6b7856c4bfeaf050eed6c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAgentTools.php",
+      "before": null,
+      "after": "457d6554a81d71620a4ae0951c0abff77473e0021c7feecf03783c17b26e93d0"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaAutonomy.php",
+      "before": null,
+      "after": "cb01f284ae7d380ef2c6f9ad0ee2b573864867d1f40f20557d1ec65a26076945"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaBrowserTraining.php",
+      "before": null,
+      "after": "e65ba39c67728b32c60a7b1ebaded097888b68aacd50a8621734b96ee382d6dc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaCockpit.php",
+      "before": "31d4262d8c274f9c6a64ac3c56f62edd673736c691b455d3f1da26208522c68a",
+      "after": "4157d683bab30fbfe9519a41739cbb92ae10161b537f1c3cd851452d069361a3"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaCommunity.php",
+      "before": null,
+      "after": "a86c77ae2dd0768cfffbefc5074cd25136fecb9413e1f2c2a982a233adf2fc57"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaCompute.php",
+      "before": null,
+      "after": "613c6b67c449dc791d450a0d5f9821a553cb5242714bf1f0c8cfaa735e5d4b89"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaConversation.php",
+      "before": null,
+      "after": "12dd1748b18389e3ee82d36a1a846454fbac078ede1da7873dc4fcefd18f07a1"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaEvidence.php",
+      "before": null,
+      "after": "aba2bf832c934c9f5b1edf7b8a2639dbf9b7c5e7b50479bc360e051b797b1687"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaEvolution.php",
+      "before": null,
+      "after": "9a55b417871881df22bc8589840f0d88c2574b99395a97d186c98ace31f76acf"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaExperiments.php",
+      "before": null,
+      "after": "fa2c134c60a83b26831cc03c4789966c7bcf6a5d13f6a80e7d257874ffae0ab4"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaGeneration.php",
+      "before": "3fa117cf4de9f81a2e35a4b1a81134fa10c93ec89abbd3f0f5db856e8600f97d",
+      "after": "8d337d2e44b9870c203b5ca63b6a36ddbd4b6983c994242ebc8c7c8ac87ea399"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaLanguageModel.php",
+      "before": null,
+      "after": "5d6d7341da5147fc4341f29cc3f632b365958196ecb11f3b4effcf77c112f753"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaLanguagePatch.php",
+      "before": null,
+      "after": "3c409928f8a64bc35642c13fced714d4a6e836231e739ea9258b948cb22820ca"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaMachines.php",
+      "before": null,
+      "after": "2a81769214d5e3a020b380221d6286dbdf5c7190d95e1b13076a2db4a387974c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaMemory.php",
+      "before": "1025846d38907ffca73e625a218952c4f3867bb366cddf215a4d363621cf519d",
+      "after": "58e7ef6509a25f0f6cde935125684f9b32b89450d4dc34daa922a960e74dd0f0"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaMobile.php",
+      "before": null,
+      "after": "e1c3282aa96a280e720d2b84f7fb3e056618f4d11099fcdd5b4a1265d995b2cc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaModelFree.php",
+      "before": null,
+      "after": "c81c8a451fae63ac32728e5122b34bad5b45eb2eca30aa5507c28f7a1840c123"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaModelLibrary.php",
+      "before": null,
+      "after": "eed979affe09c3c59fe3f83bc99a2e65b878d50384d8fca2cadd64a108efbc23"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaPersonalModel.php",
+      "before": null,
+      "after": "a7934e2e51b9b0ab114690e9d31e3ba9d5331d275601511f8408e34787fb4b48"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaProgress.php",
+      "before": null,
+      "after": "7ab84f2618c8a2e15f4136c92ea93c3275ee4c9d6c2eaf0b6fde17261fefc588"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaProgressData.php",
+      "before": null,
+      "after": "2594977e21e823c4caa05f1e9639f081bf08b9e7c301a41b5b532fedd986ce3e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaProgressJudge.php",
+      "before": null,
+      "after": "dc0fd9504f75f2b4d55467d35110b51aed16293172deb96ee6341d5b809ebcf3"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaRulesPlanner.php",
+      "before": null,
+      "after": "cd250f48923e8c9f47331330db5b48832c1f052831b3ead00bea801c17786f8e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaRuntime.php",
+      "before": "940793a7b6dc55731b4d606faf907b3c458f50188bc461bd4ce79afd7370d917",
+      "after": "0142705ee3e34a08188141e4bd60663f355fab00acfdb942232c34540340e346"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaServing.php",
+      "before": null,
+      "after": "b1cb374ecce49adea29442e7a95abd57b3f3fca2d7b5c9d6caa7a7eab3a0428a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaTeacherLibrary.php",
+      "before": null,
+      "after": "f659710caad1d5278cd532fec302b7ec7a6c3ef6b87beb514009c3338123d89e"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaTemporal.php",
+      "before": null,
+      "after": "6a691fa24c28c35e66e76a9046db946a7cf806ebe1b67967a537dd3147cb4ce6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaUnavailable.php",
+      "before": null,
+      "after": "969e53e4eb047a7c4c1df76289c801b2e0d3e3fb4f79b8c3d6e290d53b8924cc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaVault.php",
+      "before": null,
+      "after": "5002cd5c5a177e30ea3932f2e495150b259f10e9e869d610d5654674525edf52"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaWeb.php",
+      "before": "7187b95201d8228f8a1ac50a6f8ff0ebacbe8dc16dd73b0067dc650f848a80b2",
+      "after": "975aa6fe28e7af23245ecc77e2eff7969ae670ffdfdb9d17b63e11adabf0bb55"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/OmegaWebResearch.php",
+      "before": null,
+      "after": "5731c055bca8b0191eab33ab566698c1193c7f45ba2a1258cc70a71c82c201c9"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/PublicationRecovery.php",
+      "before": null,
+      "after": "b7610d9d9b4e7021628038f5701f29732b843a62603e54c9b44f3966bf58063a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/SqlImportRecovery.php",
+      "before": null,
+      "after": "db03cdb4c5a148e529a04d5f5dc31427cde5c822cf4fefbe93742e26df99580f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ai/house-model.py",
+      "before": null,
+      "after": "be47c9e095923ec998fe5cb1c9d0d1cbf31ce3e836d67847d9c097a833a58625"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ai/local-model.py",
+      "before": "2437f08a762a6069d86cf24efecdb5cee998d1ea3c6021a156ea647293c82ddd",
+      "after": "4f61a4322ef2980bfb88cfc081cf06b676c45a99e8ca80acf18d1e453df119ab"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ai/model_evaluation.py",
+      "before": null,
+      "after": "061e8d35f508b799327ccfc64513b56a4a845dcf9be346f8aad851ed83369655"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/ai/personal_model.py",
+      "before": null,
+      "after": "070acc7b61695e1e10fdb331f99f6647a112f2771a8778ec5a96a5cbdd506aba"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/INTEGRITY.json",
+      "before": "69b615d3cce3aa449427d92656b88c7c73a49e79ff019f913380f46c91fe7aea",
+      "after": "d8432c6bf172ab4b1e5a7899cf74cf54993081e407135ef78c019d8371bf8f30"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/academy-ui.mjs",
+      "before": null,
+      "after": "46b517720d7ca89b876ab258ddd041c5c169945c4a5d25276d69c61ab93df043"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/agent-ui.mjs",
+      "before": null,
+      "after": "b7168f559fc5df3f62d73a41bf49a292acaa57735f72cc33f17455daa34e88a4"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/assistant-ui.mjs",
+      "before": null,
+      "after": "45517d4139c7009967218d21dc3c377ed067441513ec49bab6aa4a2a43652366"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/brain-ui.js",
+      "before": "4b76274a1ffbfb717b9c7d9aa66046e20454a7bbe72e224621a4147df95e8eaa",
+      "after": "6635c6c2e8804c7f0415cdf3f0a4f9663e49674b28047482429223baacca7d86"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/brain-ui.mjs",
+      "before": "cf654872731e5ad2d28aeff9a09a15f51f11317e62b6fcaa6c97b96c8e487140",
+      "after": "6635c6c2e8804c7f0415cdf3f0a4f9663e49674b28047482429223baacca7d86"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/capture-coach.mjs",
+      "before": null,
+      "after": "1f8071fd30a314d9f718223578ee6b2c8a0be29673c104348717a27ac25baf9d"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/clowreed-algorithms.mjs",
+      "before": null,
+      "after": "61065936ea488daa94e0c520932ff2a02a67aaa02011b0feed19fef44305c437"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/clowreed-cognition.mjs",
+      "before": null,
+      "after": "fc0f9d29d69bf03d493fad563502b7aeeeb8fa7019e2aa8dd72cacd1a3620f65"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/community-live.mjs",
+      "before": null,
+      "after": "49a4873efcb299d1fe8b95e4fc384b905a285794e72bea10973fdf9e72709733"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/community-ui.mjs",
+      "before": null,
+      "after": "a55181b8ba298aae36535cf7be4cf7c8cd2af8e008d3d2bb12acb22307f82405"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/device-plan.mjs",
+      "before": null,
+      "after": "f0e8af10b68eb84869812211805aa4c2b1583f27c0453098975a20ed6bcf8294"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/evolution-ui.mjs",
+      "before": null,
+      "after": "9f938713a7fe18b04ae9e8b6a1685257e45ef8ae25fc565284fe6a94d5ab52bc"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-core.mjs",
+      "before": null,
+      "after": "4ea385182d9338cba2fbe9f8b0628d3bfcc5323a09255138964fa26069a3d6a6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-curriculum.mjs",
+      "before": null,
+      "after": "2a791cb7dbe30fb644c25e8f76304769303f78e19fc1ab7b5ca04e5e2440cb4f"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-patch.mjs",
+      "before": null,
+      "after": "b04e603700fb0c4bffe9793d9eb04aa83b41eb3f2df171bc211c9097a67a2991"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-runtime-LICENSES.txt",
+      "before": null,
+      "after": "0b2402b2e190d35001cd2f81d40cb4e7536aff4ac3a68674c95be0d7af192692"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-runtime.mjs",
+      "before": null,
+      "after": "8dc6ce44798fa46d2f01e44f391d0ab400ef8e89ea996d7422321fd4d937b4f7"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-ui.mjs",
+      "before": null,
+      "after": "eddcd37d89540b2d2bb04b4889d133b2660239224c5c1246c19d3449e5d77425"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/language-worker.mjs",
+      "before": null,
+      "after": "8ffb779c741a80da2ff01bd0f85cf1f7a746397a2af929c730b05fd38e618d57"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/machine-profiles.json",
+      "before": null,
+      "after": "ba5528e7473294c4a6c9d4cd349da2d16a125ea2bd58a6923b9bf879e05bcf35"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/machines.html",
+      "before": null,
+      "after": "4fc4441f941b9327e1f349849d9884c681a1b0d9684f4f213908232292f67684"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/machines.mjs",
+      "before": null,
+      "after": "1b885cde1c473c162baaaa861dfeae5969862f9f8b31e03aef201c965ab9e77b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/memory-vault.mjs",
+      "before": null,
+      "after": "af19ca02ca7ca6362ddc9d27a57650f311bc03786d355e14530682f90b5fa2f9"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-assistant.html",
+      "before": null,
+      "after": "2cc3f79bb3c38702e4c34e1a0af30148e9b0ade084d8fddd066daadb03470496"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-embed.mjs",
+      "before": null,
+      "after": "5786303811ebd3949b23b56af627e9432248b942fccdb77fe5b286bcbdb102f6"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-journal.mjs",
+      "before": null,
+      "after": "6d566ad5908ac26f71911698209f17940c22e5682389bd28a2772279a0f8550b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-page.mjs",
+      "before": null,
+      "after": "a64f55569ae92dcc8dbad8114928a1e73700e196c8cab044dbb5b4aa25c19b7c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-session.mjs",
+      "before": null,
+      "after": "17e4beb5172a41e0c5026735a6e518ae25077332ba544ac9780751dd0ba4620a"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile-ui.mjs",
+      "before": null,
+      "after": "9ae2ebabdb5a6b5e0055babfce8c4a489c1ceab3dcbf8c2158269ef8bc74a96d"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/mobile.css",
+      "before": null,
+      "after": "7cdb470ce8c8d1182bbd41f959e7cf1d4d3f73b56ddce803c1b0753b69979f4c"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/model-free-core.mjs",
+      "before": null,
+      "after": "8ed6acc839c948092da05d3a9ad86f9ac49a8a4a2aaa09155e1af7c2e5724bc4"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/model-library.html",
+      "before": null,
+      "after": "cfb3026ac385ddda2211fb5bad25de277267e6427210a876355018f31b46d0c2"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/model-library.mjs",
+      "before": null,
+      "after": "0a14385145d133422755567726c8f00ec2cdc29b1fec23c69438d46777786f89"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/multimodal-ui.mjs",
+      "before": null,
+      "after": "b69a45a5cfdffdd17783f954a2f0a0548c3bfa413f8cf29d2fd442e409f1a66d"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/nexus-machine-kit.zip",
+      "before": null,
+      "after": "2256782d631203041fe8080d2892bda7d56f266755295994f56acd4c8dda3917"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/personal-ui.mjs",
+      "before": null,
+      "after": "06fa420aceff65e2e76ad81fc3d5bf61cad15ff85f7768b731b296d17c423a77"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/progress-ui.mjs",
+      "before": null,
+      "after": "7b1403041a64adb589508ec55216741c1f1c39702c7671890cfc61ddf75705ed"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/ai/temporal-ui.mjs",
+      "before": null,
+      "after": "df48a272d6381e1de3593f613f63c1fd91d6dcd4ca5b87b06146d3ac1b0cfb0b"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/omega-cockpit.js",
+      "before": "4de74662c9c90ecb13a141d3c1f097ae108bf42cbbfd4cdb26e37c7e966d5018",
+      "after": "3a8aff2b79d36807fa704d7f51635887dc3593bc7252abe51a33875c7c14fbcd"
+    },
+    {
+      "path": "components/com_joomcck/site/library/php/geniuspace/media/omega-cockpit.mjs",
+      "before": "4de74662c9c90ecb13a141d3c1f097ae108bf42cbbfd4cdb26e37c7e966d5018",
+      "after": "3a8aff2b79d36807fa704d7f51635887dc3593bc7252abe51a33875c7c14fbcd"
+    },
+    {
+      "path": "components/com_joomcck/site/omega-diagnose.php",
+      "before": null,
+      "after": "e3fcc63255e7149fa3489448ff4ecd618004d0ef799d62bbcdd3477ac8cc3d3b"
+    },
+    {
+      "path": "components/com_joomcck/site/omega-export.php",
+      "before": "48d410b26efc62f59c45773de847414c6a7c5d3376c749b9679d8fe925dfe5d4",
+      "after": "42bc8c1820f60ed4c8ea0a35519a5a897a09fe927dc6a57adca6a96bd955822f"
+    },
+    {
+      "path": "components/com_joomcck/site/omega.php",
+      "before": "bd24a4c4f044b8f79bf7ee07ea06bb73b7755784ee85dc97fdb697f9b4d1518f",
+      "after": "43dbbb2e643ed9947ee8cd9063efec394fc5283c48c6e2bbfc01db55f8ca7d90"
+    },
+    {
+      "path": "components/com_joomcck/site/views/record/tmpl/default_record_nexus_forum7.php",
+      "before": "e1ebb24824aefffe70273b893ce03c928ec9371fa9ee42187c5b6ac098dc3779",
+      "after": "5f11b8d2b879fda0c02caa22964b64059ef22df6687893ad210b681867716f13"
+    },
+    {
+      "path": "components/com_joomcck/site/views/records/tmpl/default_list_nexus_forum7.php",
+      "before": "2e9ccad60160f00420e1bda15096ebf39cc104c4ba30b19a7f18dcec4c17b5e5",
+      "after": "6c44f7f6f2aba687aefbebe9f220d82074be48704e371b07d7d2a5fc73e6239f"
+    },
+    {
+      "path": "components/com_joomcck/site/views/tools/tmpl/nexusforum.php",
+      "before": "e5bbad3c1f00f55af5c7b286a75956fa388a05c007e998cfe4bf73eb7aa6fffb",
+      "after": "c3e53516849a5e5a9c96d8e81ea1e6e7d7761539a7c2a35ec9669855f071f979"
+    },
+    {
+      "path": "components/com_joomcck/site/views/tools/tmpl/nexusrepair.php",
+      "before": null,
+      "after": "645a5c1367372dd0022cac91c90c29b7152dfa76b7c1de8be24a2d819a4384f0"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/access.xml",
+      "before": null,
+      "after": "09b7c80fbf87271f7ac6f7f44f1a4d1d32e9bf235a6f3bed22c612d98227d2be"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/config.xml",
+      "before": null,
+      "after": "00d9c47446fcd9829e0670cd7cecc8a8a39cd865d25940e1b1b2c7ffe94fc523"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/services/provider.php",
+      "before": null,
+      "after": "5e4bc8d4246b56e31a4666221921996eda95d6de669614c2162b94ddd4ddc511"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/src/Controller/ApiController.php",
+      "before": null,
+      "after": "39a202b4e48432d983e53abd4cd4c22d7bfb2f52da2959c2e8ee747caad7cb6a"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/src/Controller/DisplayController.php",
+      "before": null,
+      "after": "fddf62de3b529471952ea7ca9c295c9e87f65fef1517a8be38714d45bac1db40"
+    },
+    {
+      "path": "components/com_nexusomega/administrator/tmpl/default.php",
+      "before": null,
+      "after": "a50311a1792f906020a836cfac4b24fd464f0631a1295e4b9c5ea8a5916776ee"
+    },
+    {
+      "path": "components/com_nexusomega/media/admin.mjs",
+      "before": null,
+      "after": "f86c9a5f30211db9613fdd93ee97b466b3cfee6bd71f9f6dac4a527fb2257e58"
+    },
+    {
+      "path": "components/com_nexusomega/media/agent-ui.mjs",
+      "before": null,
+      "after": "b7168f559fc5df3f62d73a41bf49a292acaa57735f72cc33f17455daa34e88a4"
+    },
+    {
+      "path": "components/com_nexusomega/media/assistant-ui.mjs",
+      "before": null,
+      "after": "45517d4139c7009967218d21dc3c377ed067441513ec49bab6aa4a2a43652366"
+    },
+    {
+      "path": "components/com_nexusomega/media/community-live.mjs",
+      "before": null,
+      "after": "49a4873efcb299d1fe8b95e4fc384b905a285794e72bea10973fdf9e72709733"
+    },
+    {
+      "path": "components/com_nexusomega/media/community-ui.mjs",
+      "before": null,
+      "after": "a55181b8ba298aae36535cf7be4cf7c8cd2af8e008d3d2bb12acb22307f82405"
+    },
+    {
+      "path": "components/com_nexusomega/media/model-free-core.mjs",
+      "before": null,
+      "after": "8ed6acc839c948092da05d3a9ad86f9ac49a8a4a2aaa09155e1af7c2e5724bc4"
+    },
+    {
+      "path": "components/com_nexusomega/media/nexus.css",
+      "before": null,
+      "after": "cc9d88fb605c4da812be0670f2b1943cbf7048ac5d79e0951092fa6bc77ac4c2"
+    },
+    {
+      "path": "components/com_nexusomega/media/site.mjs",
+      "before": null,
+      "after": "b1eabc7fbe4836e1e19e59cbdf4b90f9bde2b2378baf03db3e47eed4f57ca861"
+    },
+    {
+      "path": "components/com_nexusomega/nexusomega.xml",
+      "before": null,
+      "after": "105080137ecf8d537cc9b1b5e7c398b1ee24cc0a656a2aff6a59e1f64156462c"
+    },
+    {
+      "path": "components/com_nexusomega/script.php",
+      "before": null,
+      "after": "57b65881d743e8284517099428ec7efcd7357095ffb02b2801574a16def77af1"
+    },
+    {
+      "path": "components/com_nexusomega/site/src/Controller/AssistantController.php",
+      "before": null,
+      "after": "b19e67d04723c479eba31281e4986bc8fee5197f6f4eb190fa4c7621c20fc760"
+    },
+    {
+      "path": "components/com_nexusomega/site/src/Controller/CommunityController.php",
+      "before": null,
+      "after": "915ad3ba47a4d58348181b1115e0c51a9806ea8d27d1cbe1086f9423ca74deca"
+    },
+    {
+      "path": "components/com_nexusomega/site/src/Controller/DisplayController.php",
+      "before": null,
+      "after": "93e547cad472f5b8b6c4fc773940a53631093f0813da7e039a416959ce03c974"
+    },
+    {
+      "path": "components/com_nexusomega/site/tmpl/assistant/default.php",
+      "before": null,
+      "after": "ac2c7fac6cb8964527fc14fa905c8e674c957725b3348ba0ccc16ac4c5e10b54"
+    },
+    {
+      "path": "components/com_nexusomega/site/tmpl/assistant/default.xml",
+      "before": null,
+      "after": "9ca493756514f4effd38e9e0d259912923afbd2a91f3e833491c87d9ba0b39a3"
+    },
+    {
+      "path": "components/com_nexusomega/site/tmpl/community/default.php",
+      "before": null,
+      "after": "0f96d2fd5715390f0e0edcd88e639cd11a22c8197e6b844a7530ccf304d7a479"
+    },
+    {
+      "path": "components/com_nexusomega/site/tmpl/community/default.xml",
+      "before": null,
+      "after": "000b7066bb3c4f454587939bd97b8644f6f247f8ec380664405a835ea3f1534d"
+    },
+    {
+      "path": "pkg_JoomCCK.xml",
+      "before": "eabc314af5d9144faf83c1c93d2dee50f65c99d8d97de18a6444f22ab2486b8c",
+      "after": "0ee4979f25f814477a93baf67374b8ff9c3a8b326b824539371704d727124d93"
+    }
+  ]
+}

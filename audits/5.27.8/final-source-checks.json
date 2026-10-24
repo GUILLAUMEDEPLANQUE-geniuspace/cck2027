@@ -1,0 +1,14 @@
+{
+  "syntax": {
+    "php": 62,
+    "js": 41,
+    "python": 4
+  },
+  "errors": [],
+  "removed_named_declarations_in_changed_files": [],
+  "archive_crc_ok": true,
+  "every_archive_entry_matches_final_source": true,
+  "member_emails_or_passwords_embedded": false,
+  "private_source_files_embedded": false,
+  "archive_sha256": "c529356d66bdf4225682b918da552965d817ded3ba095e7854d3ce0ece216844"
+}

@@ -1,0 +1,36 @@
+{
+  "passed": 16,
+  "checks": [
+    "Native discussion consumes all remaining desktop center width",
+    "Exactly one active H1 on discussion",
+    "Secondary tools are folded initially",
+    "Short-topic replies are reachable in the first desktop viewport",
+    "All secondary tools remain accessible by opening their panel",
+    "Magazine remains populated after switch 0",
+    "Magazine remains populated after switch 1",
+    "Magazine remains populated after switch 2",
+    "Company subcategory opens populated employment magazine",
+    "Company-to-magazine canonical points to employment collection",
+    "Empty company wall offers real relevant native topics",
+    "No global horizontal overflow on mobile",
+    "Native or AI page renders a controlled guest response /index.php?option=com_joomcck&view=tools&layout=nexusrepair",
+    "Native or AI page renders a controlled guest response /index.php?option=com_nexusomega&view=assistant",
+    "Native or AI page renders a controlled guest response /index.php?option=com_nexusomega&view=community",
+    "No JavaScript page errors"
+  ],
+  "errors": [],
+  "metrics": [
+    {
+      "width": 2822,
+      "parent": 3378,
+      "siblings": [
+        260,
+        296
+      ],
+      "unused": 0
+    },
+    {
+      "reply_top": 856.8125
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "5.27.8",
+  "component_version": "6.4.2.200",
+  "date": "2026-10-24",
+  "artifact_sha256": "c529356d66bdf4225682b918da552965d817ded3ba095e7854d3ce0ece216844",
+  "production_mutated": false,
+  "production_accounts_deleted": false,
+  "scope": "Real local Joomla/MariaDB, Chromium and HTTP tests; original SQL simulated without executing its statements",
+  "sql_fixture_accounts_removed": 450,
+  "sql_fixture_topics_conserved": 45,
+  "rollback_verified_with_real_database_failures": true,
+  "suites": [
+    {
+      "suite": "Actual package installation 4",
+      "passed": 437
+    },
+    {
+      "suite": "Actual package installation 5",
+      "passed": 437
+    },
+    {
+      "suite": "native-results.json",
+      "passed": 17
+    },
+    {
+      "suite": "sql-results.json",
+      "passed": 114
+    },
+    {
+      "suite": "browser-results.json",
+      "passed": 16
+    },
+    {
+      "suite": "admin-browser-results.json",
+      "passed": 7
+    },
+    {
+      "suite": "http-security-results.json",
+      "passed": 4
+    },
+    {
+      "suite": "HTTP editorial pages, sitemap images and ACL regression",
+      "passed": 737
+    }
+  ],
+  "assertions_total": 1769,
+  "source_files_removed": 0,
+  "old_native_field_files_unchanged": 899,
+  "old_allvideoshare_files_unchanged": 278,
+  "member_data_or_secrets_shipped": false
+}

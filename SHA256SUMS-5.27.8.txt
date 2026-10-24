@@ -1,0 +1,17 @@
+c529356d66bdf4225682b918da552965d817ded3ba095e7854d3ce0ece216844  NEXUS_5.27.8.zip
+f1cb7345964027a3f4f5f69ad6d662be47bf0b0b7d6a7d931d240ab0b845dec3  README-5.27.8.md
+ba1105ed1d6025651b4ac7a7b16d28377f457fbc029ba4ed6dcced6e0405a989  TECHNICAL-DELTA-5.27.8.md
+cff3a611a62fb96d7d8b68c00308cde439970576ae000f5f3a493015919aa414  audits/5.27.8/admin-browser-results.json
+d1d12efb83064a759191fe83acd7677b5acbc46c8cbe87f393c06125213358c0  audits/5.27.8/ai-merge.json
+79a355caa43d26943b27b0b6da0d0fc3ce308f26645cf347a0712feca02bd00d  audits/5.27.8/browser-results.json
+0cda7691f420a52f4d6c3a7a07e28f612303af8e868f3057d6d667ac0cf00bb3  audits/5.27.8/final-source-checks.json
+6b8b46ea904bf88948d3229759f1755085bcc38e56d435466f2fad81150d5a5a  audits/5.27.8/http-editorial-regression.json
+d4518fb7452a6eb8c83f598d605c4ef077bc08a7e43803ae1c0fa90bcff41791  audits/5.27.8/http-security-results.json
+af70b8ceca8e0595c9a06b385c80d5012b5d02197f3c2fa648b39c0fd9cc4a4f  audits/5.27.8/installation-4.json
+38901bfdc13c9cb3e599799f02b167148db0f59a3480edaf40da5f7d54f1fdd6  audits/5.27.8/installation-5.json
+8f733ffb7bedbeacaa934c7660f6b0ea038e3e2d7048445cd52c404572b5dc2f  audits/5.27.8/member-removal-results.json
+89289e69e9da331ab7710b1107cd2f3efd679e610a3cf9254b90493246f70873  audits/5.27.8/native-results.json
+428bffca374a552592da1f896e4e281976f2136f32f852cf1faf76da259152e1  audits/5.27.8/package-preservation.json
+f1eb0ffb4ec10819e578f8fc37a423d2fec67d0b5b10dcdbff0d574107cdc0ba  audits/5.27.8/production-before.json
+0835edb41b06f2dfc49043a481ee5744c02ec1b4386d29f182062919208a5842  audits/5.27.8/release-summary.json
+76c18ef61c6643ed66053c48352ddfab0d4fa4909b3a75d3a6edf548ea337807  audits/5.27.8/sql-results.json

@@ -1,3 +1,9 @@
+## Geniuspace 5.27.10 — topics, identité de marque et stratégie SEO
+
+[ZIP installable 5.27.10](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_TOPICS_STRATEGIE_SEO_5.27.10.zip) · [Installation et réglages](README-5.27.10-SEO.md) · [Audit public et stratégie sur 90 jours](STRATEGIE-SEO-GENIUSPACE-2026-10-25.md)
+
+Présentation de Geniuspace dans le Méta-Hub, sitemap corrigé, contrôle privé des topics et correctif Japon 5.27.9 inclus. Base 5.27.8 ou 5.27.9 requise. Testé sur la copie locale ; aucune installation en production n’est annoncée.
+
 ## Correctif ciblé 5.27.9 — Boutique Japon et Multi-Blog
 
 [Télécharger le ZIP installable 5.27.9](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_JAPON_PUBLICATION_SEO_5.27.9.zip) · [Guide et statut de production](README-5.27.9-JAPON.md) · [Delta technique](TECHNICAL-DELTA-5.27.9-JAPON.md)

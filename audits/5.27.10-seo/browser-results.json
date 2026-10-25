@@ -1,0 +1,23 @@
+{
+  "passed": 17,
+  "checks": [
+    "Default home reaches the global hub instead of gaming",
+    "Native page title identifies the brand and its purpose",
+    "Brand hub has one active H1",
+    "The visible app heading identifies the brand",
+    "Brand purpose is visible in the discussions panel",
+    "The existing full-viewport application shell remains",
+    "Every native universe has a crawlable discovery link",
+    "Extended introduction starts collapsed",
+    "Brand hub has no global horizontal overflow on mobile",
+    "Mobile user can open the universe directory",
+    "Japanese native topic cards remain available",
+    "Contextual Japanese magazine title remains after mode change",
+    "Japanese magazine and featured slider keep their native articles",
+    "Actual public sitemap endpoint returns XML",
+    "Private audit endpoint uses native login or denial for anonymous visitors",
+    "Clean canonical hub renders the same brand view as the home entry",
+    "No observed JavaScript page exceptions"
+  ],
+  "errors": []
+}

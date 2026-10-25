@@ -1,0 +1,16 @@
+{
+    "passed": 11,
+    "checks": [
+        "Japanese native universe is installed",
+        "Contextual H1 uses the actual Japanese topic",
+        "Japanese blog has its own SEO title",
+        "Contextual description exists",
+        "No suffix is appended after the publisher",
+        "Japanese blog returns actual article cards",
+        "Remaining articles are accessible by cursor",
+        "A native Japanese subcategory exists",
+        "Every subcategory derives its own heading without new hard-coded data",
+        "Native backend category settings override the default metadata and H1",
+        "Global magazine keeps its own identity"
+    ]
+}

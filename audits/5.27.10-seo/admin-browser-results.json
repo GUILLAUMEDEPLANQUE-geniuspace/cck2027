@@ -1,0 +1,13 @@
+{
+  "passed": 7,
+  "checks": [
+    "Native Joomla administrator opens the private topic audit",
+    "The real private view displays all fifteen Japanese topics",
+    "Real native publications are distinguished from missing topics",
+    "Editorial notes and the strategy are available on demand",
+    "Existing field audit links to the new topic audit",
+    "Administrator exposes the working sitemap URL",
+    "No observed JavaScript error in the private audits"
+  ],
+  "errors": []
+}

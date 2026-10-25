@@ -1,0 +1,18 @@
+{
+  "passed": 13,
+  "checks": [
+    "PHP syntax valid: NexusBlogIndex.php",
+    "PHP syntax valid: UniverseBlueprint.php",
+    "PHP syntax valid: BrandSeo.php",
+    "PHP syntax valid: BrandGateway.php",
+    "PHP syntax valid: TopicSeoAudit.php",
+    "PHP syntax valid: NexusForumSeven.php",
+    "PHP syntax valid: NexusForumApp.php",
+    "PHP syntax valid: NexusSitemap.php",
+    "PHP syntax valid: PublicDiscovery.php",
+    "PHP syntax valid: default_list_nexus_forum7.php",
+    "PHP syntax valid: nexusseo.php",
+    "PHP syntax valid: nexustopicseo.php",
+    "PHP syntax valid: seo-52710-installer.php"
+  ]
+}

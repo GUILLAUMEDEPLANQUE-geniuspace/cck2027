@@ -1,0 +1,17 @@
+{
+  "passed": 10,
+  "checks": [
+    "Exactly 180 planned topics",
+    "All planned topic slugs are distinct",
+    "All planned topic titles are distinct",
+    "Fifteen planned topics in each of twelve universes",
+    "Every expected alias fits the native SEF slug limit",
+    "Every planned topic points to a guide in its own universe",
+    "All planned topics have a context and description",
+    "All planned topic illustrations have alternatives",
+    "All planned topic cover files exist in the source",
+    "All illustration variant hashes match the prepared topic manifests"
+  ],
+  "max_native_alias_length": 122,
+  "scope": "Prepared source data only; this does not attest production publication or factual expertise"
+}

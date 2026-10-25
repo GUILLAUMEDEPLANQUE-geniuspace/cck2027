@@ -1,0 +1,22 @@
+{
+  "local_checks_except_syntax": 135,
+  "syntax_checks": 13,
+  "reports": {
+    "browser-results.json": 17,
+    "japan-seo-results.json": 11,
+    "prepared-topic-results.json": 10,
+    "fingerprint-results.json": 3,
+    "strategy-results.json": 41,
+    "artifact-results.json": 36,
+    "installation-results.json": 10,
+    "syntax-results.json": 13,
+    "admin-browser-results.json": 7
+  },
+  "production_installation": false,
+  "public_audit": {
+    "existing_discussions": 9,
+    "existing_articles": 5,
+    "planned_topic_urls_tested": 180,
+    "planned_topic_http_404": 180
+  }
+}

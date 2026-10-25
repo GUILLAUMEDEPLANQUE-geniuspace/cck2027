@@ -1,0 +1,26 @@
+{
+  "artifact_commit": "8985789",
+  "checks": [
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_TOPICS_STRATEGIE_SEO_5.27.10.zip",
+      "status": 200,
+      "bytes": 10509761,
+      "explicit_authentication": false,
+      "sha256": "286b042ca2541f638e8958d52094b9c453fe4ab0654ac629cc56442d0aa59f66",
+      "zip_crc_valid": true
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/README-5.27.10-SEO.md",
+      "status": 200,
+      "bytes": 240752,
+      "explicit_authentication": false
+    },
+    {
+      "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/blob/main/STRATEGIE-SEO-GENIUSPACE-2026-10-25.md",
+      "status": 200,
+      "bytes": 293388,
+      "explicit_authentication": false
+    }
+  ],
+  "production_installation": false
+}

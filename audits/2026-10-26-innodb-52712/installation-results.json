@@ -1,0 +1,6 @@
+{
+    "installed": true,
+    "engine_changes": 0,
+    "myisam_tables_present_during_install": 2,
+    "native_table_engines_preserved": true
+}

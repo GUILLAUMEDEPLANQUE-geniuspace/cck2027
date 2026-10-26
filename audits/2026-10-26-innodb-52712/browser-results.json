@@ -1,0 +1,20 @@
+{
+  "passed": 13,
+  "checks": [
+    "Private maintenance assistant opens through the native Joomla tools view",
+    "Online conversion is rejected over the real HTTP controller",
+    "Authenticated maintenance rejects a missing native CSRF token",
+    "Maintenance rejects a foreign Origin even with a valid token",
+    "Only the guarded local laboratory is temporarily set offline",
+    "Backup, precheck, conversion and verification finish with persisted receipts",
+    "Browser worker converts only its owned fixture and preserves its long Unicode content",
+    "Private verified SQL backup is available to the super administrator",
+    "Protected backup streams actual gzip SQL bytes",
+    "Anonymous reader cannot download the private backup",
+    "Anonymous maintenance operation is denied",
+    "Successful conversion does not reopen the site",
+    "No observed browser JavaScript exception"
+  ],
+  "errors": [],
+  "scope": "Native Joomla browser; only an explicitly marked synthetic table converted; original configuration restored"
+}

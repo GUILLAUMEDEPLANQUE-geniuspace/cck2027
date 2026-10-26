@@ -1,0 +1,7 @@
+{
+  "archive": "GENIUSPACE_PREPARATION_INNODB_5.27.12.zip",
+  "bytes": 15883,
+  "sha256": "dcbfc116ae2e72a3b91cc8c487db03fb5e857e949fe7229a50c4be8361025e21",
+  "new_runtime_files": 4,
+  "engine_changes_on_install": false
+}

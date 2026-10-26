@@ -4,6 +4,8 @@
 
 **Testé sur la copie locale Joomla. Pas encore installé sur geniuspace.io : la connexion Joomla sécurisée configurée a de nouveau été refusée.** Aucune publication, suppression de compte ou modification de production n’est annoncée.
 
+Si l’installation affiche **« La publication transactionnelle nécessite InnoDB »**, suivre d’abord [la préparation InnoDB 5.27.12](README-5.27.12-INNODB.md), puis réinstaller ce paquet.
+
 ## Installation
 
 1. Sur la base complète Geniuspace **5.27.8**, **5.27.9** ou **5.27.10**, installer ce ZIP avec un super administrateur, dans **Système → Installation → Extensions**. Les correctifs ciblés 5.27.9 et 5.27.10 sont inclus ; il n’est pas nécessaire de les installer séparément.

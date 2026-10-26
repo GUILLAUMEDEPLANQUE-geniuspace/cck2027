@@ -1,0 +1,22 @@
+{
+  "passed": 14,
+  "checks": [
+    "ZIP CRC integrity verified",
+    "Four additive files do not overlap the 5.27.11 payload",
+    "Native file extension manifest parses",
+    "Only declared code and metadata are bundled, no backup or credentials",
+    "All 59 existing repair files and 240 workbooks retain their exact bytes",
+    "Installed bytes match package: components/com_joomcck/library/php/geniuspace/InnoDbMaintenance.php",
+    "Syntax verified: components/com_joomcck/site/library/php/geniuspace/InnoDbMaintenance.php",
+    "Installed bytes match package: components/com_joomcck/controllers/innodb.php",
+    "Syntax verified: components/com_joomcck/site/controllers/innodb.php",
+    "Installed bytes match package: components/com_joomcck/views/tools/tmpl/nexusdatabase.php",
+    "Syntax verified: components/com_joomcck/site/views/tools/tmpl/nexusdatabase.php",
+    "Installed bytes match package: media/com_joomcck/nexus/innodb-maintenance.js",
+    "Syntax verified: components/com_joomcck/media/nexus/innodb-maintenance.js",
+    "Installer syntax verified"
+  ],
+  "archive": "GENIUSPACE_PREPARATION_INNODB_5.27.12.zip",
+  "bytes": 15883,
+  "sha256": "dcbfc116ae2e72a3b91cc8c487db03fb5e857e949fe7229a50c4be8361025e21"
+}

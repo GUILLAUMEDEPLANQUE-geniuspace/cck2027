@@ -1,3 +1,9 @@
+## Geniuspace 5.27.12 — préparation InnoDB avant la réparation
+
+[Assistant installable depuis Joomla](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_PREPARATION_INNODB_5.27.12.zip) · [Marche à suivre](README-5.27.12-INNODB.md)
+
+Si 5.27.11 refuse une table MyISAM, installer cet assistant complémentaire : diagnostic, sauvegarde privée et restauration de contrôle avant conversion explicite en maintenance. Aucun moteur n’est changé à l’installation. Réinstaller ensuite le ZIP de réparation 5.27.11. Aucun des 59 fichiers contrôlés par cette réparation n’est remplacé par l’assistant.
+
 ## Geniuspace 5.27.11 — réparation des 180 topics et des douze univers
 
 [ZIP installable 5.27.11](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_REPARATION_180_TOPICS_5.27.11.zip) · [Installation et reprise automatique](README-5.27.11-REPARATION.md) · [Audit approfondi et limites](AUDIT-REPARATION-5.27.11.md) · [Preuves](audits/2026-10-25-reparation-52711/)

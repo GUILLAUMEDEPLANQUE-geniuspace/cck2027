@@ -1,0 +1,25 @@
+{
+  "verified_at_utc": "2026-10-26T08:31:36.673530+00:00",
+  "archive": {
+    "url": "https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_REPARATION_180_TOPICS_5.27.11.zip",
+    "http": 200,
+    "bytes": 395685,
+    "sha256": "c662360753a68297432af13eb754cf3e9c4da05273720afd396c5ae86ccaa966",
+    "verified_without_supplied_authorization_or_cookies": true,
+    "zip_crc": "valid"
+  },
+  "documentation": [
+    {
+      "file": "README-5.27.11-REPARATION.md",
+      "http": 200,
+      "bytes": 6129,
+      "sha256": "fd0e6e7ec6d4018541869f78be7e509da3271432001f01cf0109d2f82ae9054d"
+    },
+    {
+      "file": "AUDIT-REPARATION-5.27.11.md",
+      "http": 200,
+      "bytes": 12874,
+      "sha256": "32aa6e7d9702230a7bb2a1790e5ed32bd49a84ab2a22dd58faa2ee1a17934109"
+    }
+  ]
+}

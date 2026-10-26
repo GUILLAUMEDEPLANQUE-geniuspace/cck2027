@@ -1,0 +1,20 @@
+{
+  "verified_at_utc": "2026-10-26T13:08:39.764910+00:00",
+  "downloads": [
+    {
+      "name": "GENIUSPACE_PREPARATION_INNODB_5.27.12.zip",
+      "http": 200,
+      "bytes": 15883,
+      "sha256": "dcbfc116ae2e72a3b91cc8c487db03fb5e857e949fe7229a50c4be8361025e21",
+      "without_supplied_credentials_or_cookies": true,
+      "zip_crc": "valid"
+    },
+    {
+      "name": "README-5.27.12-INNODB.md",
+      "http": 200,
+      "bytes": 6498,
+      "sha256": "66deca80472430e87cfdb8abb52a94bf7c60438ef392c04712d6645047545498",
+      "without_supplied_credentials_or_cookies": true
+    }
+  ]
+}

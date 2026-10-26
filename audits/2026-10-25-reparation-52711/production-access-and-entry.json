@@ -1,0 +1,34 @@
+{
+  "scope": "Public production read-only observation; before deployment",
+  "native_joomla_login": {
+    "retied_after_user_confirmed_unchanged": true,
+    "authenticated": false,
+    "valid_csrf": true,
+    "login_form_remains": true,
+    "credentials_rejected_message": true,
+    "production_changes": false,
+    "retry_after_environment_restart_2026_10_26": {
+      "authenticated": false,
+      "http": 200,
+      "login_form_remains": true,
+      "invalid_credentials_message": true,
+      "invalid_token_message": false,
+      "additional_authentication_required": false
+    }
+  },
+  "public_read_entry_comparison": {
+    "task": "geniuspace.forumRadar",
+    "section": 25,
+    "root": {
+      "http_status": 200,
+      "seconds": 1.37
+    },
+    "index_php": {
+      "timeout_seconds": 18.2
+    }
+  },
+  "limits": [
+    "Origin of the /index.php timeout is not established by this comparison.",
+    "No authenticated production database or Search Console inspection."
+  ]
+}

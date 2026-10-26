@@ -1,0 +1,123 @@
+{
+  "passed": 16,
+  "checks": [
+    "Exactly one automatic repair panel appears after native Joomla login",
+    "Worker uses the authenticated administrator entry",
+    "Repair panel survives administrator reload without duplication",
+    "All eighteen phases complete through real native CSRF-protected HTTP requests",
+    "Eighteen persisted receipts remain after reload",
+    "Reload interrupts a running job and resumes its saved progress",
+    "No authorization failure in the authenticated worker",
+    "Authenticated repair still rejects a missing native CSRF token",
+    "Authenticated repair rejects a foreign Origin even with a valid CSRF token",
+    "The progress panel can be reduced",
+    "Completed repair is absent from later administrator pages",
+    "Public homepage responds directly in HTTP 200",
+    "No administrator repair controls leak to visitors",
+    "Unauthenticated repair endpoint is denied over HTTP",
+    "Homepage has no global horizontal overflow at 390 px",
+    "No browser JavaScript exception observed in administrator and mobile homepage"
+  ],
+  "worker_responses": [
+    {
+      "http": 200,
+      "index": 0,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 1,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 2,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 2,
+      "status": "pending"
+    },
+    {
+      "http": 409
+    },
+    {
+      "http": 200,
+      "index": 4,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 5,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 6,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 7,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 8,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 9,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 10,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 11,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 12,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 13,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 14,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 15,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 16,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 17,
+      "status": "pending"
+    },
+    {
+      "http": 200,
+      "index": 18,
+      "status": "done"
+    }
+  ],
+  "errors": [],
+  "scope": "Local Joomla browser and native administrator worker; no production change"
+}

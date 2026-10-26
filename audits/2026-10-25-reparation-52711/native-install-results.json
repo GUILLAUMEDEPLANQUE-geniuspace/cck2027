@@ -1,0 +1,20 @@
+{
+  "passed": 3,
+  "checks": [
+    "Known base 5.27.8 runtime files installed in the guarded local lab before upgrade",
+    "Real Joomla installer upgrades the frozen 5.27.8 runtime and queues eighteen phases",
+    "Every installed runtime and workbook byte matches the final payload"
+  ],
+  "result": {
+    "installed": true,
+    "job_status": "pending",
+    "phases": 18,
+    "messages": [
+      {
+        "message": "Réparation des douze univers préparée. Le panneau de progression reprend les images et les publications par lots. Le reçu final doit confirmer 180 topics et 240 articles publics ; les visibilités antérieures et les modifications personnelles restent conservées.",
+        "type": "info"
+      }
+    ]
+  },
+  "scope": "Actual native installation from frozen 5.27.8 files in the existing local test database"
+}

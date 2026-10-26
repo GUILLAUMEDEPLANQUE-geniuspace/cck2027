@@ -1,0 +1,21 @@
+{
+  "status": 200,
+  "seconds": 5.758,
+  "bytes": 404670,
+  "native_feed_cards": 12,
+  "lesson": 1,
+  "pagination_links": 12,
+  "h1": [
+    "Sécuriser une requête SQL"
+  ],
+  "canonical": [
+    "http://127.0.0.1:8085/index.php/component/joomcck/item/40-nexus-40?Itemid=0"
+  ],
+  "baseline": {
+    "status": 500,
+    "bytes_before_sef_error": 3508750,
+    "native_feed_cards": 473,
+    "seconds": 30.798,
+    "error": "Joomla SEF CSS rewrite exceeded pcre.backtrack_limit; the uninitialised internal model rendered the entire feed"
+  }
+}

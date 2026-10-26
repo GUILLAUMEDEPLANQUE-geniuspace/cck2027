@@ -1,3 +1,9 @@
+## Geniuspace 5.27.11 — réparation des 180 topics et des douze univers
+
+[ZIP installable 5.27.11](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_REPARATION_180_TOPICS_5.27.11.zip) · [Installation et reprise automatique](README-5.27.11-REPARATION.md) · [Audit approfondi et limites](AUDIT-REPARATION-5.27.11.md) · [Preuves](audits/2026-10-25-reparation-52711/)
+
+Publication native reprenable de **180 topics et 240 articles**, récupération vérifiée des illustrations, raccordement des anciens univers, accueil natif et correction des entrées publiques défaillantes. Base complète 5.27.8 à 5.27.10. **457 pages contrôlées dans la copie locale : toutes aboutissent en 200. La connexion Joomla configurée reste refusée ; aucune installation de production n’est annoncée.**
+
 ## Geniuspace 5.27.10 — topics, identité de marque et stratégie SEO
 
 [ZIP installable 5.27.10](https://github.com/GUILLAUMEDEPLANQUE-geniuspace/cck2027/raw/refs/heads/main/GENIUSPACE_TOPICS_STRATEGIE_SEO_5.27.10.zip) · [Installation et réglages](README-5.27.10-SEO.md) · [Audit public et stratégie sur 90 jours](STRATEGIE-SEO-GENIUSPACE-2026-10-25.md)

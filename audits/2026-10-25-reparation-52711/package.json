@@ -1,0 +1,10 @@
+{
+  "archive": "GENIUSPACE_REPARATION_180_TOPICS_5.27.11.zip",
+  "bytes": 395685,
+  "sha256": "c662360753a68297432af13eb754cf3e9c4da05273720afd396c5ae86ccaa966",
+  "runtime_files": 59,
+  "blank_workbooks": 240,
+  "expected_topics": 180,
+  "expected_articles": 240,
+  "media": "Existing or automatically downloaded, fixed-hash image packs A/B; no third-party installer script is executed."
+}

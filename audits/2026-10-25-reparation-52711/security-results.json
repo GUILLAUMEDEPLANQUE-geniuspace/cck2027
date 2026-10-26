@@ -1,0 +1,33 @@
+{
+    "passed": 27,
+    "checks": [
+        "Guest cannot access repair status",
+        "Guest cannot access repair start",
+        "Unrecognised job cannot run a phase",
+        "Concurrent repair worker cannot duplicate a batch",
+        "Test-topic policy respects case: exact",
+        "Index exclusion preserves all native field values",
+        "Test-topic policy respects case: image",
+        "Test-topic policy respects case: file",
+        "Test-topic policy respects case: private",
+        "Test-topic policy respects case: comment",
+        "Empty media defaults are not mistaken for uploads",
+        "A genuine file reference protects a short media post",
+        "Media downloader rejects a disallowed URL before transport",
+        "Media downloader rejects a disallowed URL before transport",
+        "Media downloader rejects a disallowed URL before transport",
+        "Media downloader rejects a disallowed URL before transport",
+        "Media downloader rejects a disallowed URL before transport",
+        "A genuinely authored Joomla home page is never overwritten",
+        "A restricted legacy record receives no new public category",
+        "Category reconciliation preserves every native field value",
+        "Invalid quiz identifier performs no database query: string",
+        "Invalid quiz identifier performs no database query: int",
+        "Invalid quiz identifier performs no database query: int",
+        "Invalid quiz identifier performs no database query: null",
+        "Anonymous quiz completion creates no shared guest grant",
+        "Strict SQL mode grants both distinct native fields for a valid quiz",
+        "Background native-field writes without REMOTE_ADDR emit no warning"
+    ],
+    "scope": "Local permission, concurrency, content preservation and native quiz integration; SQL fixtures rolled back"
+}

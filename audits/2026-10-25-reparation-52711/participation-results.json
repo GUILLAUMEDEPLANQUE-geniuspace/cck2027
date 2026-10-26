@@ -1,0 +1,24 @@
+{
+  "passed": 12,
+  "checks": [
+    "Fake image bytes are rejected before native staging",
+    "A real PNG is staged in an arbitrary native gallery field",
+    "Owner preview streams actual protected image bytes",
+    "Image staging rejects a missing native CSRF token",
+    "Native file IDs cannot be rebound through a second valid quick ticket",
+    "An anonymous reader cannot see staged image bytes",
+    "Final native save rechecks revoked field access",
+    "Quick rich publication goes through an actual native form.save",
+    "Native field value and saved native file row bind the actual staged image",
+    "Image alt and caption remain native file metadata",
+    "Record presentation persists beside native moderation metadata",
+    "Replaying a saved rich quick ticket returns the same native record"
+  ],
+  "native_field": 6913,
+  "native_record": 10034,
+  "style": {
+    "emotion": "celebrate",
+    "tone": "violet",
+    "status": "idea"
+  }
+}

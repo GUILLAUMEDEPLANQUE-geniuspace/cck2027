@@ -1,0 +1,33 @@
+{
+    "passed": 20,
+    "checks": [
+        "Real native installation queued a resumable job",
+        "All native repair phases complete",
+        "One hundred eighty native topics are created and publicly indexable",
+        "Two hundred forty native guides are created and publicly indexable",
+        "Four exact untouched test topics stay readable but leave the index",
+        "Real image download restores the exact missing derivative",
+        "Real image download restores the exact missing derivative",
+        "Native fields, categories and guide relations verified: jeux_video",
+        "Native fields, categories and guide relations verified: emploi",
+        "Native fields, categories and guide relations verified: pays_expat",
+        "Native fields, categories and guide relations verified: artisanat",
+        "Native fields, categories and guide relations verified: business",
+        "Native fields, categories and guide relations verified: investissement",
+        "Native fields, categories and guide relations verified: traditions",
+        "Native fields, categories and guide relations verified: paranormal",
+        "Native fields, categories and guide relations verified: manga",
+        "Native fields, categories and guide relations verified: gastronomie",
+        "Native fields, categories and guide relations verified: sports",
+        "Native fields, categories and guide relations verified: tech",
+        "A repeated completed step creates no duplicates"
+    ],
+    "receipt": {
+        "native_articles": 240,
+        "native_topics": 180,
+        "public_articles": 240,
+        "public_topics": 180,
+        "excluded": []
+    },
+    "scope": "Actual local native Joomla publication after holding all old collection aliases"
+}

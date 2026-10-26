@@ -1,0 +1,215 @@
+{
+    "status": "done",
+    "receipts": [
+        {
+            "phase": "images-A",
+            "completed_at": "2026-10-25T20:54:14+00:00",
+            "result": {
+                "already_present": 599,
+                "copied": 1
+            }
+        },
+        {
+            "phase": "images-B",
+            "completed_at": "2026-10-25T20:54:29+00:00",
+            "result": {
+                "already_present": 599,
+                "copied": 1
+            }
+        },
+        {
+            "phase": "homepage",
+            "completed_at": "2026-10-25T20:54:29+00:00",
+            "result": {
+                "changed": true,
+                "menu_id": 101,
+                "url": "http:\/\/127.0.0.1:8085\/"
+            }
+        },
+        {
+            "phase": "test-content",
+            "completed_at": "2026-10-25T20:54:29+00:00",
+            "result": {
+                "noindex_applied": [
+                    {
+                        "id": 9610,
+                        "alias": "test",
+                        "previous_robots": "index, follow"
+                    },
+                    {
+                        "id": 9611,
+                        "alias": "test2",
+                        "previous_robots": "index, follow"
+                    },
+                    {
+                        "id": 9612,
+                        "alias": "vxvxvxvwxv",
+                        "previous_robots": "index, follow"
+                    },
+                    {
+                        "id": 9613,
+                        "alias": "bvxvxvx-test-sonyxcsdsdfsd",
+                        "previous_robots": "index, follow"
+                    }
+                ],
+                "skipped_changed_or_absent": [],
+                "records_deleted": 0
+            }
+        },
+        {
+            "phase": "jeux_video",
+            "completed_at": "2026-10-25T20:54:37+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "emploi",
+            "completed_at": "2026-10-25T20:54:41+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "pays_expat",
+            "completed_at": "2026-10-25T20:54:43+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "artisanat",
+            "completed_at": "2026-10-25T20:54:46+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "business",
+            "completed_at": "2026-10-25T20:54:49+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "investissement",
+            "completed_at": "2026-10-25T20:54:51+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "traditions",
+            "completed_at": "2026-10-25T20:54:54+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "paranormal",
+            "completed_at": "2026-10-25T20:54:56+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "manga",
+            "completed_at": "2026-10-25T20:55:00+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "gastronomie",
+            "completed_at": "2026-10-25T20:55:03+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "sports",
+            "completed_at": "2026-10-25T20:55:06+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "tech",
+            "completed_at": "2026-10-25T20:55:09+00:00",
+            "result": {
+                "articles_created": 20,
+                "articles_preserved": 0,
+                "topics_created": 15,
+                "topics_preserved": 0,
+                "public_articles": 20,
+                "public_topics": 15
+            }
+        },
+        {
+            "phase": "verify",
+            "completed_at": "2026-10-25T20:55:11+00:00",
+            "result": {
+                "native_articles": 240,
+                "native_topics": 180,
+                "public_articles": 240,
+                "public_topics": 180,
+                "excluded": []
+            }
+        }
+    ]
+}
